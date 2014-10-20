@@ -1,7 +1,7 @@
 Git Cheatsheet
 ==============
 
-## Télécharger GitHub
+## TÃ©lÃ©charger GitHub
 
 ## Creer un espace de travail personnel
 
@@ -11,31 +11,33 @@ Git Cheatsheet
 
 * Creer un clone sur son ordinateur avec la commande : git clone "le chemin du projet"
   (N.B le chemin du projet est accessible sur la page GitHub du projet qui c'est ouverte
-  après le Fork
+  aprÃ¨s le Fork
 
 ## Creer une branche
 
-* Utiliser la commande : git branch <branch's name>
+* Utiliser la commande : git branch branch's name
 
 * Gifler Katleen
 
 ## Se placer dans sa branche
 
-* Utiliser la commande : git checkout <branch's name>
+* Utiliser la commande : git checkout branch's name
 
 ## Enregistrer les modifications 
 
-* Utiliser la commande : commit -a -m "Message du commit"
+* Utiliser la commande : git add chemin du fichier Ã  ajouter
+
+* Puis la commande : git commit  -m "Message du commit"
 
 * Commande git log : Permet de voir les anciens commit
 
-* Commande git status : Permet de voir le nombre de modifications effectuées
+* Commande git status : Permet de voir le nombre de modifications effectuÃ©es
 
 ## Fusionner notre branch(e) avec le projet principal
 
 * retourner dans la branche principale : git checkout master
 
-* utiliser la commande : git merge <branch's name>
+* utiliser la commande : git merge branch's name
 
 ### En cas de conflit avec le merge
 
@@ -47,13 +49,13 @@ Git Cheatsheet
 
 * Utiliser la commande : git push origin master (pour toutes les branches)
 
-* Ou la commande : git push <branch's name> si le master n'est pas fusionné avec la branche
+* Ou la commande : git push branch's name, si le master n'est pas fusionnÃ© avec la branche
 
 ## Poster les modifications
 
 * Faire un pull request sur l'espace en ligne
 
-## Mettre à jour le master sur son ordinateur personnel
+## Mettre Ã  jour le master sur son ordinateur personnel
 
 * Utiliser la commande : git pull
 
