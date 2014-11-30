@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.11.13)  24 NOV 2014 11:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.11.13)  30 NOV 2014 14:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -8,10 +8,6 @@ LaTeX2e <2014/05/01>
 Babel <3.9k> and hyphenation patterns for 78 languages loaded.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2014/texmf-dist/tex/latex/base/fleqn.clo
-File: fleqn.clo 1998/08/17 v1.1c Standard LaTeX option (flush left equations)
-\mathindent=\dimen102
-)
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/bk12.clo
 File: bk12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
@@ -26,7 +22,7 @@ File: bk12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \c@table=\count87
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
-\bibindent=\dimen103
+\bibindent=\dimen102
 ) (./packages.tex
 (/usr/local/texlive/2014/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
@@ -49,14 +45,14 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@cnth=\count88
 \Gm@cntv=\count89
 \c@Gm@tempcnt=\count90
-\Gm@bindingoffset=\dimen104
-\Gm@wd@mp=\dimen105
-\Gm@odd@mp=\dimen106
-\Gm@even@mp=\dimen107
-\Gm@layoutwidth=\dimen108
-\Gm@layoutheight=\dimen109
-\Gm@layouthoffset=\dimen110
-\Gm@layoutvoffset=\dimen111
+\Gm@bindingoffset=\dimen103
+\Gm@wd@mp=\dimen104
+\Gm@odd@mp=\dimen105
+\Gm@even@mp=\dimen106
+\Gm@layoutwidth=\dimen107
+\Gm@layoutheight=\dimen108
+\Gm@layouthoffset=\dimen109
+\Gm@layoutvoffset=\dimen110
 \Gm@dimlist=\toks15
 )
 (/usr/local/texlive/2014/texmf-dist/tex/latex/xcolor/xcolor.sty
@@ -140,7 +136,7 @@ Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 (/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
-\@linkdim=\dimen112
+\@linkdim=\dimen111
 \Hy@linkcounter=\count92
 \Hy@pagecounter=\count93
 
@@ -167,10 +163,10 @@ Package hyperref Info: Bookmarks ON on input line 4688.
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5041.
-\XeTeXLinkMargin=\dimen113
+\XeTeXLinkMargin=\dimen112
 \Fld@menulength=\count96
-\Field@Width=\dimen114
-\Fld@charsize=\dimen115
+\Field@Width=\dimen113
+\Fld@charsize=\dimen114
 Package hyperref Info: Hyper figures OFF on input line 6295.
 Package hyperref Info: Link nesting OFF on input line 6300.
 Package hyperref Info: Hyper index ON on input line 6303.
@@ -434,7 +430,7 @@ Language: frenchb 2014/04/18 v3.0c French support from the babel system
 (/usr/local/texlive/2014/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2014/03/24 3.9k Babel common definitions
 \babel@savecnt=\count102
-\U@D=\dimen116
+\U@D=\dimen115
 )
 \l@acadian = a dialect from \language\l@french 
 \l@canadien = a dialect from \language\l@french 
@@ -446,13 +442,13 @@ Package babel Info: Making ; an active character on input line 372.
 Package babel Info: Making ! an active character on input line 373.
 Package babel Info: Making ? an active character on input line 374.
 \FBguillskip=\skip46
-\FB@Mht=\dimen117
+\FB@Mht=\dimen116
 \std@mcc=\count104
 \dec@mcc=\count105
 \listindentFB=\skip47
 \labelwidthFB=\skip48
 \leftmarginFB=\skip49
-\parindentFFN=\dimen118
+\parindentFFN=\dimen117
 ))
 (/usr/local/texlive/2014/texmf-dist/tex/latex/carlisle/scalefnt.sty)
 (/usr/local/texlive/2014/texmf-dist/tex/latex/cclicenses/cclicenses.sty
@@ -475,8 +471,8 @@ File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 )
-\Gin@req@height=\dimen119
-\Gin@req@width=\dimen120
+\Gin@req@height=\dimen118
+\Gin@req@width=\dimen119
 )
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
@@ -487,9 +483,9 @@ Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 \rot@float@box=\box26
 \rot@mess@toks=\toks18
 )
-\chardim=\dimen121
-\hdim=\dimen122
-\htmp=\dimen123
+\chardim=\dimen120
+\hdim=\dimen121
+\htmp=\dimen122
 \hpos=\count107
 \vpos=\count108
 )
@@ -508,14 +504,14 @@ Package: eso-pic 2013/10/06 v2.0d eso-pic (RN)
 \lst@gtempboxa=\box27
 \lst@token=\toks19
 \lst@length=\count110
-\lst@currlwidth=\dimen124
+\lst@currlwidth=\dimen123
 \lst@column=\count111
 \lst@pos=\count112
-\lst@lostspace=\dimen125
-\lst@width=\dimen126
+\lst@lostspace=\dimen124
+\lst@width=\dimen125
 \lst@newlines=\count113
 \lst@lineno=\count114
-\lst@maxwidth=\dimen127
+\lst@maxwidth=\dimen126
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2014/03/04 1.5c (Carsten Heinz)
@@ -530,23 +526,23 @@ Package: listings 2014/03/04 1.5c (Carsten Heinz)
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
-\heavyrulewidth=\dimen128
-\lightrulewidth=\dimen129
-\cmidrulewidth=\dimen130
-\belowrulesep=\dimen131
-\belowbottomsep=\dimen132
-\aboverulesep=\dimen133
-\abovetopsep=\dimen134
-\cmidrulesep=\dimen135
-\cmidrulekern=\dimen136
-\defaultaddspace=\dimen137
+\heavyrulewidth=\dimen127
+\lightrulewidth=\dimen128
+\cmidrulewidth=\dimen129
+\belowrulesep=\dimen130
+\belowbottomsep=\dimen131
+\aboverulesep=\dimen132
+\abovetopsep=\dimen133
+\cmidrulesep=\dimen134
+\cmidrulekern=\dimen135
+\defaultaddspace=\dimen136
 \@cmidla=\count117
 \@cmidlb=\count118
-\@aboverulesep=\dimen138
-\@belowrulesep=\dimen139
+\@aboverulesep=\dimen137
+\@belowrulesep=\dimen138
 \@thisruleclass=\count119
 \@lastruleclass=\count120
-\@thisrulewidth=\dimen140
+\@thisrulewidth=\dimen139
 )
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/makeidx.sty
 Package: makeidx 2000/03/29 v1.0m Standard LaTeX package
@@ -598,11 +594,11 @@ Package: amstext 2000/06/29 v2.01
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks24
-\ex@=\dimen141
+\ex@=\dimen140
 ))
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen142
+\pmbraise@=\dimen141
 )
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
@@ -619,7 +615,7 @@ LaTeX Info: Redefining \dots on input line 381.
 LaTeX Info: Redefining \cdots on input line 466.
 \Mathstrutbox@=\box29
 \strutbox@=\box30
-\big@size=\dimen143
+\big@size=\dimen142
 LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \macc@depth=\count129
@@ -632,12 +628,12 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \column@=\count134
 \maxfields@=\count135
 \andhelp@=\toks26
-\eqnshift@=\dimen144
-\alignsep@=\dimen145
-\tagshift@=\dimen146
-\tagwidth@=\dimen147
-\totwidth@=\dimen148
-\lineht@=\dimen149
+\eqnshift@=\dimen143
+\alignsep@=\dimen144
+\tagshift@=\dimen145
+\tagwidth@=\dimen146
+\totwidth@=\dimen147
+\lineht@=\dimen148
 \@envbody=\toks27
 \multlinegap=\skip57
 \multlinetaggap=\skip58
@@ -746,7 +742,7 @@ Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 \LTpre=\skip64
 \LTpost=\skip65
 \LTchunksize=\count156
-\LTcapwidth=\dimen150
+\LTcapwidth=\dimen149
 \LT@head=\box31
 \LT@firsthead=\box32
 \LT@foot=\box33
@@ -766,20 +762,20 @@ Package: glossary-super 2013/11/14 v4.0 (NLCT)
  (/usr/local/texlive/2014/texmf-dist/tex/latex/supertabular/supertabular.sty
 Package: supertabular 2004/02/20 v4.1e the supertabular environment
 \c@tracingst=\count161
-\ST@wd=\dimen151
+\ST@wd=\dimen150
 \ST@rightskip=\skip68
 \ST@leftskip=\skip69
 \ST@parfillskip=\skip70
-\ST@pageleft=\dimen152
-\ST@headht=\dimen153
-\ST@tailht=\dimen154
-\ST@pagesofar=\dimen155
-\ST@pboxht=\dimen156
-\ST@lineht=\dimen157
-\ST@stretchht=\dimen158
-\ST@prevht=\dimen159
-\ST@toadd=\dimen160
-\ST@dimen=\dimen161
+\ST@pageleft=\dimen151
+\ST@headht=\dimen152
+\ST@tailht=\dimen153
+\ST@pagesofar=\dimen154
+\ST@pboxht=\dimen155
+\ST@lineht=\dimen156
+\ST@stretchht=\dimen157
+\ST@prevht=\dimen158
+\ST@toadd=\dimen159
+\ST@dimen=\dimen160
 \ST@pbox=\box35
 ))
 (/usr/local/texlive/2014/texmf-dist/tex/latex/glossaries/styles/glossary-tree.s
@@ -790,21 +786,21 @@ Package: glossary-tree 2014/03/06 v4.04 (NLCT)
 Package: multicol 2014/04/23 v1.8e multicolumn formatting (FMi)
 \c@tracingmulticols=\count162
 \mult@box=\box36
-\multicol@leftmargin=\dimen162
+\multicol@leftmargin=\dimen161
 \c@unbalance=\count163
 \c@collectmore=\count164
 \doublecol@number=\count165
 \multicoltolerance=\count166
 \multicolpretolerance=\count167
-\full@width=\dimen163
-\page@free=\dimen164
-\premulticols=\dimen165
-\postmulticols=\dimen166
+\full@width=\dimen162
+\page@free=\dimen163
+\premulticols=\dimen164
+\postmulticols=\dimen165
 \multicolsep=\skip72
 \multicolbaselineskip=\skip73
 \partial@page=\box37
 \last@line=\box38
-\maxbalancingoverflow=\dimen167
+\maxbalancingoverflow=\dimen166
 \mult@rightbox=\box39
 \mult@grightbox=\box40
 \mult@gfirstbox=\box41
@@ -828,13 +824,13 @@ Package: multicol 2014/04/23 v1.8e multicolumn formatting (FMi)
 \@tempa=\box59
 \c@columnbadness=\count168
 \c@finalcolumnbadness=\count169
-\last@try=\dimen168
-\multicolovershoot=\dimen169
-\multicolundershoot=\dimen170
+\last@try=\dimen167
+\multicolovershoot=\dimen168
+\multicolundershoot=\dimen169
 \mult@nat@firstbox=\box60
 \colbreak@box=\box61
 \mc@col@check@num=\count170
-))
+)
 (/usr/local/texlive/2014/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count171
@@ -842,6 +838,193 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box62
 \@float@everytoks=\toks37
 \@floatcapt=\box63
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/eurosym/eurosym.sty
+Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
+\@eurobox=\box64
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\labelindent=\skip74
+\enit@outerparindent=\dimen170
+\enit@toks=\toks38
+\enit@inbox=\box65
+\enitdp@description=\count172
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+Now handling font encoding TS1 ...
+... processing UTF-8 mapping file for font encoding TS1
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/ts1enc.dfu
+File: ts1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A2 (decimal 162)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A5 (decimal 165)
+   defining Unicode char U+00A6 (decimal 166)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00A8 (decimal 168)
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AC (decimal 172)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00AF (decimal 175)
+   defining Unicode char U+00B0 (decimal 176)
+   defining Unicode char U+00B1 (decimal 177)
+   defining Unicode char U+00B2 (decimal 178)
+   defining Unicode char U+00B3 (decimal 179)
+   defining Unicode char U+00B4 (decimal 180)
+   defining Unicode char U+00B5 (decimal 181)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00B9 (decimal 185)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+00BC (decimal 188)
+   defining Unicode char U+00BD (decimal 189)
+   defining Unicode char U+00BE (decimal 190)
+   defining Unicode char U+00D7 (decimal 215)
+   defining Unicode char U+00F7 (decimal 247)
+   defining Unicode char U+0192 (decimal 402)
+   defining Unicode char U+02C7 (decimal 711)
+   defining Unicode char U+02D8 (decimal 728)
+   defining Unicode char U+02DD (decimal 733)
+   defining Unicode char U+0E3F (decimal 3647)
+   defining Unicode char U+2016 (decimal 8214)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+203B (decimal 8251)
+   defining Unicode char U+203D (decimal 8253)
+   defining Unicode char U+2044 (decimal 8260)
+   defining Unicode char U+204E (decimal 8270)
+   defining Unicode char U+2052 (decimal 8274)
+   defining Unicode char U+20A1 (decimal 8353)
+   defining Unicode char U+20A4 (decimal 8356)
+   defining Unicode char U+20A6 (decimal 8358)
+   defining Unicode char U+20A9 (decimal 8361)
+   defining Unicode char U+20AB (decimal 8363)
+   defining Unicode char U+20AC (decimal 8364)
+   defining Unicode char U+20B1 (decimal 8369)
+   defining Unicode char U+2103 (decimal 8451)
+   defining Unicode char U+2116 (decimal 8470)
+   defining Unicode char U+2117 (decimal 8471)
+   defining Unicode char U+211E (decimal 8478)
+   defining Unicode char U+2120 (decimal 8480)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2126 (decimal 8486)
+   defining Unicode char U+2127 (decimal 8487)
+   defining Unicode char U+212E (decimal 8494)
+   defining Unicode char U+2190 (decimal 8592)
+   defining Unicode char U+2191 (decimal 8593)
+   defining Unicode char U+2192 (decimal 8594)
+   defining Unicode char U+2193 (decimal 8595)
+   defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+2422 (decimal 9250)
+   defining Unicode char U+25E6 (decimal 9702)
+   defining Unicode char U+25EF (decimal 9711)
+   defining Unicode char U+266A (decimal 9834)
+))
+LaTeX Info: Redefining \oldstylenums on input line 266.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 281.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 282.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 283.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 284.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 285.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 286.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 287.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 288.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 289.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 290.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 291.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 292.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 293.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 294.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 295.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 296.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 297.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 298.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 299.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 300.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 301.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 302.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 303.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 304.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 305.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 306.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 307.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 308.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 309.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 310.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 311.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 312.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 313.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 314.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 315.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 316.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 317.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 318.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 319.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 320.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 321.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 322.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 323.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 324.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 325.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 326.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 327.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 328.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 329.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 330.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 331.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 332.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 333.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 334.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 335.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 336.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 337.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 338.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 339.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
+))
+(/usr/local/texlive/2014/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip75
+\subfigcapskip=\skip76
+\subfigcaptopadj=\dimen171
+\subfigbottomskip=\skip77
+\subfigcapmargin=\dimen172
+\subfiglabelskip=\skip78
+\c@subfigure=\count173
+\c@lofdepth=\count174
+\c@subtable=\count175
+\c@lotdepth=\count176
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/local/texlive/2014/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip79
+\subfig@bottom=\skip80
 )
 \@indexfile=\write3
 \openout3 = `main.idx'.
@@ -873,6 +1056,13 @@ LaTeX Font Info:    ... okay on input line 7.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
 LaTeX Font Info:    ... okay on input line 7.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 7.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 7.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
 LaTeX Font Info:    ... okay on input line 7.
 
 *geometry* driver: auto-detecting
@@ -911,19 +1101,19 @@ LaTeX Font Info:    ... okay on input line 7.
 
 (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count172
-\scratchdimen=\dimen171
-\scratchbox=\box64
-\nofMPsegments=\count173
-\nofMParguments=\count174
-\everyMPshowfont=\toks38
-\MPscratchCnt=\count175
-\MPscratchDim=\dimen172
-\MPnumerator=\count176
-\makeMPintoPDFobject=\count177
-\everyMPtoPDFconversion=\toks39
+\scratchcounter=\count177
+\scratchdimen=\dimen173
+\scratchbox=\box66
+\nofMPsegments=\count178
+\nofMParguments=\count179
+\everyMPshowfont=\toks39
+\MPscratchCnt=\count180
+\MPscratchDim=\dimen174
+\MPnumerator=\count181
+\makeMPintoPDFobject=\count182
+\everyMPtoPDFconversion=\toks40
 )
-\AtBeginShipoutBox=\box65
+\AtBeginShipoutBox=\box67
 Package hyperref Info: Link coloring ON on input line 7.
  (/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -931,7 +1121,7 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count178
+\c@section@level=\count183
 )
 LaTeX Info: Redefining \ref on input line 7.
 LaTeX Info: Redefining \pageref on input line 7.
@@ -943,6 +1133,12 @@ LaTeX Info: Redefining \nameref on input line 7.
 
 LaTeX Info: Redefining \degres on input line 7.
 LaTeX Info: Redefining \dots on input line 7.
+Package frenchb.ldf Info: Setting StandardItemizeEnv=true for
+(frenchb.ldf)             compatibility with enumitem package,
+(frenchb.ldf)              on input line 7.
+Package frenchb.ldf Info: Setting StandardEnumerateEnv=true for
+(frenchb.ldf)             compatibility with enumitem package,
+(frenchb.ldf)              on input line 7.
 LaTeX Info: Redefining \up on input line 7.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
@@ -960,13 +1156,13 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c@lstlisting=\count179
+\c@lstlisting=\count184
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/glossaries/dict/glossaries-dictio
 nary-English.dict
 Dictionary: glossaries-dictionary, Language: English 
 ) (./PageDeTitre.tex
-<images/Trait.png, id=155, 339.669pt x 36.8577pt>
+<images/Trait.png, id=159, 339.669pt x 36.8577pt>
 File: images/Trait.png Graphic file (type png)
  <use images/Trait.png>
 Package pdftex.def Info: images/Trait.png used on input line 6.
@@ -981,7 +1177,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--32
 
  []
 
-) <images/FondTitreSPID.png, id=157, 583.9416pt x 834.7185pt>
+) <images/FondTitreSPID.png, id=161, 583.9416pt x 834.7185pt>
 File: images/FondTitreSPID.png Graphic file (type png)
 
 <use images/FondTitreSPID.png>
@@ -1024,91 +1220,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--11
 \tf@toc=\write7
 \openout7 = `main.toc'.
 
- [4] (./Remerciements.tex) (./Preambule.tex [1
+ [4] (./Remerciements.tex) [1
 
 
 
 ] [2
 
-]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 9.
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
-Overfull \hbox (47.6015pt too wide) in paragraph at lines 23--23
-[]\T1/cmtt/m/n/12 make clean-all      - supprime tous les fichiers générés par 
-la compilation[] 
- []
-
-[3] <images/Gomboc.jpg, id=248, 803.0pt x 549.05125pt>
-File: images/Gomboc.jpg Graphic file (type jpg)
- <use images/Gomboc.jpg>
-Package pdftex.def Info: images/Gomboc.jpg used on input line 51.
-(pdftex.def)             Requested size: 120.4448pt x 82.35413pt.
-
-Overfull \hbox (66.12198pt too wide) in paragraph at lines 58--61
-\T1/cmtt/m/n/12 \lstinputlisting[caption={Titre du listing}, label={lst:code}]{
-./code/code.py} 
- []
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2014/03/04 1.5c listings language file
-)
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 68.
-
-(./code/primegen.py [4pdfTeX warning (ext4): destination with the same identifi
-er (name{table.0.1}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.18  
-         if p > 1000:pdfTeX warning (ext4): destination with the same identifie
-r (name{figure.0.1}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.18  
-         if p > 1000: <./images/Gomboc.jpg>])
-Overfull \hbox (6.31157pt too wide) in paragraph at lines 75--77
-\T1/cmr/m/n/12 en uti-li-sant la com-mande \T1/cmtt/m/n/12 \newacronym{label}{a
-bbréviation}{Signification}\T1/cmr/m/n/12 .
- []
-
-
-LaTeX Warning: Citation `maguis2010redigez' on page v undefined on input line 8
-7.
-
-
-LaTeX Warning: Citation `desgraupes2003latex' on page v undefined on input line
- 87.
-
-
-LaTeX Warning: Citation `bitouze2010latex' on page v undefined on input line 87
-.
-
-
-LaTeX Warning: Citation `openclassroomLaTeX' on page v undefined on input line 
-87.
-
-
-LaTeX Warning: Citation `lamport1985i1' on page v undefined on input line 89.
-
-) [5] [6
-
 ]pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.43 \part{Introduction au projet}
+l.42 \part{Introduction au projet}
                                    [1
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.43 \part{Introduction au projet}
+l.42 \part{Introduction au projet}
                                    [2] (./FormulationInitialeDuProjet.tex
 Chapitre 1.
 ) (./EtatDeLArt.texpdfTeX warning (ext4): destination with the same identifier 
@@ -1127,17 +1256,408 @@ l.1 \chapter
 
 ]
 Chapitre 2.
-) [5] [6
+<images/TobiiGlasses.png, id=259, 927.465pt x 411.939pt>
+File: images/TobiiGlasses.png Graphic file (type png)
 
-] [7] [8] (./DossierFonctionnel.tex
+<use images/TobiiGlasses.png>
+Package pdftex.def Info: images/TobiiGlasses.png used on input line 13.
+(pdftex.def)             Requested size: 370.97943pt x 164.77267pt.
+ [5pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.21 
+      <./images/TobiiGlasses.png>]
+<images/BoitierTobii.png, id=269, 1094.8905pt x 354.123pt>
+File: images/BoitierTobii.png Graphic file (type png)
+
+<use images/BoitierTobii.png>
+Package pdftex.def Info: images/BoitierTobii.png used on input line 24.
+(pdftex.def)             Requested size: 383.21742pt x 123.9449pt.
+
+<images/BoitierTobii2.png, id=271, 655.248pt x 281.853pt>
+File: images/BoitierTobii2.png Graphic file (type png)
+
+<use images/BoitierTobii2.png>
+Package pdftex.def Info: images/BoitierTobii2.png used on input line 33.
+(pdftex.def)             Requested size: 393.15182pt x 169.1131pt.
+
+<images/PCCR.png, id=273, 281.05pt x 219.82124pt>
+File: images/PCCR.png Graphic file (type png)
+ <use images/PCCR.png>
+Package pdftex.def Info: images/PCCR.png used on input line 43.
+(pdftex.def)             Requested size: 224.84029pt x 175.85722pt.
+
+[6pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.47 
+     pdfTeX warning (ext4): destination with the same identifier (name{figure.2
+.3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.47 
+      <./images/BoitierTobii.png> <./images/BoitierTobii2.png>]
+<images/PUPIL.png, id=281, 191.7564pt x 164.2938pt>
+File: images/PUPIL.png Graphic file (type png)
+ <use images/PUPIL.png>
+Package pdftex.def Info: images/PUPIL.png used on input line 54.
+(pdftex.def)             Requested size: 191.7559pt x 164.29338pt.
+
+[7pdfTeX warning (ext4): destination with the same identifier (name{figure.2.4}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.67 
+     pdfTeX warning (ext4): destination with the same identifier (name{figure.2
+.5}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.67 
+      <./images/PCCR.png> <./images/PUPIL.png>]
+<images/EyeCharm.png, id=291, 286.1892pt x 146.949pt>
+File: images/EyeCharm.png Graphic file (type png)
+
+<use images/EyeCharm.png>
+Package pdftex.def Info: images/EyeCharm.png used on input line 74.
+(pdftex.def)             Requested size: 286.18848pt x 146.94864pt.
+ [8pdfTeX warning (ext4): destination with the same identifier (name{figure.2.6
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.93 
+      <./images/EyeCharm.png>]
+<images/Experimental.png, id=300, 489.027pt x 366.168pt>
+File: images/Experimental.png Graphic file (type png)
+
+<use images/Experimental.png>
+Package pdftex.def Info: images/Experimental.png used on input line 98.
+(pdftex.def)             Requested size: 293.41846pt x 219.70248pt.
+ [9pdfTeX warning (ext4): destination with the same identifier (name{figure.2.7
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.109 \subsubsection
+                    {Tobii X2-30\&60} <./images/Experimental.png>]
+<images/TobiiX2.png, id=307, 306.4248pt x 208.1376pt>
+File: images/TobiiX2.png Graphic file (type png)
+ <use images/TobiiX2.png>
+Package pdftex.def Info: images/TobiiX2.png used on input line 113.
+(pdftex.def)             Requested size: 306.42404pt x 208.13708pt.
+
+<images/PartiesOeil.png, id=309, 311.2428pt x 316.0608pt>
+File: images/PartiesOeil.png Graphic file (type png)
+
+<use images/PartiesOeil.png>
+Package pdftex.def Info: images/PartiesOeil.png used on input line 131.
+(pdftex.def)             Requested size: 311.24203pt x 316.06003pt.
+ [10pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
+8}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.135 
+       <./images/TobiiX2.png>]
+<images/PartiesExternesOeil.png, id=319, 287.6346pt x 122.859pt>
+File: images/PartiesExternesOeil.png Graphic file (type png)
+
+<use images/PartiesExternesOeil.png>
+Package pdftex.def Info: images/PartiesExternesOeil.png used on input line 146.
+
+(pdftex.def)             Requested size: 287.63388pt x 122.85867pt.
+ [11pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
+9}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.152 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+2.10}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.152 
+       <./images/PartiesOeil.png> <./images/PartiesExternesOeil.png>]
+<images/SpectreLumiere.png, id=331, 429.2838pt x 148.3944pt>
+File: images/SpectreLumiere.png Graphic file (type png)
+
+<use images/SpectreLumiere.png>
+Package pdftex.def Info: images/SpectreLumiere.png used on input line 159.
+(pdftex.def)             Requested size: 429.28275pt x 148.39403pt.
+
+Overfull \hbox (13.87231pt too wide) in paragraph at lines 159--160
+ [][] 
+ []
+
+<images/CaptureOeilTrad.png, id=332, 247.1634pt x 148.3944pt>
+File: images/CaptureOeilTrad.png Graphic file (type png)
+
+<use images/CaptureOeilTrad.png>
+Package pdftex.def Info: images/CaptureOeilTrad.png used on input line 169.
+(pdftex.def)             Requested size: 173.01318pt x 103.87537pt.
+
+<images/CaptureOeilInfra.png, id=333, 247.1634pt x 164.2938pt>
+File: images/CaptureOeilInfra.png Graphic file (type png)
+
+<use images/CaptureOeilInfra.png>
+Package pdftex.def Info: images/CaptureOeilInfra.png used on input line 174.
+(pdftex.def)             Requested size: 155.71375pt x 103.50563pt.
+ [12pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
+11}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.183 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+2.12}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.183 
+       <./images/SpectreLumiere.png> <./images/CaptureOeilTrad.png> <./images/C
+aptureOeilInfra.png>] <images/ZoneOmbre.png, id=347, 208.6194pt x 129.1224pt>
+File: images/ZoneOmbre.png Graphic file (type png)
+
+<use images/ZoneOmbre.png>
+Package pdftex.def Info: images/ZoneOmbre.png used on input line 186.
+(pdftex.def)             Requested size: 208.61888pt x 129.12209pt.
+ [13pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
+13}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.202 
+       <./images/ZoneOmbre.png>] [14] [15]
+<images/TraitementImage.png, id=382, 455.301pt x 238.9728pt>
+File: images/TraitementImage.png Graphic file (type png)
+
+<use images/TraitementImage.png>
+Package pdftex.def Info: images/TraitementImage.png used on input line 253.
+(pdftex.def)             Requested size: 455.29988pt x 238.9722pt.
+
+Overfull \hbox (39.88945pt too wide) in paragraph at lines 253--254
+ [][] 
+ []
+
+
+Overfull \hbox (2.42375pt too wide) in paragraph at lines 250--257
+ [][] \T1/cmr/m/n/12 Une pre-mière mé-thode de dé-tec-tion de la pu-pille, dé-v
+e-loppé par Jé-rôme Schmaltz
+ []
+
+[16pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1
+4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.266 $$
+        h = \frac{1}{9} <./images/TraitementImage.png>] [17]
+<images/Conversion.png, id=415, 357.0138pt x 117.5592pt>
+File: images/Conversion.png Graphic file (type png)
+
+<use images/Conversion.png>
+Package pdftex.def Info: images/Conversion.png used on input line 310.
+(pdftex.def)             Requested size: 357.01291pt x 117.5589pt.
+ [18pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
+15}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.328 \end{equation}
+                     <./images/Conversion.png>]
+<images/Algo.png, id=432, 455.301pt x 121.4136pt>
+File: images/Algo.png Graphic file (type png)
+ <use images/Algo.png>
+Package pdftex.def Info: images/Algo.png used on input line 339.
+(pdftex.def)             Requested size: 409.7671pt x 109.27122pt.
+
+<images/DetectionContours.png, id=434, 351.2322pt x 106.9596pt>
+File: images/DetectionContours.png Graphic file (type png)
+
+<use images/DetectionContours.png>
+Package pdftex.def Info: images/DetectionContours.png used on input line 351.
+(pdftex.def)             Requested size: 351.23134pt x 106.95932pt.
+ [19pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
+16}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.360 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+2.17}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.360 
+       <./images/Algo.png> <./images/DetectionContours.png>]
+Overfull \hbox (28.5012pt too wide) in paragraph at lines 378--379
+[]\T1/cmr/m/n/12 On peut éga-le-ment cal-cu-ler la di-rec-tion du gra-dient com
+me suit : $\OT1/cmr/m/n/12 ^^B = \OML/cmm/m/it/12 atan\OT1/cmr/m/n/12 2(\OML/cm
+m/m/it/12 G[]; G[]\OT1/cmr/m/n/12 )$\T1/cmr/m/n/12 ,
+ []
+
+<images/FiltreSobel.png, id=444, 455.301pt x 90.5784pt>
+File: images/FiltreSobel.png Graphic file (type png)
+
+<use images/FiltreSobel.png>
+Package pdftex.def Info: images/FiltreSobel.png used on input line 382.
+(pdftex.def)             Requested size: 455.29988pt x 90.57817pt.
+
+Overfull \hbox (39.88945pt too wide) in paragraph at lines 382--383
+ [][] 
+ []
+
+<images/Contour.png, id=446, 276.5532pt x 214.8828pt>
+File: images/Contour.png Graphic file (type png)
+ <use images/Contour.png>
+Package pdftex.def Info: images/Contour.png used on input line 395.
+(pdftex.def)             Requested size: 276.55252pt x 214.88226pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<images/Accumulateur.png, id=448, 228.3732pt x 180.675pt>
+File: images/Accumulateur.png Graphic file (type png)
+
+<use images/Accumulateur.png>
+Package pdftex.def Info: images/Accumulateur.png used on input line 404.
+(pdftex.def)             Requested size: 228.37263pt x 180.67455pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<images/MethodeCanny.png, id=450, 278.9622pt x 217.7736pt>
+File: images/MethodeCanny.png Graphic file (type png)
+
+<use images/MethodeCanny.png>
+Package pdftex.def Info: images/MethodeCanny.png used on input line 413.
+(pdftex.def)             Requested size: 251.06366pt x 195.99442pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[20pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1
+8}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.421 
+       <./images/FiltreSobel.png>]
+<images/SeuilAccumu.png, id=463, 343.5234pt x 108.405pt>
+File: images/SeuilAccumu.png Graphic file (type png)
+
+<use images/SeuilAccumu.png>
+Package pdftex.def Info: images/SeuilAccumu.png used on input line 430.
+(pdftex.def)             Requested size: 343.52255pt x 108.40472pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[21pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1
+9}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.438 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+2.20}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.438 
+       <./images/Contour.png> <./images/Accumulateur.png>]
+<images/LaplacienGaussien.png, id=476, 173.9298pt x 134.904pt>
+File: images/LaplacienGaussien.png Graphic file (type png)
+
+<use images/LaplacienGaussien.png>
+Package pdftex.def Info: images/LaplacienGaussien.png used on input line 446.
+(pdftex.def)             Requested size: 173.92937pt x 134.90367pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [22pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
+21}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.450 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+2.22}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.450 
+       <./images/MethodeCanny.png> <./images/SeuilAccumu.png>]
+Overfull \hbox (3.76749pt too wide) in paragraph at lines 451--452
+[]\T1/cmr/m/n/12 Ainsi, l'ap-pli-ca-tion d'un cha-peau mexi-cain sur l'ac-cu-mu
+-la-teur per-met de conser-
+ []
+
+<images/ChapeauMexicain.png, id=488, 352.6776pt x 105.0324pt>
+File: images/ChapeauMexicain.png Graphic file (type png)
+
+<use images/ChapeauMexicain.png>
+Package pdftex.def Info: images/ChapeauMexicain.png used on input line 455.
+(pdftex.def)             Requested size: 352.67673pt x 105.03214pt.
+
+<images/CerclesContours.png, id=490, 153.6942pt x 150.8034pt>
+File: images/CerclesContours.png Graphic file (type png)
+
+<use images/CerclesContours.png>
+Package pdftex.def Info: images/CerclesContours.png used on input line 471.
+(pdftex.def)             Requested size: 153.6938pt x 150.80302pt.
+ [23pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
+23}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.475 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+2.24}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.475 
+       <./images/LaplacienGaussien.png> <./images/ChapeauMexicain.png>]
+<images/OpPupilles.png, id=504, 339.1872pt x 375.804pt>
+File: images/OpPupilles.png Graphic file (type png)
+
+<use images/OpPupilles.png>
+Package pdftex.def Info: images/OpPupilles.png used on input line 484.
+(pdftex.def)             Requested size: 237.42941pt x 263.061pt.
+ [24pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
+25}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.491 Q
+       ue pourrait-on (rÃ©)utiliser pour le projet ?pdfTeX warning (ext4): dest
+ination with the same identifier (name{figure.2.26}) has been already used, dup
+licate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.491 Q
+       ue pourrait-on (rÃ©)utiliser pour le projet ? <./images/CerclesContours.
+png> <./images/OpPupilles.png>]) [25] [26
+
+] [27] [28] (./DossierFonctionnel.tex
 Chapitre 3.
-<images/BeteACornes.png, id=328, 414.1071pt x 261.1356pt>
+<images/BeteACornes.png, id=531, 414.1071pt x 261.1356pt>
 File: images/BeteACornes.png Graphic file (type png)
 
 <use images/BeteACornes.png>
 Package pdftex.def Info: images/BeteACornes.png used on input line 6.
 (pdftex.def)             Requested size: 414.10608pt x 261.13495pt.
- <images/Pieuvre.png, id=329, 505.89pt x 457.71pt>
+ <images/Pieuvre.png, id=532, 505.89pt x 457.71pt>
 File: images/Pieuvre.png Graphic file (type png)
 
 <use images/Pieuvre.png>
@@ -1151,7 +1671,7 @@ Overfull \hbox (39.88635pt too wide) in paragraph at lines 13--14
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [9
+ [29
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1}) 
 has been already used, duplicate ignored
@@ -1160,7 +1680,7 @@ has been already used, duplicate ignored
                                                   \fi \fi 
 l.17 
       <./images/BeteACornes.png>]
-<images/CahierdesExigences.png, id=337, 673.5564pt x 270.7716pt>
+<images/CahierdesExigences.png, id=539, 673.5564pt x 270.7716pt>
 File: images/CahierdesExigences.png Graphic file (type png)
 
 <use images/CahierdesExigences.png>
@@ -1169,143 +1689,169 @@ Package pdftex.def Info: images/CahierdesExigences.png used on input line 22.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [10pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+ [30pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
 2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.26 
-      <./images/Pieuvre.png>] [11pdfTeX warning (ext4): destination with the sa
+      <./images/Pieuvre.png>] [31pdfTeX warning (ext4): destination with the sa
 me identifier (name{figure.3.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.29 \chapter
              {SpÃ©cification fonctionnelle  3 axes} <./images/CahierdesExigence
-s.png>] [12
+s.png>] [32
 
 ]
 Chapitre 4.
-<images/FAST.png, id=352, 315.8199pt x 280.8894pt>
+<images/FAST.png, id=555, 315.8199pt x 280.8894pt>
 File: images/FAST.png Graphic file (type png)
  <use images/FAST.png>
 Package pdftex.def Info: images/FAST.png used on input line 35.
 (pdftex.def)             Requested size: 378.98198pt x 337.0656pt.
 
-[13pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
+[33pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.44 \chapter
-             {Architecture fonctionnelle} <./images/FAST.png>] [14
+             {Architecture fonctionnelle} <./images/FAST.png>] [34
 
 ]
 Chapitre 5.
-) [15] [16
+) [35] [36
 
-] [17] [18] (./Organisation.tex
+] [37] [38] (./Organisation.tex
 Chapitre 6.
-[19
+[39
 
-] [20
+] [40
 
 ]
 Chapitre 7.
-[21] [22
+[41] [42
 
 ]
 Chapitre 8.
-) [23] [24
+) [43] [44
 
-] [25] [26] (./DossierJustificatif.tex
+] [45] [46] (./DossierJustificatif.tex
 Chapitre 9.
-[27
+[47
 
-] [28
+] [48
 
 ]
 Chapitre 10.
-[29] [30
+[49] [50
 
 ]
 Chapitre 11.
-) [31] [32
+) [51] [52
 
-] [33] [34]
+] [53] [54]
 Annexe A.
-[35
+[55
 
-] [36
+] [56
 
 ]
 Annexe B.
-[37] [38
+[57] [58
 
 ]
 Annexe C.
-[39] [40
+[59] [60
+
+] (./main.bbl
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 8.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+Underfull \hbox (badness 5036) in paragraph at lines 33--39
+[]\T1/cmr/m/n/12 Noël-Arnaud \T1/cmr/m/sc/12 Ma-guis \T1/cmr/m/n/12 :  Ré-di-ge
+z des do-cu-ments de qua-lité avec
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--39
+\T1/cmr/m/n/12 la-tex.  [][]$\T1/cmtt/m/n/12 http : / / fr . openclassrooms . c
+om / informatique / cours /
+ []
+
+
+Underfull \hbox (badness 1038) in paragraph at lines 33--39
+\T1/cmtt/m/n/12 redigez-[]des-[]documents-[]de-[]qualite-[]avec-[]latex$[][]\T1
+/cmr/m/n/12 , 2013.  Ac-cédé le 30
+ []
+
+) [61
+
+] [62
 
 ]
-No file main.bbl.
 No file main.ind.
 No file main.gls.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 120.
-[41
-
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 119.
+[63
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 120.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 119.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 120.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 120.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 119.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 119.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 6E1328B289EB6A037044511D9663ACA7;2424.
-
-
-LaTeX Warning: There were undefined references.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 120.
+(rerunfilecheck)             Checksum: 8F62B6B6CCDB6FAE8FE4AA2176B4A60D;2679.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 119.
  ) 
 Here is how much of TeX's memory you used:
- 14451 strings out of 493117
- 205500 string characters out of 6135432
- 431701 words of memory out of 5000000
- 17455 multiletter control sequences out of 15000+600000
- 32387 words of font info for 56 fonts, out of 8000000 for 9000
+ 15215 strings out of 493117
+ 220971 string characters out of 6135432
+ 377608 words of memory out of 5000000
+ 18101 multiletter control sequences out of 15000+600000
+ 33214 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 48i,12n,72p,1828b,2081s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{glo:WBS} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{glo:IS} has been referenced but does not exist, rep
-laced by a fixed one
-
-{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/
-usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texli
-ve/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/local/texli
-ve/2014/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive
-/2014/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2
-014/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/201
-4/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2014/
-texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/texlive/2014/te
-xmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2014/texm
-f-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2014/texmf-
-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2014/texmf-di
-st/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2014/texmf-dist
-/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2014/texmf-dist/f
-onts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2014/texmf-dist/fon
-ts/type1/public/cm-super/sfrm2488.pfb></usr/local/texlive/2014/texmf-dist/fonts
-/type1/public/cm-super/sfsl1200.pfb></usr/local/texlive/2014/texmf-dist/fonts/t
-ype1/public/cm-super/sfti1200.pfb></usr/local/texlive/2014/texmf-dist/fonts/typ
-e1/public/cm-super/sftt1000.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1
-/public/cm-super/sftt1200.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/p
-ublic/cm-super/sfxc2488.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw
-/helvetic/uhvb8a.pfb>
-Output written on main.pdf (51 pages, 1007310 bytes).
+ 48i,12n,40p,1828b,581s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
+{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{
+/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texl
+ive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/local/texl
+ive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texli
+ve/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texliv
+e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/
+2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/20
+14/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2014
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2014/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2014/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2014/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2014/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2014/texmf-dist
+/fonts/type1/public/eurosym/feymr10.pfb></usr/local/texlive/2014/texmf-dist/fon
+ts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2014/texmf-dist/fonts
+/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2014/texmf-dist/fonts/t
+ype1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2014/texmf-dist/fonts/typ
+e1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1
+/public/cm-super/sfcc1200.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/p
+ublic/cm-super/sfrm0800.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/pub
+lic/cm-super/sfrm1000.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/publi
+c/cm-super/sfrm1095.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/
+cm-super/sfrm1200.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm
+-super/sfrm1728.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-s
+uper/sfrm2488.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-sup
+er/sfsl1200.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super
+/sfti0800.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/s
+fti1200.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sft
+t1200.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfxc2
+488.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb
+>
+Output written on main.pdf (69 pages, 4914287 bytes).
 PDF statistics:
- 568 PDF objects out of 1000 (max. 8388607)
- 481 compressed objects within 5 object streams
- 116 named destinations out of 1000 (max. 500000)
- 340 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 841 PDF objects out of 1000 (max. 8388607)
+ 676 compressed objects within 7 object streams
+ 195 named destinations out of 1000 (max. 500000)
+ 478 words of extra memory for PDF output out of 10000 (max. 10000000)
 

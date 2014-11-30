@@ -1,4 +1,4 @@
-\documentclass[12pt,fleqn]{book} %taille de la police par défaut, et équations jusitifées à gauche
+\documentclass[12pt]{book} %taille de la police par défaut
 \input{packages}     % Ce fichier contient tous les packages nécessaires à la compilation
 \makeindex           % donne l'ordre de créer l'index
 \include{glossaire}  % ce fichier contient les entrées du glossaire
@@ -8,7 +8,7 @@
 \renewcommand{\contentsname}{Sommaire}                % des jolis noms pour la table des matières
 \renewcommand{\bibname}{Références bibliographiques}  % des jolis noms pour les sections bibliographiques
 \renewcommand{\glossaryname}{Glossaire}               % et glossaire
-
+\setcounter{secnumdepth}{3}
 
 %----------------------------------------------------------------------------------------
 %	 PAGE DE TITRE
@@ -33,7 +33,6 @@
 \frontmatter      % La partie non numérotée préalable au document principal
 
 \input{Remerciements}
-\input{Preambule}
 
 \mainmatter       % La partie principale du document
 
