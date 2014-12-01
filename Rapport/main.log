@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.11.13)  30 NOV 2014 14:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.11.13)  1 DEC 2014 08:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1162,7 +1162,7 @@ e
 nary-English.dict
 Dictionary: glossaries-dictionary, Language: English 
 ) (./PageDeTitre.tex
-<images/Trait.png, id=159, 339.669pt x 36.8577pt>
+<images/Trait.png, id=163, 339.669pt x 36.8577pt>
 File: images/Trait.png Graphic file (type png)
  <use images/Trait.png>
 Package pdftex.def Info: images/Trait.png used on input line 6.
@@ -1177,7 +1177,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--32
 
  []
 
-) <images/FondTitreSPID.png, id=161, 583.9416pt x 834.7185pt>
+) <images/FondTitreSPID.png, id=165, 583.9416pt x 834.7185pt>
 File: images/FondTitreSPID.png Graphic file (type png)
 
 <use images/FondTitreSPID.png>
@@ -1256,7 +1256,7 @@ l.1 \chapter
 
 ]
 Chapitre 2.
-<images/TobiiGlasses.png, id=259, 927.465pt x 411.939pt>
+<images/TobiiGlasses.png, id=264, 927.465pt x 411.939pt>
 File: images/TobiiGlasses.png Graphic file (type png)
 
 <use images/TobiiGlasses.png>
@@ -1269,21 +1269,21 @@ Package pdftex.def Info: images/TobiiGlasses.png used on input line 13.
                                                   \fi \fi 
 l.21 
       <./images/TobiiGlasses.png>]
-<images/BoitierTobii.png, id=269, 1094.8905pt x 354.123pt>
+<images/BoitierTobii.png, id=274, 1094.8905pt x 354.123pt>
 File: images/BoitierTobii.png Graphic file (type png)
 
 <use images/BoitierTobii.png>
 Package pdftex.def Info: images/BoitierTobii.png used on input line 24.
 (pdftex.def)             Requested size: 383.21742pt x 123.9449pt.
 
-<images/BoitierTobii2.png, id=271, 655.248pt x 281.853pt>
+<images/BoitierTobii2.png, id=276, 655.248pt x 281.853pt>
 File: images/BoitierTobii2.png Graphic file (type png)
 
 <use images/BoitierTobii2.png>
 Package pdftex.def Info: images/BoitierTobii2.png used on input line 33.
 (pdftex.def)             Requested size: 393.15182pt x 169.1131pt.
 
-<images/PCCR.png, id=273, 281.05pt x 219.82124pt>
+<images/PCCR.png, id=278, 281.05pt x 219.82124pt>
 File: images/PCCR.png Graphic file (type png)
  <use images/PCCR.png>
 Package pdftex.def Info: images/PCCR.png used on input line 43.
@@ -1302,7 +1302,7 @@ l.47
                                                   \fi \fi 
 l.47 
       <./images/BoitierTobii.png> <./images/BoitierTobii2.png>]
-<images/PUPIL.png, id=281, 191.7564pt x 164.2938pt>
+<images/PUPIL.png, id=286, 191.7564pt x 164.2938pt>
 File: images/PUPIL.png Graphic file (type png)
  <use images/PUPIL.png>
 Package pdftex.def Info: images/PUPIL.png used on input line 54.
@@ -1321,7 +1321,7 @@ l.67
                                                   \fi \fi 
 l.67 
       <./images/PCCR.png> <./images/PUPIL.png>]
-<images/EyeCharm.png, id=291, 286.1892pt x 146.949pt>
+<images/EyeCharm.png, id=296, 286.1892pt x 146.949pt>
 File: images/EyeCharm.png Graphic file (type png)
 
 <use images/EyeCharm.png>
@@ -1334,7 +1334,7 @@ Package pdftex.def Info: images/EyeCharm.png used on input line 74.
                                                   \fi \fi 
 l.93 
       <./images/EyeCharm.png>]
-<images/Experimental.png, id=300, 489.027pt x 366.168pt>
+<images/Experimental.png, id=305, 489.027pt x 366.168pt>
 File: images/Experimental.png Graphic file (type png)
 
 <use images/Experimental.png>
@@ -1347,13 +1347,13 @@ Package pdftex.def Info: images/Experimental.png used on input line 98.
                                                   \fi \fi 
 l.109 \subsubsection
                     {Tobii X2-30\&60} <./images/Experimental.png>]
-<images/TobiiX2.png, id=307, 306.4248pt x 208.1376pt>
+<images/TobiiX2.png, id=312, 306.4248pt x 208.1376pt>
 File: images/TobiiX2.png Graphic file (type png)
  <use images/TobiiX2.png>
 Package pdftex.def Info: images/TobiiX2.png used on input line 113.
 (pdftex.def)             Requested size: 306.42404pt x 208.13708pt.
 
-<images/PartiesOeil.png, id=309, 311.2428pt x 316.0608pt>
+<images/PartiesOeil.png, id=314, 311.2428pt x 316.0608pt>
 File: images/PartiesOeil.png Graphic file (type png)
 
 <use images/PartiesOeil.png>
@@ -1366,7 +1366,7 @@ Package pdftex.def Info: images/PartiesOeil.png used on input line 131.
                                                   \fi \fi 
 l.135 
        <./images/TobiiX2.png>]
-<images/PartiesExternesOeil.png, id=319, 287.6346pt x 122.859pt>
+<images/PartiesExternesOeil.png, id=324, 287.6346pt x 122.859pt>
 File: images/PartiesExternesOeil.png Graphic file (type png)
 
 <use images/PartiesExternesOeil.png>
@@ -1386,7 +1386,7 @@ l.152
                                                   \fi \fi 
 l.152 
        <./images/PartiesOeil.png> <./images/PartiesExternesOeil.png>]
-<images/SpectreLumiere.png, id=331, 429.2838pt x 148.3944pt>
+<images/SpectreLumiere.png, id=336, 429.2838pt x 148.3944pt>
 File: images/SpectreLumiere.png Graphic file (type png)
 
 <use images/SpectreLumiere.png>
@@ -1397,14 +1397,14 @@ Overfull \hbox (13.87231pt too wide) in paragraph at lines 159--160
  [][] 
  []
 
-<images/CaptureOeilTrad.png, id=332, 247.1634pt x 148.3944pt>
+<images/CaptureOeilTrad.png, id=337, 247.1634pt x 148.3944pt>
 File: images/CaptureOeilTrad.png Graphic file (type png)
 
 <use images/CaptureOeilTrad.png>
 Package pdftex.def Info: images/CaptureOeilTrad.png used on input line 169.
 (pdftex.def)             Requested size: 173.01318pt x 103.87537pt.
 
-<images/CaptureOeilInfra.png, id=333, 247.1634pt x 164.2938pt>
+<images/CaptureOeilInfra.png, id=338, 247.1634pt x 164.2938pt>
 File: images/CaptureOeilInfra.png Graphic file (type png)
 
 <use images/CaptureOeilInfra.png>
@@ -1423,7 +1423,7 @@ l.183
                                                   \fi \fi 
 l.183 
        <./images/SpectreLumiere.png> <./images/CaptureOeilTrad.png> <./images/C
-aptureOeilInfra.png>] <images/ZoneOmbre.png, id=347, 208.6194pt x 129.1224pt>
+aptureOeilInfra.png>] <images/ZoneOmbre.png, id=352, 208.6194pt x 129.1224pt>
 File: images/ZoneOmbre.png Graphic file (type png)
 
 <use images/ZoneOmbre.png>
@@ -1436,7 +1436,7 @@ Package pdftex.def Info: images/ZoneOmbre.png used on input line 186.
                                                   \fi \fi 
 l.202 
        <./images/ZoneOmbre.png>] [14] [15]
-<images/TraitementImage.png, id=382, 455.301pt x 238.9728pt>
+<images/TraitementImage.png, id=387, 455.301pt x 238.9728pt>
 File: images/TraitementImage.png Graphic file (type png)
 
 <use images/TraitementImage.png>
@@ -1460,7 +1460,7 @@ e-loppÈ par JÈ-rÙme Schmaltz
                                                   \fi \fi 
 l.266 $$
         h = \frac{1}{9} <./images/TraitementImage.png>] [17]
-<images/Conversion.png, id=415, 357.0138pt x 117.5592pt>
+<images/Conversion.png, id=420, 357.0138pt x 117.5592pt>
 File: images/Conversion.png Graphic file (type png)
 
 <use images/Conversion.png>
@@ -1473,13 +1473,13 @@ Package pdftex.def Info: images/Conversion.png used on input line 310.
                                                   \fi \fi 
 l.328 \end{equation}
                      <./images/Conversion.png>]
-<images/Algo.png, id=432, 455.301pt x 121.4136pt>
+<images/Algo.png, id=437, 455.301pt x 121.4136pt>
 File: images/Algo.png Graphic file (type png)
  <use images/Algo.png>
 Package pdftex.def Info: images/Algo.png used on input line 339.
 (pdftex.def)             Requested size: 409.7671pt x 109.27122pt.
 
-<images/DetectionContours.png, id=434, 351.2322pt x 106.9596pt>
+<images/DetectionContours.png, id=439, 351.2322pt x 106.9596pt>
 File: images/DetectionContours.png Graphic file (type png)
 
 <use images/DetectionContours.png>
@@ -1504,7 +1504,7 @@ me suit : $\OT1/cmr/m/n/12 ^^B = \OML/cmm/m/it/12 atan\OT1/cmr/m/n/12 2(\OML/cm
 m/m/it/12 G[]; G[]\OT1/cmr/m/n/12 )$\T1/cmr/m/n/12 ,
  []
 
-<images/FiltreSobel.png, id=444, 455.301pt x 90.5784pt>
+<images/FiltreSobel.png, id=449, 455.301pt x 90.5784pt>
 File: images/FiltreSobel.png Graphic file (type png)
 
 <use images/FiltreSobel.png>
@@ -1515,7 +1515,7 @@ Overfull \hbox (39.88945pt too wide) in paragraph at lines 382--383
  [][] 
  []
 
-<images/Contour.png, id=446, 276.5532pt x 214.8828pt>
+<images/Contour.png, id=451, 276.5532pt x 214.8828pt>
 File: images/Contour.png Graphic file (type png)
  <use images/Contour.png>
 Package pdftex.def Info: images/Contour.png used on input line 395.
@@ -1524,7 +1524,7 @@ Package pdftex.def Info: images/Contour.png used on input line 395.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/Accumulateur.png, id=448, 228.3732pt x 180.675pt>
+<images/Accumulateur.png, id=453, 228.3732pt x 180.675pt>
 File: images/Accumulateur.png Graphic file (type png)
 
 <use images/Accumulateur.png>
@@ -1534,7 +1534,7 @@ Package pdftex.def Info: images/Accumulateur.png used on input line 404.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/MethodeCanny.png, id=450, 278.9622pt x 217.7736pt>
+<images/MethodeCanny.png, id=455, 278.9622pt x 217.7736pt>
 File: images/MethodeCanny.png Graphic file (type png)
 
 <use images/MethodeCanny.png>
@@ -1551,7 +1551,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
                                                   \fi \fi 
 l.421 
        <./images/FiltreSobel.png>]
-<images/SeuilAccumu.png, id=463, 343.5234pt x 108.405pt>
+<images/SeuilAccumu.png, id=468, 343.5234pt x 108.405pt>
 File: images/SeuilAccumu.png Graphic file (type png)
 
 <use images/SeuilAccumu.png>
@@ -1574,7 +1574,7 @@ l.438
                                                   \fi \fi 
 l.438 
        <./images/Contour.png> <./images/Accumulateur.png>]
-<images/LaplacienGaussien.png, id=476, 173.9298pt x 134.904pt>
+<images/LaplacienGaussien.png, id=481, 173.9298pt x 134.904pt>
 File: images/LaplacienGaussien.png Graphic file (type png)
 
 <use images/LaplacienGaussien.png>
@@ -1601,14 +1601,14 @@ Overfull \hbox (3.76749pt too wide) in paragraph at lines 451--452
 -la-teur per-met de conser-
  []
 
-<images/ChapeauMexicain.png, id=488, 352.6776pt x 105.0324pt>
+<images/ChapeauMexicain.png, id=493, 352.6776pt x 105.0324pt>
 File: images/ChapeauMexicain.png Graphic file (type png)
 
 <use images/ChapeauMexicain.png>
 Package pdftex.def Info: images/ChapeauMexicain.png used on input line 455.
 (pdftex.def)             Requested size: 352.67673pt x 105.03214pt.
 
-<images/CerclesContours.png, id=490, 153.6942pt x 150.8034pt>
+<images/CerclesContours.png, id=495, 153.6942pt x 150.8034pt>
 File: images/CerclesContours.png Graphic file (type png)
 
 <use images/CerclesContours.png>
@@ -1627,7 +1627,7 @@ l.475
                                                   \fi \fi 
 l.475 
        <./images/LaplacienGaussien.png> <./images/ChapeauMexicain.png>]
-<images/OpPupilles.png, id=504, 339.1872pt x 375.804pt>
+<images/OpPupilles.png, id=509, 339.1872pt x 375.804pt>
 File: images/OpPupilles.png Graphic file (type png)
 
 <use images/OpPupilles.png>
@@ -1638,33 +1638,62 @@ Package pdftex.def Info: images/OpPupilles.png used on input line 484.
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.491 Q
-       ue pourrait-on (r√©)utiliser pour le projet ?pdfTeX warning (ext4): dest
-ination with the same identifier (name{figure.2.26}) has been already used, dup
-licate ignored
+l.495 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+2.26}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.491 Q
-       ue pourrait-on (r√©)utiliser pour le projet ? <./images/CerclesContours.
-png> <./images/OpPupilles.png>]) [25] [26
+l.495 
+       <./images/CerclesContours.png> <./images/OpPupilles.png>]
+<images/BrightPupil.png, id=519, 251.7405pt x 97.5645pt>
+File: images/BrightPupil.png Graphic file (type png)
 
-] [27] [28] (./DossierFonctionnel.tex
+<use images/BrightPupil.png>
+Package pdftex.def Info: images/BrightPupil.png used on input line 498.
+(pdftex.def)             Requested size: 251.73987pt x 97.56424pt.
+
+<images/GazeDetection.png, id=520, 292.09125pt x 94.55325pt>
+File: images/GazeDetection.png Graphic file (type png)
+
+<use images/GazeDetection.png>
+Package pdftex.def Info: images/GazeDetection.png used on input line 507.
+(pdftex.def)             Requested size: 292.09052pt x 94.55301pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [25pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
+27}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.511 
+       <./images/BrightPupil.png>]) [26pdfTeX warning (ext4): destination with 
+the same identifier (name{figure.2.28}) has been already used, duplicate ignore
+d
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.49 \part
+          {Dossier fonctionnel} <./images/GazeDetection.png>] [27
+
+] [28]
+(./DossierFonctionnel.tex
 Chapitre 3.
-<images/BeteACornes.png, id=531, 414.1071pt x 261.1356pt>
+<images/BeteACornes.png, id=541, 414.1071pt x 261.1356pt>
 File: images/BeteACornes.png Graphic file (type png)
 
 <use images/BeteACornes.png>
-Package pdftex.def Info: images/BeteACornes.png used on input line 6.
+Package pdftex.def Info: images/BeteACornes.png used on input line 9.
 (pdftex.def)             Requested size: 414.10608pt x 261.13495pt.
- <images/Pieuvre.png, id=532, 505.89pt x 457.71pt>
+ <images/Pieuvre.png, id=542, 505.89pt x 457.71pt>
 File: images/Pieuvre.png Graphic file (type png)
 
 <use images/Pieuvre.png>
-Package pdftex.def Info: images/Pieuvre.png used on input line 13.
+Package pdftex.def Info: images/Pieuvre.png used on input line 16.
 (pdftex.def)             Requested size: 455.29678pt x 411.9352pt.
 
-Overfull \hbox (39.88635pt too wide) in paragraph at lines 13--14
+Overfull \hbox (39.88635pt too wide) in paragraph at lines 16--17
  [][] 
  []
 
@@ -1678,13 +1707,13 @@ has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.17 
+l.20 
       <./images/BeteACornes.png>]
-<images/CahierdesExigences.png, id=539, 673.5564pt x 270.7716pt>
+<images/CahierdesExigences.png, id=549, 673.5564pt x 270.7716pt>
 File: images/CahierdesExigences.png Graphic file (type png)
 
 <use images/CahierdesExigences.png>
-Package pdftex.def Info: images/CahierdesExigences.png used on input line 22.
+Package pdftex.def Info: images/CahierdesExigences.png used on input line 27.
 (pdftex.def)             Requested size: 415.41043pt x 167.00075pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1694,22 +1723,22 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.26 
+l.31 
       <./images/Pieuvre.png>] [31pdfTeX warning (ext4): destination with the sa
 me identifier (name{figure.3.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.29 \chapter
+l.44 \chapter
              {Sp√©cification fonctionnelle  3 axes} <./images/CahierdesExigence
 s.png>] [32
 
 ]
 Chapitre 4.
-<images/FAST.png, id=555, 315.8199pt x 280.8894pt>
+<images/FAST.png, id=565, 315.8199pt x 280.8894pt>
 File: images/FAST.png Graphic file (type png)
  <use images/FAST.png>
-Package pdftex.def Info: images/FAST.png used on input line 35.
+Package pdftex.def Info: images/FAST.png used on input line 52.
 (pdftex.def)             Requested size: 378.98198pt x 337.0656pt.
 
 [33pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
@@ -1717,12 +1746,12 @@ Package pdftex.def Info: images/FAST.png used on input line 35.
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.44 \chapter
-             {Architecture fonctionnelle} <./images/FAST.png>] [34
-
-]
+l.61 \chapter
+             {Architecture fonctionnelle} <./images/FAST.png>] [34]
 Chapitre 5.
-) [35] [36
+) [35
+
+] [36
 
 ] [37] [38] (./Organisation.tex
 Chapitre 6.
@@ -1805,14 +1834,14 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 119.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 119.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 119.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 8F62B6B6CCDB6FAE8FE4AA2176B4A60D;2679.
+(rerunfilecheck)             Checksum: 9A97D7A51807674B63DB26B2573BC2BC;2778.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 119.
  ) 
 Here is how much of TeX's memory you used:
- 15215 strings out of 493117
- 220971 string characters out of 6135432
- 377608 words of memory out of 5000000
- 18101 multiletter control sequences out of 15000+600000
+ 15231 strings out of 493117
+ 221307 string characters out of 6135432
+ 377771 words of memory out of 5000000
+ 18112 multiletter control sequences out of 15000+600000
  33214 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  48i,12n,40p,1828b,581s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1848,10 +1877,10 @@ fti1200.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sft
 t1200.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfxc2
 488.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb
 >
-Output written on main.pdf (69 pages, 4914287 bytes).
+Output written on main.pdf (69 pages, 4996271 bytes).
 PDF statistics:
- 841 PDF objects out of 1000 (max. 8388607)
- 676 compressed objects within 7 object streams
- 195 named destinations out of 1000 (max. 500000)
- 478 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 851 PDF objects out of 1000 (max. 8388607)
+ 683 compressed objects within 7 object streams
+ 198 named destinations out of 1000 (max. 500000)
+ 496 words of extra memory for PDF output out of 10000 (max. 10000000)
 

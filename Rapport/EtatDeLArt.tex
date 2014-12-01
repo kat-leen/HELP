@@ -486,6 +486,32 @@ La figure \ref{fig:OpPupilles} résume cette démarche.
   \label{fig:OpPupilles}
 \end{figure}
 
+\section{Méthode de détection de la direction du regard}
+
+La direction du regard d’une personne peut être obtenue à l’aide de deux paramètres : 
+L’orientation du visage et l’orientation oculaire. La détection du visage permet de connaitre l’orientation globale de l’utilisateur et de vérifier que ses deux yeux sont bien en face de la caméra. Suivant l’orientation de la tête de l’utilisateur, une approximation de la direction du regard peut aussi être effectuée.
+La détection effectuée à l’aide de l’orientation oculaire approche la direction du regard à l’aide de propriétés géométriques et physiques de l’iris et de la pupille. Le problème principal réside dans le fait que cette étude est une étude locale, c’est-à-dire que la caméra filmant l’œil de l’utilisateur doit avoir un fort niveau de zoom, obligeant le sujet à rester immobile afin de ne pas sortir du champ de la caméra.
+Pour la détection de la pupille deux grandes méthodes existent, toutes deux basé sur l’illumination de l’œil par des éclairages infrarouges, la méthode dites de la pupille lumineuse (brigth pupil) et celle de la pupille noire (dark pupil). En effet suivant la position de l’éclairage infrarouge la pupille aura des propriétés optiques différentes. Si l’illumination infrarouge est coaxial avec l’axe optique de la caméra alors la pupille apparaitra totalement blanche (bright pupil), au contraire si la source lumineuse est décalée (toujours par rapport à l’axe optique), alors la pupille apparaitra noire (dark pupil) et l’on pourra voir distinctement les reflets de la source lumineuse infrarouge dans sur la cornée du sujet.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale=1]{BrightPupil}
+  \caption{Effet black et bright pupil}
+  \label{fig:BrightPupil}
+\end{figure}
+
+Les reflets ainsi détectés dans l’œil du sujet vont permettre de déterminer la direction du regard de l’utilisateur. En supposant la tête de l’utilisateur immobile, et en prenant comme référence le reflet créé par la lumière infrarouge sur la cornée, on peut déterminer la direction du regard en se servant du vecteur crée entre le reflet et le centre de la pupille (ou l’iris).( voir figure ci-dessous). Cependant cette méthode demande certains prérequis et notamment une calibration et ce avec chaque nouvelle utilisateur. Pour effectuer cette calibration, il est demandé au sujet de fixé quatre points (minimum), situés sur l’écran, afin d’obtenir des valeurs étalons (souvent les coins de l’écran), qui permettront de déduite la direction du regard par la suite.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale=1]{GazeDetection}
+  \caption{Tracé du vecteur entre la réflexion infrarouge dans la cornée et la pupille}
+  \label{fig:GazeDetection}
+\end{figure}
+
+Cette méthode présente toute de même deux défauts majeurs, l’impossibilité pour l’utilisateur de bouger la tête ou le corps, sous risque de devoir recommencer la calibration, et l’obligation de re-calibrer le système à chaque changement d’utilisateur.
+
+
 Quelles sont les solutions connues (algorithmes, matériels, logiciels, comportements, stratégies) ? 
 
 Que pourrait-on (ré)utiliser pour le projet ? 
