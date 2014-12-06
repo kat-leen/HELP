@@ -1,5 +1,4 @@
 \select@language {french}
-\contentsline {chapter}{Remerciements}{i}{chapter*.2}
 \contentsline {part}{I\hspace {1em}Introduction au projet}{1}{part.1}
 \contentsline {chapter}{\numberline {1}Formulation initiale du projet}{3}{chapter.1}
 \contentsline {section}{\numberline {1.1}Contexte}{3}{section.1.1}
@@ -10,30 +9,32 @@
 \contentsline {subsubsection}{\numberline {2.1.1.1}Les Tobii Glasses}{5}{subsubsection.2.1.1.1}
 \contentsline {subsubsection}{\numberline {2.1.1.2}PUPIL}{7}{subsubsection.2.1.1.2}
 \contentsline {subsection}{\numberline {2.1.2}Syst\IeC {\`e}mes sans contact}{8}{subsection.2.1.2}
-\contentsline {subsubsection}{\numberline {2.1.2.1}Eye Charm}{8}{subsubsection.2.1.2.1}
-\contentsline {subsubsection}{\numberline {2.1.2.2}Robust Eye and Pupil Detection Method for Gaze Tracking}{9}{subsubsection.2.1.2.2}
-\contentsline {subsubsection}{\numberline {2.1.2.3}Tobii X2-30\&60}{10}{subsubsection.2.1.2.3}
+\contentsline {subsubsection}{\numberline {2.1.2.1}Tobii X2-30\&60}{8}{subsubsection.2.1.2.1}
+\contentsline {subsubsection}{\numberline {2.1.2.2}Eye Charm}{9}{subsubsection.2.1.2.2}
+\contentsline {subsubsection}{\numberline {2.1.2.3}Robust Eye and Pupil Detection Method for Gaze Tracking}{10}{subsubsection.2.1.2.3}
 \contentsline {section}{\numberline {2.2}La d\IeC {\'e}tection de pupilles}{10}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}L\IeC {\textquoteright }\IeC {\oe }il}{10}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Caract\IeC {\'e}ristiques d\IeC {\textquoteright }une image d\IeC {\textquoteright }un \IeC {\oe }il acquise par cam\IeC {\'e}ra traditionnelle}{12}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.2}Caract\IeC {\'e}ristiques d\IeC {\textquoteright }une image d\IeC {\textquoteright }un \IeC {\oe }il acquise par cam\IeC {\'e}ra traditionnelle}{11}{subsection.2.2.2}
 \contentsline {subsection}{\numberline {2.2.3}Les diff\IeC {\'e}rentes probl\IeC {\'e}matiques de la d\IeC {\'e}tection par cam\IeC {\'e}ra traditionnelle}{13}{subsection.2.2.3}
 \contentsline {subsubsection}{\numberline {2.2.3.1}Ombres}{13}{subsubsection.2.2.3.1}
 \contentsline {subsubsection}{\numberline {2.2.3.2}Reflets}{13}{subsubsection.2.2.3.2}
 \contentsline {subsubsection}{\numberline {2.2.3.3}Pupille}{14}{subsubsection.2.2.3.3}
-\contentsline {subsection}{\numberline {2.2.4}Traitement d\IeC {\textquoteright }image}{14}{subsection.2.2.4}
-\contentsline {subsubsection}{\numberline {2.2.4.1}Segmentation}{14}{subsubsection.2.2.4.1}
-\contentsline {paragraph}{}{15}{section*.4}
-\contentsline {paragraph}{}{15}{section*.5}
-\contentsline {subsubsection}{\numberline {2.2.4.2}Traitement de l\IeC {\textquoteright }image pour la d\IeC {\'e}tection de pupilles}{16}{subsubsection.2.2.4.2}
-\contentsline {paragraph}{}{16}{section*.7}
-\contentsline {paragraph}{}{17}{section*.10}
-\contentsline {subsubsection}{\numberline {2.2.4.3}Conversion en niveau de gris}{18}{subsubsection.2.2.4.3}
-\contentsline {subsubsection}{\numberline {2.2.4.4}D\IeC {\'e}tection des contours}{18}{subsubsection.2.2.4.4}
-\contentsline {subsubsection}{\numberline {2.2.4.5}D\IeC {\'e}tection des centres}{20}{subsubsection.2.2.4.5}
-\contentsline {subsubsection}{\numberline {2.2.4.6}Seuillage}{21}{subsubsection.2.2.4.6}
-\contentsline {subsubsection}{\numberline {2.2.4.7}Isoler les centres potentiels}{22}{subsubsection.2.2.4.7}
-\contentsline {subsubsection}{\numberline {2.2.4.8}Recherche des cercles}{23}{subsubsection.2.2.4.8}
+\contentsline {subsection}{\numberline {2.2.4}D\IeC {\'e}tection par \IeC {\'e}clairage infrarouge}{14}{subsection.2.2.4}
+\contentsline {subsection}{\numberline {2.2.5}Traitement d\IeC {\textquoteright }images}{14}{subsection.2.2.5}
+\contentsline {subsubsection}{\numberline {2.2.5.1}Segmentation}{14}{subsubsection.2.2.5.1}
+\contentsline {paragraph}{}{15}{section*.3}
+\contentsline {paragraph}{}{16}{section*.4}
+\contentsline {subsubsection}{\numberline {2.2.5.2}Traitement de l\IeC {\textquoteright }image pour la d\IeC {\'e}tection de pupilles}{16}{subsubsection.2.2.5.2}
+\contentsline {paragraph}{}{16}{section*.6}
+\contentsline {paragraph}{}{17}{section*.9}
+\contentsline {subsubsection}{\numberline {2.2.5.3}Conversion en niveau de gris}{18}{subsubsection.2.2.5.3}
+\contentsline {subsubsection}{\numberline {2.2.5.4}D\IeC {\'e}tection des contours}{18}{subsubsection.2.2.5.4}
+\contentsline {subsubsection}{\numberline {2.2.5.5}D\IeC {\'e}tection des centres}{20}{subsubsection.2.2.5.5}
+\contentsline {subsubsection}{\numberline {2.2.5.6}Seuillage}{21}{subsubsection.2.2.5.6}
+\contentsline {subsubsection}{\numberline {2.2.5.7}Isoler les centres potentiels}{22}{subsubsection.2.2.5.7}
+\contentsline {subsubsection}{\numberline {2.2.5.8}Recherche des cercles}{23}{subsubsection.2.2.5.8}
 \contentsline {section}{\numberline {2.3}M\IeC {\'e}thode de d\IeC {\'e}tection de la direction du regard}{25}{section.2.3}
+\contentsline {section}{\numberline {2.4}Solutions techniques et m\IeC {\'e}thodes choisies}{26}{section.2.4}
 \contentsline {part}{II\hspace {1em}Dossier fonctionnel}{27}{part.2}
 \contentsline {chapter}{\numberline {3}Ing\IeC {\'e}nierie des exigences}{29}{chapter.3}
 \contentsline {section}{\numberline {3.1}Approche Top-Down}{29}{section.3.1}
@@ -41,21 +42,7 @@
 \contentsline {section}{\numberline {3.3}Fonctions principales du syst\IeC {\`e}me}{31}{section.3.3}
 \contentsline {chapter}{\numberline {4}Sp\IeC {\'e}cification fonctionnelle 3 axes}{33}{chapter.4}
 \contentsline {section}{\numberline {4.1}Raffinement FAST}{33}{section.4.1}
-\contentsline {section}{\numberline {4.2}Sp\IeC {\'e}cification des donn\IeC {\'e}es}{34}{section.4.2}
-\contentsline {section}{\numberline {4.3}Sp\IeC {\'e}cification des comportements}{34}{section.4.3}
-\contentsline {chapter}{\numberline {5}Architecture fonctionnelle}{35}{chapter.5}
-\contentsline {part}{III\hspace {1em}Organisation}{37}{part.3}
-\contentsline {chapter}{\numberline {6}M\IeC {\'e}thodes de travail}{39}{chapter.6}
-\contentsline {chapter}{\numberline {7}Outils pour les \IeC {\'e}changes}{41}{chapter.7}
-\contentsline {chapter}{\numberline {8}R\IeC {\'e}partition des t\IeC {\^a}ches dans le temps}{43}{chapter.8}
-\contentsline {part}{IV\hspace {1em}Journal du projet}{45}{part.4}
-\contentsline {chapter}{\numberline {9}Choix et justifications}{47}{chapter.9}
-\contentsline {chapter}{\numberline {10}R\IeC {\'e}sultats et analyses}{49}{chapter.10}
-\contentsline {chapter}{\numberline {11}Conclusion}{51}{chapter.11}
-\contentsline {part}{V\hspace {1em}Annexes}{53}{part.5}
-\contentsline {chapter}{\numberline {A}Premi\IeC {\`e}re annexe}{55}{appendix.A}
-\contentsline {chapter}{\numberline {B}Deuxi\IeC {\`e}me annexe}{57}{appendix.B}
-\contentsline {chapter}{\numberline {C}Troisi\IeC {\`e}me annexe}{59}{appendix.C}
-\contentsline {part}{Bibliographie}{61}{appendix.C}
-\contentsline {part}{Index}{63}{section*.17}
-\contentsline {part}{Glossaire}{63}{section*.18}
+\contentsline {part}{III\hspace {1em}Organisation}{35}{part.3}
+\contentsline {chapter}{\numberline {5}M\IeC {\'e}thodes de travail}{37}{chapter.5}
+\contentsline {chapter}{\numberline {6}Outils pour les \IeC {\'e}changes}{39}{chapter.6}
+\contentsline {chapter}{\numberline {7}R\IeC {\'e}partition des t\IeC {\^a}ches dans le temps}{41}{chapter.7}

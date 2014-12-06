@@ -4,9 +4,18 @@
 
 \subsection{Systèmes avec contact}
 
-Le suivi de l’œil (aussi appelé « eye tracking ») a de nombreuse application, de l’étude de l’attention, au contrôle de signe physiologique en passant par le contrôle d’un système (étude qui nous intéresse ici).  Une pluralité de systèmes ont déjà été développés dans ce domaine et nous allons tâcher dans cette partie de vous présenter les systèmes majeurs. Deux grandes catégories de système existent : avec ou sans contact. Un système est dit sans contact lorsque celui-ci n’est pas attaché ou relié à l’utilisateur. Il a l’avantage de d’être plus agréable est facile à utiliser. Le deuxième, avec contact est monté sur l’utilisateur (comme des lunettes par exemple). Il offre ainsi une plus grande mobilité. Dans notre cas, l’utilisateur ce trouvant en face de son ordinateur, les méthodes avec et sans contact sont toutes deux à envisager.
+Le suivi de l’œil (aussi appelé « eye tracking ») a de nombreuses applications, tels que le contrôle d’un système. Une pluralité de dispositifs a déjà été développée dans ce domaine et nous allons tâcher dans cette partie de vous présenter les procédés majeurs. Deux grandes catégories de systèmes existent : avec ou sans contact. Un système est dit sans contact lorsque celui-ci n’est pas attaché ou relié à l’utilisateur. Il a l’avantage d’être plus agréable est facile à utiliser. Le deuxième, avec contact, est monté sur l’usager (comme des lunettes par exemple). Il offre ainsi une plus grande mobilité. Dans notre cas, les deux méthodes sont à envisager.
 
 \subsubsection{Les Tobii Glasses}
+
+Les Tobbi Glasses sont des lunettes capables de filmer et d’enregistrer le mouvement des yeux. Elles peuvent ainsi savoir en temps réel ce que l’utilisateur fixe et voit.
+Ces lunettes sont équipées de (cf. figure \ref{fig:TG}) : 
+\begin{itemize}[label=\textbullet,font=\color{black}]
+\item caméras qui filment directement l’œil
+\item une caméra qui filme ce que voit l’utilisateur
+\item plusieurs illuminateurs permettant d’éclairer l’œil
+\item un capteur infrarouge
+\end{itemize}
 
 \begin{figure}[h]
   \centering
@@ -15,9 +24,7 @@ Le suivi de l’œil (aussi appelé « eye tracking ») a de nombreuse applicati
   \label{fig:TG}
 \end{figure}
 
-Les Tobbi Glasses sont des lunettes capables de filmer et d’enregistrer le mouvement des yeux. Elles peuvent ainsi savoir en temps réel ce que l’utilisateur fixe et voit.
-Ces lunettes sont équipées de caméras filmant directement l’œil, d’une caméra filmant ce que voit l’utilisateur, d’illuminateur permettant d’éclairer l’œil et enfin d’un capteur infrarouge (cf. figure \ref{fig:TG}).
-Ce dernier permet au système de connaitre la position de la tête et de l’utilisateur dans l’espace, à l’aide de d’émetteur infrarouge balisant la zone que regarde l’utilisateur. Ces émetteurs communiquent donc avec les lunettes, permettant de localiser spatialement l’utilisateur et de calculer la position de sa tête (cf. figure \ref{fig:Emetteur}). 
+Le capteur infrarouge permet au système de connaitre la position de la tête de l’utilisateur dans l’espace à l’aide d’émetteurs infrarouges balisant la zone qu'il regarde (cf. figure \ref{fig:Emetteur}).
 
 \begin{figure}[H]
   \centering
@@ -58,14 +65,27 @@ Le prix n’est pas communiqué sur le site internet, mais il semblerait qu’il
 
 PUPIL est un projet développé par trois étudiants du MIT. Tout comme les Tobbi Glasses il peut capter et enregistrer les mouvements effectués par l’œil de l’utilisateur.
 
-Le principe de fonctionnement est basé sur deux caméras,  la première permettant d’enregistrer les mouvements de l’œil, et donc de retrouver par la suite la position de la pupille et la seconde filmant ce qu’est sensé voir l’utilisateur et permettant en utilisant les données de la première caméra de connaitre la direction du regard de l’utilisateur.
-Deux notions sont donc à distinguer : la position de la pupille et la direction du regard. La première nous aidant à déduire la seconde. L’avantage de cette méthode est l’utilisation de caméra classique afin de détecter la direction du regard. Il n’est ici pas obligatoire d’utiliser la réflexion d’une lumière infra-rouge dans l’œil de l’utilisateur.
+Le principe de fonctionnement est basé sur deux caméras. La première permet d’enregistrer les mouvements de l’œil, et donc de retrouver par la suite la position de la pupille. La seconde filme ce qu’est censé voir l’utilisateur et permet de connaitre la direction du regard de l’utilisateur en utilisant les données de la première caméra.
+Deux notions sont donc à distinguer : la position de la pupille et la direction du regard. La première nous aide à déduire la seconde. L’avantage de cette méthode est l’usage d'une caméra classique afin de détecter la direction du regard. Il n’est ici pas obligatoire d’employer la réflexion d’une lumière infra-rouge dans l’œil de l’utilisateur.
 
 D’un point de vue matériel, les deux caméras utilisées sont très différentes.
-Celle enregistrant le mouvement des yeux est une caméra basse résolution (640*480 à 30 fps) avec un filtre infrarouge (la  Microsoft LifeCam HD-6000 est recommandée). La caméra filmant le monde alentour est possède quant à elle une grande résolution (1920*1080, la Logitech HD 1080p Webcams est recommandée).
+Celle enregistrant le mouvement des yeux est une caméra basse résolution (640*480 à 30 fps) avec un filtre infrarouge (la  Microsoft LifeCam HD-6000 est recommandée). La caméra qui filme le monde alentour possède quant à elle une grande résolution (1920*1080, la Logitech HD 1080p Webcams est recommandée).
 PUPIL peut être acheté pour la somme de 380 \euro{}.
 
 \subsection{Systèmes sans contact}
+
+\subsubsection{Tobii X2-30\&60}
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[scale=1]{TobiiX2}
+  \caption{Tobii X2-30\&60}
+  \label{fig:TobiiX2}
+\end{figure}
+
+Autre produit créé par Tobii, le X2 rentre dans les systèmes d’oculométrie sans contact. Ne mesurant que 184 mm, il se branche directement en USB. Il est très facile d’utilisation et s'adapte à de nombreux supports (ordinateurs portables, tablettes, télévisions...).
+Cet outil ne permet pas de contrôler le système sur lequel il est branché mais d’enregistrer ce que l’utilisateur regarde afin d’obtenir des statistiques.
+La détection de la direction du regard se fait aussi à l’aide de la réflexion causée par des LEDs infrarouges sur la cornée du sujet. Combiné avec la localisation de la pupille, le système peut en déduire la direction du regard de l’utilisateur. Encore une fois l’algorithme n’est malheureusement jamais décrit. Cependant la précision de l’appareil permet une précision d’environ 0.34° sur la direction du regard du sujet. 
 
 \subsubsection{Eye Charm}
 
@@ -88,42 +108,30 @@ Le logiciel compte plusieurs extensions pour étendre les possibilités de contr
 \item les jeux World of Warcraft et Minecraft
 \end{itemize}
 
-Certaines fonctionnalités, comme le zoom ou le retour à la page précédente peuvent nécessiter une action supplémentaire, non réalisée par les yeux. Pour cela, il est possible d’appuyer sur une touche du clavier ou d’utiliser une commande vocable, prise en charge par la Kinect. 
-Un kit de développement a été prévu pour que les utilisateurs puissent développer eux-mêmes des applications à l’aide de Qt Creator, Visual Studio, et les langages C, C++, C\# et Java. 
+Certaines fonctionnalités, comme le zoom ou le retour à la page précédente peuvent nécessiter une action supplémentaire, non réalisée par les yeux. Pour cela, il est possible d’appuyer sur une touche du clavier ou d’utiliser une commande vocale, prise en charge par la Kinect. 
+Un kit de développement a été prévu pour que les utilisateurs puissent développer eux-mêmes des applications à l’aide de Qt Creator, Visual Studio, et les langages C, C++, C\# et Java.
 
 \subsubsection{Robust Eye and Pupil Detection Method for Gaze Tracking}
+\label{SystSC}
 
-\begin{figure}[h]
+\begin{figure}[H]
   \centering
   \includegraphics[scale=0.6]{Experimental}
   \caption{Robust Eye and Pupil Detection Method for Gaze Tracking}
   \label{fig:Experimental}
 \end{figure}
 
-Ce système est intéressant car contrairement aux précédents il n’est pas directement embarqué sur l’utilisateur. La détection des yeux ce fait à l’aide de deux caméras. Ces deux caméras sont motorisées et peuvent donc tourner sur elle-même ou s’orienter vers le haut ou le bas. 
-Une caméra dite wide-view film l’utilisateur dans son intégralité. Dans les faits cette caméra permet de repérer le visage de l’utilisateur, puis la position de son œil grâce à deux algorithmes de reconnaissance faciale, l’Adaboost et le CAMShift. Une fois l’œil détecté, sa position est transmise à la seconde caméra dite narrow-view (d’une résolution de 1600x1200 réduite à du 240x320 pour améliorer le temps de calcul), qui va ainsi pouvoir bouger pour avoir l’œil de l’utilisateur dans son champ. Cette caméra permet d’obtenir un gros plan de l’œil contrairement à la première qui ne sert qu’à repérer l’utilisateur. Une fois l’œil dans le champ de vision de la caméra, la direction de celui-ci est calculé à l’aide du centre de la pupille et des réflexions spéculaires créées sur l’œil de l’utilisateur par quatre « near-infrared illuminators », eux même placés aux quatre coins de l’écran que regarde l’utilisateur. Ici encore l’algorithme de calcul reste flou.
+Ce système est intéressant car il n’est pas directement embarqué sur l’utilisateur. La détection des yeux se fait à l’aide de deux caméras. Ces dernières sont motorisées et peuvent donc tourner sur elle-même ou s’orienter vers le haut ou le bas. 
+Une caméra dite wide-view filme l’utilisateur dans son intégralité. Dans les faits cette caméra permet de repérer son visage, puis la position de son œil grâce à deux algorithmes de reconnaissance faciale (l’Adaboost et le CAMShift). Une fois l’œil détecté, sa position est transmise à la seconde caméra dite narrow-view (d’une résolution de 1600x1200 réduite à du 240x320 pour améliorer le temps de calcul). Elle va pouvoir zoomer sur l’œil et ainsi obtenir un gros plan, tandis que la première ne sert qu’à repérer l’usager. Une fois l’œil dans le champ de vision de la caméra, la direction de celui-ci est calculée à l’aide du centre de la pupille et des réflexions spéculaires créées sur l’œil par quatre « near-infrared illuminators », eux même placés aux quatre coins de l’écran que regarde l’utilisateur. Ici encore l’algorithme de calcul reste flou.
 
-D’un point de vue logiciel, cette étude a utilisé du C++ et la librairie OpenCV. Tous les calculs sont effectués directement sur un ordinateur classique équipé d’un processeur Intel Core 2 Quad 2.3 GHz et de 4 GB.
+D’un point de vue logiciel, cette méthode emploie du C++ et la librairie OpenCV. Tous les calculs sont effectués directement sur un ordinateur classique équipé d’un processeur Intel Core 2 Quad 2.3 GHz et de 4 GB.
 N’étant qu’un sujet de thèse, ce montage n’est pas en vente.
-
-\subsubsection{Tobii X2-30\&60}
-
-\begin{figure}[h]
-  \centering
-  \includegraphics[scale=1]{TobiiX2}
-  \caption{Tobii X2-30\&60}
-  \label{fig:TobiiX2}
-\end{figure}
-
-Autre produit créé par Tobii, le X2 rentre dans les systèmes d’oculométrie sans contacts. Ne mesurant que 184 mm, et ce branchant directement en USB il est très facile d’utilisation et adaptable à  de nombreux support (Ordinateurs portables, tablettes, télévisions etc.)
-Cet outil ne permet pas de contrôler le système sur lequel il est branché mais d’enregistrer ce que l’utilisateur regarde afin de d’obtenir des statistiques.
-La détection de la direction du regard se fait aussi à l’aide de la réflexion causée par des LEDs infrarouges sur la cornée du sujet. Combiné avec la localisation de la pupille, le système peut en déduite la direction du regard de l’utilisateur. Encore une fois l’algorithme n’est malheureusement jamais décrit. Cependant la précision de l’appareil permet une précision d’environ 0.34° sur la direction du regard du sujet.
 
 \section{La détection de pupilles}
 
 \subsection{L’œil}
 
-Il est important de commencer par un rappel des caractéristiques biologiques de l’œil afin de permettre au lecteur d’avoir certaines notions de bases qui lui permettront de mieux appréhender les différentes problématiques de la détection de pupilles.
+Il est important de commencer par un rappel des caractéristiques biologiques de l’œil. Le lecteur acquerra certaines notions de bases qui lui permettront de mieux appréhender les différentes problématiques de la détection de pupilles.
 La figure \ref{fig:PartiesOeil} nous présente les différentes parties de l’œil.
 
 \begin{figure}[H]
@@ -152,7 +160,7 @@ Nous allons maintenant nous intéresser à la capture d’une image d’un œil,
 
 \subsection{Caractéristiques d’une image d’un œil acquise par caméra traditionnelle}
 
-Il existe deux types de caméras pour acquérir une image d’un œil : la caméra traditionnelle et la caméra infrarouge. Alors que la caméra traditionnelle permet de capturer le spectre de couleurs visible par l’œil humain, la caméra infrarouge, de son côté, permet de capter les ondes infrarouges de la lumière naturelle. (Voir figure \ref{fig:SpectreLumiere}). Cependant, la lumière naturelle ne comprend que très peu de composantes infrarouges. Ainsi, il est souvent nécessaire de soumettre l’objet d’étude (l’œil pour notre projet) à une source de lumière infrarouge supplémentaire afin d’améliorer la qualité et la luminosité de l’image acquise. Néanmoins, la caméra infrarouge permet d’éviter la majorité des problèmes de réflexion rencontrés par une caméra traditionnelle. (Nous pouvons voir figure \ref{fig:CaptureOeilTrad} et figure \ref{fig:CaptureOeilInfra} les différentes types d’image).
+Il existe deux types de caméras pour acquérir l'image d’un œil : la caméra traditionnelle et la caméra infrarouge. Alors que la caméra traditionnelle permet de capturer le spectre de couleurs visibles par l’œil humain, la caméra infrarouge permet de capter les ondes infrarouges de la lumière naturelle (voir figure \ref{fig:SpectreLumiere}). Cependant, la lumière naturelle ne comprend que très peu de composantes infrarouges. Ainsi, il est souvent nécessaire de soumettre l’objet d’étude (l’œil pour notre projet) à une source de lumière infrarouge supplémentaire afin d’améliorer la qualité et la luminosité de l’image acquise. La caméra infrarouge permet d’éviter la majorité des problèmes de réflexion rencontrés par une caméra traditionnelle. Nous pouvons voir figure \ref{fig:CaptureOeilTrad} et figure \ref{fig:CaptureOeilInfra} les différents types d’image.
 
 \begin{figure}[h]
   \centering
@@ -179,7 +187,7 @@ Il existe deux types de caméras pour acquérir une image d’un œil : la camé
 
 \subsubsection{Ombres}
 
-La première difficulté rencontrée lors de la détection de pupille par caméra traditionnelle est la présence d’ombre dû aux cils (voir figure \ref{fig:ZoneOmbre}). Cet ombrage est dû à un angle trop grand entre la source de lumière et l’axe de la pupille. Afin de réduire ce phénomène au maximum, une attention particulière doit être portée au positionnement et à l’axe de la source de lumière.
+La première difficulté rencontrée lors de la détection de pupilles par caméra traditionnelle est la présence de l'ombre des cils (voir figure \ref{fig:ZoneOmbre}). Cet ombrage est dû à un angle trop grand entre la source de lumière et l’axe de la pupille. Afin de réduire ce phénomène au maximum, une attention particulière doit être portée au positionnement et à l’axe de la source de lumière.
 
 \begin{figure}[h]
   \centering
@@ -190,15 +198,14 @@ La première difficulté rencontrée lors de la détection de pupille par camér
 
 \subsubsection{Reflets}
 
-La surface de l’œil étant lisse et recouverte par la cornée, structure transparente recouvrant et protégeant l’iris (figure \ref{fig:PartiesOeil}), les reflets émanent de l’œil sont considérables. 
-L’intensité des reflets sont fonctions de l’intensité lumineuse dégagée par la scène. Plus la scène sera lumineuse, plus elle sera reflétée dans l’œil.
+La surface de l’œil étant lisse et recouverte par la cornée, structure transparente recouvrant et protégeant l’iris (figure \ref{fig:PartiesOeil}), les reflets émanant de l’œil sont considérables. 
+L’intensité des reflets sont fonction de l’intensité lumineuse dégagée par la scène. Plus la scène sera lumineuse, plus elle sera reflétée dans l’œil.
 
-Le problème est que ces reflets sont gênants pour le traitement de l’image, et plus particulièrement pour la reconnaissance de la pupille. Par exemple, la figure \ref{fig:CaptureOeilTrad} présente un œil avec un reflet recouvrant une partie de la pupille et une partie de l’iris. Ainsi, la pupille n’est plus tout à fait ronde et cela peut poser problème lors de sa détection. 
+Cependant, ces reflets sont gênants pour le traitement de l’image, et plus particulièrement pour la reconnaissance de la pupille. Par exemple, la figure \ref{fig:CaptureOeilTrad} présente un œil avec un reflet recouvrant une partie de la pupille et une partie de l’iris. Ainsi, la pupille n’est plus tout à fait ronde et cela peut poser problème lors de sa détection. 
 
-Parmi les différents types de réflexions lumineuses, nous pouvons trouver les réflexions lumineuses ambiantes dues aux fenêtres, lampes et néons.
-Afin de réduire ce phénomène, une attention particulière devra être portée aux éclairages de la pièce. Cependant, il est important de noter qu’une réduction des sources lumineuses ambiantes n’est pas une solution car l’image perdrait en luminosité, en qualité, et son traitement n’en serait que plus difficile. La solution réside plus dans l’harmonisation de l’éclairage afin de ne pas créer de zone de réflexion.
+Une attention particulière devra être portée aux éclairages de la pièce afin d'éviter les réflexions lumineuses ambiantes dues aux fenêtres, lampes et néons.. Cependant, il est important de noter qu’une réduction des sources lumineuses n’est pas une solution car l’image perdrait en clarté, en qualité, et son traitement n’en serait que plus difficile. La solution réside plus dans l’harmonisation de l’éclairage afin de ne pas créer de zone de réflexion.
 
-Plusieurs approches sont possibles pour la résolution de ce problème de réflexion. Soit par l’application d’opérateurs morphologiques (La morphologie mathématique est une théorie et technique mathématique et informatique d'analyse. Son développement est inspiré des problèmes de traitement d'images, domaine qui constitue son principal champ d'application. Elle fournit en particulier des outils de filtrage, segmentation, quantification et modélisation d'images.) en dilatant puis érodant la zone atteinte par la réflexion, soit en considérant qu’un reflet possède des caractéristiques contraires à celles de la pupille. Une source lumineuse étant très claire, on peut définir des bornes de niveau de gris à partir de l’histogramme de l’image et effectuer une segmentation (opérations de traitement d’image). Le seuillage originale de l’image originale représentant la pupille ainsi que l’image arborant les zones de réflexions seront par la suite combinés afin de former une image où les trous provoqués par les sources lumineuses seront remplis.
+Plusieurs approches sont possibles pour la résolution de ce problème de réflexion : soit par l’application d’opérateurs morphologiques\footnote{La morphologie mathématique est une théorie et technique mathématique et informatique d'analyse. Son développement est inspiré des problèmes de traitement d'images, domaine qui constitue son principal champ d'application. Elle fournit en particulier des outils de filtrage, segmentation, quantification et modélisation d'images.} en dilatant puis érodant la zone atteinte par la réflexion, soit en considérant qu’un reflet possède des caractéristiques contraires à celles de la pupille. Une source lumineuse étant très claire, on peut définir des bornes de niveau de gris à partir de l’histogramme de l’image et effectuer une segmentation (opérations de traitement d’images). Le seuillage de l’image originale de la pupille et l’image arborant les zones de réflexions seront combinés afin de former une image où les trous provoqués par les sources lumineuses seront remplis.
 
 Il faut aussi noter que le port de verres correcteurs ou de lentilles accentue le phénomène de reflets.
 
@@ -206,14 +213,26 @@ Il faut aussi noter que le port de verres correcteurs ou de lentilles accentue l
 
 Il faut noter que si l’axe de la source de lumière correspond à celui des pupilles, il en résultera un effet d’yeux rouges qui peut être gênant pour le traitement de l’image et surtout la détection des pupilles. De plus, la taille des pupilles varie en fonction de l’intensité lumineuse présente. Il faudra donc veiller à ne pas imposer une source lumineuse trop importante afin d’avoir une taille de pupille suffisamment grande pour une bonne détection.
 
-\subsection{Traitement d’image}
+\subsection{Détection par éclairage infrarouge}
+\label{EclInfra}
+
+La détection de la pupille par illumination de l’œil avec des éclairages infrarouges se décline en deux grandes méthodes : la méthode dite de la pupille lumineuse (brigth pupil) et celle de la pupille noire (dark pupil). Suivant la position de l’éclairage infrarouge la pupille aura des propriétés optiques différentes. Si l’illumination infrarouge est coaxiale avec l’axe optique de la caméra alors la pupille apparaitra totalement blanche (bright pupil). Au contraire si la source lumineuse est décalée (toujours par rapport à l’axe optique), alors la pupille apparaitra noire (dark pupil) et l’on pourra voir distinctement les reflets de la source lumineuse infrarouge sur la cornée du sujet.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale=1]{BrightPupil}
+  \caption{Effet black et bright pupil}
+  \label{fig:BrightPupil}
+\end{figure}
+
+\subsection{Traitement d’images}
 
 \subsubsection{Segmentation}
 
-La segmentation (aussi appelée Clustering) est une étape de base du traitement d’image qui a pour but de séparer différentes zones homogènes d’une image en groupes (clusters) dont les membres ont en commun diverses propriétés (intensité, couleur, texture, etc.). En d’autres mots, cette opération a pour but de rassembler des pixels entre eux suivant des critères prédéfinis. Les pixels sont ainsi regroupés en régions, qui constituent un pavage ou une partition de l'image. Il peut s'agir par exemple de séparer les objets du fond. On peut regrouper les différentes méthodes de segmentation en deux catégories : la segmentation non supervisées, qui vise à séparer automatiquement l’image en différents clusters naturels (sans aucune connaissance préalable des classes) ; et la segmentation supervisée, qui s’opère à partir de la connaissance de chacune des classes définies par un approche probabiliste. Concernant les méthodes de segmentation non supervisée, nous nous intéresserons à deux méthodes : le Fuzzy C-means et le k-means. 
+La segmentation (aussi appelée Clustering) est une étape de base du traitement d’images qui a pour but de séparer différentes zones homogènes d’une image en groupes (clusters) dont les membres ont en commun diverses propriétés (intensité, couleur, texture...). En d’autres mots, cette opération rassemble des pixels entre eux suivant des critères prédéfinis. Les pixels sont ainsi regroupés en régions, qui constituent un pavage ou une partition de l'image. Il peut s'agir par exemple de séparer les objets du fond. On peut regrouper les différentes méthodes de segmentation en deux catégories : la segmentation non supervisée, qui vise à séparer automatiquement l’image en différents clusters naturels (sans aucune connaissance préalable des classes) ; et la segmentation supervisée, qui s’opère à partir de la connaissance de chacune des classes définies par une approche probabiliste. Concernant les méthodes de segmentation non supervisée, nous nous intéresserons à deux méthodes : le Fuzzy C-means et le k-means. 
 
 \subsubsection*{Description des algorithmes}
-Fuzzy C-Means (FCM) est un algorithme de classification non-supervisée floue. Il introduit la notion d’ensemble flou dans la définition des classes : chaque point (pixel) dans l’ensemble des données appartient à chaque cluster avec un certain degré d’appartenance, et tous les clusters sont caractérisés par leur centre de gravité. Ainsi, il permet d’obtenir une partition floue de l’image en donnant à chaque pixel un degré d’appartenance compris entre 0 et 1 à un cluster donné. Le cluster auquel est associé un pixel est celui dont le degré d’appartenance est le plus élevé.
+Fuzzy C-Means (FCM) est un algorithme de classification non supervisée floue. Il introduit la notion d’ensemble flou dans la définition des classes : chaque point (pixel) dans l’ensemble des données appartient à chaque cluster avec un certain degré d’appartenance, et tous les clusters sont caractérisés par leur centre de gravité. Ainsi, il permet d’obtenir une partition floue de l’image en donnant à chaque pixel un degré d’appartenance compris entre 0 et 1 à un cluster donné. Le cluster auquel est associé un pixel est celui dont le degré d’appartenance est le plus élevé.
 
 Les principales étapes de l’algorithme Fuzzy C-means sont :
 \begin{enumerate}
@@ -223,7 +242,7 @@ Les principales étapes de l’algorithme Fuzzy C-means sont :
 \item Calcul du critère de minimisation et retour à l’étape 2 s’il y a non convergence de critère.
 \end{enumerate}
 \paragraph{}
-L’algorithme k-means est l’algorithme de Clustering le plus connu et le plus utilisé (simple à mettre en œuvre). Il permet de partitionner les pixels d’une image en K clusters. L’algorithme k-means ne crée qu’un seul niveau de clusters. L’algorithme renvoie une partition des données, dans laquelle les objets à l’intérieur de chaque cluster sont aussi proches que possibles les uns des autres et aussi loin que possible des objets des autres clusters. Chaque cluster de la partition est défini par ses objets et son centroïde. Le k-means est un algorithme itératif qui minimise la somme des distances entre chaque objet et le centroïde de son cluster. La position initiale des centroïdes conditionne le résultat final, de sorte que les centroïdes doivent être initialement placés le plus loin possible les uns des autres de façon à optimiser l’algorithme. K-means réitère ses opérations jusqu’à ce que la somme ne puisse plus diminuer. Le résultat est un ensemble de clusters compacts et clairement séparés, à condition d’avoir choisi la bonne valeur K du nombre de clusters. Les principales étapes de l’algorithme k-means sont :
+L’algorithme k-means est l’algorithme de Clustering le plus connu et le plus utilisé (simple à mettre en œuvre). Il permet de partitionner les pixels d’une image en K clusters. L’algorithme k-means ne crée qu’un seul niveau de clusters. Il renvoie une partition des données, dans laquelle les objets à l’intérieur de chaque cluster sont aussi proches que possible les uns des autres et aussi loin que possible des objets des autres clusters. Chaque cluster de la partition est défini par ses objets et son centroïde. Le k-means est un algorithme itératif qui minimise la somme des distances entre chaque objet et le centroïde de son cluster. La position initiale des centroïdes conditionne le résultat final, de sorte qu'ils doivent être initialement placés le plus loin possible les uns des autres de façon à optimiser l’algorithme. K-means réitère ses opérations jusqu’à ce que la somme ne puisse plus diminuer. Le résultat est un ensemble de clusters compacts et clairement séparés, à condition d’avoir choisi la bonne valeur K du nombre de clusters. Les principales étapes de l’algorithme k-means sont :
 \begin{enumerate}
 \item Choix aléatoire de la position initiale des K clusters.
 \item (Ré-)Affecter les objets à un cluster suivant un critère de minimisation des distances (généralement selon une mesure de distance euclidienne).
@@ -234,20 +253,20 @@ L’algorithme k-means est l’algorithme de Clustering le plus connu et le plus
 Statistics Toolbox implémentée sous MatLab 7 contient la fonction kmeans.m, facile à prendre en main et bien documentée et Fuzzy Logic Toolbox contient fcm.m.
 
 \subsubsection*{Comparaison}
-Il apparait que ces deux algorithme sont assez efficaces pour des images couleurs et permettent une bonne segmentation. Cependant, lors de la présence de défauts (reflets, ombres, …), la segmentation parait correcte (elle ne permet pas une bonne détection des caractères par OCR Optical Character Recognition, ce qui ne nous intéresse pas). Enfin, il apparait que ces algorithmes ne sont pas adaptés à des images contenant un grand nombre d’objets (au niveau du temps de calcul). La méthode FCM semble plus efficace pour la haute résolution, et au contraire, k-means est plus adaptés aux images à faible résolution.
+Il apparait que ces deux algorithmes sont assez efficaces pour des images couleurs et permettent une bonne segmentation. Cependant, lors de la présence de défauts (reflets, ombres...), la segmentation parait correcte (elle ne permet pas une bonne détection des caractères par Optical Character Recognition OCR, ce qui ne nous intéresse pas). Enfin, il apparait que ces algorithmes ne sont pas adaptés à des images contenant un grand nombre d’objets (au niveau du temps de calcul). La méthode FCM semble plus efficace pour la haute résolution, et au contraire, k-means convient plus aux images à faible résolution.
 
 \subsubsection{Traitement de l’image pour la détection de pupilles}
 
-La détection des pupilles est composée de plusieurs étapes et peut être codée à l’aide de plusieurs méthodes différentes en fonction de la complexité choisie. Certaines méthodes sont plus complexe et meilleures mais plus longue à réaliser (au niveau du temps de calcul). Pour notre projet, nous avons besoin de faire du traitement d’image en temps réel donc nous devrons faire attention à la complexité de notre algorithme. Les différentes étapes de la détection de la pupille sont : 
+La détection des pupilles est composée de plusieurs étapes et peut être codée à l’aide de plusieurs méthodes différentes en fonction de la complexité choisie. Certaines méthodes sont plus complexes et meilleures mais plus longues à réaliser (au niveau du temps de calcul). Pour notre projet, nous avons besoin de faire du traitement d’images en temps réel donc nous devrons faire attention à la complexité de notre algorithme. Les différentes étapes de la détection de la pupille sont : 
 \begin{enumerate}
-\item Filtrage du bruit (filtre médian, ...) 
-\item Prétraitement (égalisation histogramme + seuillage bas pour supprimer le reflet) 
-\item Extraction de contour (filtre variance, ...) 
-\item Recherche des cercles/ellipses (Hough)
-\item Discrimination du cercle de la pupille (couleur, position, surface, ...) 
+\item Filtrage du bruit (filtre médian...).
+\item Prétraitement (égalisation histogramme + seuillage bas pour supprimer le reflet).
+\item Extraction de contour (filtre variance, ...).
+\item Recherche des cercles/ellipses (Hough).
+\item Discrimination du cercle de la pupille (couleur, position, surface, ...).
 \end{enumerate}
 \paragraph{}
-Une première méthode de détection de la pupille, développé par Jérôme Schmaltz de l’Ecole de Technologie Supérieure de Montréal, repose sur le principe décrit figure \ref{fig:TraitementImage}.
+Une première méthode de détection de la pupille, développée par Jérôme Schmaltz de l’Ecole de Technologie Supérieure de Montréal, repose sur le principe décrit figure \ref{fig:TraitementImage}.
 \begin{figure}[h]
   \centering
   \includegraphics[scale=1]{TraitementImage}
@@ -258,11 +277,11 @@ Une première méthode de détection de la pupille, développé par Jérôme Sch
 \subsubsection*{Suppression de surplus de contours, atténuation du bruit}
 \label{Filtre}
 
-Tout d’abord, il est nécessaire de réduire le bruit occasionné par la caméra elle-même ainsi que le bruit engendré par le transfert des données ainsi que leur compression. Différents filtres peuvent être utilisés pour réduire ce, même si son application altérera les contours de l’image. 
+Tout d’abord, il est nécessaire de réduire le bruit occasionné par la caméra, le bruit engendré par le transfert des données et leur compression. Différents filtres peuvent être utilisés, même si leur application altérera les contours de l’image. 
 
 \subsubsection*{Filtre Moyenneur}
 
-Ce filtre lisseur part du principe que la valeur d'un pixel est relativement similaire à son voisinage. Il fait donc en sorte que chaque pixel est remplacé par la moyenne pondérée de ses voisins. Si on applique un filtre moyenneur de taille $\lambda$=3, cela signifie qu'on additionne la valeur de tous les pixels du voisinage du pixel traité. On obtient ainsi la matrice de convolution suivante :
+Ce filtre lisseur part du principe que la valeur d'un pixel est relativement similaire à son voisinage. Il fait donc en sorte que chaque pixel soit remplacé par la moyenne pondérée de ses voisins. Si on applique un filtre moyenneur de taille $\lambda$=3, cela signifie qu'on additionne la valeur de tous les pixels du voisinage du pixel traité. On obtient ainsi la matrice de convolution suivante :
 $$h = \frac{1}{9}
 \begin{bmatrix}
 	1 & 1 & 1 \\
@@ -283,7 +302,7 @@ $$h = \frac{1}{10}
 
 \subsubsection*{Coupe Médiane}
 
-Une coupe médiane d’atténuer le bruit d’une image. Le principe est de prendre dans le voisinage la valeur la moins extrême. Pour cela, on crée une liste des valeurs du voisinage, puis on trie cette liste et on prend la valeur qui se trouve au milieu de la liste. Cette valeur "médiane" est la plus éloignée des deux extrêmes.
+Une coupe médiane permet d’atténuer le bruit d’une image. Le principe est de prendre dans le voisinage la valeur la moins extrême. Pour cela, on crée une liste des valeurs du voisinage, puis on trie cette liste et on prend la valeur qui se trouve au milieu de la liste. Cette valeur "médiane" est la plus éloignée des deux extrêmes.
 
 \subsubsection*{Diffusion}
 
@@ -292,17 +311,17 @@ Le principe est d’atténuer les différences d'intensité entre le pixel centr
 \subsubsection*{Filtre Gaussien}
 \label{FiltreGaussien}
 
-Le filtre Gaussien est un filtre isotrope spécial avec des propriétés mathématiques bien précises. $\sigma$ caractérise l'écart type soit la largeur du filtre : autrement dit la largeur du filtre en partant du point central est égal à 3$\sigma$ arrondi à l'entier supérieur. En deux dimensions, le filtre de Gauss est le produit de deux fonctions gaussiennes, une pour chaque direction :
+Le filtre Gaussien est un filtre isotrope spécial avec des propriétés mathématiques bien précises. $\sigma$ caractérise l'écart type soit la largeur du filtre : autrement dit la largeur du filtre en partant du point central est égale à 3$\sigma$ arrondi à l'entier supérieur. En deux dimensions, le filtre de Gauss est le produit de deux fonctions gaussiennes, une pour chaque direction :
 
 $$g(x,y) = \frac{1}{2\pi\sigma^2}\cdot \mathrm{e}^{-\frac{x^2+y^2}{2\sigma^2}}$$
 
-L’effet de ce filtre sur l’image est assez similaire au filtre moyenneur, mais la moyenne est pondérée : les pixels près du centre ont un poids plus important que ceux que les autres. En général, un filtre Gaussien avec $\sigma$<1 est utilisé pour réduire le bruit, et si $\sigma$>1 c’est dans le but de flouter volontairement l'image. Il faut noter que plus $\sigma$ est grand, plus la cloche Gaussienne est large et plus le flou appliqué à l’image sera marqué.
+L’effet de ce filtre sur l’image est assez similaire au filtre moyenneur, mais la moyenne est pondérée : les pixels près du centre ont un poids plus important que les autres. En général, un filtre Gaussien avec $\sigma$<1 est utilisé pour réduire le bruit, et si $\sigma$>1 c’est dans le but de flouter volontairement l'image. Il faut noter que plus $\sigma$ est grand, plus la cloche Gaussienne est large, et plus le flou appliqué à l’image sera marqué.
 
 \subsubsection{Conversion en niveau de gris}
 
-La seconde étape du prétraitement consiste à convertir l’image RGB en niveau de gris. Cette conversion est nécessaire à l’utilisation des différents algorithmes qui seront ensuite utilisés car ils se basent sur des images en niveau de gris. On pourrait d’abord penser que le niveau de gris se calcul comme la somme des 3 pixels divisée par 3 : $Gris = \frac{R + G + B}{3}$
+La seconde étape du prétraitement consiste à convertir l’image RGB en niveau de gris. Cette conversion est nécessaire puisque les différents algorithmes se basent sur des images en niveau de gris. On pourrait d’abord penser que le niveau de gris se calcule comme la somme des 3 pixels divisée par 3 : $Gris = \frac{R + G + B}{3}$
 
-Cependant, d’après les recommandations de la commission internationale de l’éclairage devrait plutôt être de la forme : $Gris = 0.299R + 0.587G + 0.114B$
+Cependant, d’après les recommandations de la commission internationale de l’éclairage, il devrait plutôt être de la forme : $Gris = 0.299R + 0.587G + 0.114B$
 Nous pouvons voir figure \ref{fig:Conversion} le rendu de cette conversion.
 
 \begin{figure}[h]
@@ -316,7 +335,7 @@ Nous pouvons voir figure \ref{fig:Conversion} le rendu de cette conversion.
 
 \subsubsection*{Filtre de Canny}
 
-Il existe différentes méthodes de détection des contours. Des filtres peuvent être utilisés (voir paragraphe \ref{Filtre}). Nous nous intéresserons ici au meilleur filtre pour la détection de contours : le filtre de Canny. Il est considéré comme le meilleur car il offre un très bon compromis entre la réduction du bruit et la localisation des contours. D’ailleurs, il faut savoir qu’une réduction trop importante du bruit masque certains contours mais qu’une réduction trop faible peut laisser apparaitre trop de contours non significatifs. Ensuite, les différentes étapes du filtre de Canny sont :
+Il existe différentes méthodes de détection des contours. Des filtres peuvent être utilisés (voir paragraphe \ref{Filtre}). Le choix du filtre doit prendre en compte qu’une réduction trop importante du bruit masque certains contours, mais qu’une réduction trop faible peut laisser apparaitre trop de contours non significatifs. Nous nous intéresserons ici au meilleur filtre pour la détection de contours : le filtre de Canny. Il est considéré comme tel car il offre un très bon compromis entre la réduction du bruit et la localisation des contours. Les différentes étapes du filtre de Canny sont :
 \begin{itemize}[label=\textbullet,font=\color{black}]
 \item Réduction du bruit grâce à la convolution d’un filtre passe-bas Gaussien, ce qui permet de tamiser les contours.
 \item Eclaircissement des contours grâce à l’utilisation des valeurs des amplitudes des gradients ainsi que leurs directions. Pour cela, nous utilisons les formules \eqref{eq:g} et \eqref{eq:theta}.
@@ -343,7 +362,7 @@ Nous pouvons voir que l’amplitude est proportionnelle à $g_x$ et $g_y$, ce qu
 \item Localisation : elle repose sur l’identification des contours significatifs à partir des amplitudes des gradients précédemment calculés. 
 \end{itemize}
 
-La méthode triviale consiste à appliquer un seuillage aux gradients calculés. Cependant, l’application d’un seuil trop faible implique la prise en compte de tous les contours, y compris les contours non significatifs (prise en compte les gradients maximaux engendrés par le bruit). De plus, l’application d’un seuil trop élevé, quant à elle, engendre une fragmentation des chaines de pixels qui forment des contours significatifs  de l’image. Ainsi, le seuil par hystérésis offre une bonne solution à ce problème. 
+La méthode triviale consiste à appliquer un seuillage aux gradients calculés. Cependant, l’application d’un seuil trop faible implique la prise en compte de tous les contours, y compris les contours non significatifs (prise en compte des gradients maximaux engendrés par le bruit). De plus, l’application d’un seuil trop élevé engendre une fragmentation des chaines de pixels qui forment des contours significatifs de l’image. Ainsi, le seuil par hystérésis offre une bonne solution à ce problème. 
 
 La figure \ref{fig:DetectionContours} illustre l’idée de détection des contours grâce au filtre de Canny.
 \begin{figure}[H]
@@ -355,7 +374,7 @@ La figure \ref{fig:DetectionContours} illustre l’idée de détection des conto
 
 \subsubsection*{Filtre de Sobel}
 
-L'opérateur calcule le gradient de l'intensité de chaque pixel. Ceci indique la direction de la plus forte variation du clair au sombre, ainsi que le taux de changement dans cette direction. On connaît alors les points de changement soudain de luminosité, correspondant probablement à des bords, ainsi que l'orientation de ces bords.
+L'opérateur calcule le gradient de l'intensité de chaque pixel. Celui-ci indique la direction de la plus forte variation (du clair au sombre), ainsi que le taux de changement dans cette direction. On connaît alors les points de changement soudain de luminosité, correspondant probablement à des bords, ainsi que l'orientation de ces bords.
 L'opérateur utilise des matrices de convolution. La matrice (généralement de taille 3×3) subit une convolution avec l'image pour calculer des approximations des dérivées horizontale et verticale. Soit $A$ l'image source, $G_x$ et $G_y$ deux images qui en chaque point contiennent des approximations respectivement de la dérivée horizontale et verticale de chaque point. Ces images sont calculées comme suit:
 
 $$G_x = 
@@ -384,7 +403,7 @@ On peut également calculer la direction du gradient comme suit : $\Theta = atan
   \label{fig:FiltreSobel}
 \end{figure}
 
-Enfin, d’autres filtres tels que le filtre de Kirsch, le filtre MDIF, filtre de Prewitt ou encore celui de Roberts, permettent aussi la détection de contours, mais nous ne les détaillerons pas ici.
+Enfin, d’autres filtres tels que le filtre de Kirsch, le filtre MDIF, le filtre de Prewitt ou encore celui de Roberts, permettent aussi la détection de contours, mais nous ne les détaillerons pas ici.
 
 \subsubsection{Détection des centres}
 
@@ -397,7 +416,7 @@ Le principe de la détection des centres se base sur les deux étapes précéden
   \label{fig:Contour}
 \end{figure}
 
-Tracer une droite dans un accumulateur revient à incrémenter chaque cellule d’une matrice de un aux endroits où elle passe (voir figure \ref{fig:Accumulateur}).
+Tracer une droite dans un accumulateur revient à incrémenter chaque cellule d’une matrice aux endroits où elle passe (voir figure \ref{fig:Accumulateur}).
 
 \begin{figure}[h]
   \centering
@@ -417,7 +436,7 @@ Ainsi, suivant ce principe, les valeurs maximales de la matrice indiqueront les 
 
 \subsubsection{Seuillage}
 
-Le seuillage permet de désencombrer la matrice accumulateur d’informations superflues. En effet, nous recherchons les centres potentiels et ainsi, nous n’avons pas besoin de toutes les valeurs de l’accumulateur. En effet, il suffit d’appliquer un seuil et de garder les pixels ayant une valeur supérieur à ce seuil (les autres pixels seront mis à zéro) car se seront ceux qui représenteront les différents centres potentiels. 
+Le seuillage permet de désencombrer la matrice accumulateur des informations superflues. Nous recherchons les centres potentiels et ainsi nous n’avons pas besoin de toutes les valeurs de l’accumulateur. En effet, il suffit d’appliquer un seuil et de garder les pixels ayant une valeur supérieure à celui-ci (les autres pixels seront mis à zéro) car ils représenteront les différents centres potentiels. 
 
 Pour ce faire, nous pouvons par exemple utiliser un seuil du type :
 
@@ -459,11 +478,11 @@ Ainsi, l’application d’un chapeau mexicain sur l’accumulateur permet de co
 
 \subsubsection{Recherche des cercles}
 
-La recherche des cercles s’appuie sur la création d’accumulateurs et la transformée de Hough. En effet, pour une cercle de rayon inconnu, nous utilisons des accumulateurs en 3 dimensions : les deux premières servent à ranger les cordonnées x et y du centre du cercle et la troisième permet de ranger le rayon r du cercle. 
+La recherche des cercles s’appuie sur la création d’accumulateurs et la transformée de Hough. En effet, pour un cercle de rayon inconnu, nous utilisons des accumulateurs en 3 dimensions : les deux premières servent à ranger les coordonnées x et y du centre du cercle et la troisième permet de ranger le rayon r du cercle. 
 
 \begin{enumerate}
-\item On initialise les accumulateurs
-\item A partir de l’image des contours de Canny, on trace littéralement des cercles dans un des accumulateurs en faisant coïncider les centres des cercles avec les coordonnées du pixel de contours pour un rayon donné. La méthode de Bresenham pourra être employée afin de tracer plus efficacement les cercles dans l’accumulateur de Hough.
+\item On initialise les accumulateurs.
+\item A partir de l’image des contours de Canny, on trace littéralement des cercles dans un des accumulateurs en faisant coïncider les centres des cercles avec les coordonnées du pixel de contour pour un rayon donné. La méthode de Bresenham pourra être employée afin de tracer plus efficacement les cercles dans l’accumulateur de Hough.
 \item Comme on peut le voir figure \ref{fig:CerclesContours}, plusieurs cercles sont tracés (dans un accumulateur de rayon r) en suivant les contours de l’image de Canny. Nous pouvons voir que les cellules contenant les valeurs maximales coïncident avec des centres de cercles potentiels.
 
 \begin{figure}[H]
@@ -473,8 +492,8 @@ La recherche des cercles s’appuie sur la création d’accumulateurs et la tra
   \label{fig:CerclesContours}
 \end{figure}
 
-\item Ensuite, on peut diviser la zone d’intérêt de l’image en deux parties : partie droite et partie gauche du visage qui aborde les yeux. Pour chacune de ces parties, on applique un seuil aux accumulateurs d’Hough permettant de conserver les centres les coordonnées et rayons de cercles potentiels et on vérifie qu’ils font bien partie de l’accumulateur des cercles potentiels de l’étape de l’isolement des centres potentiels.
-\item Pour finir, une moyenne des positions et des rayons des cercles restant permet une identification des cercles entourant l’iris et la pupille (à gauche et à droite). Il ne reste plus qu’à conserver le cercle ayant le rayon le plus petit, correspondant à la pupille.
+\item Ensuite, on peut diviser la zone d’intérêt de l’image en deux parties : partie droite et partie gauche du visage. Pour chacune de ces parties, on applique un seuil aux accumulateurs d’Hough permettant de conserver les centres, les coordonnées et rayons de cercles potentiels et on vérifie qu’ils font bien partie de l’accumulateur des cercles potentiels de l’étape de l’isolement des centres potentiels.
+\item Pour finir, une moyenne des positions et des rayons des cercles restants permet une identification des cercles entourant l’iris et la pupille (à gauche et à droite). Il ne reste plus qu’à conserver le cercle ayant le rayon le plus petit, correspondant à la pupille.
 \end{enumerate}
 
 La figure \ref{fig:OpPupilles} résume cette démarche.
@@ -487,20 +506,13 @@ La figure \ref{fig:OpPupilles} résume cette démarche.
 \end{figure}
 
 \section{Méthode de détection de la direction du regard}
+\label{MethodeDirectionRegard}
 
 La direction du regard d’une personne peut être obtenue à l’aide de deux paramètres : 
-L’orientation du visage et l’orientation oculaire. La détection du visage permet de connaitre l’orientation globale de l’utilisateur et de vérifier que ses deux yeux sont bien en face de la caméra. Suivant l’orientation de la tête de l’utilisateur, une approximation de la direction du regard peut aussi être effectuée.
-La détection effectuée à l’aide de l’orientation oculaire approche la direction du regard à l’aide de propriétés géométriques et physiques de l’iris et de la pupille. Le problème principal réside dans le fait que cette étude est une étude locale, c’est-à-dire que la caméra filmant l’œil de l’utilisateur doit avoir un fort niveau de zoom, obligeant le sujet à rester immobile afin de ne pas sortir du champ de la caméra.
-Pour la détection de la pupille deux grandes méthodes existent, toutes deux basé sur l’illumination de l’œil par des éclairages infrarouges, la méthode dites de la pupille lumineuse (brigth pupil) et celle de la pupille noire (dark pupil). En effet suivant la position de l’éclairage infrarouge la pupille aura des propriétés optiques différentes. Si l’illumination infrarouge est coaxial avec l’axe optique de la caméra alors la pupille apparaitra totalement blanche (bright pupil), au contraire si la source lumineuse est décalée (toujours par rapport à l’axe optique), alors la pupille apparaitra noire (dark pupil) et l’on pourra voir distinctement les reflets de la source lumineuse infrarouge dans sur la cornée du sujet.
+L’orientation du visage et l’orientation oculaire. La détection du visage permet de connaitre l’orientation globale de l’utilisateur et de vérifier que ses deux yeux sont bien en face de la caméra. Suivant l’orientation de la tête de l’utilisateur, une approximation de la direction du regard peut aussi être réalisée.
+La détection effectuée à l’aide de l’orientation oculaire approche la direction du regard à l’aide de propriétés géométriques et physiques de l’iris et de la pupille. Le problème principal réside dans le fait que cette étude est une étude locale, c’est-à-dire que la caméra qui filme l’œil de l’utilisateur doit avoir un fort niveau de zoom, obligeant le sujet à rester immobile afin de ne pas sortir du champ de la caméra.
 
-\begin{figure}[H]
-  \centering
-  \includegraphics[scale=1]{BrightPupil}
-  \caption{Effet black et bright pupil}
-  \label{fig:BrightPupil}
-\end{figure}
-
-Les reflets ainsi détectés dans l’œil du sujet vont permettre de déterminer la direction du regard de l’utilisateur. En supposant la tête de l’utilisateur immobile, et en prenant comme référence le reflet créé par la lumière infrarouge sur la cornée, on peut déterminer la direction du regard en se servant du vecteur crée entre le reflet et le centre de la pupille (ou l’iris).( voir figure ci-dessous). Cependant cette méthode demande certains prérequis et notamment une calibration et ce avec chaque nouvelle utilisateur. Pour effectuer cette calibration, il est demandé au sujet de fixé quatre points (minimum), situés sur l’écran, afin d’obtenir des valeurs étalons (souvent les coins de l’écran), qui permettront de déduite la direction du regard par la suite.
+Les reflets détectés dans l’œil du sujet par la détection de pupille avec infrarouge (voir paragraphe \ref{EclInfra}) vont permettre de déterminer la direction du regard de l’utilisateur. En supposant la tête de l’utilisateur immobile, et en prenant comme référence le reflet formé par la lumière infrarouge sur la cornée, on peut déterminer la direction du regard en se servant du vecteur crée entre le reflet et le centre de la pupille (ou l’iris) (voir figure ci-dessous). Cependant cette méthode demande certains prérequis et notamment une calibration et ce avec chaque nouvel utilisateur. Pour effectuer cette calibration, il est demandé au sujet de fixer quatre points (minimum), situés sur l’écran, afin d’obtenir des valeurs étalons (souvent les coins de l’écran), qui permettront de déduire la direction du regard par la suite.
 
 \begin{figure}[H]
   \centering
@@ -509,9 +521,14 @@ Les reflets ainsi détectés dans l’œil du sujet vont permettre de détermine
   \label{fig:GazeDetection}
 \end{figure}
 
-Cette méthode présente toute de même deux défauts majeurs, l’impossibilité pour l’utilisateur de bouger la tête ou le corps, sous risque de devoir recommencer la calibration, et l’obligation de re-calibrer le système à chaque changement d’utilisateur.
+Cette méthode présente tout de même deux défauts majeurs : l’impossibilité pour l’utilisateur de bouger la tête ou le corps, sous risque de devoir recommencer la calibration, et l’obligation de re-calibrer le système à chaque changement d’utilisateur.
 
+\section{Solutions techniques et méthodes choisies} 
 
-Quelles sont les solutions connues (algorithmes, matériels, logiciels, comportements, stratégies) ? 
+Suite à l’état de l’art, la méthode d’eye tracking sans contact a été retenue (pas de système embarqué). Elle est similaire à celle de la partie \ref{SystSC} et semble plus facilement réalisable qu'un système utilisant des lunettes avec caméras embarquées. Ainsi, dans un premier temps, cette technique sera développée afin d’obtenir un système qui fonctionne correctement. Puis, le système pourra être perfectionné et, s’il reste du temps sur les délais fixés, la méthode utilisant des lunettes sera approfondie. 
 
-Que pourrait-on (ré)utiliser pour le projet ? 
+Pour l'approche sans contact, deux caméras seront utilisées. La première, la caméra dite "grand angle", permettra de filmer la scène dans son ensemble et de localiser le visage ainsi que certains de ses éléments morphologiques tels que les oreilles et la bouche. Elle transmettra ensuite les coordonnées spatiales du visage à la seconde caméra "petit angle". Cette dernière zoomera sur le visage (grâce aux coordonnées fournies) et effectuera un tracking des pupilles.  
+
+La détection de la pupille s’effectuera à l’aide de la méthode de la bright et de la black pupille. Les différentes étapes vues dans l’état de l’art seront respectées et des tests seront menés afin de déterminer la meilleure solution pour réaliser chaque étape.
+ 
+Le calcul de la direction du regard s’appuiera sur la méthode vue dans la partie \ref{MethodeDirectionRegard}. Des LEDs infrarouges, placées devant l’utilisateur, illumineront sa cornée, créant une réflexion spéculaire exploitable pour estimer la direction du regard. La caméra "petit angle" devra ainsi être munie d’un filtre infrarouge. Ce filtre pourra être réalisé à l’aide d’une pellicule photo placée devant l’objectif de la caméra.  

@@ -9,6 +9,8 @@
 \renewcommand{\bibname}{Références bibliographiques}  % des jolis noms pour les sections bibliographiques
 \renewcommand{\glossaryname}{Glossaire}               % et glossaire
 \setcounter{secnumdepth}{3}
+\AddThinSpaceBeforeFootnotes % notes de bas de page
+\FrenchFootnotes
 
 %----------------------------------------------------------------------------------------
 %	 PAGE DE TITRE
@@ -19,7 +21,6 @@
 %	COPYRIGHT PAGE
 %----------------------------------------------------------------------------------------
 \newpage
-\input{CopyrightPage}
 
 %----------------------------------------------------------------------------------------
 %	SOMMAIRE
@@ -32,7 +33,7 @@
 %----------------------------------------------------------------------------------------
 \frontmatter      % La partie non numérotée préalable au document principal
 
-\input{Remerciements}
+%\input{Remerciements}
 
 \mainmatter       % La partie principale du document
 
@@ -74,45 +75,45 @@
 %----------------------------------------------------------------------------------------
 %	PART VI 
 %----------------------------------------------------------------------------------------
-\part{Journal du projet}
-\input{DossierJustificatif}
+%\part{Journal du projet}
+%\input{DossierJustificatif}
 
 
 \appendix
-\part{Annexes}
-\chapter{Première annexe}
-\chapter{Deuxième annexe}
-\chapter{Troisième annexe}
+%\part{Annexes}
+%\chapter{Première annexe}
+%\chapter{Deuxième annexe}
+%\chapter{Troisième annexe}
 
 \backmatter % Partie finale du document, non numérotée
 
 %----------------------------------------------------------------------------------------
 %	BIBLIOGRAPHIE
 %----------------------------------------------------------------------------------------
-\addcontentsline{toc}{part}{Bibliographie}
+%\addcontentsline{toc}{part}{Bibliographie}
 %\bibliographystyle{apalike-fr}
-\bibliographystyle{plain-fr}
-\bibliography{bibliographie.bib}
-\nocite{*}
+%\bibliographystyle{plain-fr}
+%\bibliography{bibliographie.bib}
+%\nocite{*}
 
 %----------------------------------------------------------------------------------------
 %	INDEX
 %----------------------------------------------------------------------------------------
-\cleardoublepage
-\phantomsection
-\setlength{\columnsep}{0.75cm}
-\addcontentsline{toc}{part}{Index}
-\label{sec:index}
-\printindex
+%\cleardoublepage
+%\phantomsection
+%\setlength{\columnsep}{0.75cm}
+%\addcontentsline{toc}{part}{Index}
+%\label{sec:index}
+%\printindex
 
 %----------------------------------------------------------------------------------------
 %	GLOSSAIRE
 %----------------------------------------------------------------------------------------
-\cleardoublepage
-\phantomsection
-\setlength{\columnsep}{0.75cm}
-\addcontentsline{toc}{part}{Glossaire}
-\printglossaries
+%\cleardoublepage
+%\phantomsection
+%\setlength{\columnsep}{0.75cm}
+%\addcontentsline{toc}{part}{Glossaire}
+%\printglossaries
 
 %----------------------------------------------------------------------------------------
 
