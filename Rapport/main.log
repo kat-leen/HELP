@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.11.13)  6 DEC 2014 16:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.11.13)  7 DEC 2014 22:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1687,11 +1687,11 @@ File: images/BeteACornes.png Graphic file (type png)
 <use images/BeteACornes.png>
 Package pdftex.def Info: images/BeteACornes.png used on input line 9.
 (pdftex.def)             Requested size: 414.10608pt x 261.13495pt.
- <images/Pieuvre.png, id=471, 505.89pt x 457.71pt>
-File: images/Pieuvre.png Graphic file (type png)
 
-<use images/Pieuvre.png>
-Package pdftex.def Info: images/Pieuvre.png used on input line 16.
+<images/PieuvreV2.png, id=471, 505.89pt x 457.71pt>
+File: images/PieuvreV2.png Graphic file (type png)
+ <use images/PieuvreV2.png>
+Package pdftex.def Info: images/PieuvreV2.png used on input line 16.
 (pdftex.def)             Requested size: 455.29678pt x 411.9352pt.
 
 Overfull \hbox (39.88635pt too wide) in paragraph at lines 16--17
@@ -1726,8 +1726,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.31 
-      <./images/Pieuvre.png>] [31pdfTeX warning (ext4): destination with the sa
-me identifier (name{figure.3.3}) has been already used, duplicate ignored
+      <./images/PieuvreV2.png>] [31pdfTeX warning (ext4): destination with the 
+same identifier (name{figure.3.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -1785,9 +1785,9 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 File: images/Gantt.png Graphic file (type png)
  <use images/Gantt.png>
 Package pdftex.def Info: images/Gantt.png used on input line 38.
-(pdftex.def)             Requested size: 449.42365pt x 118.52295pt.
+(pdftex.def)             Requested size: 421.33305pt x 111.11485pt.
 
-Overfull \hbox (34.01321pt too wide) in paragraph at lines 38--39
+Overfull \hbox (5.92262pt too wide) in paragraph at lines 38--39
  [][] 
  []
 
@@ -1825,7 +1825,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 120.
  ) 
 Here is how much of TeX's memory you used:
  15056 strings out of 493117
- 218744 string characters out of 6135432
+ 218754 string characters out of 6135432
  376775 words of memory out of 5000000
  18009 multiletter control sequences out of 15000+600000
  18833 words of font info for 43 fonts, out of 8000000 for 9000
@@ -1856,7 +1856,7 @@ s/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2014/texmf-dist/fonts/
 type1/public/cm-super/sfrm2488.pfb></usr/local/texlive/2014/texmf-dist/fonts/ty
 pe1/public/cm-super/sfsl1200.pfb></usr/local/texlive/2014/texmf-dist/fonts/type
 1/public/cm-super/sfxc2488.pfb>
-Output written on main.pdf (46 pages, 5183808 bytes).
+Output written on main.pdf (46 pages, 5165304 bytes).
 PDF statistics:
  657 PDF objects out of 1000 (max. 8388607)
  517 compressed objects within 6 object streams
