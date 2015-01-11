@@ -42,7 +42,9 @@
 \contentsline {section}{\numberline {3.3}Fonctions principales du syst\IeC {\`e}me}{31}{section.3.3}
 \contentsline {chapter}{\numberline {4}Sp\IeC {\'e}cification fonctionnelle 3 axes}{33}{chapter.4}
 \contentsline {section}{\numberline {4.1}Raffinement FAST}{33}{section.4.1}
-\contentsline {part}{III\hspace {1em}Organisation}{35}{part.3}
-\contentsline {chapter}{\numberline {5}M\IeC {\'e}thodes de travail}{37}{chapter.5}
-\contentsline {chapter}{\numberline {6}Outils pour les \IeC {\'e}changes}{39}{chapter.6}
-\contentsline {chapter}{\numberline {7}R\IeC {\'e}partition des t\IeC {\^a}ches dans le temps}{41}{chapter.7}
+\contentsline {section}{\numberline {4.2}Sp\IeC {\'e}cification des donn\IeC {\'e}es}{34}{section.4.2}
+\contentsline {chapter}{\numberline {5}Architecture fonctionnelle}{35}{chapter.5}
+\contentsline {part}{III\hspace {1em}Organisation}{37}{part.3}
+\contentsline {chapter}{\numberline {6}M\IeC {\'e}thodes de travail}{39}{chapter.6}
+\contentsline {chapter}{\numberline {7}Outils pour les \IeC {\'e}changes}{41}{chapter.7}
+\contentsline {chapter}{\numberline {8}R\IeC {\'e}partition des t\IeC {\^a}ches dans le temps}{43}{chapter.8}

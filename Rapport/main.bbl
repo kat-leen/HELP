@@ -1,0 +1,46 @@
+\begin{thebibliography}{1}
+\expandafter\ifx\csname fonteauteurs\endcsname\relax
+\def\fonteauteurs{\scshape}\fi
+
+\bibitem{afis_accueil}
+\bgroup\fonteauteurs\bgroup {{AFIS}}\egroup\egroup{} :
+\newblock Accueil - notre métier: L'ingénierie système.
+\newblock \url{http://www.afis.fr/nm-is/default.aspx}, 2010.
+\newblock Accédé le 30 août 2014.
+
+\bibitem{bitouze2010latex}
+Denis \bgroup\fonteauteurs\bgroup Bitouzé\egroup\egroup{} et Jean-Côme
+  \bgroup\fonteauteurs\bgroup Charpentier\egroup\egroup{} :
+\newblock {\em LATEX, l’essentiel}.
+\newblock Pearson Education France, 2010.
+
+\bibitem{desgraupes2003latex}
+Bernard \bgroup\fonteauteurs\bgroup Desgraupes\egroup\egroup{} :
+\newblock {\em LATEX: apprentissage, guide et référence}.
+\newblock Vuibert informatique, 2003.
+
+\bibitem{lamport1985i1}
+Leslie \bgroup\fonteauteurs\bgroup Lamport\egroup\egroup{} :
+\newblock {\em \LaTeX---A Document}, volume 410.
+\newblock pub-AW, 1985.
+
+\bibitem{maguis2010redigez}
+Noël-Arnaud \bgroup\fonteauteurs\bgroup Maguis\egroup\egroup{} :
+\newblock {\em Rédigez des documents de qualité avec LaTeX}.
+\newblock Livre du Zéro, 2010.
+
+\bibitem{openclassroomLaTeX}
+Noël-Arnaud \bgroup\fonteauteurs\bgroup Maguis\egroup\egroup{} :
+\newblock Rédigez des documents de qualité avec latex.
+\newblock
+  \url{http://fr.openclassrooms.com/informatique/cours/redigez-des-documents-de-qualite-avec-latex},
+  2013.
+\newblock Accédé le 30 août 2014.
+
+\bibitem{sebastiani2002machine}
+Fabrizio \bgroup\fonteauteurs\bgroup Sebastiani\egroup\egroup{} :
+\newblock Machine learning in automated text categorization.
+\newblock {\em ACM computing surveys (CSUR)}, 34(1)\string:\penalty500\relax
+  1--47, 2002.
+
+\end{thebibliography}
