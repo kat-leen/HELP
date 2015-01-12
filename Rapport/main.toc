@@ -48,3 +48,11 @@
 \contentsline {chapter}{\numberline {6}M\IeC {\'e}thodes de travail}{39}{chapter.6}
 \contentsline {chapter}{\numberline {7}Outils pour les \IeC {\'e}changes}{41}{chapter.7}
 \contentsline {chapter}{\numberline {8}R\IeC {\'e}partition des t\IeC {\^a}ches dans le temps}{43}{chapter.8}
+\contentsline {part}{IV\hspace {1em}Journal du projet}{47}{part.4}
+\contentsline {chapter}{\numberline {9}Choix et justifications}{49}{chapter.9}
+\contentsline {section}{\numberline {9.1}\IeC {\'E}metteurs infrarouges}{49}{section.9.1}
+\contentsline {section}{\numberline {9.2}Cam\IeC {\'e}ras}{49}{section.9.2}
+\contentsline {subsection}{\numberline {9.2.1}Cam\IeC {\'e}ras \IeC {\guillemotleft }grand-angle\IeC {\guillemotright }}{49}{subsection.9.2.1}
+\contentsline {subsection}{\numberline {9.2.2}Cam\IeC {\'e}ras \IeC {\guillemotleft }petit-angle\IeC {\guillemotright }}{50}{subsection.9.2.2}
+\contentsline {chapter}{\numberline {10}R\IeC {\'e}sultats et analyses}{51}{chapter.10}
+\contentsline {chapter}{\numberline {11}Conclusion}{53}{chapter.11}
