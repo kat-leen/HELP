@@ -1,0 +1,15 @@
+\chapter{Conclusion}
+
+
+Ce projet de l'U.V. 3.4 nous permet de comprendre les étapes qui mènent à l'aboutissement d'un projet. En effet, afin de se faire une idée de ce qui est réalisable, nous avons tout d'abord procédé à un état de l'art. Cette étude préalable nous a permis de comprendre que de nombreuses technologies existent déjà afin d'effectuer de l'eye tracking. En comparant les possibilités offertes avec nos attentes, nous avons décidé que la technologie la plus pertinente serait la suivante :
+- Filmer l'utilisateur à l'aide d'une première caméra. Celle-ci repère la position du visage dans l'ensemble de l'image, et transmet la position à une deuxième caméra.
+- Zoomer sur le visage à l'aide de la deuxième caméra qui est infra-rouge. Pour cela nous installerons  un filtre sur une caméra normale afin de diminuer les coûts. Celle-ci pourra alors détecter la pupille de l'utilisateur et déterminer de manière précise ses mouvements.
+
+\vspace*{1cm}
+
+A partir de cette décision nous avons pu mettre en place un dossier fonctionnel. Dans un premier temps, l'approche Top-Down nous a permis d'identifier les exigences de notre système. Nous avons défini une fonction  principale, deux fonctions de service et deux fonctions de contraintes. Ces exigences ont ensuite été caractérisées par une approche Bottom-Up. Nous les avons regroupées par fonctions principales, et raffinées en FAST. Nous sommes restés le plus général possible dans les intitulés des fonctions pour qu'elles soient adaptées même si l'on était amenés à changer notre système. Enfin nous avons spécifié les données et proposé une architecture fonctionnelle. Cependant, ces définitions pourront être amenées à changer.
+
+\vspace*{1cm}
+
+En effet, concernant la partie Ingénierie des Exigences, nous avons pris conscience que la mise en place de l'architecture fonctionnelle n'est pas un exercice aisé compte tenu de l'objectif de notre projet. Celui-ci offre une grande liberté de réalisation avec un grand choix de méthodes, ce qui ne nous permet pas à l'heure actuelle de connaître précisément l'architecture de notre futur système. Notre projet demande une avancée dans la conception physique (début d'algorithme) afin de pouvoir caractériser correctement l'architecture fonctionnelle. Tant que le choix de notre système n'est pas validé, le dossier fonctionnel pourra évoluer. Nous avons donc décidé de nous consacrer désormais à l'obtention d'un eye tracking performant. En effet, à ce stade du projet, si nous parvenons à suivre les yeux d'un utilisateur, ce flux vidéo reste trop saccadé. L'étape suivante sera de fluidifier ce résultat afin d'effectuer une détection de la pupille et de valider notre système.
+
