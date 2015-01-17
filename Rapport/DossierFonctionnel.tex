@@ -55,6 +55,10 @@ Dans le cadre de ce projet, nous cherchons donc à remplacer la souris d'un ordi
 Le cahier des exigences précédant nous a permis de définir les fonctions principales du système. Nous avons alors cherché à les raffiner par la méthode FAST (cf. figure \ref{fig:FAST}) pour obtenir des fonctions plus précises auxquelles nous pourront apporter des solutions techniques propres à chacune. Nous pouvons ainsi entrevoir l'architecture fonctionnelle.
 
 \section{Spécification des données}
+
+La spécification du flux de données va permettre de comprendre les interactions et les échanges entre les différentes parties de notre système. Spécifier ainsi les données nous a permis de mieux comprendre les interactions entre chaque sous-partie du système. Il est ainsi clair que les données que nous allons principalement traiter et transférer seront des flux vidéos et qu’il sera donc important d’optimiser au mieux la rapidité de ces échanges.
+Au travers de la figure \ref{fig:fluxDonnees}, nous pouvons aussi voir l’ordre avec lequel les sous-systèmes vont rentrer en jeu. Ainsi la Camera Narrow View sera dépendante du flux envoyé par la Camera Wide View. Un parallélisme de traitement des données est tout de même envisageable sur l'ordinateur pour gérer le flux vidéo de deux caméras.
+
 \begin{figure}[h]
   \centering
   \includegraphics[scale=0.6]{FluxDonnees}

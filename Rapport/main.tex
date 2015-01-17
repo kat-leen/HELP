@@ -21,6 +21,7 @@
 %	COPYRIGHT PAGE
 %----------------------------------------------------------------------------------------
 \newpage
+\input{CopyrightPage}
 
 %----------------------------------------------------------------------------------------
 %	SOMMAIRE
@@ -33,7 +34,7 @@
 %----------------------------------------------------------------------------------------
 \frontmatter      % La partie non numérotée préalable au document principal
 
-%\input{Remerciements}
+\input{Remerciements}
 
 \mainmatter       % La partie principale du document
 
@@ -79,7 +80,7 @@
 \input{DossierJustificatif}
 
 
-\appendix
+%\appendix
 %\part{Annexes}
 %\chapter{Première annexe}
 %\chapter{Deuxième annexe}
@@ -90,11 +91,10 @@
 %----------------------------------------------------------------------------------------
 %	BIBLIOGRAPHIE
 %----------------------------------------------------------------------------------------
-%\addcontentsline{toc}{part}{Bibliographie}
-%\bibliographystyle{apalike-fr}
-%\bibliographystyle{plain-fr}
-%\bibliography{bibliographie.bib}
-%\nocite{*}
+\addcontentsline{toc}{part}{Bibliographie}
+\bibliographystyle{plain-fr}
+\bibliography{bibliographie}
+\nocite{*}
 
 %----------------------------------------------------------------------------------------
 %	INDEX
