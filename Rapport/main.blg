@@ -2,45 +2,51 @@ This is BibTeX, Version 0.99d (TeX Live 2014)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
 The style file: plain-fr.bst
-Database file #1: bibliographie.bib.bib
-You've used 7 entries,
+Database file #1: bibliographie.bib
+Warning--empty journal in bergounioux2010quelques
+Warning--empty journal in raynaldetection
+Warning--empty year in raynaldetection
+Warning--empty journal in schmaltzdetection
+Warning--empty year in schmaltzdetection
+You've used 15 entries,
             2238 wiz_defined-function locations,
-            573 strings with 5351 characters,
-and the built_in function-call counts, 1889 in all, are:
-= -- 195
-> -- 54
-< -- 1
-+ -- 23
-- -- 16
-* -- 81
-:= -- 387
-add.period$ -- 16
-call.type$ -- 7
-change.case$ -- 25
+            609 strings with 7195 characters,
+and the built_in function-call counts, 4487 in all, are:
+= -- 463
+> -- 195
+< -- 0
++ -- 82
+- -- 66
+* -- 243
+:= -- 923
+add.period$ -- 33
+call.type$ -- 15
+change.case$ -- 78
 chr.to.int$ -- 0
-cite$ -- 7
-duplicate$ -- 73
-empty$ -- 164
-format.name$ -- 16
-if$ -- 409
+cite$ -- 20
+duplicate$ -- 137
+empty$ -- 321
+format.name$ -- 66
+if$ -- 927
 int.to.chr$ -- 0
-int.to.str$ -- 7
-missing$ -- 9
-newline$ -- 42
-num.names$ -- 14
-pop$ -- 50
+int.to.str$ -- 15
+missing$ -- 10
+newline$ -- 83
+num.names$ -- 30
+pop$ -- 102
 preamble$ -- 1
-purify$ -- 22
+purify$ -- 63
 quote$ -- 0
-skip$ -- 44
+skip$ -- 98
 stack$ -- 0
-substring$ -- 93
-swap$ -- 8
-text.length$ -- 1
+substring$ -- 228
+swap$ -- 12
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 20
-warning$ -- 0
-while$ -- 16
-width$ -- 8
-write$ -- 80
+type$ -- 60
+warning$ -- 5
+while$ -- 34
+width$ -- 17
+write$ -- 160
+(There were 5 warnings)

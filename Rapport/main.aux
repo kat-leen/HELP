@@ -20,19 +20,26 @@
 \catcode `;\active 
 \catcode `!\active 
 \catcode `?\active 
+\providecommand\@newglossary[4]{}
 \@newglossary{main}{glg}{gls}{glo}
+\providecommand\@glsorder[1]{}
+\providecommand\@istfilename[1]{}
 \@istfilename{main.ist}
 \@glsorder{word}
 \select@language{french}
 \@writefile{toc}{\select@language{french}}
 \@writefile{lof}{\select@language{french}}
 \@writefile{lot}{\select@language{french}}
+\@writefile{toc}{\contentsline {chapter}{Remerciements}{i}{chapter*.2}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{toc}{\contentsline {part}{I\hspace  {1em}Introduction au projet}{1}{part.1}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {1}Formulation initiale du projet}{3}{chapter.1}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{toc}{\contentsline {section}{\numberline {1.1}Contexte}{3}{section.1.1}}
 \@writefile{toc}{\contentsline {section}{\numberline {1.2}Expression initiale du besoin}{3}{section.1.2}}
+\citation{tobiiglasses}
 \@writefile{toc}{\contentsline {chapter}{\numberline {2}\IeC {\'E}tat de l'art}{5}{chapter.2}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
@@ -45,20 +52,24 @@
 \newlabel{fig:Emetteur}{{2.2}{6}{Emetteur}{figure.2.2}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {2.3}{\ignorespaces Bo\IeC {\^\i }tier}}{6}{figure.2.3}}
 \newlabel{fig:Boitier}{{2.3}{6}{Boîtier}{figure.2.3}{}}
+\citation{pupil}
 \@writefile{lof}{\contentsline {figure}{\numberline {2.4}{\ignorespaces Pupil Centre Corneal Reflection PCCR}}{7}{figure.2.4}}
 \newlabel{fig:PCCR}{{2.4}{7}{Pupil Centre Corneal Reflection PCCR}{figure.2.4}{}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {2.1.1.2}PUPIL}{7}{subsubsection.2.1.1.2}}
 \@writefile{lof}{\contentsline {figure}{\numberline {2.5}{\ignorespaces PUPIL}}{7}{figure.2.5}}
 \newlabel{fig:PUPIL}{{2.5}{7}{PUPIL}{figure.2.5}{}}
+\citation{tobiieyetracker}
+\citation{eyecharm}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.1.2}Syst\IeC {\`e}mes sans contact}{8}{subsection.2.1.2}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {2.1.2.1}Tobii X2-30\&60}{8}{subsubsection.2.1.2.1}}
 \@writefile{lof}{\contentsline {figure}{\numberline {2.6}{\ignorespaces Tobii X2-30\&60}}{8}{figure.2.6}}
 \newlabel{fig:TobiiX2}{{2.6}{8}{Tobii X2-30\&60}{figure.2.6}{}}
+\citation{gwon2013robust}
 \@writefile{lof}{\contentsline {figure}{\numberline {2.7}{\ignorespaces EyeCharm}}{9}{figure.2.7}}
 \newlabel{fig:EyeCharm}{{2.7}{9}{EyeCharm}{figure.2.7}{}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {2.1.2.2}Eye Charm}{9}{subsubsection.2.1.2.2}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.1.2.3}Robust Eye and Pupil Detection Method for Gaze Tracking}{10}{subsubsection.2.1.2.3}}
-\newlabel{SystSC}{{2.1.2.3}{10}{Robust Eye and Pupil Detection Method for Gaze Tracking}{subsubsection.2.1.2.3}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.1.2.3}Robust Eye and Pupil Detection Method for Gaze Tracking \cite  {gwon2013robust}}{10}{subsubsection.2.1.2.3}}
+\newlabel{SystSC}{{2.1.2.3}{10}{Robust Eye and Pupil Detection Method for Gaze Tracking \cite {gwon2013robust}}{subsubsection.2.1.2.3}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {2.8}{\ignorespaces Robust Eye and Pupil Detection Method for Gaze Tracking}}{10}{figure.2.8}}
 \newlabel{fig:Experimental}{{2.8}{10}{Robust Eye and Pupil Detection Method for Gaze Tracking}{figure.2.8}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {2.2}La d\IeC {\'e}tection de pupilles}{10}{section.2.2}}
@@ -82,6 +93,7 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {2.13}{\ignorespaces Formation d\IeC {\textquoteright }ombre dans une image d\IeC {\textquoteright }un \IeC {\oe }il}}{13}{figure.2.13}}
 \newlabel{fig:ZoneOmbre}{{2.13}{13}{Formation d’ombre dans une image d’un œil}{figure.2.13}{}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.3.2}Reflets}{13}{subsubsection.2.2.3.2}}
+\citation{d2004etude}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.3.3}Pupille}{14}{subsubsection.2.2.3.3}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.2.4}D\IeC {\'e}tection par \IeC {\'e}clairage infrarouge}{14}{subsection.2.2.4}}
 \newlabel{EclInfra}{{2.2.4}{14}{Détection par éclairage infrarouge}{subsection.2.2.4}{}}
@@ -89,15 +101,16 @@
 \newlabel{fig:BrightPupil}{{2.14}{14}{Effet black et bright pupil}{figure.2.14}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.2.5}Traitement d\IeC {\textquoteright }images}{14}{subsection.2.2.5}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.5.1}Segmentation}{14}{subsubsection.2.2.5.1}}
-\@writefile{toc}{\contentsline {paragraph}{}{15}{section*.3}}
-\@writefile{toc}{\contentsline {paragraph}{}{16}{section*.4}}
+\@writefile{toc}{\contentsline {paragraph}{}{15}{section*.4}}
+\citation{bergounioux2010quelques}
+\@writefile{toc}{\contentsline {paragraph}{}{16}{section*.5}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.5.2}Traitement de l\IeC {\textquoteright }image pour la d\IeC {\'e}tection de pupilles}{16}{subsubsection.2.2.5.2}}
-\@writefile{toc}{\contentsline {paragraph}{}{16}{section*.6}}
-\newlabel{Filtre}{{2.2.5.2}{16}{Suppression de surplus de contours, atténuation du bruit}{section*.7}{}}
+\@writefile{toc}{\contentsline {paragraph}{}{16}{section*.7}}
+\newlabel{Filtre}{{2.2.5.2}{16}{Suppression de surplus de contours, atténuation du bruit}{section*.8}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {2.15}{\ignorespaces Diff\IeC {\'e}rentes \IeC {\'e}tapes de traitement de l\IeC {\textquoteright }image afin de d\IeC {\'e}tecter une pupille dans une image.}}{17}{figure.2.15}}
 \newlabel{fig:TraitementImage}{{2.15}{17}{Différentes étapes de traitement de l’image afin de détecter une pupille dans une image}{figure.2.15}{}}
-\@writefile{toc}{\contentsline {paragraph}{}{17}{section*.9}}
-\newlabel{FiltreGaussien}{{2.2.5.2}{18}{Filtre Gaussien}{section*.12}{}}
+\@writefile{toc}{\contentsline {paragraph}{}{17}{section*.10}}
+\newlabel{FiltreGaussien}{{2.2.5.2}{18}{Filtre Gaussien}{section*.13}{}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.5.3}Conversion en niveau de gris}{18}{subsubsection.2.2.5.3}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.5.4}D\IeC {\'e}tection des contours}{18}{subsubsection.2.2.5.4}}
 \@writefile{lof}{\contentsline {figure}{\numberline {2.16}{\ignorespaces Conversion en niveau de gris}}{19}{figure.2.16}}
@@ -159,40 +172,61 @@
 \@writefile{toc}{\contentsline {section}{\numberline {4.2}Sp\IeC {\'e}cification des donn\IeC {\'e}es}{34}{section.4.2}}
 \@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces Flux de donn\IeC {\'e}es}}{34}{figure.4.2}}
 \newlabel{fig:fluxDonnees}{{4.2}{34}{Flux de données}{figure.4.2}{}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {5}Architecture fonctionnelle}{35}{chapter.5}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.3}Sp\IeC {\'e}cification des comportements}{35}{section.4.3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces Diagramme des sp\IeC {\'e}cifications du comportement global}}{35}{figure.4.3}}
+\newlabel{fig:comportementGlobal}{{4.3}{35}{Diagramme des spécifications du comportement global}{figure.4.3}{}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {5}Architecture fonctionnelle}{37}{chapter.5}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.1}{\ignorespaces Architecture Fonctionnelle}}{35}{figure.5.1}}
-\newlabel{fig:archiFonctionnelle}{{5.1}{35}{Architecture Fonctionnelle}{figure.5.1}{}}
-\@writefile{toc}{\contentsline {part}{III\hspace  {1em}Organisation}{37}{part.3}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {6}M\IeC {\'e}thodes de travail}{39}{chapter.6}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.1}{\ignorespaces Architecture Fonctionnelle}}{37}{figure.5.1}}
+\newlabel{fig:archiFonctionnelle}{{5.1}{37}{Architecture Fonctionnelle}{figure.5.1}{}}
+\@writefile{toc}{\contentsline {part}{III\hspace  {1em}Organisation}{39}{part.3}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {6}M\IeC {\'e}thodes de travail}{41}{chapter.6}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {chapter}{\numberline {7}Outils pour les \IeC {\'e}changes}{41}{chapter.7}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {7}Outils pour les \IeC {\'e}changes}{43}{chapter.7}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {chapter}{\numberline {8}R\IeC {\'e}partition des t\IeC {\^a}ches dans le temps}{43}{chapter.8}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {8}R\IeC {\'e}partition des t\IeC {\^a}ches dans le temps}{45}{chapter.8}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{lof}{\contentsline {figure}{\numberline {8.1}{\ignorespaces Carnet de bord}}{44}{figure.8.1}}
-\newlabel{fig:CarnetBord}{{8.1}{44}{Carnet de bord}{figure.8.1}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8.2}{\ignorespaces Diagramme de Gantt}}{45}{figure.8.2}}
-\newlabel{fig:Gantt}{{8.2}{45}{Diagramme de Gantt}{figure.8.2}{}}
-\@writefile{toc}{\contentsline {part}{IV\hspace  {1em}Journal du projet}{47}{part.4}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {9}Choix et justifications}{49}{chapter.9}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.1}{\ignorespaces Carnet de bord}}{46}{figure.8.1}}
+\newlabel{fig:CarnetBord}{{8.1}{46}{Carnet de bord}{figure.8.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.2}{\ignorespaces Diagramme de Gantt}}{47}{figure.8.2}}
+\newlabel{fig:Gantt}{{8.2}{47}{Diagramme de Gantt}{figure.8.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.3}{\ignorespaces Diagramme de Gantt version graphique}}{47}{figure.8.3}}
+\newlabel{fig:GanttGraphique}{{8.3}{47}{Diagramme de Gantt version graphique}{figure.8.3}{}}
+\@writefile{toc}{\contentsline {part}{IV\hspace  {1em}Journal du projet}{49}{part.4}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {9}Choix et justifications}{51}{chapter.9}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {9.1}\IeC {\'E}metteurs infrarouges}{49}{section.9.1}}
-\@writefile{toc}{\contentsline {section}{\numberline {9.2}Cam\IeC {\'e}ras}{49}{section.9.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {9.2.1}Cam\IeC {\'e}ras \IeC {\guillemotleft }grand-angle\IeC {\guillemotright }}{49}{subsection.9.2.1}}
-\@writefile{lof}{\contentsline {figure}{\numberline {9.1}{\ignorespaces Pr\IeC {\'e}sence de LEDs sur la webcam}}{50}{figure.9.1}}
-\newlabel{fig:LEDCam}{{9.1}{50}{Présence de LEDs sur la webcam}{figure.9.1}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {9.2.2}Cam\IeC {\'e}ras \IeC {\guillemotleft }petit-angle\IeC {\guillemotright }}{50}{subsection.9.2.2}}
-\@writefile{lof}{\contentsline {figure}{\numberline {9.2}{\ignorespaces Webcam Trust Widescrenn Full HD 1080p}}{50}{figure.9.2}}
-\newlabel{fig:CamPetitAngle}{{9.2}{50}{Webcam Trust Widescrenn Full HD 1080p}{figure.9.2}{}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {10}R\IeC {\'e}sultats et analyses}{51}{chapter.10}}
+\@writefile{toc}{\contentsline {section}{\numberline {9.1}\IeC {\'E}metteurs infrarouges}{51}{section.9.1}}
+\@writefile{toc}{\contentsline {section}{\numberline {9.2}Cam\IeC {\'e}ras}{51}{section.9.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.2.1}Cam\IeC {\'e}ras \IeC {\guillemotleft }grand-angle\IeC {\guillemotright }}{51}{subsection.9.2.1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9.1}{\ignorespaces Pr\IeC {\'e}sence de LEDs sur la webcam}}{52}{figure.9.1}}
+\newlabel{fig:LEDCam}{{9.1}{52}{Présence de LEDs sur la webcam}{figure.9.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.2.2}Cam\IeC {\'e}ras \IeC {\guillemotleft }petit-angle\IeC {\guillemotright }}{52}{subsection.9.2.2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9.2}{\ignorespaces Webcam Trust Widescrenn Full HD 1080p}}{52}{figure.9.2}}
+\newlabel{fig:CamPetitAngle}{{9.2}{52}{Webcam Trust Widescrenn Full HD 1080p}{figure.9.2}{}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {10}Conclusion}{53}{chapter.10}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {chapter}{\numberline {11}Conclusion}{53}{chapter.11}}
-\@writefile{lof}{\addvspace {10\p@ }}
-\@writefile{lot}{\addvspace {10\p@ }}
+\bibstyle{plain-fr}
+\bibdata{bibliographie}
+\bibcite{bergounioux2010quelques}{1}
+\bibcite{cho2012gaze}{2}
+\bibcite{d2004etude}{3}
+\bibcite{gwon2013robust}{4}
+\bibcite{pupil}{5}
+\bibcite{lee2013remote}{6}
+\bibcite{openclassroomLaTeX}{7}
+\bibcite{massonneau2013etat}{8}
+\bibcite{raynaldetection}{9}
+\bibcite{schmaltzdetection}{10}
+\bibcite{tobiiintro}{11}
+\bibcite{tobiieyetracker}{12}
+\bibcite{tobiiglasses}{13}
+\bibcite{trackeye}{14}
+\@writefile{toc}{\contentsline {part}{Bibliographie}{55}{chapter.10}}
+\bibcite{eyecharm}{15}
+\citation{*}

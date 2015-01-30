@@ -8,7 +8,7 @@ Le suivi de l’œil (aussi appelé « eye tracking ») a de nombreuses applicat
 
 \subsubsection{Les Tobii Glasses}
 
-Les Tobbi Glasses sont des lunettes capables de filmer et d’enregistrer le mouvement des yeux. Elles peuvent ainsi savoir en temps réel ce que l’utilisateur fixe et voit.
+Les Tobbi Glasses \cite{tobiiglasses} sont des lunettes capables de filmer et d’enregistrer le mouvement des yeux. Elles peuvent ainsi savoir en temps réel ce que l’utilisateur fixe et voit.
 Ces lunettes sont équipées de (cf. figure \ref{fig:TG}) : 
 \begin{itemize}[label=\textbullet,font=\color{black}]
 \item caméras qui filment directement l’œil
@@ -63,7 +63,7 @@ Le prix n’est pas communiqué sur le site internet, mais il semblerait qu’il
   \label{fig:PUPIL}
 \end{figure}
 
-PUPIL est un projet développé par trois étudiants du MIT. Tout comme les Tobbi Glasses il peut capter et enregistrer les mouvements effectués par l’œil de l’utilisateur.
+PUPIL \cite{pupil} est un projet développé par trois étudiants du MIT. Tout comme les Tobbi Glasses il peut capter et enregistrer les mouvements effectués par l’œil de l’utilisateur.
 
 Le principe de fonctionnement est basé sur deux caméras. La première permet d’enregistrer les mouvements de l’œil, et donc de retrouver par la suite la position de la pupille. La seconde filme ce qu’est censé voir l’utilisateur et permet de connaitre la direction du regard de l’utilisateur en utilisant les données de la première caméra.
 Deux notions sont donc à distinguer : la position de la pupille et la direction du regard. La première nous aide à déduire la seconde. L’avantage de cette méthode est l’usage d'une caméra classique afin de détecter la direction du regard. Il n’est ici pas obligatoire d’employer la réflexion d’une lumière infra-rouge dans l’œil de l’utilisateur.
@@ -83,7 +83,7 @@ PUPIL peut être acheté pour la somme de 380 \euro{}.
   \label{fig:TobiiX2}
 \end{figure}
 
-Autre produit créé par Tobii, le X2 rentre dans les systèmes d’oculométrie sans contact. Ne mesurant que 184 mm, il se branche directement en USB. Il est très facile d’utilisation et s'adapte à de nombreux supports (ordinateurs portables, tablettes, télévisions...).
+Autre produit créé par Tobii, le X2 \cite{tobiieyetracker} rentre dans les systèmes d’oculométrie sans contact. Ne mesurant que 184 mm, il se branche directement en USB. Il est très facile d’utilisation et s'adapte à de nombreux supports (ordinateurs portables, tablettes, télévisions...).
 Cet outil ne permet pas de contrôler le système sur lequel il est branché mais d’enregistrer ce que l’utilisateur regarde afin d’obtenir des statistiques.
 La détection de la direction du regard se fait aussi à l’aide de la réflexion causée par des LEDs infrarouges sur la cornée du sujet. Combiné avec la localisation de la pupille, le système peut en déduire la direction du regard de l’utilisateur. Encore une fois l’algorithme n’est malheureusement jamais décrit. Cependant la précision de l’appareil permet une précision d’environ 0.34° sur la direction du regard du sujet. 
 
@@ -96,7 +96,7 @@ La détection de la direction du regard se fait aussi à l’aide de la réflexi
   \label{fig:EyeCharm}
 \end{figure}
 
-Créé par une société allemande (4tiito), EyeCharm est un adaptateur qui se clipse sur la Kinect et exploite sa caméra infrarouge pour suivre le mouvement des yeux. Un logiciel compatible avec Windows 7 \& 8 (NUIA) a été développé pour contrôler les principales fonctions d’un ordinateur grâce à ce système, comme le navigateur internet, les jeux vidéo et d’autres applications. L’utilisation d’EyeCharm ne nécessite aucun changement dans le code source des applications.
+Créé par une société allemande (4tiito), EyeCharm \cite{eyecharm} est un adaptateur qui se clipse sur la Kinect et exploite sa caméra infrarouge pour suivre le mouvement des yeux. Un logiciel compatible avec Windows 7 \& 8 (NUIA) a été développé pour contrôler les principales fonctions d’un ordinateur grâce à ce système, comme le navigateur internet, les jeux vidéo et d’autres applications. L’utilisation d’EyeCharm ne nécessite aucun changement dans le code source des applications.
 L’algorithme de suivi traite des images. La puissance de calcul nécessaire à son utilisation est ainsi assez importante (exemple : « son algorithme consomme 5 \% de la puissance d’un processeur Intel Core i5-3470 cadencé à 3,2 GHz »). Il est recommandé de détenir « un pc équipé d’un processeur AMD ou Intel multicœur et avec au moins 2 Go de mémoire vive ».
 Le rôle d’EyeCharm est de projeter une lumière infrarouge sur le visage de l’utilisateur. Celle-ci est captée par la caméra de la Kinect (pour Xbox ou Windows, connectée en USB 2.0), ce qui lui permet de suivre le mouvement des yeux. Il est conseillé de se tenir à 75 cm de l’écran pour obtenir de bons résultats.
 
@@ -111,7 +111,7 @@ Le logiciel compte plusieurs extensions pour étendre les possibilités de contr
 Certaines fonctionnalités, comme le zoom ou le retour à la page précédente peuvent nécessiter une action supplémentaire, non réalisée par les yeux. Pour cela, il est possible d’appuyer sur une touche du clavier ou d’utiliser une commande vocale, prise en charge par la Kinect. 
 Un kit de développement a été prévu pour que les utilisateurs puissent développer eux-mêmes des applications à l’aide de Qt Creator, Visual Studio, et les langages C, C++, C\# et Java.
 
-\subsubsection{Robust Eye and Pupil Detection Method for Gaze Tracking}
+\subsubsection{Robust Eye and Pupil Detection Method for Gaze Tracking \cite{gwon2013robust}}
 \label{SystSC}
 
 \begin{figure}[H]
@@ -229,7 +229,7 @@ La détection de la pupille par illumination de l’œil avec des éclairages in
 
 \subsubsection{Segmentation}
 
-La segmentation (aussi appelée Clustering) est une étape de base du traitement d’images qui a pour but de séparer différentes zones homogènes d’une image en groupes (clusters) dont les membres ont en commun diverses propriétés (intensité, couleur, texture...). En d’autres mots, cette opération rassemble des pixels entre eux suivant des critères prédéfinis. Les pixels sont ainsi regroupés en régions, qui constituent un pavage ou une partition de l'image. Il peut s'agir par exemple de séparer les objets du fond. On peut regrouper les différentes méthodes de segmentation en deux catégories : la segmentation non supervisée, qui vise à séparer automatiquement l’image en différents clusters naturels (sans aucune connaissance préalable des classes) ; et la segmentation supervisée, qui s’opère à partir de la connaissance de chacune des classes définies par une approche probabiliste. Concernant les méthodes de segmentation non supervisée, nous nous intéresserons à deux méthodes : le Fuzzy C-means et le k-means. 
+La segmentation (aussi appelée Clustering) \cite{d2004etude} est une étape de base du traitement d’images qui a pour but de séparer différentes zones homogènes d’une image en groupes (clusters) dont les membres ont en commun diverses propriétés (intensité, couleur, texture...). En d’autres mots, cette opération rassemble des pixels entre eux suivant des critères prédéfinis. Les pixels sont ainsi regroupés en régions, qui constituent un pavage ou une partition de l'image. Il peut s'agir par exemple de séparer les objets du fond. On peut regrouper les différentes méthodes de segmentation en deux catégories : la segmentation non supervisée, qui vise à séparer automatiquement l’image en différents clusters naturels (sans aucune connaissance préalable des classes) ; et la segmentation supervisée, qui s’opère à partir de la connaissance de chacune des classes définies par une approche probabiliste. Concernant les méthodes de segmentation non supervisée, nous nous intéresserons à deux méthodes : le Fuzzy C-means et le k-means. 
 
 \subsubsection*{Description des algorithmes}
 Fuzzy C-Means (FCM) est un algorithme de classification non supervisée floue. Il introduit la notion d’ensemble flou dans la définition des classes : chaque point (pixel) dans l’ensemble des données appartient à chaque cluster avec un certain degré d’appartenance, et tous les clusters sont caractérisés par leur centre de gravité. Ainsi, il permet d’obtenir une partition floue de l’image en donnant à chaque pixel un degré d’appartenance compris entre 0 et 1 à un cluster donné. Le cluster auquel est associé un pixel est celui dont le degré d’appartenance est le plus élevé.
@@ -277,7 +277,7 @@ Une première méthode de détection de la pupille, développée par Jérôme Sc
 \subsubsection*{Suppression de surplus de contours, atténuation du bruit}
 \label{Filtre}
 
-Tout d’abord, il est nécessaire de réduire le bruit occasionné par la caméra, le bruit engendré par le transfert des données et leur compression. Différents filtres peuvent être utilisés, même si leur application altérera les contours de l’image. 
+Tout d’abord, il est nécessaire de réduire le bruit occasionné par la caméra, le bruit engendré par le transfert des données et leur compression. Différents filtres \cite{bergounioux2010quelques} peuvent être utilisés, même si leur application altérera les contours de l’image. 
 
 \subsubsection*{Filtre Moyenneur}
 

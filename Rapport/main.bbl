@@ -1,33 +1,57 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 \expandafter\ifx\csname fonteauteurs\endcsname\relax
 \def\fonteauteurs{\scshape}\fi
 
-\bibitem{afis_accueil}
-\bgroup\fonteauteurs\bgroup {{AFIS}}\egroup\egroup{} :
-\newblock Accueil - notre métier: L'ingénierie système.
-\newblock \url{http://www.afis.fr/nm-is/default.aspx}, 2010.
-\newblock Accédé le 30 août 2014.
+\bibitem{bergounioux2010quelques}
+Maitine \bgroup\fonteauteurs\bgroup Bergounioux\egroup\egroup{} :
+\newblock Quelques m{\'e}thodes de filtrage en traitement d'image.
+\newblock 2010.
 
-\bibitem{bitouze2010latex}
-Denis \bgroup\fonteauteurs\bgroup Bitouzé\egroup\egroup{} et Jean-Côme
-  \bgroup\fonteauteurs\bgroup Charpentier\egroup\egroup{} :
-\newblock {\em LATEX, l’essentiel}.
-\newblock Pearson Education France, 2010.
+\bibitem{cho2012gaze}
+Chul~Woo \bgroup\fonteauteurs\bgroup Cho\egroup\egroup{}, Ji~Woo
+  \bgroup\fonteauteurs\bgroup Lee\egroup\egroup{}, Kwang~Yong
+  \bgroup\fonteauteurs\bgroup Shin\egroup\egroup{}, Eui~Chul
+  \bgroup\fonteauteurs\bgroup Lee\egroup\egroup{}, Kang~Ryoung
+  \bgroup\fonteauteurs\bgroup Park\egroup\egroup{}, Heekyung
+  \bgroup\fonteauteurs\bgroup Lee\egroup\egroup{} et Jihun
+  \bgroup\fonteauteurs\bgroup Cha\egroup\egroup{} :
+\newblock Gaze detection by wearable eye-tracking and nir led-based
+  head-tracking device based on svr.
+\newblock {\em ETRI Journal}, 34(4)\string:\penalty500\relax 542--552, 2012.
 
-\bibitem{desgraupes2003latex}
-Bernard \bgroup\fonteauteurs\bgroup Desgraupes\egroup\egroup{} :
-\newblock {\em LATEX: apprentissage, guide et référence}.
-\newblock Vuibert informatique, 2003.
+\bibitem{d2004etude}
+El~Khayati~Brahim \bgroup\fonteauteurs\bgroup
+  D’Hondt~Fr{\'e}d{\'e}ric\egroup\egroup{} :
+\newblock Etude de m{\'e}thodes de clustering pour la segmentation d’images
+  en couleurs.
+\newblock {\em Facult{\'e} Polytechnique de Mons, 5{\`e}me Electricit{\'e},
+  Certificat Applicatifs Multim{\'e}dia}, 2004.
 
-\bibitem{lamport1985i1}
-Leslie \bgroup\fonteauteurs\bgroup Lamport\egroup\egroup{} :
-\newblock {\em \LaTeX---A Document}, volume 410.
-\newblock pub-AW, 1985.
+\bibitem{gwon2013robust}
+Su~Yeong \bgroup\fonteauteurs\bgroup Gwon\egroup\egroup{}, Chul~Woo
+  \bgroup\fonteauteurs\bgroup Cho\egroup\egroup{}, Hyeon~Chang
+  \bgroup\fonteauteurs\bgroup Lee\egroup\egroup{}, Won~Oh
+  \bgroup\fonteauteurs\bgroup Lee\egroup\egroup{} et Kang~Ryoung
+  \bgroup\fonteauteurs\bgroup Park\egroup\egroup{} :
+\newblock Robust eye and pupil detection method for gaze tracking.
+\newblock {\em Int J Adv Robotic Sy}, 10(98), 2013.
 
-\bibitem{maguis2010redigez}
-Noël-Arnaud \bgroup\fonteauteurs\bgroup Maguis\egroup\egroup{} :
-\newblock {\em Rédigez des documents de qualité avec LaTeX}.
-\newblock Livre du Zéro, 2010.
+\bibitem{pupil}
+Pupil \bgroup\fonteauteurs\bgroup Labs\egroup\egroup{} :
+\newblock Pupil v0.3.6 - marker tracking.
+\newblock \url{http://www.pupil-labs.com/blog/2013/12/036-release.html}, 2013.
+\newblock Accédé le 15 janvier 2015.
+
+\bibitem{lee2013remote}
+Hyeon~Chang \bgroup\fonteauteurs\bgroup Lee\egroup\egroup{}, Won~Oh
+  \bgroup\fonteauteurs\bgroup Lee\egroup\egroup{}, Chul~Woo
+  \bgroup\fonteauteurs\bgroup Cho\egroup\egroup{}, Su~Yeong
+  \bgroup\fonteauteurs\bgroup Gwon\egroup\egroup{}, Kang~Ryoung
+  \bgroup\fonteauteurs\bgroup Park\egroup\egroup{}, Heekyung
+  \bgroup\fonteauteurs\bgroup Lee\egroup\egroup{} et Jihun
+  \bgroup\fonteauteurs\bgroup Cha\egroup\egroup{} :
+\newblock Remote gaze tracking system on a large display.
+\newblock {\em Sensors}, 13(10)\string:\penalty500\relax 13439--13463, 2013.
 
 \bibitem{openclassroomLaTeX}
 Noël-Arnaud \bgroup\fonteauteurs\bgroup Maguis\egroup\egroup{} :
@@ -37,10 +61,56 @@ Noël-Arnaud \bgroup\fonteauteurs\bgroup Maguis\egroup\egroup{} :
   2013.
 \newblock Accédé le 30 août 2014.
 
-\bibitem{sebastiani2002machine}
-Fabrizio \bgroup\fonteauteurs\bgroup Sebastiani\egroup\egroup{} :
-\newblock Machine learning in automated text categorization.
-\newblock {\em ACM computing surveys (CSUR)}, 34(1)\string:\penalty500\relax
-  1--47, 2002.
+\bibitem{massonneau2013etat}
+Ang{\`e}le \bgroup\fonteauteurs\bgroup Massonneau\egroup\egroup{} et Nicolas
+  \bgroup\fonteauteurs\bgroup Biard\egroup\egroup{} :
+\newblock Etat de l’art des différents systèmes de pointages à l’oeil.
+\newblock {\em Dossier de la Plate-Forme Nouvelles Technologies, Assistance
+  Publique Hôpitaux de Paris}, 2013.
+
+\bibitem{raynaldetection}
+Benjamin \bgroup\fonteauteurs\bgroup Raynal\egroup\egroup{} et Venceslas
+  \bgroup\fonteauteurs\bgroup Biri\egroup\egroup{} :
+\newblock D{\'e}tection de pupille par combinaison des crit{\`e}res
+  morphologiques et colorim{\'e}triques.
+
+\bibitem{schmaltzdetection}
+J{\'e}r{\^o}me \bgroup\fonteauteurs\bgroup Schmaltz\egroup\egroup{} :
+\newblock D{\'e}tection des contours de la pupille {\`a} l’aide des
+  transform{\'e}es de hough.
+
+\bibitem{tobiiintro}
+Tobii \bgroup\fonteauteurs\bgroup Technology\egroup\egroup{} :
+\newblock An introduction to eye tracking and tobii eye trackers.
+\newblock
+  \url{http://www.tobii.com/en/eye-tracking-research/global/library/white-papers/tobii-eye-tracking-white-paper/},
+  2010.
+\newblock Accédé le 15 janvier 2015.
+
+\bibitem{tobiieyetracker}
+Tobii \bgroup\fonteauteurs\bgroup Technology\egroup\egroup{} :
+\newblock Tobiix2-30eyetracker.
+\newblock {\em User Manual}, 2014.
+
+\bibitem{tobiiglasses}
+Tobii® \bgroup\fonteauteurs\bgroup Technology\egroup\egroup{} :
+\newblock Tobii glasses eye tracker.
+\newblock {\em User Manual}, 2011.
+
+\bibitem{trackeye}
+\bgroup\fonteauteurs\bgroup Zafersavas\egroup\egroup{} :
+\newblock Trackeye : Real-time tracking of human eyes using a webcam.
+\newblock
+  \url{http://www.codeproject.com/Articles/26897/TrackEye-Real-Time-Tracking-Of-Human-Eyes-Using-a},
+  2008.
+\newblock Accédé le 15 janvier 2015.
+
+\bibitem{eyecharm}
+Marc \bgroup\fonteauteurs\bgroup Zaffagni\egroup\egroup{} :
+\newblock Eyecharm : contrôler son pc du regard avec un capteur kinect.
+\newblock
+  \url{http://www.futura-sciences.com/magazines/high-tech/infos/actu/d/informatique-eyecharm-controler-son-pc-regard-capteur-kinect-45381/},
+  2013.
+\newblock Accédé le 15 janvier 2015.
 
 \end{thebibliography}
