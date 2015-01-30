@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.12.1)  15 JAN 2015 11:31
+=======
 This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.11.13)  18 JAN 2015 20:33
+>>>>>>> c7542e0379e640f6a0048d3eced5fb83f6395d61
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1930,6 +1934,10 @@ l.1 \chapter
             {Conclusion} <./images/LEDCam.png (PNG copy)> <./images/CamPetitAng
 le.png (PNG copy)>]
 Chapitre 10.
+<<<<<<< HEAD
+) (./Conclusion.tex [51
+=======
+>>>>>>> c7542e0379e640f6a0048d3eced5fb83f6395d61
 
 Overfull \hbox (9.1815pt too wide) in paragraph at lines 16--17
 []\T1/cmr/m/n/12 En ef-fet, concer-nant la par-tie In-gé-nie-rie des Exi-gences
@@ -1981,14 +1989,67 @@ ect . com / Articles / 26897 /
 
 [55
 
+<<<<<<< HEAD
+]
+Chapitre 11.
+
+Overfull \hbox (9.1815pt too wide) in paragraph at lines 14--15
+[]\T1/cmr/m/n/12 En ef-fet, concer-nant la par-tie In-gé-nie-rie des Exi-gences
+, nous avons pris conscience
+ []
+
+[53]) [54]
+=======
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 109--115
 []\T1/cmr/m/n/12 Marc \T1/cmr/m/sc/12 Zaf-fa-gni \T1/cmr/m/n/12 :  Eye-charm : 
 contrô-ler son pc
  []
+>>>>>>> c7542e0379e640f6a0048d3eced5fb83f6395d61
 
 
+<<<<<<< HEAD
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 121.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 121.
+(./main.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 121.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 121.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 0D6B34CE2CB48BDB5E825D6B7DFCC15A;2759.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 121.
+ ) 
+Here is how much of TeX's memory you used:
+ 14477 strings out of 493307
+ 205828 string characters out of 6139905
+ 353478 words of memory out of 5000000
+ 17395 multiletter control sequences out of 15000+600000
+ 18833 words of font info for 43 fonts, out of 8000000 for 9000
+ 957 hyphenation exceptions out of 8191
+ 48i,12n,40p,1531b,519s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/
+fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/eurosym/feymr10.pfb></usr/share/texmf/fonts/type1/public
+/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.p
+fb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf
+/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/
+cm-super/sfcc1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pf
+b></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/
+fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/c
+m-super/sfrm1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm2488.pfb
+></usr/share/texmf/fonts/type1/public/cm-super/sfsl1200.pfb></usr/share/texmf/f
+onts/type1/public/cm-super/sfxc2488.pfb>
+Output written on main.pdf (58 pages, 5776667 bytes).
+=======
 Underfull \hbox (badness 10000) in paragraph at lines 109--115
 \T1/cmr/m/n/12 du re-gard avec un cap-teur ki-nect.  [][]$\T1/cmtt/m/n/12 http 
 : / / www .
@@ -2059,6 +2120,7 @@ public/cm-super/sfti1200.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/pu
 blic/cm-super/sftt1200.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/publ
 ic/cm-super/sfxc2488.pfb>
 Output written on main.pdf (62 pages, 6028556 bytes).
+>>>>>>> c7542e0379e640f6a0048d3eced5fb83f6395d61
 PDF statistics:
  860 PDF objects out of 1000 (max. 8388607)
  691 compressed objects within 7 object streams
