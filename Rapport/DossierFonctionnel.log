@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.11.13)  18 JAN 2015 20:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.11.13)  3 FEB 2015 14:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1073,7 +1073,7 @@ Missing character: There is no H in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
 l.27   \includegraphics
-                       [width=\textwidth]{CahierdesExigencesV2}
+                       [width=\textwidth]{CahierdesExigencesV3}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1091,7 +1091,7 @@ Missing character: There is no = in font nullfont!
 <to be read again> 
                    ]
 l.27   \includegraphics[width=\textwidth]
-                                         {CahierdesExigencesV2}
+                                         {CahierdesExigencesV3}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -1100,7 +1100,7 @@ look up `weird error' in the index to The TeXbook.)
 <to be read again> 
                    ]
 l.27   \includegraphics[width=\textwidth]
-                                         {CahierdesExigencesV2}
+                                         {CahierdesExigencesV3}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -1128,7 +1128,7 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no V in font nullfont!
-Missing character: There is no 2 in font nullfont!
+Missing character: There is no 3 in font nullfont!
 
 ! LaTeX Error: \caption outside float.
 
@@ -2413,13 +2413,13 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.48 \begin{figure}
-                   [h]
+                   [H]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 Missing character: There is no [ in font nullfont!
-Missing character: There is no h in font nullfont!
+Missing character: There is no H in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
 l.50   \includegraphics
