@@ -21,42 +21,40 @@
 \contentsline {subsubsection}{\numberline {2.2.3.2}Reflets}{13}{subsubsection.2.2.3.2}
 \contentsline {subsubsection}{\numberline {2.2.3.3}Pupille}{14}{subsubsection.2.2.3.3}
 \contentsline {subsection}{\numberline {2.2.4}D\IeC {\'e}tection par \IeC {\'e}clairage infrarouge}{14}{subsection.2.2.4}
-\contentsline {subsection}{\numberline {2.2.5}Traitement d\IeC {\textquoteright }images}{15}{subsection.2.2.5}
-\contentsline {subsubsection}{\numberline {2.2.5.1}Segmentation}{15}{subsubsection.2.2.5.1}
+\contentsline {subsection}{\numberline {2.2.5}Traitement d\IeC {\textquoteright }images}{14}{subsection.2.2.5}
+\contentsline {subsubsection}{\numberline {2.2.5.1}Segmentation}{14}{subsubsection.2.2.5.1}
 \contentsline {paragraph}{}{15}{section*.4}
 \contentsline {paragraph}{}{16}{section*.5}
-\contentsline {paragraph}{}{16}{section*.6}
-\contentsline {subsubsection}{\numberline {2.2.5.2}Traitement de l\IeC {\textquoteright }image pour la d\IeC {\'e}tection de pupilles}{17}{subsubsection.2.2.5.2}
-\contentsline {paragraph}{}{17}{section*.8}
-\contentsline {paragraph}{}{18}{section*.11}
-\contentsline {subsubsection}{\numberline {2.2.5.3}Conversion en niveau de gris}{19}{subsubsection.2.2.5.3}
-\contentsline {subsubsection}{\numberline {2.2.5.4}D\IeC {\'e}tection des contours}{19}{subsubsection.2.2.5.4}
-\contentsline {subsubsection}{\numberline {2.2.5.5}D\IeC {\'e}tection des centres}{22}{subsubsection.2.2.5.5}
-\contentsline {subsubsection}{\numberline {2.2.5.6}Seuillage}{23}{subsubsection.2.2.5.6}
-\contentsline {subsubsection}{\numberline {2.2.5.7}Isoler les centres potentiels}{24}{subsubsection.2.2.5.7}
-\contentsline {subsubsection}{\numberline {2.2.5.8}Recherche des cercles}{25}{subsubsection.2.2.5.8}
-\contentsline {section}{\numberline {2.3}M\IeC {\'e}thode de d\IeC {\'e}tection de la direction du regard}{26}{section.2.3}
-\contentsline {section}{\numberline {2.4}Solutions techniques et m\IeC {\'e}thodes choisies}{27}{section.2.4}
-\contentsline {part}{II\hspace {1em}Dossier fonctionnel}{29}{part.2}
-\contentsline {chapter}{\numberline {3}Ing\IeC {\'e}nierie des exigences}{31}{chapter.3}
-\contentsline {section}{\numberline {3.1}Approche Top-Down}{31}{section.3.1}
-\contentsline {section}{\numberline {3.2}Approche Bottom-Up}{32}{section.3.2}
-\contentsline {section}{\numberline {3.3}Fonctions principales du syst\IeC {\`e}me}{33}{section.3.3}
-\contentsline {chapter}{\numberline {4}Sp\IeC {\'e}cification fonctionnelle 3 axes}{35}{chapter.4}
-\contentsline {section}{\numberline {4.1}Raffinement FAST}{35}{section.4.1}
-\contentsline {section}{\numberline {4.2}Sp\IeC {\'e}cification des donn\IeC {\'e}es}{36}{section.4.2}
-\contentsline {section}{\numberline {4.3}Sp\IeC {\'e}cification des comportements}{37}{section.4.3}
-\contentsline {chapter}{\numberline {5}Architecture fonctionnelle}{39}{chapter.5}
-\contentsline {part}{III\hspace {1em}Organisation}{41}{part.3}
-\contentsline {chapter}{\numberline {6}M\IeC {\'e}thodes de travail}{43}{chapter.6}
-\contentsline {chapter}{\numberline {7}Outils pour les \IeC {\'e}changes}{45}{chapter.7}
-\contentsline {chapter}{\numberline {8}R\IeC {\'e}partition des t\IeC {\^a}ches dans le temps}{47}{chapter.8}
-\contentsline {part}{IV\hspace {1em}Journal du projet}{51}{part.4}
-\contentsline {chapter}{\numberline {9}Choix et justifications}{53}{chapter.9}
-\contentsline {section}{\numberline {9.1}\IeC {\'E}metteurs infrarouges}{53}{section.9.1}
-\contentsline {section}{\numberline {9.2}Cam\IeC {\'e}ras}{53}{section.9.2}
-\contentsline {subsection}{\numberline {9.2.1}Cam\IeC {\'e}ras \IeC {\guillemotleft }grand-angle\IeC {\guillemotright }}{53}{subsection.9.2.1}
-\contentsline {subsection}{\numberline {9.2.2}Cam\IeC {\'e}ras \IeC {\guillemotleft }petit-angle\IeC {\guillemotright }}{54}{subsection.9.2.2}
-\contentsline {chapter}{\numberline {10}R\IeC {\'e}sultats et analyses}{55}{chapter.10}
-\contentsline {chapter}{\numberline {11}Conclusion}{57}{chapter.11}
-\contentsline {part}{Bibliographie}{59}{chapter.11}
+\contentsline {subsubsection}{\numberline {2.2.5.2}Traitement de l\IeC {\textquoteright }image pour la d\IeC {\'e}tection de pupilles}{16}{subsubsection.2.2.5.2}
+\contentsline {paragraph}{}{16}{section*.7}
+\contentsline {paragraph}{}{17}{section*.10}
+\contentsline {subsubsection}{\numberline {2.2.5.3}Conversion en niveau de gris}{18}{subsubsection.2.2.5.3}
+\contentsline {subsubsection}{\numberline {2.2.5.4}D\IeC {\'e}tection des contours}{18}{subsubsection.2.2.5.4}
+\contentsline {subsubsection}{\numberline {2.2.5.5}D\IeC {\'e}tection des centres}{20}{subsubsection.2.2.5.5}
+\contentsline {subsubsection}{\numberline {2.2.5.6}Seuillage}{21}{subsubsection.2.2.5.6}
+\contentsline {subsubsection}{\numberline {2.2.5.7}Isoler les centres potentiels}{22}{subsubsection.2.2.5.7}
+\contentsline {subsubsection}{\numberline {2.2.5.8}Recherche des cercles}{23}{subsubsection.2.2.5.8}
+\contentsline {section}{\numberline {2.3}M\IeC {\'e}thode de d\IeC {\'e}tection de la direction du regard}{25}{section.2.3}
+\contentsline {section}{\numberline {2.4}Solutions techniques et m\IeC {\'e}thodes choisies}{26}{section.2.4}
+\contentsline {part}{II\hspace {1em}Dossier fonctionnel}{27}{part.2}
+\contentsline {chapter}{\numberline {3}Ing\IeC {\'e}nierie des exigences}{29}{chapter.3}
+\contentsline {section}{\numberline {3.1}Approche Top-Down}{29}{section.3.1}
+\contentsline {section}{\numberline {3.2}Approche Bottom-Up}{30}{section.3.2}
+\contentsline {section}{\numberline {3.3}Fonctions principales du syst\IeC {\`e}me}{31}{section.3.3}
+\contentsline {chapter}{\numberline {4}Sp\IeC {\'e}cification fonctionnelle 3 axes}{33}{chapter.4}
+\contentsline {section}{\numberline {4.1}Raffinement FAST}{33}{section.4.1}
+\contentsline {section}{\numberline {4.2}Sp\IeC {\'e}cification des donn\IeC {\'e}es}{34}{section.4.2}
+\contentsline {section}{\numberline {4.3}Sp\IeC {\'e}cification des comportements}{35}{section.4.3}
+\contentsline {chapter}{\numberline {5}Architecture fonctionnelle}{37}{chapter.5}
+\contentsline {part}{III\hspace {1em}Organisation}{39}{part.3}
+\contentsline {chapter}{\numberline {6}M\IeC {\'e}thodes de travail}{41}{chapter.6}
+\contentsline {chapter}{\numberline {7}Outils pour les \IeC {\'e}changes}{43}{chapter.7}
+\contentsline {chapter}{\numberline {8}R\IeC {\'e}partition des t\IeC {\^a}ches dans le temps}{45}{chapter.8}
+\contentsline {part}{IV\hspace {1em}Journal du projet}{49}{part.4}
+\contentsline {chapter}{\numberline {9}Choix et justifications}{51}{chapter.9}
+\contentsline {section}{\numberline {9.1}\IeC {\'E}metteurs infrarouges}{51}{section.9.1}
+\contentsline {section}{\numberline {9.2}Cam\IeC {\'e}ras}{51}{section.9.2}
+\contentsline {subsection}{\numberline {9.2.1}Cam\IeC {\'e}ras \IeC {\guillemotleft }grand-angle\IeC {\guillemotright }}{51}{subsection.9.2.1}
+\contentsline {subsection}{\numberline {9.2.2}Cam\IeC {\'e}ras \IeC {\guillemotleft }petit-angle\IeC {\guillemotright }}{52}{subsection.9.2.2}
+\contentsline {chapter}{\numberline {10}Conclusion}{53}{chapter.10}
+\contentsline {part}{Bibliographie}{55}{chapter.10}

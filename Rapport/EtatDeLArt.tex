@@ -216,8 +216,6 @@ Il faut noter que si l’axe de la source de lumière correspond à celui des pu
 \subsection{Détection par éclairage infrarouge}
 \label{EclInfra}
 
-Si la caméra infrarouge permet d’éviter la majorité des problèmes de réflexion rencontrés par une caméra traditionnelle, sa mise en place est néanmoins plus complexe (utilisation d’émetteurs infrarouges afin d'éclairer l'oeil, utilisation de caméras infrarouges, ...) et plus cher. En effet, l'utilisation de caméras infrarouges multiplierait le coût du système par deux ou trois.
-
 La détection de la pupille par illumination de l’œil avec des éclairages infrarouges se décline en deux grandes méthodes : la méthode dite de la pupille lumineuse (brigth pupil) et celle de la pupille noire (dark pupil). Suivant la position de l’éclairage infrarouge la pupille aura des propriétés optiques différentes. Si l’illumination infrarouge est coaxiale avec l’axe optique de la caméra alors la pupille apparaitra totalement blanche (bright pupil). Au contraire si la source lumineuse est décalée (toujours par rapport à l’axe optique), alors la pupille apparaitra noire (dark pupil) et l’on pourra voir distinctement les reflets de la source lumineuse infrarouge sur la cornée du sujet.
 
 \begin{figure}[H]
@@ -231,32 +229,18 @@ La détection de la pupille par illumination de l’œil avec des éclairages in
 
 \subsubsection{Segmentation}
 
-La segmentation (aussi appelée Clustering) \cite{d2004etude} est une étape de base du traitement d’images qui a pour but de séparer différentes zones homogènes d’une image en groupes (clusters) dont les membres ont en commun diverses propriétés (intensité, couleur, texture...). En d’autres mots, cette opération rassemble des pixels entre eux suivant des critères prédéfinis. Les pixels sont ainsi regroupés en régions, qui constituent un pavage ou une partition de l'image. Il peut s'agir par exemple de séparer les objets du fond. On peut regrouper les différentes méthodes de segmentation en deux catégories : la segmentation non supervisée, qui vise à séparer automatiquement l’image en différents clusters naturels (sans aucune connaissance préalable des classes) ; et la segmentation supervisée, qui s’opère à partir de la connaissance de chacune des classes définie. Concernant les méthodes de segmentation non supervisée, nous nous intéresserons à deux méthodes : le Fuzzy C-means et le k-means. 
+La segmentation (aussi appelée Clustering) \cite{d2004etude} est une étape de base du traitement d’images qui a pour but de séparer différentes zones homogènes d’une image en groupes (clusters) dont les membres ont en commun diverses propriétés (intensité, couleur, texture...). En d’autres mots, cette opération rassemble des pixels entre eux suivant des critères prédéfinis. Les pixels sont ainsi regroupés en régions, qui constituent un pavage ou une partition de l'image. Il peut s'agir par exemple de séparer les objets du fond. On peut regrouper les différentes méthodes de segmentation en deux catégories : la segmentation non supervisée, qui vise à séparer automatiquement l’image en différents clusters naturels (sans aucune connaissance préalable des classes) ; et la segmentation supervisée, qui s’opère à partir de la connaissance de chacune des classes définies par une approche probabiliste. Concernant les méthodes de segmentation non supervisée, nous nous intéresserons à deux méthodes : le Fuzzy C-means et le k-means. 
 
 \subsubsection*{Description des algorithmes}
-Les principales étapes d'un algorithme de classification sont :
+Fuzzy C-Means (FCM) est un algorithme de classification non supervisée floue. Il introduit la notion d’ensemble flou dans la définition des classes : chaque point (pixel) dans l’ensemble des données appartient à chaque cluster avec un certain degré d’appartenance, et tous les clusters sont caractérisés par leur centre de gravité. Ainsi, il permet d’obtenir une partition floue de l’image en donnant à chaque pixel un degré d’appartenance compris entre 0 et 1 à un cluster donné. Le cluster auquel est associé un pixel est celui dont le degré d’appartenance est le plus élevé.
+
+Les principales étapes de l’algorithme Fuzzy C-means sont :
 \begin{enumerate}
 \item La fixation arbitraire d’une matrice des classes.
 \item Le calcul des centroïdes des classes.
 \item Le réajustement de la matrice d’appartenance suivant la position des centroïdes.
 \item Calcul du critère de minimisation et retour à l’étape 2 s’il y a non convergence de critère.
 \end{enumerate}
-\paragraph{}
-
-Fuzzy C-Means (FCM) est un algorithme de classification non supervisée floue. Il introduit la notion d’ensemble flou dans la définition des classes : chaque point (pixel) dans l’ensemble des données appartient à chaque cluster avec un certain degré d’appartenance, et tous les clusters sont caractérisés par leur centre de gravité. Ainsi, il permet d’obtenir une partition floue de l’image en donnant à chaque pixel un degré d’appartenance compris entre 0 et 1 à un cluster donné. Le cluster auquel est associé un pixel est celui dont le degré d’appartenance est le plus élevé.
-
-La classification floue des objets est décrite par une matrice floue à n lignes et c colonnes dans laquelle n est le nombre d’objets de données et c est le nombre de grappes. $\mu$ij est l’élément de la i-ème ligne et la colonne j. $\mu$, représente le degré de fonctiond’appartenance de l’i-ème objet avec le pôle j.
-Les étapes de l’algorithme FCM sont présentées figure \ref{fig:ALGOFCM}:
-
-\begin{figure}[H]
-  \centering
-  \includegraphics[scale=0.6]{AlgoFCM}
-  \caption{Pseudo Code de Fuzzy C-Means}
-  \label{fig:ALGOFCM}
-\end{figure}
-
-Le FCM est un algorithme très puissant, mais son inconvénient principal réside dans l’initialisation des centres.
-
 \paragraph{}
 L’algorithme k-means est l’algorithme de Clustering le plus connu et le plus utilisé (simple à mettre en œuvre). Il permet de partitionner les pixels d’une image en K clusters. L’algorithme k-means ne crée qu’un seul niveau de clusters. Il renvoie une partition des données, dans laquelle les objets à l’intérieur de chaque cluster sont aussi proches que possible les uns des autres et aussi loin que possible des objets des autres clusters. Chaque cluster de la partition est défini par ses objets et son centroïde. Le k-means est un algorithme itératif qui minimise la somme des distances entre chaque objet et le centroïde de son cluster. La position initiale des centroïdes conditionne le résultat final, de sorte qu'ils doivent être initialement placés le plus loin possible les uns des autres de façon à optimiser l’algorithme. K-means réitère ses opérations jusqu’à ce que la somme ne puisse plus diminuer. Le résultat est un ensemble de clusters compacts et clairement séparés, à condition d’avoir choisi la bonne valeur K du nombre de clusters. Les principales étapes de l’algorithme k-means sont :
 \begin{enumerate}
@@ -283,19 +267,17 @@ La détection des pupilles est composée de plusieurs étapes et peut être cod�
 \end{enumerate}
 \paragraph{}
 Une première méthode de détection de la pupille, développée par Jérôme Schmaltz de l’Ecole de Technologie Supérieure de Montréal, repose sur le principe décrit figure \ref{fig:TraitementImage}.
-
-
-\subsubsection*{Suppression de surplus de contours, atténuation du bruit}
-\label{Filtre}
-
-Tout d’abord, il est nécessaire de réduire le bruit occasionné par la caméra, le bruit engendré par le transfert des données et leur compression. Différents filtres \cite{bergounioux2010quelques} peuvent être utilisés, même si leur application altérera les contours de l’image. 
-
-\begin{figure}[H]
+\begin{figure}[h]
   \centering
   \includegraphics[scale=1]{TraitementImage}
   \caption{Différentes étapes de traitement de l’image afin de détecter une pupille dans une image.}
   \label{fig:TraitementImage}
 \end{figure}
+
+\subsubsection*{Suppression de surplus de contours, atténuation du bruit}
+\label{Filtre}
+
+Tout d’abord, il est nécessaire de réduire le bruit occasionné par la caméra, le bruit engendré par le transfert des données et leur compression. Différents filtres \cite{bergounioux2010quelques} peuvent être utilisés, même si leur application altérera les contours de l’image. 
 
 \subsubsection*{Filtre Moyenneur}
 
@@ -385,7 +367,7 @@ La méthode triviale consiste à appliquer un seuillage aux gradients calculés.
 La figure \ref{fig:DetectionContours} illustre l’idée de détection des contours grâce au filtre de Canny.
 \begin{figure}[H]
   \centering
-  \includegraphics[scale=0.9]{DetectionContours}
+  \includegraphics[scale=1]{DetectionContours}
   \caption{Détection des contours grâce au filtre de Canny}
   \label{fig:DetectionContours}
 \end{figure}
