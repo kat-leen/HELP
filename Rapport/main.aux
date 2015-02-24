@@ -99,119 +99,122 @@
 \newlabel{EclInfra}{{2.2.4}{14}{Détection par éclairage infrarouge}{subsection.2.2.4}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {2.14}{\ignorespaces Effet black et bright pupil}}{14}{figure.2.14}}
 \newlabel{fig:BrightPupil}{{2.14}{14}{Effet black et bright pupil}{figure.2.14}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.5}Traitement d\IeC {\textquoteright }images}{14}{subsection.2.2.5}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.5.1}Segmentation}{14}{subsubsection.2.2.5.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.5}Traitement d\IeC {\textquoteright }images}{15}{subsection.2.2.5}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.5.1}Segmentation}{15}{subsubsection.2.2.5.1}}
 \@writefile{toc}{\contentsline {paragraph}{}{15}{section*.4}}
-\citation{bergounioux2010quelques}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.15}{\ignorespaces Pseudo Code de Fuzzy C-Means}}{16}{figure.2.15}}
+\newlabel{fig:ALGOFCM}{{2.15}{16}{Pseudo Code de Fuzzy C-Means}{figure.2.15}{}}
 \@writefile{toc}{\contentsline {paragraph}{}{16}{section*.5}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.5.2}Traitement de l\IeC {\textquoteright }image pour la d\IeC {\'e}tection de pupilles}{16}{subsubsection.2.2.5.2}}
-\@writefile{toc}{\contentsline {paragraph}{}{16}{section*.7}}
-\newlabel{Filtre}{{2.2.5.2}{16}{Suppression de surplus de contours, atténuation du bruit}{section*.8}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2.15}{\ignorespaces Diff\IeC {\'e}rentes \IeC {\'e}tapes de traitement de l\IeC {\textquoteright }image afin de d\IeC {\'e}tecter une pupille dans une image.}}{17}{figure.2.15}}
-\newlabel{fig:TraitementImage}{{2.15}{17}{Différentes étapes de traitement de l’image afin de détecter une pupille dans une image}{figure.2.15}{}}
-\@writefile{toc}{\contentsline {paragraph}{}{17}{section*.10}}
-\newlabel{FiltreGaussien}{{2.2.5.2}{18}{Filtre Gaussien}{section*.13}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.5.3}Conversion en niveau de gris}{18}{subsubsection.2.2.5.3}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.5.4}D\IeC {\'e}tection des contours}{18}{subsubsection.2.2.5.4}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2.16}{\ignorespaces Conversion en niveau de gris}}{19}{figure.2.16}}
-\newlabel{fig:Conversion}{{2.16}{19}{Conversion en niveau de gris}{figure.2.16}{}}
-\newlabel{eq:g}{{2.1}{19}{Filtre de Canny}{equation.2.2.1}{}}
-\newlabel{eq:theta}{{2.2}{19}{Filtre de Canny}{equation.2.2.2}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2.17}{\ignorespaces Algorithme permettant de supprimer des non maximaux}}{19}{figure.2.17}}
-\newlabel{fig:Algo}{{2.17}{19}{Algorithme permettant de supprimer des non maximaux}{figure.2.17}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2.18}{\ignorespaces D\IeC {\'e}tection des contours gr\IeC {\^a}ce au filtre de Canny}}{20}{figure.2.18}}
-\newlabel{fig:DetectionContours}{{2.18}{20}{Détection des contours grâce au filtre de Canny}{figure.2.18}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.5.5}D\IeC {\'e}tection des centres}{20}{subsubsection.2.2.5.5}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2.19}{\ignorespaces D\IeC {\'e}terminer les directions des gradients \IeC {\`a} partir de l\IeC {\textquoteright }application du filtre de Sobel}}{21}{figure.2.19}}
-\newlabel{fig:FiltreSobel}{{2.19}{21}{Déterminer les directions des gradients à partir de l’application du filtre de Sobel}{figure.2.19}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2.20}{\ignorespaces Tra\IeC {\c c}age d\IeC {\textquoteright }une droite en fonction d\IeC {\textquoteright }un contour}}{21}{figure.2.20}}
-\newlabel{fig:Contour}{{2.20}{21}{Traçage d’une droite en fonction d’un contour}{figure.2.20}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.5.6}Seuillage}{21}{subsubsection.2.2.5.6}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2.21}{\ignorespaces Tra\IeC {\c c}age d\IeC {\textquoteright }une droite dans l\IeC {\textquoteright }accumulateur}}{22}{figure.2.21}}
-\newlabel{fig:Accumulateur}{{2.21}{22}{Traçage d’une droite dans l’accumulateur}{figure.2.21}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2.22}{\ignorespaces Tra\IeC {\c c}age des lignes dans l\IeC {\textquoteright }accumulateur en fonction de l\IeC {\textquoteright }image de Canny et de la matrice de directions}}{22}{figure.2.22}}
-\newlabel{fig:MethodeCanny}{{2.22}{22}{Traçage des lignes dans l’accumulateur en fonction de l’image de Canny et de la matrice de directions}{figure.2.22}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.5.7}Isoler les centres potentiels}{22}{subsubsection.2.2.5.7}}
-\newlabel{eq:RepLaplacienGaussien}{{2.3}{22}{Isoler les centres potentiels}{equation.2.2.3}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2.23}{\ignorespaces Application d\IeC {\textquoteright }un seuil dans l\IeC {\textquoteright }accumulateur}}{23}{figure.2.23}}
-\newlabel{fig:SeuilAccumu}{{2.23}{23}{Application d’un seuil dans l’accumulateur}{figure.2.23}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2.24}{\ignorespaces Repr\IeC {\'e}sentation graphique d\IeC {\textquoteright }un Laplacien de Gaussien}}{23}{figure.2.24}}
-\newlabel{fig:LaplacienGaussien}{{2.24}{23}{Représentation graphique d’un Laplacien de Gaussien}{figure.2.24}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2.25}{\ignorespaces Application d\IeC {\textquoteright }un chapeau mexicain dans l\IeC {\textquoteright }accumulateur}}{23}{figure.2.25}}
-\newlabel{fig:ChapeauMexicain}{{2.25}{23}{Application d’un chapeau mexicain dans l’accumulateur}{figure.2.25}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.5.8}Recherche des cercles}{23}{subsubsection.2.2.5.8}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2.26}{\ignorespaces Tra\IeC {\c c}age des cercles avec l\IeC {\textquoteright }image des contours}}{24}{figure.2.26}}
-\newlabel{fig:CerclesContours}{{2.26}{24}{Traçage des cercles avec l’image des contours}{figure.2.26}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2.27}{\ignorespaces Les diff\IeC {\'e}rentes op\IeC {\'e}rations permettant de localiser les pupilles}}{25}{figure.2.27}}
-\newlabel{fig:OpPupilles}{{2.27}{25}{Les différentes opérations permettant de localiser les pupilles}{figure.2.27}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {2.3}M\IeC {\'e}thode de d\IeC {\'e}tection de la direction du regard}{25}{section.2.3}}
-\newlabel{MethodeDirectionRegard}{{2.3}{25}{Méthode de détection de la direction du regard}{section.2.3}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2.28}{\ignorespaces Trac\IeC {\'e} du vecteur entre la r\IeC {\'e}flexion infrarouge dans la corn\IeC {\'e}e et la pupille}}{26}{figure.2.28}}
-\newlabel{fig:GazeDetection}{{2.28}{26}{Tracé du vecteur entre la réflexion infrarouge dans la cornée et la pupille}{figure.2.28}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {2.4}Solutions techniques et m\IeC {\'e}thodes choisies}{26}{section.2.4}}
-\@writefile{toc}{\contentsline {part}{II\hspace  {1em}Dossier fonctionnel}{27}{part.2}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {3}Ing\IeC {\'e}nierie des exigences}{29}{chapter.3}}
+\@writefile{toc}{\contentsline {paragraph}{}{16}{section*.6}}
+\citation{bergounioux2010quelques}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.5.2}Traitement de l\IeC {\textquoteright }image pour la d\IeC {\'e}tection de pupilles}{17}{subsubsection.2.2.5.2}}
+\@writefile{toc}{\contentsline {paragraph}{}{17}{section*.8}}
+\newlabel{Filtre}{{2.2.5.2}{17}{Suppression de surplus de contours, atténuation du bruit}{section*.9}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.16}{\ignorespaces Diff\IeC {\'e}rentes \IeC {\'e}tapes de traitement de l\IeC {\textquoteright }image afin de d\IeC {\'e}tecter une pupille dans une image.}}{18}{figure.2.16}}
+\newlabel{fig:TraitementImage}{{2.16}{18}{Différentes étapes de traitement de l’image afin de détecter une pupille dans une image}{figure.2.16}{}}
+\@writefile{toc}{\contentsline {paragraph}{}{18}{section*.11}}
+\newlabel{FiltreGaussien}{{2.2.5.2}{19}{Filtre Gaussien}{section*.14}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.5.3}Conversion en niveau de gris}{19}{subsubsection.2.2.5.3}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.5.4}D\IeC {\'e}tection des contours}{19}{subsubsection.2.2.5.4}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.17}{\ignorespaces Conversion en niveau de gris}}{20}{figure.2.17}}
+\newlabel{fig:Conversion}{{2.17}{20}{Conversion en niveau de gris}{figure.2.17}{}}
+\newlabel{eq:g}{{2.1}{20}{Filtre de Canny}{equation.2.2.1}{}}
+\newlabel{eq:theta}{{2.2}{20}{Filtre de Canny}{equation.2.2.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.18}{\ignorespaces Algorithme permettant de supprimer des non maximaux}}{20}{figure.2.18}}
+\newlabel{fig:Algo}{{2.18}{20}{Algorithme permettant de supprimer des non maximaux}{figure.2.18}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.19}{\ignorespaces D\IeC {\'e}tection des contours gr\IeC {\^a}ce au filtre de Canny}}{21}{figure.2.19}}
+\newlabel{fig:DetectionContours}{{2.19}{21}{Détection des contours grâce au filtre de Canny}{figure.2.19}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.20}{\ignorespaces D\IeC {\'e}terminer les directions des gradients \IeC {\`a} partir de l\IeC {\textquoteright }application du filtre de Sobel}}{22}{figure.2.20}}
+\newlabel{fig:FiltreSobel}{{2.20}{22}{Déterminer les directions des gradients à partir de l’application du filtre de Sobel}{figure.2.20}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.5.5}D\IeC {\'e}tection des centres}{22}{subsubsection.2.2.5.5}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.21}{\ignorespaces Tra\IeC {\c c}age d\IeC {\textquoteright }une droite en fonction d\IeC {\textquoteright }un contour}}{22}{figure.2.21}}
+\newlabel{fig:Contour}{{2.21}{22}{Traçage d’une droite en fonction d’un contour}{figure.2.21}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.22}{\ignorespaces Tra\IeC {\c c}age d\IeC {\textquoteright }une droite dans l\IeC {\textquoteright }accumulateur}}{23}{figure.2.22}}
+\newlabel{fig:Accumulateur}{{2.22}{23}{Traçage d’une droite dans l’accumulateur}{figure.2.22}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.23}{\ignorespaces Tra\IeC {\c c}age des lignes dans l\IeC {\textquoteright }accumulateur en fonction de l\IeC {\textquoteright }image de Canny et de la matrice de directions}}{23}{figure.2.23}}
+\newlabel{fig:MethodeCanny}{{2.23}{23}{Traçage des lignes dans l’accumulateur en fonction de l’image de Canny et de la matrice de directions}{figure.2.23}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.5.6}Seuillage}{23}{subsubsection.2.2.5.6}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.24}{\ignorespaces Application d\IeC {\textquoteright }un seuil dans l\IeC {\textquoteright }accumulateur}}{24}{figure.2.24}}
+\newlabel{fig:SeuilAccumu}{{2.24}{24}{Application d’un seuil dans l’accumulateur}{figure.2.24}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.5.7}Isoler les centres potentiels}{24}{subsubsection.2.2.5.7}}
+\newlabel{eq:RepLaplacienGaussien}{{2.3}{24}{Isoler les centres potentiels}{equation.2.2.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.25}{\ignorespaces Repr\IeC {\'e}sentation graphique d\IeC {\textquoteright }un Laplacien de Gaussien}}{24}{figure.2.25}}
+\newlabel{fig:LaplacienGaussien}{{2.25}{24}{Représentation graphique d’un Laplacien de Gaussien}{figure.2.25}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.26}{\ignorespaces Application d\IeC {\textquoteright }un chapeau mexicain dans l\IeC {\textquoteright }accumulateur}}{25}{figure.2.26}}
+\newlabel{fig:ChapeauMexicain}{{2.26}{25}{Application d’un chapeau mexicain dans l’accumulateur}{figure.2.26}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.5.8}Recherche des cercles}{25}{subsubsection.2.2.5.8}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.27}{\ignorespaces Tra\IeC {\c c}age des cercles avec l\IeC {\textquoteright }image des contours}}{25}{figure.2.27}}
+\newlabel{fig:CerclesContours}{{2.27}{25}{Traçage des cercles avec l’image des contours}{figure.2.27}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.28}{\ignorespaces Les diff\IeC {\'e}rentes op\IeC {\'e}rations permettant de localiser les pupilles}}{26}{figure.2.28}}
+\newlabel{fig:OpPupilles}{{2.28}{26}{Les différentes opérations permettant de localiser les pupilles}{figure.2.28}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.3}M\IeC {\'e}thode de d\IeC {\'e}tection de la direction du regard}{26}{section.2.3}}
+\newlabel{MethodeDirectionRegard}{{2.3}{26}{Méthode de détection de la direction du regard}{section.2.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.29}{\ignorespaces Trac\IeC {\'e} du vecteur entre la r\IeC {\'e}flexion infrarouge dans la corn\IeC {\'e}e et la pupille}}{27}{figure.2.29}}
+\newlabel{fig:GazeDetection}{{2.29}{27}{Tracé du vecteur entre la réflexion infrarouge dans la cornée et la pupille}{figure.2.29}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.4}Solutions techniques et m\IeC {\'e}thodes choisies}{27}{section.2.4}}
+\@writefile{toc}{\contentsline {part}{II\hspace  {1em}Dossier fonctionnel}{29}{part.2}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {3}Ing\IeC {\'e}nierie des exigences}{31}{chapter.3}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {3.1}Approche Top-Down}{29}{section.3.1}}
-\newlabel{sec:top-down}{{3.1}{29}{Approche Top-Down}{section.3.1}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces B\IeC {\^e}te \IeC {\`a} cornes}}{29}{figure.3.1}}
-\newlabel{fig:bac}{{3.1}{29}{Bête à cornes}{figure.3.1}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces Diagramme pieuvre}}{30}{figure.3.2}}
-\newlabel{fig:pieuvre}{{3.2}{30}{Diagramme pieuvre}{figure.3.2}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {3.2}Approche Bottom-Up}{30}{section.3.2}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces Cahier des exigences}}{31}{figure.3.3}}
-\newlabel{fig:exigences}{{3.3}{31}{Cahier des exigences}{figure.3.3}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {3.3}Fonctions principales du syst\IeC {\`e}me}{31}{section.3.3}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {4}Sp\IeC {\'e}cification fonctionnelle 3 axes}{33}{chapter.4}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.1}Approche Top-Down}{31}{section.3.1}}
+\newlabel{sec:top-down}{{3.1}{31}{Approche Top-Down}{section.3.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces B\IeC {\^e}te \IeC {\`a} cornes}}{31}{figure.3.1}}
+\newlabel{fig:bac}{{3.1}{31}{Bête à cornes}{figure.3.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces Diagramme pieuvre}}{32}{figure.3.2}}
+\newlabel{fig:pieuvre}{{3.2}{32}{Diagramme pieuvre}{figure.3.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.2}Approche Bottom-Up}{32}{section.3.2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces Cahier des exigences}}{33}{figure.3.3}}
+\newlabel{fig:exigences}{{3.3}{33}{Cahier des exigences}{figure.3.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.3}Fonctions principales du syst\IeC {\`e}me}{33}{section.3.3}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {4}Sp\IeC {\'e}cification fonctionnelle 3 axes}{35}{chapter.4}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {4.1}Raffinement FAST}{34}{section.4.1}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces FAST raffin\IeC {\'e}}}{34}{figure.4.1}}
-\newlabel{fig:FAST}{{4.1}{34}{FAST raffiné}{figure.4.1}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.2}Sp\IeC {\'e}cification des donn\IeC {\'e}es}{35}{section.4.2}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces Flux de donn\IeC {\'e}es}}{35}{figure.4.2}}
-\newlabel{fig:fluxDonnees}{{4.2}{35}{Flux de données}{figure.4.2}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.3}Sp\IeC {\'e}cification des comportements}{36}{section.4.3}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces Diagramme des sp\IeC {\'e}cifications du comportement global}}{36}{figure.4.3}}
-\newlabel{fig:comportementGlobal}{{4.3}{36}{Diagramme des spécifications du comportement global}{figure.4.3}{}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {5}Architecture fonctionnelle}{37}{chapter.5}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.1}Raffinement FAST}{36}{section.4.1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces FAST raffin\IeC {\'e}}}{36}{figure.4.1}}
+\newlabel{fig:FAST}{{4.1}{36}{FAST raffiné}{figure.4.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.2}Sp\IeC {\'e}cification des donn\IeC {\'e}es}{37}{section.4.2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces Flux de donn\IeC {\'e}es}}{37}{figure.4.2}}
+\newlabel{fig:fluxDonnees}{{4.2}{37}{Flux de données}{figure.4.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.3}Sp\IeC {\'e}cification des comportements}{38}{section.4.3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces Diagramme des sp\IeC {\'e}cifications du comportement global}}{38}{figure.4.3}}
+\newlabel{fig:comportementGlobal}{{4.3}{38}{Diagramme des spécifications du comportement global}{figure.4.3}{}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {5}Architecture fonctionnelle}{39}{chapter.5}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.1}{\ignorespaces Architecture Fonctionnelle}}{37}{figure.5.1}}
-\newlabel{fig:archiFonctionnelle}{{5.1}{37}{Architecture Fonctionnelle}{figure.5.1}{}}
-\@writefile{toc}{\contentsline {part}{III\hspace  {1em}Organisation}{39}{part.3}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {6}M\IeC {\'e}thodes de travail}{41}{chapter.6}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.1}{\ignorespaces Architecture Fonctionnelle}}{39}{figure.5.1}}
+\newlabel{fig:archiFonctionnelle}{{5.1}{39}{Architecture Fonctionnelle}{figure.5.1}{}}
+\@writefile{toc}{\contentsline {part}{III\hspace  {1em}Organisation}{41}{part.3}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {6}M\IeC {\'e}thodes de travail}{43}{chapter.6}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {chapter}{\numberline {7}Outils pour les \IeC {\'e}changes}{43}{chapter.7}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {7}Outils pour les \IeC {\'e}changes}{45}{chapter.7}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {chapter}{\numberline {8}R\IeC {\'e}partition des t\IeC {\^a}ches dans le temps}{45}{chapter.8}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {8}R\IeC {\'e}partition des t\IeC {\^a}ches dans le temps}{47}{chapter.8}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{lof}{\contentsline {figure}{\numberline {8.1}{\ignorespaces Carnet de bord}}{46}{figure.8.1}}
-\newlabel{fig:CarnetBord}{{8.1}{46}{Carnet de bord}{figure.8.1}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8.2}{\ignorespaces Diagramme de Gantt}}{47}{figure.8.2}}
-\newlabel{fig:Gantt}{{8.2}{47}{Diagramme de Gantt}{figure.8.2}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8.3}{\ignorespaces Diagramme de Gantt version graphique}}{47}{figure.8.3}}
-\newlabel{fig:GanttGraphique}{{8.3}{47}{Diagramme de Gantt version graphique}{figure.8.3}{}}
-\@writefile{toc}{\contentsline {part}{IV\hspace  {1em}Journal du projet}{49}{part.4}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {9}Choix et justifications}{51}{chapter.9}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.1}{\ignorespaces Carnet de bord}}{48}{figure.8.1}}
+\newlabel{fig:CarnetBord}{{8.1}{48}{Carnet de bord}{figure.8.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.2}{\ignorespaces Diagramme de Gantt}}{49}{figure.8.2}}
+\newlabel{fig:Gantt}{{8.2}{49}{Diagramme de Gantt}{figure.8.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.3}{\ignorespaces Diagramme de Gantt version graphique}}{49}{figure.8.3}}
+\newlabel{fig:GanttGraphique}{{8.3}{49}{Diagramme de Gantt version graphique}{figure.8.3}{}}
+\@writefile{toc}{\contentsline {part}{IV\hspace  {1em}Journal du projet}{51}{part.4}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {9}Choix et justifications}{53}{chapter.9}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {9.1}\IeC {\'E}metteurs infrarouges}{51}{section.9.1}}
-\@writefile{toc}{\contentsline {section}{\numberline {9.2}Cam\IeC {\'e}ras}{51}{section.9.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {9.2.1}Cam\IeC {\'e}ras \IeC {\guillemotleft }grand-angle\IeC {\guillemotright }}{51}{subsection.9.2.1}}
-\@writefile{lof}{\contentsline {figure}{\numberline {9.1}{\ignorespaces Pr\IeC {\'e}sence de LEDs sur la webcam}}{52}{figure.9.1}}
-\newlabel{fig:LEDCam}{{9.1}{52}{Présence de LEDs sur la webcam}{figure.9.1}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {9.2.2}Cam\IeC {\'e}ras \IeC {\guillemotleft }petit-angle\IeC {\guillemotright }}{52}{subsection.9.2.2}}
-\@writefile{lof}{\contentsline {figure}{\numberline {9.2}{\ignorespaces Webcam Trust Widescrenn Full HD 1080p}}{52}{figure.9.2}}
-\newlabel{fig:CamPetitAngle}{{9.2}{52}{Webcam Trust Widescrenn Full HD 1080p}{figure.9.2}{}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {10}R\IeC {\'e}sultats et analyses}{53}{chapter.10}}
+\@writefile{toc}{\contentsline {section}{\numberline {9.1}\IeC {\'E}metteurs infrarouges}{53}{section.9.1}}
+\@writefile{toc}{\contentsline {section}{\numberline {9.2}Cam\IeC {\'e}ras}{53}{section.9.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.2.1}Cam\IeC {\'e}ras \IeC {\guillemotleft }grand-angle\IeC {\guillemotright }}{53}{subsection.9.2.1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9.1}{\ignorespaces Pr\IeC {\'e}sence de LEDs sur la webcam}}{54}{figure.9.1}}
+\newlabel{fig:LEDCam}{{9.1}{54}{Présence de LEDs sur la webcam}{figure.9.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.2.2}Cam\IeC {\'e}ras \IeC {\guillemotleft }petit-angle\IeC {\guillemotright }}{54}{subsection.9.2.2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9.2}{\ignorespaces Webcam Trust Widescrenn Full HD 1080p}}{54}{figure.9.2}}
+\newlabel{fig:CamPetitAngle}{{9.2}{54}{Webcam Trust Widescrenn Full HD 1080p}{figure.9.2}{}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {10}R\IeC {\'e}sultats et analyses}{55}{chapter.10}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {chapter}{\numberline {11}Conclusion}{55}{chapter.11}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {11}Conclusion}{57}{chapter.11}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \bibstyle{plain-fr}
@@ -230,6 +233,6 @@
 \bibcite{tobiieyetracker}{12}
 \bibcite{tobiiglasses}{13}
 \bibcite{trackeye}{14}
-\@writefile{toc}{\contentsline {part}{Bibliographie}{57}{chapter.11}}
+\@writefile{toc}{\contentsline {part}{Bibliographie}{59}{chapter.11}}
 \bibcite{eyecharm}{15}
 \citation{*}
