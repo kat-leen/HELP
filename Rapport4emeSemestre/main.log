@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.11.13)  13 MAY 2015 11:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.11.13)  13 MAY 2015 12:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1766,19 +1766,15 @@ File: images/ArchitectureFonctionnelle.png Graphic file (type png)
 Package pdftex.def Info: images/ArchitectureFonctionnelle.png used on input lin
 e 87.
 (pdftex.def)             Requested size: 384.47447pt x 307.00142pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) (./ArchitecturePhysique.tex [35pdfTeX warning (ext4): destination with the sa
-me identifier (name{figure.2.6}) has been already used, duplicate ignored
+ [35pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
+6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1 \chapter
-            {Implémentation} <./images/comportementGlobal.png>] [36pdfTeX warn
-ing (ext4): destination with the same identifier (name{figure.2.7}) has been al
-ready used, duplicate ignored
+l.91 
+      <./images/comportementGlobal.png>]) (./ArchitecturePhysique.tex [36pdfTeX
+ warning (ext4): destination with the same identifier (name{figure.2.7}) has be
+en already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -2058,7 +2054,7 @@ type1/public/cm-super/sfrm2488.pfb></usr/local/texlive/2014/texmf-dist/fonts/ty
 pe1/public/cm-super/sfti1200.pfb></usr/local/texlive/2014/texmf-dist/fonts/type
 1/public/cm-super/sftt1200.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/
 public/cm-super/sfxc2488.pfb>
-Output written on main.pdf (50 pages, 6468968 bytes).
+Output written on main.pdf (50 pages, 6468967 bytes).
 PDF statistics:
  850 PDF objects out of 1000 (max. 8388607)
  685 compressed objects within 7 object streams
