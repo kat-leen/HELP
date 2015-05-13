@@ -11,24 +11,33 @@
 \BOOKMARK [2][-]{subsection.1.2.4}{D\351tection par \351clairage infrarouge}{section.1.2}% 11
 \BOOKMARK [2][-]{subsection.1.2.5}{Traitement d\220images}{section.1.2}% 12
 \BOOKMARK [1][-]{section.1.3}{M\351thode de d\351tection de la direction du regard}{chapter.1}% 13
-\BOOKMARK [1][-]{section.1.4}{Solutions techniques et m\351thodes choisies}{chapter.1}% 14
-\BOOKMARK [0][-]{chapter.2}{Dossier fonctionnel}{chapter*.2}% 15
-\BOOKMARK [1][-]{section.2.1}{Ing\351nierie des exigences}{chapter.2}% 16
-\BOOKMARK [2][-]{subsection.2.1.1}{Approche Top-Down}{section.2.1}% 17
-\BOOKMARK [2][-]{subsection.2.1.2}{Approche Bottom-Up}{section.2.1}% 18
-\BOOKMARK [2][-]{subsection.2.1.3}{Fonctions principales du syst\350me}{section.2.1}% 19
-\BOOKMARK [1][-]{section.2.2}{Sp\351cification fonctionnelle 3 axes}{chapter.2}% 20
-\BOOKMARK [2][-]{subsection.2.2.1}{Raffinement FAST}{section.2.2}% 21
-\BOOKMARK [2][-]{subsection.2.2.2}{Sp\351cification des donn\351es}{section.2.2}% 22
-\BOOKMARK [2][-]{subsection.2.2.3}{Sp\351cification des comportements}{section.2.2}% 23
-\BOOKMARK [1][-]{section.2.3}{Architecture fonctionnelle}{chapter.2}% 24
-\BOOKMARK [0][-]{chapter.3}{Organisation}{chapter*.2}% 25
-\BOOKMARK [1][-]{section.3.1}{M\351thodes de travail}{chapter.3}% 26
-\BOOKMARK [1][-]{section.3.2}{Outils pour les \351changes}{chapter.3}% 27
-\BOOKMARK [1][-]{section.3.3}{R\351partition des t\342ches dans le temps}{chapter.3}% 28
-\BOOKMARK [0][-]{chapter.4}{Journal du projet}{chapter*.2}% 29
-\BOOKMARK [1][-]{section.4.1}{Choix et justifications}{chapter.4}% 30
-\BOOKMARK [2][-]{subsection.4.1.1}{\311metteurs infrarouges}{section.4.1}% 31
-\BOOKMARK [2][-]{subsection.4.1.2}{Cam\351ras}{section.4.1}% 32
-\BOOKMARK [-1][-]{figure.4.2}{Conclusion}{}% 33
-\BOOKMARK [-1][-]{section*.20}{Bibliographie}{}% 34
+\BOOKMARK [1][-]{section.1.4}{Solutions techniques et m\351thodes envisag\351es}{chapter.1}% 14
+\BOOKMARK [2][-]{subsection.1.4.1}{Au pr\351alable, suite \340 l'\351tat de l'art}{section.1.4}% 15
+\BOOKMARK [2][-]{subsection.1.4.2}{M\351thodes choisies lors de la r\351alisation}{section.1.4}% 16
+\BOOKMARK [0][-]{chapter.2}{Dossier fonctionnel}{chapter*.2}% 17
+\BOOKMARK [1][-]{section.2.1}{Ing\351nierie des exigences}{chapter.2}% 18
+\BOOKMARK [2][-]{subsection.2.1.1}{Approche Top-Down}{section.2.1}% 19
+\BOOKMARK [2][-]{subsection.2.1.2}{Approche Bottom-Up}{section.2.1}% 20
+\BOOKMARK [2][-]{subsection.2.1.3}{Fonctions principales du syst\350me}{section.2.1}% 21
+\BOOKMARK [1][-]{section.2.2}{Sp\351cification fonctionnelle 3 axes}{chapter.2}% 22
+\BOOKMARK [2][-]{subsection.2.2.1}{Raffinement FAST}{section.2.2}% 23
+\BOOKMARK [2][-]{subsection.2.2.2}{Sp\351cification des donn\351es}{section.2.2}% 24
+\BOOKMARK [2][-]{subsection.2.2.3}{Sp\351cification des comportements}{section.2.2}% 25
+\BOOKMARK [1][-]{section.2.3}{Architecture fonctionnelle}{chapter.2}% 26
+\BOOKMARK [0][-]{chapter.3}{Impl\351mentation}{chapter*.2}% 27
+\BOOKMARK [1][-]{section.3.1}{Architecture physique et interfaces}{chapter.3}% 28
+\BOOKMARK [2][-]{subsection.3.1.1}{Interface d'acquisition}{section.3.1}% 29
+\BOOKMARK [2][-]{subsection.3.1.2}{Interface logicielle}{section.3.1}% 30
+\BOOKMARK [2][-]{subsection.3.1.3}{Interface graphique}{section.3.1}% 31
+\BOOKMARK [1][-]{section.3.2}{WBS}{chapter.3}% 32
+\BOOKMARK [0][-]{chapter.4}{Organisation}{chapter*.2}% 33
+\BOOKMARK [1][-]{section.4.1}{M\351thodes de travail}{chapter.4}% 34
+\BOOKMARK [1][-]{section.4.2}{Outils pour les \351changes}{chapter.4}% 35
+\BOOKMARK [1][-]{section.4.3}{R\351partition des t\342ches dans le temps}{chapter.4}% 36
+\BOOKMARK [0][-]{chapter.5}{Journal du projet}{chapter*.2}% 37
+\BOOKMARK [1][-]{section.5.1}{Choix et justifications}{chapter.5}% 38
+\BOOKMARK [2][-]{subsection.5.1.1}{\311metteurs infrarouges}{section.5.1}% 39
+\BOOKMARK [2][-]{subsection.5.1.2}{Cam\351ras}{section.5.1}% 40
+\BOOKMARK [1][-]{section.5.2}{R\351sultats et analyses}{chapter.5}% 41
+\BOOKMARK [-1][-]{section.5.2}{Conclusion}{}% 42
+\BOOKMARK [-1][-]{section*.20}{Bibliographie}{}% 43

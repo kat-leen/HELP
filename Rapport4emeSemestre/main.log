@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.11.13)  5 MAY 2015 15:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.11.13)  13 MAY 2015 11:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1067,7 +1067,11 @@ Writing index file main.idx
 \openout5 = `main.glo'.
 
 Package glossaries Info: Writing glossary file main.glo on input line 5.
- (./main.aux)
+ (./main.aux
+
+LaTeX Warning: Label `fig:GanttSemestre2' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
@@ -1086,8 +1090,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 7.
 LaTeX Font Info:    ... okay on input line 7.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 7.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 7.
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/base/ts1cmr.fd
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 7.
@@ -1189,7 +1192,7 @@ e
 nary-English.dict
 Dictionary: glossaries-dictionary, Language: English 
 ) (./PageDeTitre.tex
-<images/Trait.png, id=140, 339.669pt x 36.8577pt>
+<images/Trait.png, id=175, 339.669pt x 36.8577pt>
 File: images/Trait.png Graphic file (type png)
  <use images/Trait.png>
 Package pdftex.def Info: images/Trait.png used on input line 6.
@@ -1204,7 +1207,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--40
 
  []
 
-) <images/FondTitreSPID.png, id=142, 583.9416pt x 834.7185pt>
+) <images/FondTitreSPID.png, id=177, 583.9416pt x 834.7185pt>
 File: images/FondTitreSPID.png Graphic file (type png)
 
 <use images/FondTitreSPID.png>
@@ -1229,7 +1232,7 @@ s/FondTitreSPID.png> <./images/Trait.png>]
 
 ]
 Partie 1.
-<images/TobiiGlasses.png, id=216, 927.465pt x 411.939pt>
+<images/TobiiGlasses.png, id=260, 927.465pt x 411.939pt>
 File: images/TobiiGlasses.png Graphic file (type png)
 
 <use images/TobiiGlasses.png>
@@ -1239,7 +1242,7 @@ Package pdftex.def Info: images/TobiiGlasses.png used on input line 22.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/BoitierTobii.png, id=218, 1094.8905pt x 354.123pt>
+<images/BoitierTobii.png, id=262, 1094.8905pt x 354.123pt>
 File: images/BoitierTobii.png Graphic file (type png)
 
 <use images/BoitierTobii.png>
@@ -1248,7 +1251,7 @@ Package pdftex.def Info: images/BoitierTobii.png used on input line 31.
  [6
 
 ]
-<images/BoitierTobii2.png, id=229, 655.248pt x 281.853pt>
+<images/BoitierTobii2.png, id=273, 655.248pt x 281.853pt>
 File: images/BoitierTobii2.png Graphic file (type png)
 
 <use images/BoitierTobii2.png>
@@ -1273,13 +1276,13 @@ l.47
                                                   \fi \fi 
 l.47 
       <./images/TobiiGlasses.png> <./images/BoitierTobii.png> <./images/Boitier
-Tobii2.png>] <images/PCCR.png, id=239, 281.05pt x 219.82124pt>
+Tobii2.png>] <images/PCCR.png, id=283, 281.05pt x 219.82124pt>
 File: images/PCCR.png Graphic file (type png)
 
 <use images/PCCR.png>
 Package pdftex.def Info: images/PCCR.png used on input line 50.
 (pdftex.def)             Requested size: 224.84029pt x 175.85722pt.
- <images/PUPIL.png, id=240, 191.7564pt x 164.2938pt>
+ <images/PUPIL.png, id=284, 191.7564pt x 164.2938pt>
 File: images/PUPIL.png Graphic file (type png)
 
 <use images/PUPIL.png>
@@ -1298,13 +1301,13 @@ l.70
                                                   \fi \fi 
 l.70 
       <./images/PCCR.png> <./images/PUPIL.png>]
-<images/TobiiX2.png, id=251, 306.4248pt x 208.1376pt>
+<images/TobiiX2.png, id=295, 306.4248pt x 208.1376pt>
 File: images/TobiiX2.png Graphic file (type png)
  <use images/TobiiX2.png>
 Package pdftex.def Info: images/TobiiX2.png used on input line 81.
 (pdftex.def)             Requested size: 306.42404pt x 208.13708pt.
 
-<images/EyeCharm.png, id=253, 286.1892pt x 146.949pt>
+<images/EyeCharm.png, id=297, 286.1892pt x 146.949pt>
 File: images/EyeCharm.png Graphic file (type png)
 
 <use images/EyeCharm.png>
@@ -1321,7 +1324,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
                                                   \fi \fi 
 l.102 
        <./images/TobiiX2.png>]
-<images/Experimental.png, id=264, 489.027pt x 366.168pt>
+<images/Experimental.png, id=308, 489.027pt x 366.168pt>
 File: images/Experimental.png Graphic file (type png)
 
 <use images/Experimental.png>
@@ -1340,14 +1343,14 @@ same identifier (name{figure.1.8}) has been already used, duplicate ignored
                                                   \fi \fi 
 l.136 
        <./images/Experimental.png>]
-<images/PartiesOeil.png, id=281, 311.2428pt x 316.0608pt>
+<images/PartiesOeil.png, id=325, 311.2428pt x 316.0608pt>
 File: images/PartiesOeil.png Graphic file (type png)
 
 <use images/PartiesOeil.png>
 Package pdftex.def Info: images/PartiesOeil.png used on input line 139.
 (pdftex.def)             Requested size: 311.24203pt x 316.06003pt.
 
-<images/PartiesExternesOeil.png, id=283, 287.6346pt x 122.859pt>
+<images/PartiesExternesOeil.png, id=327, 287.6346pt x 122.859pt>
 File: images/PartiesExternesOeil.png Graphic file (type png)
 
 <use images/PartiesExternesOeil.png>
@@ -1365,7 +1368,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
                                                   \fi \fi 
 l.164 
        <./images/PartiesOeil.png>]
-<images/SpectreLumiere.png, id=294, 429.2838pt x 148.3944pt>
+<images/SpectreLumiere.png, id=339, 429.2838pt x 148.3944pt>
 File: images/SpectreLumiere.png Graphic file (type png)
 
 <use images/SpectreLumiere.png>
@@ -1376,14 +1379,14 @@ Overfull \hbox (13.87231pt too wide) in paragraph at lines 167--168
  [][] 
  []
 
-<images/CaptureOeilTrad.png, id=295, 247.1634pt x 148.3944pt>
+<images/CaptureOeilTrad.png, id=340, 247.1634pt x 148.3944pt>
 File: images/CaptureOeilTrad.png Graphic file (type png)
 
 <use images/CaptureOeilTrad.png>
 Package pdftex.def Info: images/CaptureOeilTrad.png used on input line 177.
 (pdftex.def)             Requested size: 173.01318pt x 103.87537pt.
 
-<images/CaptureOeilInfra.png, id=296, 247.1634pt x 164.2938pt>
+<images/CaptureOeilInfra.png, id=341, 247.1634pt x 164.2938pt>
 File: images/CaptureOeilInfra.png Graphic file (type png)
 
 <use images/CaptureOeilInfra.png>
@@ -1409,7 +1412,7 @@ l.191
 l.191 
        <./images/PartiesExternesOeil.png> <./images/SpectreLumiere.png> <./imag
 es/CaptureOeilTrad.png> <./images/CaptureOeilInfra.png>]
-<images/ZoneOmbre.png, id=312, 208.6194pt x 129.1224pt>
+<images/ZoneOmbre.png, id=357, 208.6194pt x 129.1224pt>
 File: images/ZoneOmbre.png Graphic file (type png)
 
 <use images/ZoneOmbre.png>
@@ -1422,7 +1425,7 @@ Package pdftex.def Info: images/ZoneOmbre.png used on input line 194.
                                                   \fi \fi 
 l.209 
        <./images/ZoneOmbre.png>]
-<images/BrightPupil.png, id=327, 251.7405pt x 97.5645pt>
+<images/BrightPupil.png, id=371, 251.7405pt x 97.5645pt>
 File: images/BrightPupil.png Graphic file (type png)
 
 <use images/BrightPupil.png>
@@ -1435,7 +1438,7 @@ Package pdftex.def Info: images/BrightPupil.png used on input line 225.
                                                   \fi \fi 
 l.235 
        <./images/BrightPupil.png>]
-<images/AlgoFCM.png, id=337, 503.8825pt x 240.9pt>
+<images/AlgoFCM.png, id=381, 503.8825pt x 240.9pt>
 File: images/AlgoFCM.png Graphic file (type png)
  <use images/AlgoFCM.png>
 Package pdftex.def Info: images/AlgoFCM.png used on input line 253.
@@ -1453,7 +1456,7 @@ Overfull \hbox (7.64471pt too wide) in paragraph at lines 285--286
 e-lop-pÈe par JÈ-rÙme Schmaltz
  []
 
-<images/TraitementImage.png, id=365, 455.301pt x 238.9728pt>
+<images/TraitementImage.png, id=409, 455.301pt x 238.9728pt>
 File: images/TraitementImage.png Graphic file (type png)
 
 <use images/TraitementImage.png>
@@ -1471,7 +1474,7 @@ e.1.16}) has been already used, duplicate ignored
                                                   \fi \fi 
 l.324 
        <./images/TraitementImage.png>]
-<images/Conversion.png, id=391, 357.0138pt x 117.5592pt>
+<images/Conversion.png, id=435, 357.0138pt x 117.5592pt>
 File: images/Conversion.png Graphic file (type png)
 
 <use images/Conversion.png>
@@ -1481,7 +1484,7 @@ Package pdftex.def Info: images/Conversion.png used on input line 347.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[20] <images/Algo.png, id=413, 455.301pt x 121.4136pt>
+[20] <images/Algo.png, id=457, 455.301pt x 121.4136pt>
 File: images/Algo.png Graphic file (type png)
  <use images/Algo.png>
 Package pdftex.def Info: images/Algo.png used on input line 376.
@@ -1500,7 +1503,7 @@ l.384
                                                   \fi \fi 
 l.384 
        <./images/Conversion.png> <./images/Algo.png>]
-<images/DetectionContours.png, id=424, 476.78125pt x 274.02374pt>
+<images/DetectionContours.png, id=468, 476.78125pt x 274.02374pt>
 File: images/DetectionContours.png Graphic file (type png)
 
 <use images/DetectionContours.png>
@@ -1525,7 +1528,7 @@ me suit : $\OT1/cmr/m/n/12 ^^B = \OML/cmm/m/it/12 atan\OT1/cmr/m/n/12 2(\OML/cm
 m/m/it/12 G[]; G[]\OT1/cmr/m/n/12 )$\T1/cmr/m/n/12 ,
  []
 
-<images/FiltreSobel.png, id=432, 455.301pt x 90.5784pt>
+<images/FiltreSobel.png, id=477, 455.301pt x 90.5784pt>
 File: images/FiltreSobel.png Graphic file (type png)
 
 <use images/FiltreSobel.png>
@@ -1536,13 +1539,13 @@ Overfull \hbox (39.88945pt too wide) in paragraph at lines 419--420
  [][] 
  []
 
-<images/Contour.png, id=434, 276.5532pt x 214.8828pt>
+<images/Contour.png, id=479, 276.5532pt x 214.8828pt>
 File: images/Contour.png Graphic file (type png)
  <use images/Contour.png>
 Package pdftex.def Info: images/Contour.png used on input line 432.
 (pdftex.def)             Requested size: 276.55252pt x 214.88226pt.
 
-<images/Accumulateur.png, id=436, 228.3732pt x 180.675pt>
+<images/Accumulateur.png, id=481, 228.3732pt x 180.675pt>
 File: images/Accumulateur.png Graphic file (type png)
 
 <use images/Accumulateur.png>
@@ -1565,7 +1568,7 @@ l.447
                                                   \fi \fi 
 l.447 
        <./images/FiltreSobel.png> <./images/Contour.png>]
-<images/MethodeCanny.png, id=448, 278.9622pt x 217.7736pt>
+<images/MethodeCanny.png, id=493, 278.9622pt x 217.7736pt>
 File: images/MethodeCanny.png Graphic file (type png)
 
 <use images/MethodeCanny.png>
@@ -1586,14 +1589,14 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.1.23})
 l.463 N
        ous pouvons voir figure \ref{fig:SeuilAccumu} le r√©sultat du seuillage.
  <./images/Accumulateur.png> <./images/MethodeCanny.png>]
-<images/SeuilAccumu.png, id=458, 343.5234pt x 108.405pt>
+<images/SeuilAccumu.png, id=503, 343.5234pt x 108.405pt>
 File: images/SeuilAccumu.png Graphic file (type png)
 
 <use images/SeuilAccumu.png>
 Package pdftex.def Info: images/SeuilAccumu.png used on input line 467.
 (pdftex.def)             Requested size: 343.52255pt x 108.40472pt.
 
-<images/LaplacienGaussien.png, id=462, 173.9298pt x 134.904pt>
+<images/LaplacienGaussien.png, id=507, 173.9298pt x 134.904pt>
 File: images/LaplacienGaussien.png Graphic file (type png)
 
 <use images/LaplacienGaussien.png>
@@ -1605,7 +1608,7 @@ Overfull \hbox (3.76749pt too wide) in paragraph at lines 488--489
 -la-teur per-met de conser-
  []
 
-<images/ChapeauMexicain.png, id=464, 352.6776pt x 105.0324pt>
+<images/ChapeauMexicain.png, id=509, 352.6776pt x 105.0324pt>
 File: images/ChapeauMexicain.png Graphic file (type png)
 
 <use images/ChapeauMexicain.png>
@@ -1624,7 +1627,7 @@ l.496
                                                   \fi \fi 
 l.496 
        <./images/SeuilAccumu.png> <./images/LaplacienGaussien.png>]
-<images/CerclesContours.png, id=480, 153.6942pt x 150.8034pt>
+<images/CerclesContours.png, id=524, 153.6942pt x 150.8034pt>
 File: images/CerclesContours.png Graphic file (type png)
 
 <use images/CerclesContours.png>
@@ -1645,7 +1648,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.1.27})
 l.514 \item P
              our finir, une moyenne des positions et des rayons des cercles ...
  <./images/ChapeauMexicain.png> <./images/CerclesContours.png>]
-<images/OpPupilles.png, id=494, 339.1872pt x 375.804pt>
+<images/OpPupilles.png, id=538, 339.1872pt x 375.804pt>
 File: images/OpPupilles.png Graphic file (type png)
 
 <use images/OpPupilles.png>
@@ -1658,28 +1661,28 @@ Package pdftex.def Info: images/OpPupilles.png used on input line 521.
                                                   \fi \fi 
 l.534 
        <./images/OpPupilles.png>]
-<images/GazeDetection.png, id=503, 292.09125pt x 94.55325pt>
+<images/GazeDetection.png, id=547, 292.09125pt x 94.55325pt>
 File: images/GazeDetection.png Graphic file (type png)
 
 <use images/GazeDetection.png>
 Package pdftex.def Info: images/GazeDetection.png used on input line 537.
 (pdftex.def)             Requested size: 292.09052pt x 94.55301pt.
-) [28pdfTeX warning (ext4): destination with the same identifier (name{figure.1
-.29}) has been already used, duplicate ignored
+ [28pdfTeX warning (ext4): destination with the same identifier (name{figure.1.
+29}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.45 
-      <./images/GazeDetection.png>] (./DossierFonctionnel.tex [29]
+l.555 
+       <./images/GazeDetection.png>]) (./DossierFonctionnel.tex [29]
 Partie 2.
-<images/BeteACornes.png, id=515, 414.1071pt x 261.1356pt>
+<images/BeteACornes.png, id=559, 414.1071pt x 261.1356pt>
 File: images/BeteACornes.png Graphic file (type png)
 
 <use images/BeteACornes.png>
 Package pdftex.def Info: images/BeteACornes.png used on input line 10.
 (pdftex.def)             Requested size: 414.10608pt x 261.13495pt.
 
-<images/PieuvreV2.png, id=516, 505.89pt x 457.71pt>
+<images/PieuvreV2.png, id=560, 505.89pt x 457.71pt>
 File: images/PieuvreV2.png Graphic file (type png)
  <use images/PieuvreV2.png>
 Package pdftex.def Info: images/PieuvreV2.png used on input line 17.
@@ -1698,7 +1701,7 @@ has been already used, duplicate ignored
                                                   \fi \fi 
 l.21 
       <./images/BeteACornes.png>]
-<images/CahierdesExigencesV3.png, id=523, 604.1772pt x 421.575pt>
+<images/CahierdesExigencesV3.png, id=567, 604.1772pt x 421.575pt>
 File: images/CahierdesExigencesV3.png Graphic file (type png)
 
 <use images/CahierdesExigencesV3.png>
@@ -1712,11 +1715,11 @@ Package pdftex.def Info: images/CahierdesExigencesV3.png used on input line 28.
                                                   \fi \fi 
 l.32 
       <./images/PieuvreV2.png>]
-<images/FASTV2.png, id=530, 562.0197pt x 670.6656pt>
+<images/FASTV2.png, id=574, 562.1pt x 756.8275pt>
 File: images/FASTV2.png Graphic file (type png)
  <use images/FASTV2.png>
 Package pdftex.def Info: images/FASTV2.png used on input line 51.
-(pdftex.def)             Requested size: 393.4111pt x 469.4627pt.
+(pdftex.def)             Requested size: 393.46732pt x 529.77563pt.
 
 [32pdfTeX warning (ext4): destination with the same identifier (name{figure.2.3
 }) has been already used, duplicate ignored
@@ -1730,9 +1733,9 @@ ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.62 
+l.57 
       <./images/FASTV2.png>]
-<images/FluxDonnees.png, id=543, 722.7pt x 542.025pt>
+<images/FluxDonnees.png, id=587, 722.7pt x 542.025pt>
 File: images/FluxDonnees.png Graphic file (type png)
 
 <use images/FluxDonnees.png>
@@ -1743,132 +1746,190 @@ Overfull \hbox (18.2129pt too wide) in paragraph at lines 65--66
  [][] 
  []
 
-<images/comportementGlobal.png, id=544, 597.1911pt x 475.2957pt>
+<images/comportementGlobal.png, id=589, 597.1911pt x 475.2957pt>
 File: images/comportementGlobal.png Graphic file (type png)
 
 <use images/comportementGlobal.png>
-Package pdftex.def Info: images/comportementGlobal.png used on input line 74.
+Package pdftex.def Info: images/comportementGlobal.png used on input line 76.
 (pdftex.def)             Requested size: 358.31743pt x 285.17961pt.
+ [34pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
+5}) has been already used, duplicate ignored
 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.80 
+      <./images/FluxDonnees.png>]
+<images/ArchitectureFonctionnelle.png, id=598, 320.397pt x 255.8358pt>
+File: images/ArchitectureFonctionnelle.png Graphic file (type png)
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<images/ArchitectureFonctionnelletxt.jpg, id=546, 320.397pt x 255.8358pt>
-File: images/ArchitectureFonctionnelletxt.jpg Graphic file (type jpg)
-
-<use images/ArchitectureFonctionnelletxt.jpg>
-Package pdftex.def Info: images/ArchitectureFonctionnelletxt.jpg used on input 
-line 85.
+<use images/ArchitectureFonctionnelle.png>
+Package pdftex.def Info: images/ArchitectureFonctionnelle.png used on input lin
+e 87.
 (pdftex.def)             Requested size: 384.47447pt x 307.00142pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (./Organisation.tex [34pdfTeX warning (ext4): destination with the same ident
-ifier (name{figure.2.5}) has been already used, duplicate ignored
+) (./ArchitecturePhysique.tex [35pdfTeX warning (ext4): destination with the sa
+me identifier (name{figure.2.6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.1 \chapter
-            {Organisation} <./images/FluxDonnees.png>] [35pdfTeX warning (ext4)
-: destination with the same identifier (name{figure.2.6}) has been already used
-, duplicate ignored
+            {Impl√©mentation} <./images/comportementGlobal.png>] [36pdfTeX warn
+ing (ext4): destination with the same identifier (name{figure.2.7}) has been al
+ready used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.1 \chapter
-            {Organisation}pdfTeX warning (ext4): destination with the same iden
-tifier (name{figure.2.7}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.1 \chapter
-            {Organisation} <./images/comportementGlobal.png> <./images/Architec
-tureFonctionnelletxt.jpg>]
+            {Impl√©mentation} <./images/ArchitectureFonctionnelle.png>]
 Partie 3.
-[36
+<images/architecturePhysique.png, id=612, 338.2236pt x 290.5254pt>
+File: images/architecturePhysique.png Graphic file (type png)
 
-] <images/CarnetBord.png, id=565, 597.432pt x 786.2976pt>
+<use images/architecturePhysique.png>
+Package pdftex.def Info: images/architecturePhysique.png used on input line 9.
+(pdftex.def)             Requested size: 405.86629pt x 348.62874pt.
+ [37
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.16 
+      <./images/architecturePhysique.png>]
+<images/WBS.png, id=620, 489.027pt x 557.4426pt>
+File: images/WBS.png Graphic file (type png)
+ <use images/WBS.png>
+Package pdftex.def Info: images/WBS.png used on input line 28.
+(pdftex.def)             Requested size: 391.22212pt x 445.95467pt.
+) [38]
+(./Organisation.tex [39pdfTeX warning (ext4): destination with the same identif
+ier (name{figure.3.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1 \chapter
+            {Organisation} <./images/WBS.png>]
+Partie 4.
+[40
+
+] <images/CarnetBord.png, id=636, 597.432pt x 786.2976pt>
 File: images/CarnetBord.png Graphic file (type png)
 
 <use images/CarnetBord.png>
-Package pdftex.def Info: images/CarnetBord.png used on input line 29.
+Package pdftex.def Info: images/CarnetBord.png used on input line 28.
 (pdftex.def)             Requested size: 418.19955pt x 550.40459pt.
 
-Overfull \hbox (2.78912pt too wide) in paragraph at lines 29--30
+Overfull \hbox (2.78912pt too wide) in paragraph at lines 28--29
  [][] 
  []
 
+[41] <images/CarnetBordSemestre2.png, id=642, 820.06375pt x 555.07375pt>
+File: images/CarnetBordSemestre2.png Graphic file (type png)
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<images/Gantt.png, id=568, 629.4717pt x 171.7617pt>
-File: images/Gantt.png Graphic file (type png)
- <use images/Gantt.png>
-Package pdftex.def Info: images/Gantt.png used on input line 41.
-(pdftex.def)             Requested size: 377.68593pt x 103.0578pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<images/GanttGraphique.png, id=569, 1366.8666pt x 649.9482pt>
-File: images/GanttGraphique.png Graphic file (type png)
-
-<use images/GanttGraphique.png>
-Package pdftex.def Info: images/GanttGraphique.png used on input line 48.
-(pdftex.def)             Requested size: 410.06314pt x 194.98596pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) (./DossierJustificatif.tex [37] [38pdfTeX warning (ext4): destination with th
-e same identifier (name{figure.3.1}) has been already used, duplicate ignored
+<use images/CarnetBordSemestre2.png>
+Package pdftex.def Info: images/CarnetBordSemestre2.png used on input line 35.
+(pdftex.def)             Requested size: 410.03087pt x 277.53618pt.
+ [42pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
+1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1 \chapter
-            {Journal du projet} <./images/CarnetBord.png>] [39pdfTeX warning (e
-xt4): destination with the same identifier (name{figure.3.2}) has been already 
-used, duplicate ignored
+l.39 
+      <./images/CarnetBord.png>]
+<images/Gantt.png, id=648, 629.4717pt x 171.7617pt>
+File: images/Gantt.png Graphic file (type png)
+ <use images/Gantt.png>
+Package pdftex.def Info: images/Gantt.png used on input line 46.
+(pdftex.def)             Requested size: 377.68593pt x 103.0578pt.
+
+<images/GanttGraphique.png, id=649, 1366.8666pt x 649.9482pt>
+File: images/GanttGraphique.png Graphic file (type png)
+
+<use images/GanttGraphique.png>
+Package pdftex.def Info: images/GanttGraphique.png used on input line 53.
+(pdftex.def)             Requested size: 410.06314pt x 194.98596pt.
+ [43pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
+2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.57 
+     pdfTeX warning (ext4): destination with the same identifier (name{figure.4
+.3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.57 
+      <./images/CarnetBordSemestre2.png> <./images/Gantt.png>]
+<images/GanttSemestre2.png, id=657, 212.9556pt x 109.1277pt>
+File: images/GanttSemestre2.png Graphic file (type png)
+
+<use images/GanttSemestre2.png>
+Package pdftex.def Info: images/GanttSemestre2.png used on input line 60.
+(pdftex.def)             Requested size: 212.95506pt x 109.12741pt.
+
+<images/GanttSemestre22.png, id=658, 590.4459pt x 109.1277pt>
+File: images/GanttSemestre22.png Graphic file (type png)
+
+<use images/GanttSemestre22.png>
+Package pdftex.def Info: images/GanttSemestre22.png used on input line 67.
+(pdftex.def)             Requested size: 442.83334pt x 81.84555pt.
+
+Overfull \hbox (27.42291pt too wide) in paragraph at lines 67--68
+ [][] 
+ []
+
+) (./DossierJustificatif.tex [44pdfTeX warning (ext4): destination with the sam
+e identifier (name{figure.4.4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.1 \chapter
             {Journal du projet}pdfTeX warning (ext4): destination with the same
- identifier (name{figure.3.3}) has been already used, duplicate ignored
+ identifier (name{figure.4.5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.1 \chapter
-            {Journal du projet} <./images/Gantt.png> <./images/GanttGraphique.p
-ng>]
-Partie 4.
-<images/LEDCam.png, id=588, 304.13625pt x 304.13625pt>
+            {Journal du projet}pdfTeX warning (ext4): destination with the same
+ identifier (name{figure.4.6}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1 \chapter
+            {Journal du projet} <./images/GanttGraphique.png> <./images/GanttSe
+mestre2.png> <./images/GanttSemestre22.png>]
+Partie 5.
+<images/LEDCam.png, id=669, 304.13625pt x 304.13625pt>
 File: images/LEDCam.png Graphic file (type png)
  <use images/LEDCam.png>
 Package pdftex.def Info: images/LEDCam.png used on input line 19.
 (pdftex.def)             Requested size: 152.06775pt x 152.06775pt.
 
-[40
+[45
 
-] <images/CamPetitAngle.png, id=597, 380.42125pt x 280.04625pt>
+] <images/CamPetitAngle.png, id=677, 380.42125pt x 280.04625pt>
 File: images/CamPetitAngle.png Graphic file (type png)
 
 <use images/CamPetitAngle.png>
 Package pdftex.def Info: images/CamPetitAngle.png used on input line 33.
 (pdftex.def)             Requested size: 190.21014pt x 140.02277pt.
-) [41pdfTeX warning (ext4): destination with the same identifier (name{figure.4
+) [46pdfTeX warning (ext4): destination with the same identifier (name{figure.5
 .1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.78 \newpage
+l.75 \newpage
              pdfTeX warning (ext4): destination with the same identifier (name{
-figure.4.2}) has been already used, duplicate ignored
+figure.5.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.78 \newpage
+l.75 \newpage
               <./images/LEDCam.png (PNG copy)> <./images/CamPetitAngle.png (PNG
  copy)>] (./Conclusion.tex
 Overfull \hbox (9.1815pt too wide) in paragraph at lines 20--21
@@ -1876,7 +1937,7 @@ Overfull \hbox (9.1815pt too wide) in paragraph at lines 20--21
 , nous avons pris conscience
  []
 
-[42]) [43] (./main.bbl
+[47]) [48] (./main.bbl
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 42.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/t1cmtt.fd
@@ -1917,7 +1978,7 @@ Underfull \hbox (badness 7907) in paragraph at lines 101--107
 ect . com / Articles / 26897 /
  []
 
-[44
+[49
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 109--115
@@ -1949,24 +2010,28 @@ Package glossaries Warning: No \printglossary or \printglossaries found.
 (Remove \makeglossaries if you don't want any glossaries.)
 This document will not have a glossary.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 119.
-[45]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 119.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 116.
+[50]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 116.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 119.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 119.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 116.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 116.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 4BFF88D2714FCB25A4A24A4310A65C3F;2622.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 119.
+(rerunfilecheck)             Checksum: 9800EE9A962CA04300BF54391288D755;3318.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 116.
  ) 
 Here is how much of TeX's memory you used:
- 15752 strings out of 493117
- 230700 string characters out of 6135432
- 389191 words of memory out of 5000000
- 18630 multiletter control sequences out of 15000+600000
+ 15812 strings out of 493117
+ 231865 string characters out of 6135432
+ 390476 words of memory out of 5000000
+ 18664 multiletter control sequences out of 15000+600000
  19009 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 48i,12n,40p,1828b,576s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 48i,12n,40p,1828b,560s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<
 /usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></
@@ -1993,10 +2058,10 @@ type1/public/cm-super/sfrm2488.pfb></usr/local/texlive/2014/texmf-dist/fonts/ty
 pe1/public/cm-super/sfti1200.pfb></usr/local/texlive/2014/texmf-dist/fonts/type
 1/public/cm-super/sftt1200.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/
 public/cm-super/sfxc2488.pfb>
-Output written on main.pdf (45 pages, 6183690 bytes).
+Output written on main.pdf (50 pages, 6468968 bytes).
 PDF statistics:
- 766 PDF objects out of 1000 (max. 8388607)
- 615 compressed objects within 7 object streams
- 195 named destinations out of 1000 (max. 500000)
- 493 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 850 PDF objects out of 1000 (max. 8388607)
+ 685 compressed objects within 7 object streams
+ 214 named destinations out of 1000 (max. 500000)
+ 590 words of extra memory for PDF output out of 10000 (max. 10000000)
 

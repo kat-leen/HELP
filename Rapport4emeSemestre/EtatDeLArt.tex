@@ -543,10 +543,15 @@ Cette méthode présente tout de même deux défauts majeurs : l’impossibilit�
 
 \section{Solutions techniques et méthodes envisagées} 
 
+\subsection{Au préalable, suite à l'état de l'art}
+
 Suite à l’état de l’art, la méthode d’eye tracking sans contact a été retenue (pas de système embarqué). Elle est similaire à celle de la partie \ref{SystSC} et semble plus facilement réalisable qu'un système utilisant des lunettes avec caméras embarquées. Ainsi, dans un premier temps, cette technique sera développée afin d’obtenir un système qui fonctionne correctement. Puis, le système pourra être perfectionné et, s’il reste du temps sur les délais fixés, la méthode utilisant des lunettes sera approfondie. 
 
 Pour l'approche sans contact, deux caméras seront utilisées. La première, la caméra dite "grand angle", permettra de filmer la scène dans son ensemble et de localiser le visage ainsi que certains de ses éléments morphologiques tels que les oreilles et la bouche. Elle transmettra ensuite les coordonnées spatiales du visage à la seconde caméra "petit angle". Cette dernière zoomera sur le visage (grâce aux coordonnées fournies) et effectuera un tracking des pupilles.  
 
 La détection de la pupille s’effectuera à l’aide de la méthode de la bright et de la black pupille. Les différentes étapes vues dans l’état de l’art seront respectées et des tests seront menés afin de déterminer la meilleure solution pour réaliser chaque étape.
  
-Le calcul de la direction du regard s’appuiera sur la méthode vue dans la partie \ref{MethodeDirectionRegard}. Des LEDs infrarouges, placées devant l’utilisateur, illumineront sa cornée, créant une réflexion spéculaire exploitable pour estimer la direction du regard. La caméra "petit angle" devra ainsi être munie d’un filtre infrarouge. Ce filtre pourra être réalisé à l’aide d’une pellicule photo placée devant l’objectif de la caméra.  
+Le calcul de la direction du regard s’appuiera sur la méthode vue dans la partie \ref{MethodeDirectionRegard}. Des LEDs infrarouges, placées devant l’utilisateur, illumineront sa cornée, créant une réflexion spéculaire exploitable pour estimer la direction du regard. La caméra "petit angle" devra ainsi être munie d’un filtre infrarouge. Ce filtre pourra être réalisé à l’aide d’une pellicule photo placée devant l’objectif de la caméra. 
+
+\subsection{Méthodes choisies lors de la réalisation} 
+Devant notre effectif réduit lors de la deuxième phase du projet, nous avons décidé de nous concentrer sur l'utilisation d'une seule caméra combinant "grand angle" et "petit angle". En effet, cela nous a permis d'éliminer tout problème de calibrage entre les deux caméras. De plus, nous avons constaté que la résolution de notre webcam était suffisamment élevée pour la détection du centre des pupilles. Ainsi, puisque l'infrarouge, qui permet certes une détection plus précise, est inconfortable et moins robuste à la lumière du jour, nous avons décidé d'abandonner cette technologie dans un premier temps.
