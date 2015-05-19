@@ -1,132 +1,5 @@
 \chapter{État de l'art}
 
-\section{Présentation des technologies existantes}
-
-\subsection{Systèmes avec contact}
-
-Le suivi de l’œil (aussi appelé « eye tracking ») a de nombreuses applications, tels que le contrôle d’un système. Une pluralité de dispositifs a déjà été développée dans ce domaine et nous allons tâcher dans cette partie de vous présenter les procédés majeurs. Deux grandes catégories de systèmes existent : avec ou sans contact. Un système est dit sans contact lorsque celui-ci n’est pas attaché ou relié à l’utilisateur. Il a l’avantage d’être plus agréable est facile à utiliser. Le deuxième, avec contact, est monté sur l’usager (comme des lunettes par exemple). Il offre ainsi une plus grande mobilité. Dans notre cas, les deux méthodes sont à envisager.
-
-\subsubsection{Les Tobii Glasses}
-
-Les Tobbi Glasses \cite{tobiiglasses} sont des lunettes capables de filmer et d’enregistrer le mouvement des yeux. Elles peuvent ainsi savoir en temps réel ce que l’utilisateur fixe et voit.
-Ces lunettes sont équipées de (cf. figure \ref{fig:TG}) : 
-\begin{itemize}[label=\textbullet,font=\color{black}]
-\item caméras qui filment directement l’œil
-\item une caméra qui filme ce que voit l’utilisateur
-\item plusieurs illuminateurs permettant d’éclairer l’œil
-\item un capteur infrarouge
-\end{itemize}
-
-\begin{figure}[h]
-  \centering
-  \includegraphics[scale=0.4]{TobiiGlasses}
-  \caption{Tobii Glasses}
-  \label{fig:TG}
-\end{figure}
-
-Le capteur infrarouge permet au système de connaitre la position de la tête de l’utilisateur dans l’espace à l’aide d’émetteurs infrarouges balisant la zone qu'il regarde (cf. figure \ref{fig:Emetteur}).
-
-\begin{figure}[H]
-  \centering
-  \includegraphics[scale=0.35]{BoitierTobii}
-  \caption{Emetteur}
-  \label{fig:Emetteur}
-\end{figure}
-
-Toutes les données sont enregistrées dans un boîtier relié aux lunettes (cf. figure \ref{fig:Boitier}). Elles peuvent ensuite être récupérées, traitées et analysées sur un ordinateur. La calibration est aussi effectuée via le boîtier.
-
-\begin{figure}[H]
-  \centering
-  \includegraphics[scale=0.6]{BoitierTobii2}
-  \caption{Boîtier}
-  \label{fig:Boitier}
-\end{figure}
-
-D’un point de vue technique ces lunettes utilisent le Pupil Centre Corneal Reflection (PCCR, cf. figure \ref{fig:PCCR}). Cette méthode consiste à illuminer l’œil, créant ainsi un reflet sur la pupille et la cornée. Une caméra récupère ensuite une image de cette réflexion. Le vecteur formé par l’angle entre la cornée et le reflet lumineux sur la pupille est ensuite calculé. La direction correspond alors à la direction du regard de l’utilisateur.
-Malheureusement l’algorithme de calcul n’est pas donné.
-
-\begin{figure}[H]
-  \centering
-  \includegraphics[scale=0.8]{PCCR}
-  \caption{Pupil Centre Corneal Reflection PCCR}
-  \label{fig:PCCR}
-\end{figure}
-
-Le prix n’est pas communiqué sur le site internet, mais il semblerait qu’il soit d’environ 10 000 \euro{}.
-
-\subsubsection{PUPIL}
-
-\begin{figure}[h]
-  \centering
-  \includegraphics[scale=1]{PUPIL}
-  \caption{PUPIL}
-  \label{fig:PUPIL}
-\end{figure}
-
-PUPIL \cite{pupil} est un projet développé par trois étudiants du MIT. Tout comme les Tobbi Glasses il peut capter et enregistrer les mouvements effectués par l’œil de l’utilisateur.
-
-Le principe de fonctionnement est basé sur deux caméras. La première permet d’enregistrer les mouvements de l’œil, et donc de retrouver par la suite la position de la pupille. La seconde filme ce qu’est censé voir l’utilisateur et permet de connaitre la direction du regard de l’utilisateur en utilisant les données de la première caméra.
-Deux notions sont donc à distinguer : la position de la pupille et la direction du regard. La première nous aide à déduire la seconde. L’avantage de cette méthode est l’usage d'une caméra classique afin de détecter la direction du regard. Il n’est ici pas obligatoire d’employer la réflexion d’une lumière infra-rouge dans l’œil de l’utilisateur.
-
-D’un point de vue matériel, les deux caméras utilisées sont très différentes.
-Celle enregistrant le mouvement des yeux est une caméra basse résolution (640*480 à 30 fps) avec un filtre infrarouge (la  Microsoft LifeCam HD-6000 est recommandée). La caméra qui filme le monde alentour possède quant à elle une grande résolution (1920*1080, la Logitech HD 1080p Webcams est recommandée).
-PUPIL peut être acheté pour la somme de 380 \euro{}.
-
-\subsection{Systèmes sans contact}
-
-\subsubsection{Tobii X2-30\&60}
-
-\begin{figure}[h]
-  \centering
-  \includegraphics[scale=1]{TobiiX2}
-  \caption{Tobii X2-30\&60}
-  \label{fig:TobiiX2}
-\end{figure}
-
-Autre produit créé par Tobii, le X2 \cite{tobiieyetracker} rentre dans les systèmes d’oculométrie sans contact. Ne mesurant que 184 mm, il se branche directement en USB. Il est très facile d’utilisation et s'adapte à de nombreux supports (ordinateurs portables, tablettes, télévisions...).
-Cet outil ne permet pas de contrôler le système sur lequel il est branché mais d’enregistrer ce que l’utilisateur regarde afin d’obtenir des statistiques.
-La détection de la direction du regard se fait aussi à l’aide de la réflexion causée par des LEDs infrarouges sur la cornée du sujet. Combiné avec la localisation de la pupille, le système peut en déduire la direction du regard de l’utilisateur. Encore une fois l’algorithme n’est malheureusement jamais décrit. Cependant la précision de l’appareil permet une précision d’environ 0.34° sur la direction du regard du sujet. 
-
-\subsubsection{Eye Charm}
-
-\begin{figure}[h]
-  \centering
-  \includegraphics[scale=1]{EyeCharm}
-  \caption{EyeCharm}
-  \label{fig:EyeCharm}
-\end{figure}
-
-Créé par une société allemande (4tiito), EyeCharm \cite{eyecharm} est un adaptateur qui se clipse sur la Kinect et exploite sa caméra infrarouge pour suivre le mouvement des yeux. Un logiciel compatible avec Windows 7 \& 8 (NUIA) a été développé pour contrôler les principales fonctions d’un ordinateur grâce à ce système, comme le navigateur internet, les jeux vidéo et d’autres applications. L’utilisation d’EyeCharm ne nécessite aucun changement dans le code source des applications.
-L’algorithme de suivi traite des images. La puissance de calcul nécessaire à son utilisation est ainsi assez importante (exemple : « son algorithme consomme 5 \% de la puissance d’un processeur Intel Core i5-3470 cadencé à 3,2 GHz »). Il est recommandé de détenir « un pc équipé d’un processeur AMD ou Intel multicœur et avec au moins 2 Go de mémoire vive ».
-Le rôle d’EyeCharm est de projeter une lumière infrarouge sur le visage de l’utilisateur. Celle-ci est captée par la caméra de la Kinect (pour Xbox ou Windows, connectée en USB 2.0), ce qui lui permet de suivre le mouvement des yeux. Il est conseillé de se tenir à 75 cm de l’écran pour obtenir de bons résultats.
-
-Le logiciel compte plusieurs extensions pour étendre les possibilités de contrôle par les yeux à :
-\begin{itemize}[label=\textbullet,font=\color{black}]
-\item plusieurs navigateurs internet (Chrome, Internet Explorer, Firefox)
-\item Adobe Photoshop
-\item la suite Office
-\item les jeux World of Warcraft et Minecraft
-\end{itemize}
-
-Certaines fonctionnalités, comme le zoom ou le retour à la page précédente peuvent nécessiter une action supplémentaire, non réalisée par les yeux. Pour cela, il est possible d’appuyer sur une touche du clavier ou d’utiliser une commande vocale, prise en charge par la Kinect. 
-Un kit de développement a été prévu pour que les utilisateurs puissent développer eux-mêmes des applications à l’aide de Qt Creator, Visual Studio, et les langages C, C++, C\# et Java.
-
-\subsubsection{Robust Eye and Pupil Detection Method for Gaze Tracking \cite{gwon2013robust}}
-\label{SystSC}
-
-\begin{figure}[H]
-  \centering
-  \includegraphics[scale=0.6]{Experimental}
-  \caption{Robust Eye and Pupil Detection Method for Gaze Tracking}
-  \label{fig:Experimental}
-\end{figure}
-
-Ce système est intéressant car il n’est pas directement embarqué sur l’utilisateur. La détection des yeux se fait à l’aide de deux caméras. Ces dernières sont motorisées et peuvent donc tourner sur elle-même ou s’orienter vers le haut ou le bas. 
-Une caméra dite wide-view filme l’utilisateur dans son intégralité. Dans les faits cette caméra permet de repérer son visage, puis la position de son œil grâce à deux algorithmes de reconnaissance faciale (l’Adaboost et le CAMShift). Une fois l’œil détecté, sa position est transmise à la seconde caméra dite narrow-view (d’une résolution de 1600x1200 réduite à du 240x320 pour améliorer le temps de calcul). Elle va pouvoir zoomer sur l’œil et ainsi obtenir un gros plan, tandis que la première ne sert qu’à repérer l’usager. Une fois l’œil dans le champ de vision de la caméra, la direction de celui-ci est calculée à l’aide du centre de la pupille et des réflexions spéculaires créées sur l’œil par quatre « near-infrared illuminators », eux même placés aux quatre coins de l’écran que regarde l’utilisateur. Ici encore l’algorithme de calcul reste flou.
-
-D’un point de vue logiciel, cette méthode emploie du C++ et la librairie OpenCV. Tous les calculs sont effectués directement sur un ordinateur classique équipé d’un processeur Intel Core 2 Quad 2.3 GHz et de 4 GB.
-N’étant qu’un sujet de thèse, ce montage n’est pas en vente.
-
 \section{La détection de pupilles}
 
 \subsection{L’œil}
@@ -541,6 +414,133 @@ Les reflets détectés dans l’œil du sujet par la détection de pupille avec 
 
 Cette méthode présente tout de même deux défauts majeurs : l’impossibilité pour l’utilisateur de bouger la tête ou le corps, sous risque de devoir recommencer la calibration, et l’obligation de re-calibrer le système à chaque changement d’utilisateur.
 
+\section{Présentation des technologies existantes}
+
+\subsection{Systèmes avec contact}
+
+Le suivi de l’œil (aussi appelé « eye tracking ») a de nombreuses applications, tels que le contrôle d’un système. Une pluralité de dispositifs a déjà été développée dans ce domaine et nous allons tâcher dans cette partie de vous présenter les procédés majeurs. Deux grandes catégories de systèmes existent : avec ou sans contact. Un système est dit sans contact lorsque celui-ci n’est pas attaché ou relié à l’utilisateur. Il a l’avantage d’être plus agréable est facile à utiliser. Le deuxième, avec contact, est monté sur l’usager (comme des lunettes par exemple). Il offre ainsi une plus grande mobilité. Dans notre cas, les deux méthodes sont à envisager.
+
+\subsubsection{Les Tobii Glasses}
+
+Les Tobbi Glasses \cite{tobiiglasses} sont des lunettes capables de filmer et d’enregistrer le mouvement des yeux. Elles peuvent ainsi savoir en temps réel ce que l’utilisateur fixe et voit.
+Ces lunettes sont équipées de (cf. figure \ref{fig:TG}) : 
+\begin{itemize}[label=\textbullet,font=\color{black}]
+\item caméras qui filment directement l’œil
+\item une caméra qui filme ce que voit l’utilisateur
+\item plusieurs illuminateurs permettant d’éclairer l’œil
+\item un capteur infrarouge
+\end{itemize}
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[scale=0.4]{TobiiGlasses}
+  \caption{Tobii Glasses}
+  \label{fig:TG}
+\end{figure}
+
+Le capteur infrarouge permet au système de connaitre la position de la tête de l’utilisateur dans l’espace à l’aide d’émetteurs infrarouges balisant la zone qu'il regarde (cf. figure \ref{fig:Emetteur}).
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale=0.35]{BoitierTobii}
+  \caption{Emetteur}
+  \label{fig:Emetteur}
+\end{figure}
+
+Toutes les données sont enregistrées dans un boîtier relié aux lunettes (cf. figure \ref{fig:Boitier}). Elles peuvent ensuite être récupérées, traitées et analysées sur un ordinateur. La calibration est aussi effectuée via le boîtier.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale=0.6]{BoitierTobii2}
+  \caption{Boîtier de contrôle et d'enregistrement}
+  \label{fig:Boitier}
+\end{figure}
+
+D’un point de vue technique ces lunettes utilisent le Pupil Centre Corneal Reflection (PCCR, cf. figure \ref{fig:PCCR}). Cette méthode consiste à illuminer l’œil, créant ainsi un reflet sur la pupille et la cornée. Une caméra récupère ensuite une image de cette réflexion. Le vecteur formé par l’angle entre la cornée et le reflet lumineux sur la pupille est ensuite calculé. La direction correspond alors à la direction du regard de l’utilisateur.
+Malheureusement l’algorithme de calcul n’est pas donné.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale=0.8]{PCCR}
+  \caption{Pupil Centre Corneal Reflection PCCR}
+  \label{fig:PCCR}
+\end{figure}
+
+Le prix n’est pas communiqué sur le site internet, mais il semblerait qu’il soit d’environ 10 000 \euro{}.
+
+\subsubsection{PUPIL}
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[scale=1]{PUPIL}
+  \caption{PUPIL}
+  \label{fig:PUPIL}
+\end{figure}
+
+PUPIL \cite{pupil} est un projet développé par trois étudiants du MIT. Tout comme les Tobbi Glasses il peut capter et enregistrer les mouvements effectués par l’œil de l’utilisateur.
+
+Le principe de fonctionnement est basé sur deux caméras. La première permet d’enregistrer les mouvements de l’œil, et donc de retrouver par la suite la position de la pupille. La seconde filme ce qu’est censé voir l’utilisateur et permet de connaitre la direction du regard de l’utilisateur en utilisant les données de la première caméra.
+Deux notions sont donc à distinguer : la position de la pupille et la direction du regard. La première nous aide à déduire la seconde. L’avantage de cette méthode est l’usage d'une caméra classique afin de détecter la direction du regard. Il n’est ici pas obligatoire d’employer la réflexion d’une lumière infra-rouge dans l’œil de l’utilisateur.
+
+D’un point de vue matériel, les deux caméras utilisées sont très différentes.
+Celle enregistrant le mouvement des yeux est une caméra basse résolution (640*480 à 30 fps) avec un filtre infrarouge (la  Microsoft LifeCam HD-6000 est recommandée). La caméra qui filme le monde alentour possède quant à elle une grande résolution (1920*1080, la Logitech HD 1080p Webcams est recommandée).
+PUPIL peut être acheté pour la somme de 380 \euro{}.
+
+\subsection{Systèmes sans contact}
+
+\subsubsection{Tobii X2-30\&60}
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[scale=1]{TobiiX2}
+  \caption{Tobii X2-30\&60}
+  \label{fig:TobiiX2}
+\end{figure}
+
+Autre produit créé par Tobii, le X2 \cite{tobiieyetracker} rentre dans les systèmes d’oculométrie sans contact. Ne mesurant que 184 mm, il se branche directement en USB. Il est très facile d’utilisation et s'adapte à de nombreux supports (ordinateurs portables, tablettes, télévisions...).
+Cet outil ne permet pas de contrôler le système sur lequel il est branché mais d’enregistrer ce que l’utilisateur regarde afin d’obtenir des statistiques.
+La détection de la direction du regard se fait aussi à l’aide de la réflexion causée par des LEDs infrarouges sur la cornée du sujet. Combiné avec la localisation de la pupille, le système peut en déduire la direction du regard de l’utilisateur. Encore une fois l’algorithme n’est malheureusement jamais décrit. Cependant la précision de l’appareil permet une précision d’environ 0.34° sur la direction du regard du sujet. 
+
+\subsubsection{Eye Charm}
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[scale=1]{EyeCharm}
+  \caption{EyeCharm}
+  \label{fig:EyeCharm}
+\end{figure}
+
+Créé par une société allemande (4tiito), EyeCharm \cite{eyecharm} est un adaptateur qui se clipse sur la Kinect et exploite sa caméra infrarouge pour suivre le mouvement des yeux. Un logiciel compatible avec Windows 7 \& 8 (NUIA) a été développé pour contrôler les principales fonctions d’un ordinateur grâce à ce système, comme le navigateur internet, les jeux vidéo et d’autres applications. L’utilisation d’EyeCharm ne nécessite aucun changement dans le code source des applications.
+L’algorithme de suivi traite des images. La puissance de calcul nécessaire à son utilisation est ainsi assez importante (exemple : « son algorithme consomme 5 \% de la puissance d’un processeur Intel Core i5-3470 cadencé à 3,2 GHz »). Il est recommandé de détenir « un pc équipé d’un processeur AMD ou Intel multicœur et avec au moins 2 Go de mémoire vive ».
+Le rôle d’EyeCharm est de projeter une lumière infrarouge sur le visage de l’utilisateur. Celle-ci est captée par la caméra de la Kinect (pour Xbox ou Windows, connectée en USB 2.0), ce qui lui permet de suivre le mouvement des yeux. Il est conseillé de se tenir à 75 cm de l’écran pour obtenir de bons résultats.
+
+Le logiciel compte plusieurs extensions pour étendre les possibilités de contrôle par les yeux à :
+\begin{itemize}[label=\textbullet,font=\color{black}]
+\item plusieurs navigateurs internet (Chrome, Internet Explorer, Firefox)
+\item Adobe Photoshop
+\item la suite Office
+\item les jeux World of Warcraft et Minecraft
+\end{itemize}
+
+Certaines fonctionnalités, comme le zoom ou le retour à la page précédente peuvent nécessiter une action supplémentaire, non réalisée par les yeux. Pour cela, il est possible d’appuyer sur une touche du clavier ou d’utiliser une commande vocale, prise en charge par la Kinect. 
+Un kit de développement a été prévu pour que les utilisateurs puissent développer eux-mêmes des applications à l’aide de Qt Creator, Visual Studio, et les langages C, C++, C\# et Java.
+
+\subsubsection{Robust Eye and Pupil Detection Method for Gaze Tracking \cite{gwon2013robust}}
+\label{SystSC}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale=0.6]{Experimental}
+  \caption{Robust Eye and Pupil Detection Method for Gaze Tracking}
+  \label{fig:Experimental}
+\end{figure}
+
+Ce système est intéressant car il n’est pas directement embarqué sur l’utilisateur. La détection des yeux se fait à l’aide de deux caméras. Ces dernières sont motorisées et peuvent donc tourner sur elle-même ou s’orienter vers le haut ou le bas. 
+Une caméra dite wide-view filme l’utilisateur dans son intégralité. Dans les faits cette caméra permet de repérer son visage, puis la position de son œil grâce à deux algorithmes de reconnaissance faciale (l’Adaboost et le CAMShift). Une fois l’œil détecté, sa position est transmise à la seconde caméra dite narrow-view (d’une résolution de 1600x1200 réduite à du 240x320 pour améliorer le temps de calcul). Elle va pouvoir zoomer sur l’œil et ainsi obtenir un gros plan, tandis que la première ne sert qu’à repérer l’usager. Une fois l’œil dans le champ de vision de la caméra, la direction de celui-ci est calculée à l’aide du centre de la pupille et des réflexions spéculaires créées sur l’œil par quatre « near-infrared illuminators », eux même placés aux quatre coins de l’écran que regarde l’utilisateur. Ici encore l’algorithme de calcul reste flou.
+
+D’un point de vue logiciel, cette méthode emploie du C++ et la librairie OpenCV. Tous les calculs sont effectués directement sur un ordinateur classique équipé d’un processeur Intel Core 2 Quad 2.3 GHz et de 4 GB.
+N’étant qu’un sujet de thèse, ce montage n’est pas en vente.
+
 \section{Solutions techniques et méthodes envisagées} 
 
 \subsection{Au préalable, suite à l'état de l'art}
@@ -554,4 +554,5 @@ La détection de la pupille s’effectuera à l’aide de la méthode de la brig
 Le calcul de la direction du regard s’appuiera sur la méthode vue dans la partie \ref{MethodeDirectionRegard}. Des LEDs infrarouges, placées devant l’utilisateur, illumineront sa cornée, créant une réflexion spéculaire exploitable pour estimer la direction du regard. La caméra "petit angle" devra ainsi être munie d’un filtre infrarouge. Ce filtre pourra être réalisé à l’aide d’une pellicule photo placée devant l’objectif de la caméra. 
 
 \subsection{Méthodes choisies lors de la réalisation} 
+\label{MethodesChoisies}
 Devant notre effectif réduit lors de la deuxième phase du projet, nous avons décidé de nous concentrer sur l'utilisation d'une seule caméra combinant "grand angle" et "petit angle". En effet, cela nous a permis d'éliminer tout problème de calibrage entre les deux caméras. De plus, nous avons constaté que la résolution de notre webcam était suffisamment élevée pour la détection du centre des pupilles. Ainsi, puisque l'infrarouge, qui permet certes une détection plus précise, est inconfortable et moins robuste à la lumière du jour, nous avons décidé d'abandonner cette technologie dans un premier temps.

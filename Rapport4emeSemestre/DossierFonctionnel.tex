@@ -12,6 +12,10 @@ Pour notre approche Top-Down, nous sommes revenus à la demande initiale du proj
   \label{fig:bac}
 \end{figure}
 
+Dans la suite du dossier fonctionnel, nous avons supposé que nous utilisions deux caméras. Dans les faits, comme nous l'avons précisé dans les méthodes de réalisation choisies (paragraphe \ref{MethodesChoisies}), nous n'avons pas eu le temps de configurer les deux webcams. Le système a toutefois gardé la même démarche, une caméra réalisant à la fois la détection du visage et du centre des pupilles. 
+
+D'autre part, dans le diagramme pieuvre (figure \ref{fig:pieuvre}), nous avons défini la fonction de contrainte sur la sécurité de l'utilisateur. En effet, ce critère est important, notamment dans le cas d'essais cliniques sur des personnes tétraplégiques. Notre système n'étant pas encore au point, nous n'avons pas eu l'occasion de nous mettre en relation avec de tels utilisateurs. Néanmoins, nous pensons que les autorités règlementaires concernées valideraient les tests. N'utilisant pas d'infrarouge, le système, composé d'un ordinateur et d'une ou deux caméras nous semble fiable. 
+
 \begin{figure}[H]
   \centering
   \includegraphics[scale=0.9]{PieuvreV2}
@@ -25,7 +29,7 @@ Nous avons défini les différentes exigences auxquelles le système devra répo
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=\textwidth]{CahierdesExigencesV3}
+  \includegraphics[width=\textwidth]{CahierdesExigencesV4}
   \caption{Cahier des exigences}
   \label{fig:exigences}
 \end{figure}
@@ -39,7 +43,8 @@ Dans le cadre de ce projet, nous cherchons donc à remplacer la souris d'un ordi
 \item\colorbox{sable}{FP2 : Transférer les données enregistrées}
 \item FP3 : Extraire les repères anatomiques
 \item FP4 : Interpréter les données pour déduire l'action à exécuter 
-\item FP5 : Agir sur l'IHM 
+\item FP5 : Agir sur l'IHM
+\item FP6 : Rendre l'IHM ergonomique
 \end{itemize}
 
 \section{Spécification fonctionnelle  3 axes}

@@ -1,0 +1,18 @@
+\begin{lstlisting}
+cv::Mat computeMatXGradient(const cv::Mat &mat) {
+	cv::Mat out(mat.rows, mat.cols, CV_64F);
+
+	for (int y = 0; y < mat.rows; ++y) {
+		const uchar *Mr = mat.ptr<uchar>(y);
+		double *Or = out.ptr<double>(y);
+
+		Or[0] = Mr[1] - Mr[0];
+		for (int x = 1; x < mat.cols - 1; ++x) {
+			Or[x] = (Mr[x + 1] - Mr[x - 1]) / 2.0;
+		}
+		Or[mat.cols - 1] = Mr[mat.cols - 1] - Mr[mat.cols - 2];
+	}
+
+	return out;
+}
+\end{lstlisting}

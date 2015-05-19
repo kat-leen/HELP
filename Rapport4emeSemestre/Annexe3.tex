@@ -1,0 +1,9 @@
+\begin{lstlisting}
+cv::String eyes_cascade_name = "CheminDossier/haarcascade_eye_tree_eyeglasses.xml";
+cv::CascadeClassifier eyes_cascade;
+cv::String face_cascade_name = " CheminDossier/haarcascade_frontalface_alt.xml";
+cv::CascadeClassifier face_cascade;
+// Load the cascades
+if (!face_cascade.load(face_cascade_name)){ printf("--(!)Error loading face cascade, please change face_cascade_name in source code.\n"); return -1; };
+if (!eyes_cascade.load(eyes_cascade_name)){ printf("--(!)Error loading eyes cascade, please change eyes_cascade_name in source code.\n"); return -1; };
+\end{lstlisting}

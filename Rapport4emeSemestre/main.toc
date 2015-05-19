@@ -1,38 +1,38 @@
 \select@language {french}
 \contentsline {part}{Remerciements}{2}{Doc-Start}
-\contentsline {part}{Introduction au projet}{5}{chapter*.2}
-\contentsline {chapter}{\numberline {1}\IeC {\'E}tat de l'art}{6}{chapter.1}
-\contentsline {section}{\numberline {1.1}Pr\IeC {\'e}sentation des technologies existantes}{6}{section.1.1}
-\contentsline {subsection}{\numberline {1.1.1}Syst\IeC {\`e}mes avec contact}{6}{subsection.1.1.1}
-\contentsline {subsubsection}{\numberline {1.1.1.1}Les Tobii Glasses}{6}{subsubsection.1.1.1.1}
-\contentsline {subsubsection}{\numberline {1.1.1.2}PUPIL}{8}{subsubsection.1.1.1.2}
-\contentsline {subsection}{\numberline {1.1.2}Syst\IeC {\`e}mes sans contact}{9}{subsection.1.1.2}
-\contentsline {subsubsection}{\numberline {1.1.2.1}Tobii X2-30\&60}{9}{subsubsection.1.1.2.1}
-\contentsline {subsubsection}{\numberline {1.1.2.2}Eye Charm}{10}{subsubsection.1.1.2.2}
-\contentsline {subsubsection}{\numberline {1.1.2.3}Robust Eye and Pupil Detection Method for Gaze Tracking \cite {gwon2013robust}}{11}{subsubsection.1.1.2.3}
-\contentsline {section}{\numberline {1.2}La d\IeC {\'e}tection de pupilles}{11}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}L\IeC {\textquoteright }\IeC {\oe }il}{11}{subsection.1.2.1}
-\contentsline {subsection}{\numberline {1.2.2}Caract\IeC {\'e}ristiques d\IeC {\textquoteright }une image d\IeC {\textquoteright }un \IeC {\oe }il acquise par cam\IeC {\'e}ra traditionnelle}{12}{subsection.1.2.2}
-\contentsline {subsection}{\numberline {1.2.3}Les diff\IeC {\'e}rentes probl\IeC {\'e}matiques de la d\IeC {\'e}tection par cam\IeC {\'e}ra traditionnelle}{14}{subsection.1.2.3}
-\contentsline {subsubsection}{\numberline {1.2.3.1}Ombres}{14}{subsubsection.1.2.3.1}
-\contentsline {subsubsection}{\numberline {1.2.3.2}Reflets}{14}{subsubsection.1.2.3.2}
-\contentsline {subsubsection}{\numberline {1.2.3.3}Pupille}{15}{subsubsection.1.2.3.3}
-\contentsline {subsection}{\numberline {1.2.4}D\IeC {\'e}tection par \IeC {\'e}clairage infrarouge}{15}{subsection.1.2.4}
-\contentsline {subsection}{\numberline {1.2.5}Traitement d\IeC {\textquoteright }images}{16}{subsection.1.2.5}
-\contentsline {subsubsection}{\numberline {1.2.5.1}Segmentation}{16}{subsubsection.1.2.5.1}
-\contentsline {paragraph}{}{16}{section*.7}
-\contentsline {paragraph}{}{17}{section*.8}
-\contentsline {paragraph}{}{17}{section*.9}
-\contentsline {subsubsection}{\numberline {1.2.5.2}Traitement de l\IeC {\textquoteright }image pour la d\IeC {\'e}tection de pupilles}{18}{subsubsection.1.2.5.2}
-\contentsline {paragraph}{}{18}{section*.11}
-\contentsline {paragraph}{}{19}{section*.14}
-\contentsline {subsubsection}{\numberline {1.2.5.3}Conversion en niveau de gris}{20}{subsubsection.1.2.5.3}
-\contentsline {subsubsection}{\numberline {1.2.5.4}D\IeC {\'e}tection des contours}{20}{subsubsection.1.2.5.4}
-\contentsline {subsubsection}{\numberline {1.2.5.5}D\IeC {\'e}tection des centres}{23}{subsubsection.1.2.5.5}
-\contentsline {subsubsection}{\numberline {1.2.5.6}Seuillage}{24}{subsubsection.1.2.5.6}
-\contentsline {subsubsection}{\numberline {1.2.5.7}Isoler les centres potentiels}{25}{subsubsection.1.2.5.7}
-\contentsline {subsubsection}{\numberline {1.2.5.8}Recherche des cercles}{26}{subsubsection.1.2.5.8}
-\contentsline {section}{\numberline {1.3}M\IeC {\'e}thode de d\IeC {\'e}tection de la direction du regard}{27}{section.1.3}
+\contentsline {part}{Introduction au projet}{6}{chapter*.2}
+\contentsline {chapter}{\numberline {1}\IeC {\'E}tat de l'art}{7}{chapter.1}
+\contentsline {section}{\numberline {1.1}La d\IeC {\'e}tection de pupilles}{7}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}L\IeC {\textquoteright }\IeC {\oe }il}{7}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}Caract\IeC {\'e}ristiques d\IeC {\textquoteright }une image d\IeC {\textquoteright }un \IeC {\oe }il acquise par cam\IeC {\'e}ra traditionnelle}{8}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.1.3}Les diff\IeC {\'e}rentes probl\IeC {\'e}matiques de la d\IeC {\'e}tection par cam\IeC {\'e}ra traditionnelle}{8}{subsection.1.1.3}
+\contentsline {subsubsection}{\numberline {1.1.3.1}Ombres}{8}{subsubsection.1.1.3.1}
+\contentsline {subsubsection}{\numberline {1.1.3.2}Reflets}{9}{subsubsection.1.1.3.2}
+\contentsline {subsubsection}{\numberline {1.1.3.3}Pupille}{10}{subsubsection.1.1.3.3}
+\contentsline {subsection}{\numberline {1.1.4}D\IeC {\'e}tection par \IeC {\'e}clairage infrarouge}{10}{subsection.1.1.4}
+\contentsline {subsection}{\numberline {1.1.5}Traitement d\IeC {\textquoteright }images}{11}{subsection.1.1.5}
+\contentsline {subsubsection}{\numberline {1.1.5.1}Segmentation}{11}{subsubsection.1.1.5.1}
+\contentsline {paragraph}{}{12}{section*.13}
+\contentsline {paragraph}{}{12}{section*.15}
+\contentsline {paragraph}{}{13}{section*.16}
+\contentsline {subsubsection}{\numberline {1.1.5.2}Traitement de l\IeC {\textquoteright }image pour la d\IeC {\'e}tection de pupilles}{13}{subsubsection.1.1.5.2}
+\contentsline {paragraph}{}{13}{section*.18}
+\contentsline {paragraph}{}{14}{section*.22}
+\contentsline {subsubsection}{\numberline {1.1.5.3}Conversion en niveau de gris}{15}{subsubsection.1.1.5.3}
+\contentsline {subsubsection}{\numberline {1.1.5.4}D\IeC {\'e}tection des contours}{15}{subsubsection.1.1.5.4}
+\contentsline {subsubsection}{\numberline {1.1.5.5}D\IeC {\'e}tection des centres}{18}{subsubsection.1.1.5.5}
+\contentsline {subsubsection}{\numberline {1.1.5.6}Seuillage}{19}{subsubsection.1.1.5.6}
+\contentsline {subsubsection}{\numberline {1.1.5.7}Isoler les centres potentiels}{20}{subsubsection.1.1.5.7}
+\contentsline {subsubsection}{\numberline {1.1.5.8}Recherche des cercles}{21}{subsubsection.1.1.5.8}
+\contentsline {section}{\numberline {1.2}M\IeC {\'e}thode de d\IeC {\'e}tection de la direction du regard}{22}{section.1.2}
+\contentsline {section}{\numberline {1.3}Pr\IeC {\'e}sentation des technologies existantes}{23}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Syst\IeC {\`e}mes avec contact}{23}{subsection.1.3.1}
+\contentsline {subsubsection}{\numberline {1.3.1.1}Les Tobii Glasses}{23}{subsubsection.1.3.1.1}
+\contentsline {subsubsection}{\numberline {1.3.1.2}PUPIL}{25}{subsubsection.1.3.1.2}
+\contentsline {subsection}{\numberline {1.3.2}Syst\IeC {\`e}mes sans contact}{26}{subsection.1.3.2}
+\contentsline {subsubsection}{\numberline {1.3.2.1}Tobii X2-30\&60}{26}{subsubsection.1.3.2.1}
+\contentsline {subsubsection}{\numberline {1.3.2.2}Eye Charm}{27}{subsubsection.1.3.2.2}
+\contentsline {subsubsection}{\numberline {1.3.2.3}Robust Eye and Pupil Detection Method for Gaze Tracking \cite {gwon2013robust}}{28}{subsubsection.1.3.2.3}
 \contentsline {section}{\numberline {1.4}Solutions techniques et m\IeC {\'e}thodes envisag\IeC {\'e}es}{28}{section.1.4}
 \contentsline {subsection}{\numberline {1.4.1}Au pr\IeC {\'e}alable, suite \IeC {\`a} l'\IeC {\'e}tat de l'art}{28}{subsection.1.4.1}
 \contentsline {subsection}{\numberline {1.4.2}M\IeC {\'e}thodes choisies lors de la r\IeC {\'e}alisation}{29}{subsection.1.4.2}
@@ -52,16 +52,67 @@
 \contentsline {subsection}{\numberline {3.1.2}Interface logicielle}{38}{subsection.3.1.2}
 \contentsline {subsection}{\numberline {3.1.3}Interface graphique}{38}{subsection.3.1.3}
 \contentsline {section}{\numberline {3.2}WBS}{38}{section.3.2}
-\contentsline {chapter}{\numberline {4}Organisation}{40}{chapter.4}
-\contentsline {section}{\numberline {4.1}M\IeC {\'e}thodes de travail}{40}{section.4.1}
-\contentsline {section}{\numberline {4.2}Outils pour les \IeC {\'e}changes}{40}{section.4.2}
-\contentsline {section}{\numberline {4.3}R\IeC {\'e}partition des t\IeC {\^a}ches dans le temps}{41}{section.4.3}
-\contentsline {chapter}{\numberline {5}Journal du projet}{45}{chapter.5}
-\contentsline {section}{\numberline {5.1}Choix et justifications}{45}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}\IeC {\'E}metteurs infrarouges}{45}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}Cam\IeC {\'e}ras}{45}{subsection.5.1.2}
-\contentsline {subsubsection}{\numberline {5.1.2.1}Cam\IeC {\'e}ras \IeC {\guillemotleft }grand-angle\IeC {\guillemotright }}{45}{subsubsection.5.1.2.1}
-\contentsline {subsubsection}{\numberline {5.1.2.2}Cam\IeC {\'e}ras \IeC {\guillemotleft }petit-angle\IeC {\guillemotright }}{46}{subsubsection.5.1.2.2}
-\contentsline {section}{\numberline {5.2}R\IeC {\'e}sultats et analyses}{46}{section.5.2}
-\contentsline {part}{Conclusion}{47}{section.5.2}
-\contentsline {part}{Bibliographie}{49}{section*.20}
+\contentsline {section}{\numberline {3.3}Mat\IeC {\'e}riel utilis\IeC {\'e}}{39}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Ordinateur}{39}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Cam\IeC {\'e}ra}{40}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Mentonni\IeC {\`e}re}{41}{subsection.3.3.3}
+\contentsline {section}{\numberline {3.4}Plan de validation fonctionnelle}{41}{section.3.4}
+\contentsline {section}{\numberline {3.5}Tests unitaires}{41}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Test Unitaire 1 : d\IeC {\'e}tection de l\IeC {\textquoteright }ouverture de l\IeC {\textquoteright }\IeC {\oe }il}{42}{subsection.3.5.1}
+\contentsline {paragraph}{Les buts/attendus du test}{42}{section*.61}
+\contentsline {paragraph}{La pr\IeC {\'e}paration du test (mise en place, outils et instrumentation n\IeC {\'e}cessaires)}{42}{section*.62}
+\contentsline {paragraph}{Le d\IeC {\'e}roulement du test}{42}{section*.63}
+\contentsline {subparagraph}{Conditions initiales (environnement) - Lancement du test}{42}{section*.64}
+\contentsline {subparagraph}{D\IeC {\'e}roulement du test - Fin du test}{43}{section*.65}
+\contentsline {paragraph}{Analyse et consignation des r\IeC {\'e}sultats du test}{43}{section*.66}
+\contentsline {subsection}{\numberline {3.5.2}Test Unitaire 2 : clic}{44}{subsection.3.5.2}
+\contentsline {paragraph}{Les buts/attendus du test}{44}{section*.69}
+\contentsline {paragraph}{La pr\IeC {\'e}paration du test (mise en place, outils et instrumentation n\IeC {\'e}cessaires)}{44}{section*.70}
+\contentsline {paragraph}{Le d\IeC {\'e}roulement du test}{44}{section*.71}
+\contentsline {subparagraph}{Conditions initiales (environnement) - Lancement du test}{44}{section*.72}
+\contentsline {subparagraph}{D\IeC {\'e}roulement du test - Fin du test}{44}{section*.73}
+\contentsline {paragraph}{Analyse et consignation des r\IeC {\'e}sultats du test}{45}{section*.74}
+\contentsline {chapter}{\numberline {4}Organisation}{46}{chapter.4}
+\contentsline {section}{\numberline {4.1}M\IeC {\'e}thodes de travail}{46}{section.4.1}
+\contentsline {section}{\numberline {4.2}Outils pour les \IeC {\'e}changes}{46}{section.4.2}
+\contentsline {section}{\numberline {4.3}R\IeC {\'e}partition des t\IeC {\^a}ches dans le temps}{47}{section.4.3}
+\contentsline {chapter}{\numberline {5}Partie technique}{51}{chapter.5}
+\contentsline {section}{\numberline {5.1}Le d\IeC {\'e}tecteur}{51}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Principe de fonctionnement}{51}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Acquisition du flux vid\IeC {\'e}o et transformation en images matricielles}{53}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}D\IeC {\'e}tection du visage}{54}{subsection.5.1.3}
+\contentsline {paragraph}{Haar\_cascades / Caract\IeC {\'e}ristiques pseudo-Haar}{54}{section*.83}
+\contentsline {paragraph}{Utilisation de ces haar\_cascades}{55}{section*.85}
+\contentsline {subsection}{\numberline {5.1.4}D\IeC {\'e}tection des yeux}{56}{subsection.5.1.4}
+\contentsline {subsection}{\numberline {5.1.5}D\IeC {\'e}termination du centre des pupilles}{56}{subsection.5.1.5}
+\contentsline {paragraph}{Localisation du centre des pupilles}{56}{section*.88}
+\contentsline {paragraph}{Algorithme du gradient}{57}{section*.90}
+\contentsline {subsection}{\numberline {5.1.6}D\IeC {\'e}placement du curseur en fonction de la position des centres}{58}{subsection.5.1.6}
+\contentsline {subsection}{\numberline {5.1.7}Clic}{59}{subsection.5.1.7}
+\contentsline {section}{\numberline {5.2}Interface graphique}{60}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}But et enjeux de l\IeC {\textquoteright }interface}{60}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Crit\IeC {\`e}res d\IeC {\textquoteright }exigence}{60}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Outils de r\IeC {\'e}alisation}{62}{subsection.5.2.3}
+\contentsline {section}{\numberline {5.3}Limites du syst\IeC {\`e}me}{62}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Limites du d\IeC {\'e}tecteur}{62}{subsection.5.3.1}
+\contentsline {subsubsection}{\numberline {5.3.1.1}Limites li\IeC {\'e}es au mouvement de la t\IeC {\^e}te}{62}{subsubsection.5.3.1.1}
+\contentsline {paragraph}{Limites des haar\_cascades}{62}{section*.95}
+\contentsline {paragraph}{Orientation de la t\IeC {\^e}te}{63}{section*.96}
+\contentsline {paragraph}{T\IeC {\^e}te verticale seulement}{63}{section*.97}
+\contentsline {subsubsection}{\numberline {5.3.1.2}Limites li\IeC {\'e}es \IeC {\`a} la cam\IeC {\'e}ra}{63}{subsubsection.5.3.1.2}
+\contentsline {subsubsection}{\numberline {5.3.1.3}Limites li\IeC {\'e}es \IeC {\`a} la luminosit\IeC {\'e}}{63}{subsubsection.5.3.1.3}
+\contentsline {subsection}{\numberline {5.3.2}Limites d'utilisation}{63}{subsection.5.3.2}
+\contentsline {subsubsection}{\numberline {5.3.2.1}Limite d\IeC {\textquoteright }utilisation pour l\IeC {\textquoteright }utilisateur}{63}{subsubsection.5.3.2.1}
+\contentsline {subsubsection}{\numberline {5.3.2.2}Limite d\IeC {\textquoteright }utilisation de l\IeC {\textquoteright }interface graphique}{64}{subsubsection.5.3.2.2}
+\contentsline {part}{Conclusion}{65}{subsubsection.5.3.2.2}
+\contentsline {part}{Annexes}{66}{section*.98}
+\contentsline {chapter}{\numberline {A}Plan de validation fonctionnelle}{66}{appendix.A}
+\contentsline {chapter}{\numberline {B}Programme permettant d\IeC {\textquoteright }acqu\IeC {\'e}rir un flux vid\IeC {\'e}o}{75}{appendix.B}
+\contentsline {chapter}{\numberline {C}Code permettant de r\IeC {\'e}cup\IeC {\'e}rer le flux vid\IeC {\'e}o et de le convertir en images matricielles}{77}{appendix.C}
+\contentsline {chapter}{\numberline {D}Haar\_cascades permettant de d\IeC {\'e}tecter le visage et les yeux}{78}{appendix.D}
+\contentsline {chapter}{\numberline {E}Matrice contenant les rectangles encadrant le visage}{79}{appendix.E}
+\contentsline {chapter}{\numberline {F}M\IeC {\'e}thode detectMultiScale}{80}{appendix.F}
+\contentsline {chapter}{\numberline {G}Changement de rep\IeC {\`e}re des coordonn\IeC {\'e}es du centre des pupilles dans la m\IeC {\'e}thode findEyes}{81}{appendix.G}
+\contentsline {chapter}{\numberline {H}Algorithme du gradient}{82}{appendix.H}
+\contentsline {chapter}{\numberline {I}Fiche de validation fonctionnelle compl\IeC {\'e}t\IeC {\'e}e}{83}{appendix.I}
+\contentsline {part}{Bibliographie}{86}{appendix.I}

@@ -29,3 +29,32 @@ La structure de découpage du projet découle de l'architecture physique. La fig
   \caption{WBS}
   \label{fig:WBS}
 \end{figure}
+
+\section{Matériel utilisé}
+
+Comme présenté sur l'architecture physique, nous avions besoin de matériel pour réaliser notre système.
+
+\subsection{Ordinateur}
+L'ordinateur s'est naturellement imposé comme matériel nécessaire au projet, puisque l'utilisateur devait pouvoir utiliser quelques unes de ses fonctionnalités de base. De plus, pour traiter le flux d'images filmées, nous avions besoin d'une puissance de calcul suffisante. Ainsi, l'ordinateur a un double rôle. Il permet d'afficher l'interface graphique, et également d'obtenir l'action demandé par l'utilisateur, grâce à des algorithmes écrits en C++, s'appuiant sur OpenCV. 
+
+\subsection{Caméra}
+Si de nombreux types de caméras sont possibles, nous avons retenu la webcam. En effet, la résolution des webcams HD actuelles est largement suffisante pour une détection de pupilles. De plus, elles sont simples d'utilisation, car faciles à installer grâce au port usb d'un ordinateur. Il est aussi aisé de récupérer les flux vidéos. Nous pouvons également noter que les webcams sont relativement peu coûteuses.
+Parmi celles-ci, nous avons sélectionné la LifeCam Studio HD 1080p (voir figure \ref{fig:Cam}), pour son bon rapport qualité prix. En effet, la grande résolution HD 1080p (1920x1080) permet un bon tracking des pupilles.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale=0.5]{cam}
+  \caption{LifeCam Studio HD 1080p \\Source : Microsoft}
+  \label{fig:Cam}
+\end{figure}
+
+Afin que les coordonnées du centre des pupilles soient exploitables pour le suivi du regard, nous avions besoin que la tête reste fixe. En effet, lorsque la tête était libre de tout mouvement, les données collectées ne permettait pas de calibrer le programme. La solution de la mentonnière (figure \ref{fig:Menton}) a ainsi émergée. De plus, étant donné que le système vise à être utilisé par la suite par des personnes tétraplégiques, l'immobilisation de la tête ne soulève pas d'incohérence.
+Enfin, nous avons fabriqué une planche de bois pour fixer dans un premier temps la caméra près de l'oeil. 
+
+\subsection{Mentonnière}
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale=0.6]{Mentonniere}
+  \caption{Mentonnière}
+  \label{fig:Menton}
+\end{figure}

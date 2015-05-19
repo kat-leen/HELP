@@ -1,0 +1,42 @@
+Des variables globales telles que \lstinline=eyes_cascade_name= ne sont pas indiquées ici. Elle n’aident pas à la compréhension du code et nécessitent certaines informations propres à l’ordinateur utilisé (chemin de répertoire par exemple).
+
+\begin{lstlisting}
+int main(int argc, const char** argv) {
+
+	CvCapture* capture;
+	cv::Mat frame;
+
+	// Load the cascade
+if (!eyes_cascade.load(eyes_cascade_name)){ printf("--(!)Error loading\n"); return -1; };
+	capture = cvCaptureFromCAM(0);
+	if (capture) {
+		while (true) {
+			frame = cvQueryFrame(capture);
+			// mirror it
+			cv::flip(frame, frame, 1);
+			frame.copyTo(debugImage);
+
+			// closedEyesAndClick function
+			if (!frame.empty()) {
+				bool res = closedEyesAndClick(frame, eyes_cascade);
+				printf("%s\n", res ? "true" : "false");
+			}
+			else {
+				printf(" --(!) No captured frame -- Break!");
+				break;
+			}
+			imshow(main_window_name, debugImage);
+			int c = cv::waitKey(10);
+			if ((char)c == 'c') { break; }
+			if ((char)c == 'f') {
+				imwrite("frame.png", frame);
+			}
+
+		}
+	}
+
+	releaseCornerKernels();
+
+	return 0;
+}
+\end{lstlisting}

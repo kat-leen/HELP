@@ -12,6 +12,11 @@
 \setcounter{secnumdepth}{3}
 \AddThinSpaceBeforeFootnotes % notes de bas de page
 \FrenchFootnotes
+\lstset{ %config texte brut (code)
+language=c++,
+basicstyle=\ttfamily\small, %
+stepnumber=1
+}
 
 %----------------------------------------------------------------------------------------
 %	 PAGE DE TITRE
@@ -52,7 +57,7 @@
 %	PART III 
 %----------------------------------------------------------------------------------------
 \input{ArchitecturePhysique}
-%\input{TestsUnitaires}
+\input{TestsUnitaires}
 
 %----------------------------------------------------------------------------------------
 %	PART IV 
@@ -66,10 +71,15 @@
 %----------------------------------------------------------------------------------------
 \input{Organisation}
 
+%--------
+%	PARTIE TECHNIQUE
+%--------
+\input{PartieTechnique}
+
 %----------------------------------------------------------------------------------------
 %	PART VI 
 %----------------------------------------------------------------------------------------
-\input{DossierJustificatif}
+%\input{DossierJustificatif}
 
 % CONCLUSION
 \newpage
@@ -77,12 +87,45 @@
 \input{Conclusion}
 
 
-%\appendix
+\appendix
 %\part{Annexes}
-%\chapter{Première annexe}
-%\chapter{Deuxième annexe}
-%\chapter{Troisième annexe}
+\newpage
+\addcontentsline{toc}{part}{Annexes}
+\chapter{Plan de validation fonctionnelle}
+\label{APV}
+\includepdf[pages={1-8}]{PlanValidationFonctionnelle.pdf}
 
+\chapter{Programme permettant d’acquérir un flux vidéo}
+\label{A1}
+\input{Annexe1}
+
+\chapter{Code permettant de récupérer le flux vidéo et de le convertir en images matricielles}
+\label{A2}
+\input{Annexe2}
+
+\chapter{Haar\_cascades permettant de détecter le visage et les yeux}
+\label{A3}
+\input{Annexe3}
+
+\chapter{Matrice contenant les rectangles encadrant le visage}
+\label{A4}
+\input{Annexe4}
+
+\chapter{Méthode detectMultiScale}
+\label{A5}
+\input{Annexe5}
+
+\chapter{Changement de repère des coordonnées du centre des pupilles dans la méthode findEyes}
+\label{A6}
+\input{Annexe6}
+
+\chapter{Algorithme du gradient}
+\label{A7}
+\input{Annexe7}
+
+\chapter{Fiche de validation fonctionnelle complétée}
+\label{AFV}
+\includepdf[pages={1-2}]{FicheValidationFonctionnelle.pdf}
 
 %----------------------------------------------------------------------------------------
 %	BIBLIOGRAPHIE

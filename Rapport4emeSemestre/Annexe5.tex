@@ -1,0 +1,6 @@
+\begin{lstlisting}
+void closedEyesAndClick(cv::Mat faceROI, CascadeClassifier eyes_cascade)
+{
+	std::vector<cv::Rect> eyes;
+	eyes_cascade.detectMultiScale(faceROI, eyes, 1.1, 2, 0 | CV_HAAR_SCALE_IMAGE, cv::Size(150, 150)); // detection yeux
+\end{lstlisting}
