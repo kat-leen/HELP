@@ -1,6 +1,6 @@
 \select@language {french}
-\contentsline {part}{Remerciements}{2}{Doc-Start}
-\contentsline {part}{Introduction au projet}{6}{chapter*.2}
+\contentsline {part}{Remerciements}{2}{section*.1}
+\contentsline {part}{Introduction au projet}{6}{section*.3}
 \contentsline {chapter}{\numberline {1}\IeC {\'E}tat de l'art}{7}{chapter.1}
 \contentsline {section}{\numberline {1.1}La d\IeC {\'e}tection de pupilles}{7}{section.1.1}
 \contentsline {subsection}{\numberline {1.1.1}L\IeC {\textquoteright }\IeC {\oe }il}{7}{subsection.1.1.1}
@@ -55,7 +55,7 @@
 \contentsline {section}{\numberline {3.3}Mat\IeC {\'e}riel utilis\IeC {\'e}}{39}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}Ordinateur}{39}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {3.3.2}Cam\IeC {\'e}ra}{40}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}Mentonni\IeC {\`e}re}{41}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.3}Mentonni\IeC {\`e}re}{40}{subsection.3.3.3}
 \contentsline {section}{\numberline {3.4}Plan de validation fonctionnelle}{41}{section.3.4}
 \contentsline {section}{\numberline {3.5}Tests unitaires}{41}{section.3.5}
 \contentsline {subsection}{\numberline {3.5.1}Test Unitaire 1 : d\IeC {\'e}tection de l\IeC {\textquoteright }ouverture de l\IeC {\textquoteright }\IeC {\oe }il}{42}{subsection.3.5.1}
@@ -63,7 +63,7 @@
 \contentsline {paragraph}{La pr\IeC {\'e}paration du test (mise en place, outils et instrumentation n\IeC {\'e}cessaires)}{42}{section*.62}
 \contentsline {paragraph}{Le d\IeC {\'e}roulement du test}{42}{section*.63}
 \contentsline {subparagraph}{Conditions initiales (environnement) - Lancement du test}{42}{section*.64}
-\contentsline {subparagraph}{D\IeC {\'e}roulement du test - Fin du test}{43}{section*.65}
+\contentsline {subparagraph}{D\IeC {\'e}roulement du test - Fin du test}{42}{section*.65}
 \contentsline {paragraph}{Analyse et consignation des r\IeC {\'e}sultats du test}{43}{section*.66}
 \contentsline {subsection}{\numberline {3.5.2}Test Unitaire 2 : clic}{44}{subsection.3.5.2}
 \contentsline {paragraph}{Les buts/attendus du test}{44}{section*.69}
@@ -93,26 +93,27 @@
 \contentsline {subsection}{\numberline {5.2.1}But et enjeux de l\IeC {\textquoteright }interface}{60}{subsection.5.2.1}
 \contentsline {subsection}{\numberline {5.2.2}Crit\IeC {\`e}res d\IeC {\textquoteright }exigence}{60}{subsection.5.2.2}
 \contentsline {subsection}{\numberline {5.2.3}Outils de r\IeC {\'e}alisation}{62}{subsection.5.2.3}
-\contentsline {section}{\numberline {5.3}Limites du syst\IeC {\`e}me}{62}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Limites du d\IeC {\'e}tecteur}{62}{subsection.5.3.1}
-\contentsline {subsubsection}{\numberline {5.3.1.1}Limites li\IeC {\'e}es au mouvement de la t\IeC {\^e}te}{62}{subsubsection.5.3.1.1}
+\contentsline {section}{\numberline {5.3}Limites du syst\IeC {\`e}me et probl\IeC {\`e}mes rencontr\IeC {\'e}s}{62}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Probl\IeC {\`e}mes mat\IeC {\'e}riels}{62}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Limites du d\IeC {\'e}tecteur}{62}{subsection.5.3.2}
+\contentsline {subsubsection}{\numberline {5.3.2.1}Limites li\IeC {\'e}es au mouvement de la t\IeC {\^e}te}{62}{subsubsection.5.3.2.1}
 \contentsline {paragraph}{Limites des haar\_cascades}{62}{section*.95}
 \contentsline {paragraph}{Orientation de la t\IeC {\^e}te}{63}{section*.96}
 \contentsline {paragraph}{T\IeC {\^e}te verticale seulement}{63}{section*.97}
-\contentsline {subsubsection}{\numberline {5.3.1.2}Limites li\IeC {\'e}es \IeC {\`a} la cam\IeC {\'e}ra}{63}{subsubsection.5.3.1.2}
-\contentsline {subsubsection}{\numberline {5.3.1.3}Limites li\IeC {\'e}es \IeC {\`a} la luminosit\IeC {\'e}}{63}{subsubsection.5.3.1.3}
-\contentsline {subsection}{\numberline {5.3.2}Limites d'utilisation}{63}{subsection.5.3.2}
-\contentsline {subsubsection}{\numberline {5.3.2.1}Limite d\IeC {\textquoteright }utilisation pour l\IeC {\textquoteright }utilisateur}{63}{subsubsection.5.3.2.1}
-\contentsline {subsubsection}{\numberline {5.3.2.2}Limite d\IeC {\textquoteright }utilisation de l\IeC {\textquoteright }interface graphique}{64}{subsubsection.5.3.2.2}
-\contentsline {part}{Conclusion}{65}{subsubsection.5.3.2.2}
-\contentsline {part}{Annexes}{66}{section*.98}
-\contentsline {chapter}{\numberline {A}Plan de validation fonctionnelle}{66}{appendix.A}
-\contentsline {chapter}{\numberline {B}Programme permettant d\IeC {\textquoteright }acqu\IeC {\'e}rir un flux vid\IeC {\'e}o}{75}{appendix.B}
-\contentsline {chapter}{\numberline {C}Code permettant de r\IeC {\'e}cup\IeC {\'e}rer le flux vid\IeC {\'e}o et de le convertir en images matricielles}{77}{appendix.C}
-\contentsline {chapter}{\numberline {D}Haar\_cascades permettant de d\IeC {\'e}tecter le visage et les yeux}{78}{appendix.D}
-\contentsline {chapter}{\numberline {E}Matrice contenant les rectangles encadrant le visage}{79}{appendix.E}
-\contentsline {chapter}{\numberline {F}M\IeC {\'e}thode detectMultiScale}{80}{appendix.F}
-\contentsline {chapter}{\numberline {G}Changement de rep\IeC {\`e}re des coordonn\IeC {\'e}es du centre des pupilles dans la m\IeC {\'e}thode findEyes}{81}{appendix.G}
-\contentsline {chapter}{\numberline {H}Algorithme du gradient}{82}{appendix.H}
-\contentsline {chapter}{\numberline {I}Fiche de validation fonctionnelle compl\IeC {\'e}t\IeC {\'e}e}{83}{appendix.I}
-\contentsline {part}{Bibliographie}{86}{appendix.I}
+\contentsline {subsubsection}{\numberline {5.3.2.2}Limites li\IeC {\'e}es \IeC {\`a} la cam\IeC {\'e}ra}{63}{subsubsection.5.3.2.2}
+\contentsline {subsubsection}{\numberline {5.3.2.3}Limites li\IeC {\'e}es \IeC {\`a} la luminosit\IeC {\'e}}{63}{subsubsection.5.3.2.3}
+\contentsline {subsection}{\numberline {5.3.3}Limites d'utilisation}{64}{subsection.5.3.3}
+\contentsline {subsubsection}{\numberline {5.3.3.1}Limite d\IeC {\textquoteright }utilisation pour l\IeC {\textquoteright }utilisateur}{64}{subsubsection.5.3.3.1}
+\contentsline {subsubsection}{\numberline {5.3.3.2}Limite d\IeC {\textquoteright }utilisation de l\IeC {\textquoteright }interface graphique}{64}{subsubsection.5.3.3.2}
+\contentsline {part}{Conclusion}{65}{section*.98}
+\contentsline {part}{Annexes}{66}{chapter*.99}
+\contentsline {chapter}{\numberline {A}Plan de validation fonctionnelle}{67}{appendix.A}
+\contentsline {chapter}{\numberline {B}Programme permettant d\IeC {\textquoteright }acqu\IeC {\'e}rir un flux vid\IeC {\'e}o}{76}{appendix.B}
+\contentsline {chapter}{\numberline {C}Code permettant de r\IeC {\'e}cup\IeC {\'e}rer le flux vid\IeC {\'e}o et de le convertir en images matricielles}{78}{appendix.C}
+\contentsline {chapter}{\numberline {D}Haar\_cascades permettant de d\IeC {\'e}tecter le visage et les yeux}{79}{appendix.D}
+\contentsline {chapter}{\numberline {E}Matrice contenant les rectangles encadrant le visage}{80}{appendix.E}
+\contentsline {chapter}{\numberline {F}M\IeC {\'e}thode detectMultiScale}{81}{appendix.F}
+\contentsline {chapter}{\numberline {G}Changement de rep\IeC {\`e}re des coordonn\IeC {\'e}es du centre des pupilles dans la m\IeC {\'e}thode findEyes}{82}{appendix.G}
+\contentsline {chapter}{\numberline {H}Algorithme du gradient}{83}{appendix.H}
+\contentsline {chapter}{\numberline {I}Fiche de validation fonctionnelle compl\IeC {\'e}t\IeC {\'e}e}{84}{appendix.I}
+\contentsline {part}{Bibliographie}{88}{appendix*.100}

@@ -31,7 +31,6 @@ stepnumber=1
 
 % REMERCIEMENTS
 \newpage
-\addcontentsline{toc}{part}{Remerciements}
 \input{Remerciements}
 
 %----------------------------------------------------------------------------------------
@@ -44,7 +43,6 @@ stepnumber=1
 %----------------------------------------------------------------------------------------
 %	PART I 
 %----------------------------------------------------------------------------------------
-\addcontentsline{toc}{part}{Introduction au projet}
 \input{FormulationInitialeDuProjet}
 \input{EtatDeLArt}
 
@@ -83,14 +81,12 @@ stepnumber=1
 
 % CONCLUSION
 \newpage
-\addcontentsline{toc}{part}{Conclusion}
 \input{Conclusion}
 
-
-\appendix
-%\part{Annexes}
 \newpage
+\chapter*{Annexes}
 \addcontentsline{toc}{part}{Annexes}
+\appendix
 \chapter{Plan de validation fonctionnelle}
 \label{APV}
 \includepdf[pages={1-8}]{PlanValidationFonctionnelle.pdf}
@@ -131,9 +127,9 @@ stepnumber=1
 %	BIBLIOGRAPHIE
 %----------------------------------------------------------------------------------------
 \newpage
-\addcontentsline{toc}{part}{Bibliographie}
 \bibliographystyle{plain-fr}
 \bibliography{bibliographie}
+\addcontentsline{toc}{part}{Bibliographie}
 \nocite{*}
 %----------------------------------------------------------------------------------------
 %	INDEX

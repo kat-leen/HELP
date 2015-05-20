@@ -1,6 +1,6 @@
-\BOOKMARK [-1][-]{Doc-Start}{Remerciements}{}% 1
-\BOOKMARK [-1][-]{chapter*.2}{Introduction au projet}{}% 2
-\BOOKMARK [0][-]{chapter.1}{\311tat de l'art}{chapter*.2}% 3
+\BOOKMARK [-1][-]{section*.1}{Remerciements}{}% 1
+\BOOKMARK [-1][-]{section*.3}{Introduction au projet}{}% 2
+\BOOKMARK [0][-]{chapter.1}{\311tat de l'art}{section*.3}% 3
 \BOOKMARK [1][-]{section.1.1}{La d\351tection de pupilles}{chapter.1}% 4
 \BOOKMARK [2][-]{subsection.1.1.1}{L\220\234il}{section.1.1}% 5
 \BOOKMARK [2][-]{subsection.1.1.2}{Caract\351ristiques d\220une image d\220un \234il acquise par cam\351ra traditionnelle}{section.1.1}% 6
@@ -14,7 +14,7 @@
 \BOOKMARK [1][-]{section.1.4}{Solutions techniques et m\351thodes envisag\351es}{chapter.1}% 14
 \BOOKMARK [2][-]{subsection.1.4.1}{Au pr\351alable, suite \340 l'\351tat de l'art}{section.1.4}% 15
 \BOOKMARK [2][-]{subsection.1.4.2}{M\351thodes choisies lors de la r\351alisation}{section.1.4}% 16
-\BOOKMARK [0][-]{chapter.2}{Dossier fonctionnel}{chapter*.2}% 17
+\BOOKMARK [0][-]{chapter.2}{Dossier fonctionnel}{section*.3}% 17
 \BOOKMARK [1][-]{section.2.1}{Ing\351nierie des exigences}{chapter.2}% 18
 \BOOKMARK [2][-]{subsection.2.1.1}{Approche Top-Down}{section.2.1}% 19
 \BOOKMARK [2][-]{subsection.2.1.2}{Approche Bottom-Up}{section.2.1}% 20
@@ -24,7 +24,7 @@
 \BOOKMARK [2][-]{subsection.2.2.2}{Sp\351cification des donn\351es}{section.2.2}% 24
 \BOOKMARK [2][-]{subsection.2.2.3}{Sp\351cification des comportements}{section.2.2}% 25
 \BOOKMARK [1][-]{section.2.3}{Architecture fonctionnelle}{chapter.2}% 26
-\BOOKMARK [0][-]{chapter.3}{Impl\351mentation}{chapter*.2}% 27
+\BOOKMARK [0][-]{chapter.3}{Impl\351mentation}{section*.3}% 27
 \BOOKMARK [1][-]{section.3.1}{Architecture physique et interfaces}{chapter.3}% 28
 \BOOKMARK [2][-]{subsection.3.1.1}{Interface d'acquisition}{section.3.1}% 29
 \BOOKMARK [2][-]{subsection.3.1.2}{Interface logicielle}{section.3.1}% 30
@@ -38,11 +38,11 @@
 \BOOKMARK [1][-]{section.3.5}{Tests unitaires}{chapter.3}% 38
 \BOOKMARK [2][-]{subsection.3.5.1}{Test Unitaire 1 : d\351tection de l\220ouverture de l\220\234il}{section.3.5}% 39
 \BOOKMARK [2][-]{subsection.3.5.2}{Test Unitaire 2 : clic}{section.3.5}% 40
-\BOOKMARK [0][-]{chapter.4}{Organisation}{chapter*.2}% 41
+\BOOKMARK [0][-]{chapter.4}{Organisation}{section*.3}% 41
 \BOOKMARK [1][-]{section.4.1}{M\351thodes de travail}{chapter.4}% 42
 \BOOKMARK [1][-]{section.4.2}{Outils pour les \351changes}{chapter.4}% 43
 \BOOKMARK [1][-]{section.4.3}{R\351partition des t\342ches dans le temps}{chapter.4}% 44
-\BOOKMARK [0][-]{chapter.5}{Partie technique}{chapter*.2}% 45
+\BOOKMARK [0][-]{chapter.5}{Partie technique}{section*.3}% 45
 \BOOKMARK [1][-]{section.5.1}{Le d\351tecteur}{chapter.5}% 46
 \BOOKMARK [2][-]{subsection.5.1.1}{Principe de fonctionnement}{section.5.1}% 47
 \BOOKMARK [2][-]{subsection.5.1.2}{Acquisition du flux vid\351o et transformation en images matricielles}{section.5.1}% 48
@@ -55,18 +55,19 @@
 \BOOKMARK [2][-]{subsection.5.2.1}{But et enjeux de l\220interface}{section.5.2}% 55
 \BOOKMARK [2][-]{subsection.5.2.2}{Crit\350res d\220exigence}{section.5.2}% 56
 \BOOKMARK [2][-]{subsection.5.2.3}{Outils de r\351alisation}{section.5.2}% 57
-\BOOKMARK [1][-]{section.5.3}{Limites du syst\350me}{chapter.5}% 58
-\BOOKMARK [2][-]{subsection.5.3.1}{Limites du d\351tecteur}{section.5.3}% 59
-\BOOKMARK [2][-]{subsection.5.3.2}{Limites d'utilisation}{section.5.3}% 60
-\BOOKMARK [-1][-]{subsubsection.5.3.2.2}{Conclusion}{}% 61
-\BOOKMARK [-1][-]{section*.98}{Annexes}{}% 62
-\BOOKMARK [0][-]{appendix.A}{Plan de validation fonctionnelle}{section*.98}% 63
-\BOOKMARK [0][-]{appendix.B}{Programme permettant d\220acqu\351rir un flux vid\351o}{section*.98}% 64
-\BOOKMARK [0][-]{appendix.C}{Code permettant de r\351cup\351rer le flux vid\351o et de le convertir en images matricielles}{section*.98}% 65
-\BOOKMARK [0][-]{appendix.D}{Haar\137cascades permettant de d\351tecter le visage et les yeux}{section*.98}% 66
-\BOOKMARK [0][-]{appendix.E}{Matrice contenant les rectangles encadrant le visage}{section*.98}% 67
-\BOOKMARK [0][-]{appendix.F}{M\351thode detectMultiScale}{section*.98}% 68
-\BOOKMARK [0][-]{appendix.G}{Changement de rep\350re des coordonn\351es du centre des pupilles dans la m\351thode findEyes}{section*.98}% 69
-\BOOKMARK [0][-]{appendix.H}{Algorithme du gradient}{section*.98}% 70
-\BOOKMARK [0][-]{appendix.I}{Fiche de validation fonctionnelle compl\351t\351e}{section*.98}% 71
-\BOOKMARK [-1][-]{appendix.I}{Bibliographie}{}% 72
+\BOOKMARK [1][-]{section.5.3}{Limites du syst\350me et probl\350mes rencontr\351s}{chapter.5}% 58
+\BOOKMARK [2][-]{subsection.5.3.1}{Probl\350mes mat\351riels}{section.5.3}% 59
+\BOOKMARK [2][-]{subsection.5.3.2}{Limites du d\351tecteur}{section.5.3}% 60
+\BOOKMARK [2][-]{subsection.5.3.3}{Limites d'utilisation}{section.5.3}% 61
+\BOOKMARK [-1][-]{section*.98}{Conclusion}{}% 62
+\BOOKMARK [-1][-]{chapter*.99}{Annexes}{}% 63
+\BOOKMARK [0][-]{appendix.A}{Plan de validation fonctionnelle}{chapter*.99}% 64
+\BOOKMARK [0][-]{appendix.B}{Programme permettant d\220acqu\351rir un flux vid\351o}{chapter*.99}% 65
+\BOOKMARK [0][-]{appendix.C}{Code permettant de r\351cup\351rer le flux vid\351o et de le convertir en images matricielles}{chapter*.99}% 66
+\BOOKMARK [0][-]{appendix.D}{Haar\137cascades permettant de d\351tecter le visage et les yeux}{chapter*.99}% 67
+\BOOKMARK [0][-]{appendix.E}{Matrice contenant les rectangles encadrant le visage}{chapter*.99}% 68
+\BOOKMARK [0][-]{appendix.F}{M\351thode detectMultiScale}{chapter*.99}% 69
+\BOOKMARK [0][-]{appendix.G}{Changement de rep\350re des coordonn\351es du centre des pupilles dans la m\351thode findEyes}{chapter*.99}% 70
+\BOOKMARK [0][-]{appendix.H}{Algorithme du gradient}{chapter*.99}% 71
+\BOOKMARK [0][-]{appendix.I}{Fiche de validation fonctionnelle compl\351t\351e}{chapter*.99}% 72
+\BOOKMARK [-1][-]{appendix*.100}{Bibliographie}{}% 73

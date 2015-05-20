@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.11.13)  19 MAY 2015 17:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.11.13)  20 MAY 2015 23:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1106,11 +1106,7 @@ Writing index file main.idx
 \openout5 = `main.glo'.
 
 Package glossaries Info: Writing glossary file main.glo on input line 5.
- (./main.aux
-
-LaTeX Warning: Label `fig:GanttSemestre2' multiply defined.
-
-)
+ (./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
@@ -1129,7 +1125,8 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 7.
 LaTeX Font Info:    ... okay on input line 7.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 7.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 7.
- (/usr/local/texlive/2014/texmf-dist/tex/latex/base/ts1cmr.fd
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 7.
@@ -1243,7 +1240,7 @@ File: lstlang1.sty 2014/03/04 1.5c listings language file
 (/usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2014/03/04 1.5c (Carsten Heinz)
 )
-(./PageDeTitre.tex <images/Trait.png, id=292, 339.669pt x 36.8577pt>
+(./PageDeTitre.tex <images/Trait.png, id=297, 339.669pt x 36.8577pt>
 File: images/Trait.png Graphic file (type png)
 
 <use images/Trait.png>
@@ -1258,7 +1255,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--40
 
  []
 
-) <images/FondTitreSPID.png, id=294, 583.9416pt x 834.7185pt>
+) <images/FondTitreSPID.png, id=299, 583.9416pt x 834.7185pt>
 File: images/FondTitreSPID.png Graphic file (type png)
 
 <use images/FondTitreSPID.png>
@@ -1283,7 +1280,7 @@ s/FondTitreSPID.png> <./images/Trait.png>]
 
 ]
 Partie 1.
-<images/PartiesOeil.png, id=412, 311.2428pt x 316.0608pt>
+<images/PartiesOeil.png, id=418, 311.2428pt x 316.0608pt>
 File: images/PartiesOeil.png Graphic file (type png)
 
 <use images/PartiesOeil.png>
@@ -1292,14 +1289,14 @@ Package pdftex.def Info: images/PartiesOeil.png used on input line 12.
  [7
 
  <./images/PartiesOeil.png>]
-<images/PartiesExternesOeil.png, id=423, 287.6346pt x 122.859pt>
+<images/PartiesExternesOeil.png, id=429, 287.6346pt x 122.859pt>
 File: images/PartiesExternesOeil.png Graphic file (type png)
 
 <use images/PartiesExternesOeil.png>
 Package pdftex.def Info: images/PartiesExternesOeil.png used on input line 27.
 (pdftex.def)             Requested size: 287.63388pt x 122.85867pt.
 
-<images/SpectreLumiere.png, id=427, 429.2838pt x 148.3944pt>
+<images/SpectreLumiere.png, id=433, 429.2838pt x 148.3944pt>
 File: images/SpectreLumiere.png Graphic file (type png)
 
 <use images/SpectreLumiere.png>
@@ -1313,14 +1310,14 @@ Overfull \hbox (13.87231pt too wide) in paragraph at lines 40--41
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/CaptureOeilTrad.png, id=428, 247.1634pt x 148.3944pt>
+<images/CaptureOeilTrad.png, id=434, 247.1634pt x 148.3944pt>
 File: images/CaptureOeilTrad.png Graphic file (type png)
 
 <use images/CaptureOeilTrad.png>
 Package pdftex.def Info: images/CaptureOeilTrad.png used on input line 50.
 (pdftex.def)             Requested size: 173.01318pt x 103.87537pt.
 
-<images/CaptureOeilInfra.png, id=429, 247.1634pt x 164.2938pt>
+<images/CaptureOeilInfra.png, id=435, 247.1634pt x 164.2938pt>
 File: images/CaptureOeilInfra.png Graphic file (type png)
 
 <use images/CaptureOeilInfra.png>
@@ -1331,7 +1328,7 @@ Package pdftex.def Info: images/CaptureOeilInfra.png used on input line 55.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [8 <./images/PartiesExternesOeil.png>]
-<images/ZoneOmbre.png, id=443, 208.6194pt x 129.1224pt>
+<images/ZoneOmbre.png, id=449, 208.6194pt x 129.1224pt>
 File: images/ZoneOmbre.png Graphic file (type png)
 
 <use images/ZoneOmbre.png>
@@ -1339,14 +1336,14 @@ Package pdftex.def Info: images/ZoneOmbre.png used on input line 67.
 (pdftex.def)             Requested size: 208.61888pt x 129.12209pt.
  [9 <./images/SpectreLumiere.png> <./images/CaptureOeilTrad.png> <./images/Capt
 ureOeilInfra.png> <./images/ZoneOmbre.png>] [10]
-<images/BrightPupil.png, id=465, 251.7405pt x 97.5645pt>
+<images/BrightPupil.png, id=471, 251.7405pt x 97.5645pt>
 File: images/BrightPupil.png Graphic file (type png)
 
 <use images/BrightPupil.png>
 Package pdftex.def Info: images/BrightPupil.png used on input line 98.
 (pdftex.def)             Requested size: 251.73987pt x 97.56424pt.
  [11 <./images/BrightPupil.png>]
-<images/AlgoFCM.png, id=481, 503.8825pt x 240.9pt>
+<images/AlgoFCM.png, id=487, 503.8825pt x 240.9pt>
 File: images/AlgoFCM.png Graphic file (type png)
  <use images/AlgoFCM.png>
 Package pdftex.def Info: images/AlgoFCM.png used on input line 126.
@@ -1358,7 +1355,7 @@ Overfull \hbox (7.64471pt too wide) in paragraph at lines 158--159
 e-lop-pée par Jé-rôme Schmaltz
  []
 
-<images/TraitementImage.png, id=495, 455.301pt x 238.9728pt>
+<images/TraitementImage.png, id=501, 455.301pt x 238.9728pt>
 File: images/TraitementImage.png Graphic file (type png)
 
 <use images/TraitementImage.png>
@@ -1370,7 +1367,7 @@ Overfull \hbox (39.88945pt too wide) in paragraph at lines 168--169
  []
 
 [13] [14 <./images/TraitementImage.png>]
-<images/Conversion.png, id=526, 357.0138pt x 117.5592pt>
+<images/Conversion.png, id=532, 357.0138pt x 117.5592pt>
 File: images/Conversion.png Graphic file (type png)
 
 <use images/Conversion.png>
@@ -1380,14 +1377,14 @@ Package pdftex.def Info: images/Conversion.png used on input line 220.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[15] <images/Algo.png, id=547, 455.301pt x 121.4136pt>
+[15] <images/Algo.png, id=553, 455.301pt x 121.4136pt>
 File: images/Algo.png Graphic file (type png)
  <use images/Algo.png>
 Package pdftex.def Info: images/Algo.png used on input line 249.
 (pdftex.def)             Requested size: 409.7671pt x 109.27122pt.
 
 [16 <./images/Conversion.png> <./images/Algo.png>]
-<images/DetectionContours.png, id=558, 476.78125pt x 274.02374pt>
+<images/DetectionContours.png, id=564, 476.78125pt x 274.02374pt>
 File: images/DetectionContours.png Graphic file (type png)
 
 <use images/DetectionContours.png>
@@ -1405,7 +1402,7 @@ me suit : $\OT1/cmr/m/n/12 ^^B = \OML/cmm/m/it/12 atan\OT1/cmr/m/n/12 2(\OML/cm
 m/m/it/12 G[]; G[]\OT1/cmr/m/n/12 )$\T1/cmr/m/n/12 ,
  []
 
-<images/FiltreSobel.png, id=559, 455.301pt x 90.5784pt>
+<images/FiltreSobel.png, id=565, 455.301pt x 90.5784pt>
 File: images/FiltreSobel.png Graphic file (type png)
 
 <use images/FiltreSobel.png>
@@ -1420,13 +1417,13 @@ Overfull \hbox (39.88945pt too wide) in paragraph at lines 292--293
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [17 <./images/DetectionContours.png>]
-<images/Contour.png, id=568, 276.5532pt x 214.8828pt>
+<images/Contour.png, id=574, 276.5532pt x 214.8828pt>
 File: images/Contour.png Graphic file (type png)
  <use images/Contour.png>
 Package pdftex.def Info: images/Contour.png used on input line 305.
 (pdftex.def)             Requested size: 276.55252pt x 214.88226pt.
 
-<images/Accumulateur.png, id=570, 228.3732pt x 180.675pt>
+<images/Accumulateur.png, id=576, 228.3732pt x 180.675pt>
 File: images/Accumulateur.png Graphic file (type png)
 
 <use images/Accumulateur.png>
@@ -1436,7 +1433,7 @@ Package pdftex.def Info: images/Accumulateur.png used on input line 314.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/MethodeCanny.png, id=572, 278.9622pt x 217.7736pt>
+<images/MethodeCanny.png, id=578, 278.9622pt x 217.7736pt>
 File: images/MethodeCanny.png Graphic file (type png)
 
 <use images/MethodeCanny.png>
@@ -1447,7 +1444,7 @@ Package pdftex.def Info: images/MethodeCanny.png used on input line 323.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [18 <./images/FiltreSobel.png> <./images/Contour.png>]
-<images/SeuilAccumu.png, id=585, 343.5234pt x 108.405pt>
+<images/SeuilAccumu.png, id=591, 343.5234pt x 108.405pt>
 File: images/SeuilAccumu.png Graphic file (type png)
 
 <use images/SeuilAccumu.png>
@@ -1458,7 +1455,7 @@ Package pdftex.def Info: images/SeuilAccumu.png used on input line 340.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [19 <./images/Accumulateur.png> <./images/MethodeCanny.png>]
-<images/LaplacienGaussien.png, id=598, 173.9298pt x 134.904pt>
+<images/LaplacienGaussien.png, id=604, 173.9298pt x 134.904pt>
 File: images/LaplacienGaussien.png Graphic file (type png)
 
 <use images/LaplacienGaussien.png>
@@ -1470,7 +1467,7 @@ Overfull \hbox (3.76749pt too wide) in paragraph at lines 361--362
 -la-teur per-met de conser-
  []
 
-<images/ChapeauMexicain.png, id=600, 352.6776pt x 105.0324pt>
+<images/ChapeauMexicain.png, id=606, 352.6776pt x 105.0324pt>
 File: images/ChapeauMexicain.png Graphic file (type png)
 
 <use images/ChapeauMexicain.png>
@@ -1478,28 +1475,28 @@ Package pdftex.def Info: images/ChapeauMexicain.png used on input line 365.
 (pdftex.def)             Requested size: 352.67673pt x 105.03214pt.
  [20 <./images/SeuilAccumu.png> <./images/LaplacienGaussien.png> <./images/Chap
 eauMexicain.png>]
-<images/CerclesContours.png, id=614, 153.6942pt x 150.8034pt>
+<images/CerclesContours.png, id=620, 153.6942pt x 150.8034pt>
 File: images/CerclesContours.png Graphic file (type png)
 
 <use images/CerclesContours.png>
 Package pdftex.def Info: images/CerclesContours.png used on input line 381.
 (pdftex.def)             Requested size: 153.6938pt x 150.80302pt.
 
-<images/OpPupilles.png, id=616, 339.1872pt x 375.804pt>
+<images/OpPupilles.png, id=622, 339.1872pt x 375.804pt>
 File: images/OpPupilles.png Graphic file (type png)
 
 <use images/OpPupilles.png>
 Package pdftex.def Info: images/OpPupilles.png used on input line 394.
 (pdftex.def)             Requested size: 237.42941pt x 263.061pt.
  [21 <./images/CerclesContours.png>]
-<images/GazeDetection.png, id=631, 292.09125pt x 94.55325pt>
+<images/GazeDetection.png, id=637, 292.09125pt x 94.55325pt>
 File: images/GazeDetection.png Graphic file (type png)
 
 <use images/GazeDetection.png>
 Package pdftex.def Info: images/GazeDetection.png used on input line 410.
 (pdftex.def)             Requested size: 292.09052pt x 94.55301pt.
  [22 <./images/OpPupilles.png>]
-<images/TobiiGlasses.png, id=640, 927.465pt x 411.939pt>
+<images/TobiiGlasses.png, id=646, 927.465pt x 411.939pt>
 File: images/TobiiGlasses.png Graphic file (type png)
 
 <use images/TobiiGlasses.png>
@@ -1509,14 +1506,14 @@ Package pdftex.def Info: images/TobiiGlasses.png used on input line 436.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/BoitierTobii.png, id=642, 1094.8905pt x 354.123pt>
+<images/BoitierTobii.png, id=648, 1094.8905pt x 354.123pt>
 File: images/BoitierTobii.png Graphic file (type png)
 
 <use images/BoitierTobii.png>
 Package pdftex.def Info: images/BoitierTobii.png used on input line 445.
 (pdftex.def)             Requested size: 383.21742pt x 123.9449pt.
  [23 <./images/GazeDetection.png>]
-<images/BoitierTobii2.png, id=653, 655.248pt x 281.853pt>
+<images/BoitierTobii2.png, id=659, 655.248pt x 281.853pt>
 File: images/BoitierTobii2.png Graphic file (type png)
 
 <use images/BoitierTobii2.png>
@@ -1524,26 +1521,26 @@ Package pdftex.def Info: images/BoitierTobii2.png used on input line 454.
 (pdftex.def)             Requested size: 393.15182pt x 169.1131pt.
  [24 <./images/TobiiGlasses.png> <./images/BoitierTobii.png> <./images/BoitierT
 obii2.png>]
-<images/PCCR.png, id=661, 281.05pt x 219.82124pt>
+<images/PCCR.png, id=667, 281.05pt x 219.82124pt>
 File: images/PCCR.png Graphic file (type png)
  <use images/PCCR.png>
 Package pdftex.def Info: images/PCCR.png used on input line 464.
 (pdftex.def)             Requested size: 224.84029pt x 175.85722pt.
 
-<images/PUPIL.png, id=662, 191.7564pt x 164.2938pt>
+<images/PUPIL.png, id=668, 191.7564pt x 164.2938pt>
 File: images/PUPIL.png Graphic file (type png)
  <use images/PUPIL.png>
 Package pdftex.def Info: images/PUPIL.png used on input line 475.
 (pdftex.def)             Requested size: 191.7559pt x 164.29338pt.
 
 [25 <./images/PCCR.png> <./images/PUPIL.png>]
-<images/TobiiX2.png, id=674, 306.4248pt x 208.1376pt>
+<images/TobiiX2.png, id=680, 306.4248pt x 208.1376pt>
 File: images/TobiiX2.png Graphic file (type png)
  <use images/TobiiX2.png>
 Package pdftex.def Info: images/TobiiX2.png used on input line 495.
 (pdftex.def)             Requested size: 306.42404pt x 208.13708pt.
 
-<images/EyeCharm.png, id=676, 286.1892pt x 146.949pt>
+<images/EyeCharm.png, id=682, 286.1892pt x 146.949pt>
 File: images/EyeCharm.png Graphic file (type png)
 
 <use images/EyeCharm.png>
@@ -1554,7 +1551,7 @@ Package pdftex.def Info: images/EyeCharm.png used on input line 508.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [26 <./images/TobiiX2.png>]
-<images/Experimental.png, id=687, 489.027pt x 366.168pt>
+<images/Experimental.png, id=693, 489.027pt x 366.168pt>
 File: images/Experimental.png Graphic file (type png)
 
 <use images/Experimental.png>
@@ -1563,7 +1560,7 @@ Package pdftex.def Info: images/Experimental.png used on input line 533.
  [27 <./images/EyeCharm.png>] [28 <./images/Experimental.png>]) (./DossierFonct
 ionnel.tex [29]
 Partie 2.
-<images/BeteACornes.png, id=709, 414.1071pt x 261.1356pt>
+<images/BeteACornes.png, id=715, 414.1071pt x 261.1356pt>
 File: images/BeteACornes.png Graphic file (type png)
 
 <use images/BeteACornes.png>
@@ -1572,7 +1569,7 @@ Package pdftex.def Info: images/BeteACornes.png used on input line 10.
  [30
 
  <./images/BeteACornes.png>]
-<images/PieuvreV2.png, id=718, 505.89pt x 457.71pt>
+<images/PieuvreV2.png, id=724, 505.89pt x 457.71pt>
 File: images/PieuvreV2.png Graphic file (type png)
  <use images/PieuvreV2.png>
 Package pdftex.def Info: images/PieuvreV2.png used on input line 21.
@@ -1583,7 +1580,7 @@ Overfull \hbox (39.88635pt too wide) in paragraph at lines 21--22
  []
 
 [31 <./images/PieuvreV2.png>]
-<images/CahierdesExigencesV4.png, id=725, 684.5575pt x 451.6875pt>
+<images/CahierdesExigencesV4.png, id=731, 684.5575pt x 451.6875pt>
 File: images/CahierdesExigencesV4.png Graphic file (type png)
 
 <use images/CahierdesExigencesV4.png>
@@ -1591,14 +1588,14 @@ Package pdftex.def Info: images/CahierdesExigencesV4.png used on input line 32.
 
 (pdftex.def)             Requested size: 415.41043pt x 274.10228pt.
 
-<images/FASTV2.png, id=726, 562.1pt x 756.8275pt>
+<images/FASTV2.png, id=732, 562.1pt x 756.8275pt>
 File: images/FASTV2.png Graphic file (type png)
  <use images/FASTV2.png>
 Package pdftex.def Info: images/FASTV2.png used on input line 56.
 (pdftex.def)             Requested size: 393.46732pt x 529.77563pt.
 
 [32 <./images/CahierdesExigencesV4.png>] [33 <./images/FASTV2.png>]
-<images/FluxDonnees.png, id=739, 722.7pt x 542.025pt>
+<images/FluxDonnees.png, id=745, 722.7pt x 542.025pt>
 File: images/FluxDonnees.png Graphic file (type png)
 
 <use images/FluxDonnees.png>
@@ -1609,14 +1606,14 @@ Overfull \hbox (18.2129pt too wide) in paragraph at lines 70--71
  [][] 
  []
 
-<images/comportementGlobal.png, id=741, 597.1911pt x 475.2957pt>
+<images/comportementGlobal.png, id=747, 597.1911pt x 475.2957pt>
 File: images/comportementGlobal.png Graphic file (type png)
 
 <use images/comportementGlobal.png>
 Package pdftex.def Info: images/comportementGlobal.png used on input line 81.
 (pdftex.def)             Requested size: 358.31743pt x 285.17961pt.
  [34 <./images/FluxDonnees.png>]
-<images/ArchitectureFonctionnelle.png, id=750, 320.397pt x 255.8358pt>
+<images/ArchitectureFonctionnelle.png, id=756, 320.397pt x 255.8358pt>
 File: images/ArchitectureFonctionnelle.png Graphic file (type png)
 
 <use images/ArchitectureFonctionnelle.png>
@@ -1626,7 +1623,7 @@ e 92.
  [35 <./images/comportementGlobal.png>]) (./ArchitecturePhysique.tex [36 <./ima
 ges/ArchitectureFonctionnelle.png>]
 Partie 3.
-<images/architecturePhysique.png, id=763, 338.2236pt x 290.5254pt>
+<images/architecturePhysique.png, id=770, 338.2236pt x 290.5254pt>
 File: images/architecturePhysique.png Graphic file (type png)
 
 <use images/architecturePhysique.png>
@@ -1635,30 +1632,30 @@ Package pdftex.def Info: images/architecturePhysique.png used on input line 9.
  [37
 
  <./images/architecturePhysique.png>]
-<images/WBS.png, id=772, 489.027pt x 557.4426pt>
+<images/WBS.png, id=778, 489.027pt x 557.4426pt>
 File: images/WBS.png Graphic file (type png)
  <use images/WBS.png>
 Package pdftex.def Info: images/WBS.png used on input line 28.
 (pdftex.def)             Requested size: 391.22212pt x 445.95467pt.
  [38]
-[39 <./images/WBS.png>] <images/cam.jpg, id=784, 542.025pt x 311.1625pt>
+[39 <./images/WBS.png>] <images/cam.jpg, id=790, 542.025pt x 311.1625pt>
 File: images/cam.jpg Graphic file (type jpg)
 
 <use images/cam.jpg>
 Package pdftex.def Info: images/cam.jpg used on input line 46.
 (pdftex.def)             Requested size: 271.01183pt x 155.58087pt.
- <images/Mentonniere.jpg, id=786, 289.08pt x 302.12875pt>
+ <images/Mentonniere.jpg, id=792, 289.08pt x 302.12875pt>
 File: images/Mentonniere.jpg Graphic file (type jpg)
 
 <use images/Mentonniere.jpg>
-Package pdftex.def Info: images/Mentonniere.jpg used on input line 57.
+Package pdftex.def Info: images/Mentonniere.jpg used on input line 58.
 (pdftex.def)             Requested size: 173.44933pt x 181.27864pt.
 ) (./TestsUnitaires.tex [40 <./images/cam.jpg>]
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 9.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-) [41 <./images/Mentonniere.jpg>] <images/fonctionClick.png, id=805, 859.71187p
+) [41 <./images/Mentonniere.jpg>] <images/fonctionClick.png, id=811, 859.71187p
 t x 301.125pt>
 File: images/fonctionClick.png Graphic file (type png)
 
@@ -1671,7 +1668,7 @@ Overfull \hbox (14.44444pt too wide) in paragraph at lines 26--27
  []
 
 [42 <./images/fonctionClick.png>]
-<images/OeilOuvert.png, id=817, 454.8192pt x 275.5896pt>
+<images/OeilOuvert.png, id=825, 454.8192pt x 275.5896pt>
 File: images/OeilOuvert.png Graphic file (type png)
 
 <use images/OeilOuvert.png>
@@ -1682,7 +1679,7 @@ Overfull \hbox (39.40765pt too wide) in paragraph at lines 63--64
  [][] 
  []
 
-<images/OeilFerme.png, id=818, 455.7828pt x 276.5532pt>
+<images/OeilFerme.png, id=826, 455.7828pt x 276.5532pt>
 File: images/OeilFerme.png Graphic file (type png)
 
 <use images/OeilFerme.png>
@@ -1698,7 +1695,7 @@ Overfull \hbox (40.37126pt too wide) in paragraph at lines 70--71
 Partie 4.
 [46
 
-] <images/CarnetBord.png, id=858, 597.432pt x 786.2976pt>
+] <images/CarnetBord.png, id=869, 597.432pt x 786.2976pt>
 File: images/CarnetBord.png Graphic file (type png)
 
 <use images/CarnetBord.png>
@@ -1709,21 +1706,21 @@ Overfull \hbox (2.78912pt too wide) in paragraph at lines 28--29
  [][] 
  []
 
-[47] <images/CarnetBordSemestre2.png, id=864, 820.06375pt x 555.07375pt>
+[47] <images/CarnetBordSemestre2.png, id=880, 820.06375pt x 555.07375pt>
 File: images/CarnetBordSemestre2.png Graphic file (type png)
 
 <use images/CarnetBordSemestre2.png>
 Package pdftex.def Info: images/CarnetBordSemestre2.png used on input line 35.
 (pdftex.def)             Requested size: 410.03087pt x 277.53618pt.
  [48 <./images/CarnetBord.png>]
-<images/GanttSemestre1.png, id=870, 189.8292pt x 134.904pt>
+<images/GanttSemestre1.png, id=886, 189.8292pt x 134.904pt>
 File: images/GanttSemestre1.png Graphic file (type png)
 
 <use images/GanttSemestre1.png>
 Package pdftex.def Info: images/GanttSemestre1.png used on input line 46.
 (pdftex.def)             Requested size: 189.82872pt x 134.90367pt.
 
-<images/GanttSemestre12.png, id=871, 611.4042pt x 134.904pt>
+<images/GanttSemestre12.png, id=887, 611.4042pt x 134.904pt>
 File: images/GanttSemestre12.png Graphic file (type png)
 
 <use images/GanttSemestre12.png>
@@ -1735,14 +1732,14 @@ Overfull \hbox (43.14159pt too wide) in paragraph at lines 53--54
  []
 
 [49 <./images/CarnetBordSemestre2.png> <./images/GanttSemestre1.png>]
-<images/GanttSemestre2.png, id=880, 212.9556pt x 109.1277pt>
+<images/GanttSemestre2.png, id=894, 212.9556pt x 109.1277pt>
 File: images/GanttSemestre2.png Graphic file (type png)
 
 <use images/GanttSemestre2.png>
 Package pdftex.def Info: images/GanttSemestre2.png used on input line 60.
 (pdftex.def)             Requested size: 212.95506pt x 109.12741pt.
 
-<images/GanttSemestre22.png, id=881, 590.4459pt x 109.1277pt>
+<images/GanttSemestre22.png, id=895, 590.4459pt x 109.1277pt>
 File: images/GanttSemestre22.png Graphic file (type png)
 
 <use images/GanttSemestre22.png>
@@ -1756,7 +1753,7 @@ Overfull \hbox (27.42291pt too wide) in paragraph at lines 67--68
 ) (./PartieTechnique.tex [50 <./images/GanttSemestre12.png> <./images/GanttSeme
 stre2.png> <./images/GanttSemestre22.png>]
 Partie 5.
-<images/ESDetecteur.png, id=893, 436.9926pt x 107.9232pt>
+<images/ESDetecteur.png, id=904, 436.9926pt x 107.9232pt>
 File: images/ESDetecteur.png Graphic file (type png)
 
 <use images/ESDetecteur.png>
@@ -1770,7 +1767,7 @@ Overfull \hbox (21.58109pt too wide) in paragraph at lines 13--14
 [51
 
  <./images/ESDetecteur.png>]
-<images/OrganisationDetecteur.png, id=904, 469.2732pt x 661.9932pt>
+<images/OrganisationDetecteur.png, id=915, 469.2732pt x 661.9932pt>
 File: images/OrganisationDetecteur.png Graphic file (type png)
 
 <use images/OrganisationDetecteur.png>
@@ -1783,43 +1780,48 @@ Overfull \hbox (12.13635pt too wide) in paragraph at lines 52--53
 /n/12 Les ca-rac-té-ris-tiques pseudo-
  []
 
-<images/pseudoHaar.png, id=921, 455.301pt x 147.9126pt>
+<images/pseudoHaar.png, id=932, 455.301pt x 147.9126pt>
 File: images/pseudoHaar.png Graphic file (type png)
 
 <use images/pseudoHaar.png>
 Package pdftex.def Info: images/pseudoHaar.png used on input line 56.
 (pdftex.def)             Requested size: 364.24129pt x 118.33023pt.
  [54 <./images/pseudoHaar.png>]
-<images/DetectionVisage.png, id=934, 455.301pt x 359.4228pt>
+<images/DetectionVisage.png, id=945, 455.301pt x 359.4228pt>
 File: images/DetectionVisage.png Graphic file (type png)
 
 <use images/DetectionVisage.png>
 Package pdftex.def Info: images/DetectionVisage.png used on input line 71.
 (pdftex.def)             Requested size: 364.24129pt x 287.53862pt.
  [55 <./images/DetectionVisage.png>]
-<images/centrePupilles.png, id=946, 279.29344pt x 303.38344pt>
+<images/centrePupilles.png, id=957, 279.29344pt x 303.38344pt>
 File: images/centrePupilles.png Graphic file (type png)
 
 <use images/centrePupilles.png>
 Package pdftex.def Info: images/centrePupilles.png used on input line 86.
 (pdftex.def)             Requested size: 223.43504pt x 242.70708pt.
  [56 <./images/centrePupilles.png>]
-<images/schemaAlgoCentrePupilles.png, id=958, 306.39468pt x 136.25906pt>
+<images/schemaAlgoCentrePupilles.png, id=969, 306.39468pt x 136.25906pt>
 File: images/schemaAlgoCentrePupilles.png Graphic file (type png)
 
 <use images/schemaAlgoCentrePupilles.png>
 Package pdftex.def Info: images/schemaAlgoCentrePupilles.png used on input line
  111.
 (pdftex.def)             Requested size: 306.39394pt x 136.25871pt.
- [57 <./images/schemaAlgoCentrePupilles.png>] <images/Calibration.png, id=973, 
-413.545pt x 504.88625pt>
+
+Overfull \hbox (13.5799pt too wide) in paragraph at lines 118--120
+[][][][][][][][][][][][][][][][][][][][][][][][][] \T1/cmr/m/n/12 où "mags"
+ []
+
+[57 <./images/schemaAlgoCentrePupilles.png>]
+<images/Calibration.png, id=984, 413.545pt x 504.88625pt>
 File: images/Calibration.png Graphic file (type png)
 
 <use images/Calibration.png>
 Package pdftex.def Info: images/Calibration.png used on input line 129.
 (pdftex.def)             Requested size: 248.1289pt x 302.93407pt.
  [58 <./images/Calibration.png>] [59]
-<images/IG9B.png, id=998, 1445.4pt x 813.0375pt>
+<images/IG9B.png, id=1009, 1445.4pt x 813.0375pt>
 File: images/IG9B.png Graphic file (type png)
  <use images/IG9B.png>
 Package pdftex.def Info: images/IG9B.png used on input line 180.
@@ -1829,7 +1831,7 @@ Overfull \hbox (18.21292pt too wide) in paragraph at lines 180--181
  [][] 
  []
 
-<images/IG4B.png, id=1001, 1445.4pt x 813.0375pt>
+<images/IG4B.png, id=1012, 1445.4pt x 813.0375pt>
 File: images/IG4B.png Graphic file (type png)
  <use images/IG4B.png>
 Package pdftex.def Info: images/IG4B.png used on input line 189.
@@ -1839,7 +1841,7 @@ Overfull \hbox (18.21292pt too wide) in paragraph at lines 189--190
  [][] 
  []
 
-[60 <./images/IG9B.png>] <images/IGconf9.png, id=1009, 1445.4pt x 813.0375pt>
+[60 <./images/IG9B.png>] <images/IGconf9.png, id=1021, 1445.4pt x 813.0375pt>
 File: images/IGconf9.png Graphic file (type png)
 
 <use images/IGconf9.png>
@@ -1851,293 +1853,295 @@ Overfull \hbox (18.21292pt too wide) in paragraph at lines 198--199
  []
 
 [61 <./images/IG4B.png> <./images/IGconf9.png>] [62] [63]) [64]
-(./Conclusion.tex) [65]
+(./Conclusion.tex) [65] [66
+
+]
 Annexe A.
-<PlanValidationFonctionnelle.pdf, id=1041, 597.23125pt x 845.1575pt>
+<PlanValidationFonctionnelle.pdf, id=1057, 597.23125pt x 845.1575pt>
 File: PlanValidationFonctionnelle.pdf Graphic file (type pdf)
 
 <use PlanValidationFonctionnelle.pdf>
-Package pdftex.def Info: PlanValidationFonctionnelle.pdf used on input line 96.
+Package pdftex.def Info: PlanValidationFonctionnelle.pdf used on input line 92.
 
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 File: PlanValidationFonctionnelle.pdf Graphic file (type pdf)
  <use PlanValidationFonctionnelle.pdf>
-Package pdftex.def Info: PlanValidationFonctionnelle.pdf used on input line 96.
+Package pdftex.def Info: PlanValidationFonctionnelle.pdf used on input line 92.
 
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 
-[66
+[67
 
 ]
-<PlanValidationFonctionnelle.pdf, id=1048, page=1, 597.23125pt x 845.1575pt>
+<PlanValidationFonctionnelle.pdf, id=1065, page=1, 597.23125pt x 845.1575pt>
 File: PlanValidationFonctionnelle.pdf Graphic file (type pdf)
 
 <use PlanValidationFonctionnelle.pdf, page 1>
 Package pdftex.def Info: PlanValidationFonctionnelle.pdf, page1 used on input l
-ine 96.
+ine 92.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 File: PlanValidationFonctionnelle.pdf Graphic file (type pdf)
 
 <use PlanValidationFonctionnelle.pdf, page 1>
 Package pdftex.def Info: PlanValidationFonctionnelle.pdf, page1 used on input l
-ine 96.
+ine 92.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
 File: PlanValidationFonctionnelle.pdf Graphic file (type pdf)
 
 <use PlanValidationFonctionnelle.pdf, page 1>
 Package pdftex.def Info: PlanValidationFonctionnelle.pdf, page1 used on input l
-ine 96.
+ine 92.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
 File: PlanValidationFonctionnelle.pdf Graphic file (type pdf)
 
 <use PlanValidationFonctionnelle.pdf, page 1>
 Package pdftex.def Info: PlanValidationFonctionnelle.pdf, page1 used on input l
-ine 96.
+ine 92.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
 File: PlanValidationFonctionnelle.pdf Graphic file (type pdf)
 
 <use PlanValidationFonctionnelle.pdf, page 1>
 Package pdftex.def Info: PlanValidationFonctionnelle.pdf, page1 used on input l
-ine 96.
-(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
- [67 <./PlanValidationFonctionnelle.pdf>]
-<PlanValidationFonctionnelle.pdf, id=1080, page=2, 597.23125pt x 845.1575pt>
-File: PlanValidationFonctionnelle.pdf Graphic file (type pdf)
-
-<use PlanValidationFonctionnelle.pdf, page 2>
-Package pdftex.def Info: PlanValidationFonctionnelle.pdf, page2 used on input l
-ine 96.
-(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
-File: PlanValidationFonctionnelle.pdf Graphic file (type pdf)
-
-<use PlanValidationFonctionnelle.pdf, page 2>
-Package pdftex.def Info: PlanValidationFonctionnelle.pdf, page2 used on input l
-ine 96.
-(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
-File: PlanValidationFonctionnelle.pdf Graphic file (type pdf)
-
-<use PlanValidationFonctionnelle.pdf, page 2>
-Package pdftex.def Info: PlanValidationFonctionnelle.pdf, page2 used on input l
-ine 96.
+ine 92.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
  [68 <./PlanValidationFonctionnelle.pdf>]
-<PlanValidationFonctionnelle.pdf, id=1107, page=3, 597.23125pt x 845.1575pt>
+<PlanValidationFonctionnelle.pdf, id=1096, page=2, 597.23125pt x 845.1575pt>
 File: PlanValidationFonctionnelle.pdf Graphic file (type pdf)
 
-<use PlanValidationFonctionnelle.pdf, page 3>
-Package pdftex.def Info: PlanValidationFonctionnelle.pdf, page3 used on input l
-ine 96.
+<use PlanValidationFonctionnelle.pdf, page 2>
+Package pdftex.def Info: PlanValidationFonctionnelle.pdf, page2 used on input l
+ine 92.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
 File: PlanValidationFonctionnelle.pdf Graphic file (type pdf)
 
-<use PlanValidationFonctionnelle.pdf, page 3>
-Package pdftex.def Info: PlanValidationFonctionnelle.pdf, page3 used on input l
-ine 96.
+<use PlanValidationFonctionnelle.pdf, page 2>
+Package pdftex.def Info: PlanValidationFonctionnelle.pdf, page2 used on input l
+ine 92.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
 File: PlanValidationFonctionnelle.pdf Graphic file (type pdf)
 
-<use PlanValidationFonctionnelle.pdf, page 3>
-Package pdftex.def Info: PlanValidationFonctionnelle.pdf, page3 used on input l
-ine 96.
+<use PlanValidationFonctionnelle.pdf, page 2>
+Package pdftex.def Info: PlanValidationFonctionnelle.pdf, page2 used on input l
+ine 92.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
  [69 <./PlanValidationFonctionnelle.pdf>]
-<PlanValidationFonctionnelle.pdf, id=1145, page=4, 597.23125pt x 845.1575pt>
+<PlanValidationFonctionnelle.pdf, id=1123, page=3, 597.23125pt x 845.1575pt>
 File: PlanValidationFonctionnelle.pdf Graphic file (type pdf)
 
-<use PlanValidationFonctionnelle.pdf, page 4>
-Package pdftex.def Info: PlanValidationFonctionnelle.pdf, page4 used on input l
-ine 96.
+<use PlanValidationFonctionnelle.pdf, page 3>
+Package pdftex.def Info: PlanValidationFonctionnelle.pdf, page3 used on input l
+ine 92.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
 File: PlanValidationFonctionnelle.pdf Graphic file (type pdf)
 
-<use PlanValidationFonctionnelle.pdf, page 4>
-Package pdftex.def Info: PlanValidationFonctionnelle.pdf, page4 used on input l
-ine 96.
+<use PlanValidationFonctionnelle.pdf, page 3>
+Package pdftex.def Info: PlanValidationFonctionnelle.pdf, page3 used on input l
+ine 92.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
 File: PlanValidationFonctionnelle.pdf Graphic file (type pdf)
 
-<use PlanValidationFonctionnelle.pdf, page 4>
-Package pdftex.def Info: PlanValidationFonctionnelle.pdf, page4 used on input l
-ine 96.
+<use PlanValidationFonctionnelle.pdf, page 3>
+Package pdftex.def Info: PlanValidationFonctionnelle.pdf, page3 used on input l
+ine 92.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
  [70 <./PlanValidationFonctionnelle.pdf>]
-<PlanValidationFonctionnelle.pdf, id=1166, page=5, 597.23125pt x 845.1575pt>
+<PlanValidationFonctionnelle.pdf, id=1162, page=4, 597.23125pt x 845.1575pt>
 File: PlanValidationFonctionnelle.pdf Graphic file (type pdf)
 
-<use PlanValidationFonctionnelle.pdf, page 5>
-Package pdftex.def Info: PlanValidationFonctionnelle.pdf, page5 used on input l
-ine 96.
+<use PlanValidationFonctionnelle.pdf, page 4>
+Package pdftex.def Info: PlanValidationFonctionnelle.pdf, page4 used on input l
+ine 92.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
 File: PlanValidationFonctionnelle.pdf Graphic file (type pdf)
 
-<use PlanValidationFonctionnelle.pdf, page 5>
-Package pdftex.def Info: PlanValidationFonctionnelle.pdf, page5 used on input l
-ine 96.
+<use PlanValidationFonctionnelle.pdf, page 4>
+Package pdftex.def Info: PlanValidationFonctionnelle.pdf, page4 used on input l
+ine 92.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
 File: PlanValidationFonctionnelle.pdf Graphic file (type pdf)
 
-<use PlanValidationFonctionnelle.pdf, page 5>
-Package pdftex.def Info: PlanValidationFonctionnelle.pdf, page5 used on input l
-ine 96.
+<use PlanValidationFonctionnelle.pdf, page 4>
+Package pdftex.def Info: PlanValidationFonctionnelle.pdf, page4 used on input l
+ine 92.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
  [71 <./PlanValidationFonctionnelle.pdf>]
-<PlanValidationFonctionnelle.pdf, id=1171, page=6, 597.23125pt x 845.1575pt>
+<PlanValidationFonctionnelle.pdf, id=1182, page=5, 597.23125pt x 845.1575pt>
 File: PlanValidationFonctionnelle.pdf Graphic file (type pdf)
 
-<use PlanValidationFonctionnelle.pdf, page 6>
-Package pdftex.def Info: PlanValidationFonctionnelle.pdf, page6 used on input l
-ine 96.
+<use PlanValidationFonctionnelle.pdf, page 5>
+Package pdftex.def Info: PlanValidationFonctionnelle.pdf, page5 used on input l
+ine 92.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
 File: PlanValidationFonctionnelle.pdf Graphic file (type pdf)
 
-<use PlanValidationFonctionnelle.pdf, page 6>
-Package pdftex.def Info: PlanValidationFonctionnelle.pdf, page6 used on input l
-ine 96.
+<use PlanValidationFonctionnelle.pdf, page 5>
+Package pdftex.def Info: PlanValidationFonctionnelle.pdf, page5 used on input l
+ine 92.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
 File: PlanValidationFonctionnelle.pdf Graphic file (type pdf)
 
-<use PlanValidationFonctionnelle.pdf, page 6>
-Package pdftex.def Info: PlanValidationFonctionnelle.pdf, page6 used on input l
-ine 96.
+<use PlanValidationFonctionnelle.pdf, page 5>
+Package pdftex.def Info: PlanValidationFonctionnelle.pdf, page5 used on input l
+ine 92.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
  [72 <./PlanValidationFonctionnelle.pdf>]
-<PlanValidationFonctionnelle.pdf, id=1180, page=7, 597.23125pt x 845.1575pt>
+<PlanValidationFonctionnelle.pdf, id=1187, page=6, 597.23125pt x 845.1575pt>
 File: PlanValidationFonctionnelle.pdf Graphic file (type pdf)
 
-<use PlanValidationFonctionnelle.pdf, page 7>
-Package pdftex.def Info: PlanValidationFonctionnelle.pdf, page7 used on input l
-ine 96.
+<use PlanValidationFonctionnelle.pdf, page 6>
+Package pdftex.def Info: PlanValidationFonctionnelle.pdf, page6 used on input l
+ine 92.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
 File: PlanValidationFonctionnelle.pdf Graphic file (type pdf)
 
-<use PlanValidationFonctionnelle.pdf, page 7>
-Package pdftex.def Info: PlanValidationFonctionnelle.pdf, page7 used on input l
-ine 96.
+<use PlanValidationFonctionnelle.pdf, page 6>
+Package pdftex.def Info: PlanValidationFonctionnelle.pdf, page6 used on input l
+ine 92.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
 File: PlanValidationFonctionnelle.pdf Graphic file (type pdf)
 
-<use PlanValidationFonctionnelle.pdf, page 7>
-Package pdftex.def Info: PlanValidationFonctionnelle.pdf, page7 used on input l
-ine 96.
+<use PlanValidationFonctionnelle.pdf, page 6>
+Package pdftex.def Info: PlanValidationFonctionnelle.pdf, page6 used on input l
+ine 92.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
  [73 <./PlanValidationFonctionnelle.pdf>]
-<PlanValidationFonctionnelle.pdf, id=1188, page=8, 597.23125pt x 845.1575pt>
+<PlanValidationFonctionnelle.pdf, id=1197, page=7, 597.23125pt x 845.1575pt>
 File: PlanValidationFonctionnelle.pdf Graphic file (type pdf)
 
-<use PlanValidationFonctionnelle.pdf, page 8>
-Package pdftex.def Info: PlanValidationFonctionnelle.pdf, page8 used on input l
-ine 96.
+<use PlanValidationFonctionnelle.pdf, page 7>
+Package pdftex.def Info: PlanValidationFonctionnelle.pdf, page7 used on input l
+ine 92.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
 File: PlanValidationFonctionnelle.pdf Graphic file (type pdf)
 
-<use PlanValidationFonctionnelle.pdf, page 8>
-Package pdftex.def Info: PlanValidationFonctionnelle.pdf, page8 used on input l
-ine 96.
+<use PlanValidationFonctionnelle.pdf, page 7>
+Package pdftex.def Info: PlanValidationFonctionnelle.pdf, page7 used on input l
+ine 92.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
 File: PlanValidationFonctionnelle.pdf Graphic file (type pdf)
 
-<use PlanValidationFonctionnelle.pdf, page 8>
-Package pdftex.def Info: PlanValidationFonctionnelle.pdf, page8 used on input l
-ine 96.
+<use PlanValidationFonctionnelle.pdf, page 7>
+Package pdftex.def Info: PlanValidationFonctionnelle.pdf, page7 used on input l
+ine 92.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
  [74 <./PlanValidationFonctionnelle.pdf>]
-Annexe B.
-(./Annexe1.tex [75
+<PlanValidationFonctionnelle.pdf, id=1204, page=8, 597.23125pt x 845.1575pt>
+File: PlanValidationFonctionnelle.pdf Graphic file (type pdf)
 
-]) [76]
+<use PlanValidationFonctionnelle.pdf, page 8>
+Package pdftex.def Info: PlanValidationFonctionnelle.pdf, page8 used on input l
+ine 92.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: PlanValidationFonctionnelle.pdf Graphic file (type pdf)
+
+<use PlanValidationFonctionnelle.pdf, page 8>
+Package pdftex.def Info: PlanValidationFonctionnelle.pdf, page8 used on input l
+ine 92.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: PlanValidationFonctionnelle.pdf Graphic file (type pdf)
+
+<use PlanValidationFonctionnelle.pdf, page 8>
+Package pdftex.def Info: PlanValidationFonctionnelle.pdf, page8 used on input l
+ine 92.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+ [75 <./PlanValidationFonctionnelle.pdf>]
+Annexe B.
+(./Annexe1.tex [76
+
+]) [77]
 Annexe C.
-(./Annexe2.tex) [77
+(./Annexe2.tex) [78
 
 ]
 Annexe D.
-(./Annexe3.tex) [78
+(./Annexe3.tex) [79
 
 ]
 Annexe E.
-(./Annexe4.tex) [79
+(./Annexe4.tex) [80
 
 ]
 Annexe F.
-(./Annexe5.tex) [80
+(./Annexe5.tex) [81
 
 ]
 Annexe G.
-(./Annexe6.tex) [81
+(./Annexe6.tex) [82
 
 ]
 Annexe H.
-(./Annexe7.tex) [82
+(./Annexe7.tex) [83
 
 ]
 Annexe I.
-<FicheValidationFonctionnelle.pdf, id=1331, 597.23125pt x 845.1575pt>
+<FicheValidationFonctionnelle.pdf, id=1347, 597.23125pt x 845.1575pt>
 File: FicheValidationFonctionnelle.pdf Graphic file (type pdf)
 
 <use FicheValidationFonctionnelle.pdf>
 Package pdftex.def Info: FicheValidationFonctionnelle.pdf used on input line 12
-8.
+4.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 File: FicheValidationFonctionnelle.pdf Graphic file (type pdf)
  <use FicheValidationFonctionnelle.pdf>
 Package pdftex.def Info: FicheValidationFonctionnelle.pdf used on input line 12
-8.
+4.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 
-[83
+[84
 
 ]
-<FicheValidationFonctionnelle.pdf, id=1338, page=1, 597.23125pt x 845.1575pt>
+<FicheValidationFonctionnelle.pdf, id=1354, page=1, 597.23125pt x 845.1575pt>
 File: FicheValidationFonctionnelle.pdf Graphic file (type pdf)
 
 <use FicheValidationFonctionnelle.pdf, page 1>
 Package pdftex.def Info: FicheValidationFonctionnelle.pdf, page1 used on input 
-line 128.
+line 124.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 File: FicheValidationFonctionnelle.pdf Graphic file (type pdf)
 
 <use FicheValidationFonctionnelle.pdf, page 1>
 Package pdftex.def Info: FicheValidationFonctionnelle.pdf, page1 used on input 
-line 128.
+line 124.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
 File: FicheValidationFonctionnelle.pdf Graphic file (type pdf)
 
 <use FicheValidationFonctionnelle.pdf, page 1>
 Package pdftex.def Info: FicheValidationFonctionnelle.pdf, page1 used on input 
-line 128.
+line 124.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
 File: FicheValidationFonctionnelle.pdf Graphic file (type pdf)
 
 <use FicheValidationFonctionnelle.pdf, page 1>
 Package pdftex.def Info: FicheValidationFonctionnelle.pdf, page1 used on input 
-line 128.
+line 124.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
 File: FicheValidationFonctionnelle.pdf Graphic file (type pdf)
 
 <use FicheValidationFonctionnelle.pdf, page 1>
 Package pdftex.def Info: FicheValidationFonctionnelle.pdf, page1 used on input 
-line 128.
+line 124.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
- [84 <./FicheValidationFonctionnelle.pdf>]
-<FicheValidationFonctionnelle.pdf, id=1369, page=2, 597.23125pt x 845.1575pt>
+ [85 <./FicheValidationFonctionnelle.pdf>]
+<FicheValidationFonctionnelle.pdf, id=1386, page=2, 597.23125pt x 845.1575pt>
 File: FicheValidationFonctionnelle.pdf Graphic file (type pdf)
 
 <use FicheValidationFonctionnelle.pdf, page 2>
 Package pdftex.def Info: FicheValidationFonctionnelle.pdf, page2 used on input 
-line 128.
-(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
-File: FicheValidationFonctionnelle.pdf Graphic file (type pdf)
-
-<use FicheValidationFonctionnelle.pdf, page 2>
-Package pdftex.def Info: FicheValidationFonctionnelle.pdf, page2 used on input 
-line 128.
+line 124.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
 File: FicheValidationFonctionnelle.pdf Graphic file (type pdf)
 
 <use FicheValidationFonctionnelle.pdf, page 2>
 Package pdftex.def Info: FicheValidationFonctionnelle.pdf, page2 used on input 
-line 128.
+line 124.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
- [85 <./FicheValidationFonctionnelle.pdf>] (./main.bbl
+File: FicheValidationFonctionnelle.pdf Graphic file (type pdf)
+
+<use FicheValidationFonctionnelle.pdf, page 2>
+Package pdftex.def Info: FicheValidationFonctionnelle.pdf, page2 used on input 
+line 124.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+ [86 <./FicheValidationFonctionnelle.pdf>] (./main.bbl
 Underfull \hbox (badness 3907) in paragraph at lines 70--76
 []\T1/cmr/m/n/12 Noël-Arnaud \T1/cmr/m/sc/12 Ma-guis \T1/cmr/m/n/12 :  Ré-di-ge
 z des do-cu-ments de qua-lité avec
@@ -2161,7 +2165,7 @@ Underfull \hbox (badness 1496) in paragraph at lines 96--102
 en / eye-[]tracking-[]research / global /
  []
 
-[86
+[87
 
 ]
 Underfull \hbox (badness 7851) in paragraph at lines 128--134
@@ -2205,25 +2209,21 @@ Package glossaries Warning: No \printglossary or \printglossaries found.
 (Remove \makeglossaries if you don't want any glossaries.)
 This document will not have a glossary.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 159.
-[87]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 159.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 155.
+[88]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 155.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 159.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 159.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 155.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 155.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 41EA9C093896913F21360B742CC34090;5818.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 159.
+(rerunfilecheck)             Checksum: DCFD933DA691B4165A4EA0C4927FFEE0;5921.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 155.
  ) 
 Here is how much of TeX's memory you used:
- 17946 strings out of 493117
- 266401 string characters out of 6135432
- 506146 words of memory out of 5000000
- 20482 multiletter control sequences out of 15000+600000
+ 17948 strings out of 493117
+ 266457 string characters out of 6135432
+ 505171 words of memory out of 5000000
+ 20481 multiletter control sequences out of 15000+600000
  22746 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,18n,97p,1828b,1887s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2260,10 +2260,10 @@ cm-super/sftt1095.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm
 -super/sftt1200.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-s
 uper/sfxc2488.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/zapfding/
 uzdr.pfb>
-Output written on main.pdf (87 pages, 10471375 bytes).
+Output written on main.pdf (88 pages, 10472818 bytes).
 PDF statistics:
- 1608 PDF objects out of 1728 (max. 8388607)
- 1310 compressed objects within 14 object streams
- 453 named destinations out of 1000 (max. 500000)
- 967 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1623 PDF objects out of 1728 (max. 8388607)
+ 1324 compressed objects within 14 object streams
+ 456 named destinations out of 1000 (max. 500000)
+ 975 words of extra memory for PDF output out of 10000 (max. 10000000)
 

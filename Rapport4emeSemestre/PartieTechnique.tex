@@ -41,7 +41,7 @@ D’autre part, il est important de signaler que nous avons essayé de convertir
 
 \subsection{Acquisition du flux vidéo et transformation en images matricielles}
 
-La méthode main permet de récupérer le flux vidéo et de le convertir en images matricielles (voir annexe \ref{A2}). Ces images matricielles seront nécessaires aux méthodes utilisées par le détecteur. La méthode \lstinline=cvCaptureFromCam(0)= permet de récupérer le flux vidéo de la webcam 0. Ensuite, dans une boucle \lstinline=while=, l’image matricielle, récupérée grâce à la méthode \lstinline=cvQueryFrame=, est inversée selon la verticale grâce à la méthode \lstinline=cv::flip= afin de faciliter l’utilisation des méthodes du détecteur. En effet, sans cette inversion, un mouvement vers la droite de l’utilisateur correspondrait à un mouvement vers la gauche sur l’écran de l’ordinateur. Ainsi, cette inversion facilite par exemple le placement de l’utilisateur.
+La méthode main permet de récupérer le flux vidéo et de le convertir en images matricielles (voir annexe \ref{A2}). Ces images matricielles seront nécessaires aux méthodes utilisées par le détecteur. La méthode \lstinline=cvCaptureFromCam(0)= permet de récupérer le flux vidéo de la webcam par défaut. Ensuite, dans une boucle \lstinline=while=, l’image matricielle, récupérée grâce à la méthode \lstinline=cvQueryFrame=, est inversée selon la verticale grâce à la méthode \lstinline=cv::flip= afin de faciliter l’utilisation des méthodes du détecteur. En effet, sans cette inversion, un mouvement vers la droite de l’utilisateur correspondrait à un mouvement vers la gauche sur l’écran de l’ordinateur. Ainsi, elle facilite par exemple le placement de l’utilisateur.
 
 \subsection{Détection du visage}
 
@@ -49,7 +49,7 @@ Tout d’abord, il faut savoir que nous effectuons la détection du visage et de
 
 \paragraph{Haar\_cascades / Caractéristiques pseudo-Haar}
 
-Les caractéristiques pseudo-Haar (Haar-like features en anglais) sont utilisées en vision par ordinateur pour détecter des objets dans des images numériques. Le principal avantage de celles-ci est la rapidité de calcul. Cependant, la simplicité de ces caractéristiques permettant cette rapidité de calcul impose une détection d’objets simples. Ces caractéristiques sont des fenêtres de détection (ou masques) qui délimitent des zones rectangulaires adjacentes. Une caractéristique rectangulaire simple peut être définie comme la différence des sommes de pixels de deux ou plusieurs zones rectangulaires adjacentes. De plus, ce rectangle prend toutes les tailles possibles et se déplace à toutes les positions de l’image à laquelle est appliquée cette caractéristique. Les valeurs indiquent certaines caractéristiques d’une zone particulière de l’image. \textbf{Une caractéristique est donc un nombre réel qui code les variations du contenu pixellique à une position et taille donnée dans la fenêtre de détection.} Chaque type de caractéristique peut indiquer l’existence (ou l’absence) de certaines caractéristiques dans l’image étudiée telles que des contours ou des changements de texture. Par exemple, une caractéristique à 2 rectangles permet d’indiquer où se situe une frontière entre une zone sombre et une zone claire.
+Les caractéristiques pseudo-Haar (Haar-like features en anglais) sont utilisées en vision par ordinateur pour détecter des objets dans des images numériques. Le principal avantage de celles-ci est la rapidité de calcul. Cependant, cela impose une détection d’objets simples uniquement. Les Haar-like features sont des fenêtres de détection (ou masques) qui délimitent des zones rectangulaires adjacentes. Une caractéristique rectangulaire simple peut être définie comme la différence des sommes de pixels de deux ou plusieurs zones rectangulaires adjacentes. De plus, ce rectangle prend toutes les tailles possibles et se déplace à toutes les positions de l’image à laquelle est appliquée cette caractéristique. Les valeurs indiquent certaines propriétés d’une zone particulière de l’image. \textbf{Une caractéristique est donc un nombre réel qui code les variations du contenu pixellique à une position et taille donnée dans la fenêtre de détection.} Chaque type de caractéristique peut indiquer l’existence (ou l’absence) de certaines particularités dans l’image étudiée telles que des contours ou des changements de texture. Par exemple, une caractéristique à 2 rectangles permet d’indiquer où se situe une frontière entre une zone sombre et une zone claire.
 
 \begin{figure}[H]
   \centering
@@ -58,13 +58,13 @@ Les caractéristiques pseudo-Haar (Haar-like features en anglais) sont utilisée
   \label{fig:pseudoHaar}
 \end{figure}
 
-Ensuite, un classifieur est crée à partir de quelques centaines d’images de l’objet ciblé (dans notre cas, le visage et les yeux). Ces images sont dimensionnées à la même taille et sont en négatif. Une fois le classifieur créé, il peut être appliqué à une région d’une image selon la méthode précédemment vue. Ainsi, il sera retourné un nombre réel proche de 1 lorsque la région ciblée de l’image sera proche du classifieur et 0 lorsqu’elle s’en éloignera. Pour rechercher l’objet dans toute l’image, le classifieur sera déplacé à travers toute l’image étudiée. De plus, il sera redimensionné afin de trouver l’objet recherché à différentes tailles (ce qui est plus simple que de redimensionner l’image elle-même). 
+Ensuite, un classifieur est créé à partir de quelques centaines d’images de référence de l’objet ciblé (dans notre cas, le visage et les yeux). Ces images sont dimensionnées à la même taille et sont en négatif. Une fois le classifieur créé à partir de cette banque d'images, il peut être appliqué à une région d’une image selon la méthode vue précédemment. Ainsi, il sera retourné un nombre réel proche de 1 lorsque la région ciblée de l’image sera proche du classifieur et 0 lorsqu’elle s’en éloignera. Pour rechercher l’objet dans toute l’image, le classifieur sera déplacé à travers cette dernière. De plus, il sera redimensionné afin de trouver l’objet recherché à différentes tailles (ce qui est plus simple que de redimensionner l’image elle-même). 
 
 Le mot "cascade" dans le nom du classifieur signifie que le classifieur résultant se compose de plusieurs classifieurs simples (étapes) qui sont appliqués à la suite à une région d’intérêt jusqu’à ce que, à un moment donné, la région candidate soit rejetée ou ait passé toutes les étapes. Le mot "boosté" signifie que les classifieurs, à chaque étape de la cascade, sont eux-mêmes complexes et qu’ils sont construits sur des classifieurs de base en utilisant l'une des quatre techniques différentes suivantes : Discrete Adaboost, Real Adaboost, Gentle Adaboost and Logitboost. Les caractéristiques pseudo-haar sont l’entrée du classifieur basique.
 
 \paragraph{Utilisation de ces haar\_cascades}
 
-La méthode \lstinline=detectFace= permet de réaliser la détection du visage grâce à un haar\_cascade. Elle prend en entrée l’image acquise par la webcam. Les haar\_cascades permettant de détecter le visage et les yeux sont d’abord chargés dans le main (voir annexe \ref{A3}) puis, dans la méthode \lstinline=detectFace=, un vecteur de rectangles est créé et rempli lors de l’utilisation de l’haar\_cascade. Dans cette matrice se trouvent donc les rectangles encadrant le visage (voir annexe \ref{A4}). La méthode trace ensuite un rectangle (voir figure \ref{fig:DetectionVisage}) autour du visage en prenant le premier rectangle de ce vecteur. La méthode \lstinline=detectFace= retourne ce rectangle.
+La méthode \lstinline=detectFace= permet de réaliser la détection du visage grâce à un haar\_cascade. Elle prend en entrée l’image acquise par la webcam. Les haar\_cascades permettant de détecter le visage et les yeux sont d’abord chargés dans le main (voir annexe \ref{A3}) puis, dans la méthode \lstinline=detectFace=, un vecteur de rectangles est créé et rempli lors de l’utilisation de l’haar\_cascade. Dans ce vecteur se trouvent donc les rectangles encadrant le visage (voir annexe \ref{A4}). La méthode trace ensuite un rectangle (voir figure \ref{fig:DetectionVisage}) autour du visage en prenant le premier du vecteur. La méthode \lstinline=detectFace= retourne ce rectangle.
 
 \begin{figure}[H]
   \centering
@@ -79,7 +79,7 @@ La méthode \lstinline=closedEyesAndClick= qui prend en argument l’image du vi
 
 \subsection{Détermination du centre des pupilles}
 
-Concernant la détection du centre des pupilles, la méthode \lstinline=findEyeCenter= prend en argument une matrice contenant l’image du visage, un rectangle encadrant l’œil et un nom de fenêtre dans laquelle sera affichée l’image de l’œil traitée par la méthode. Tout d’abord, dans cette méthode, le rectangle encadrant l’œil appliqué à l’image du visage permet de créer une matrice contenant l’image de l’œil. Ce sera grâce à cette matrice que sera détecté le centre des pupilles. De plus, la méthode retourne les coordonnées, dans l’image de l’œil, du centre des pupilles. Il sera ensuite effectué un changement de repères dans la méthode \lstinline=findEyes= afin de d’obtenir les coordonnées des pupilles dans l’image du visage (voir figure \ref{fig:centrePupilles} et annexe \ref{A6}).
+Concernant la détection du centre des pupilles, la méthode \lstinline=findEyeCenter= prend en argument une matrice contenant l’image du visage, un rectangle encadrant l’œil et un nom de fenêtre dans laquelle sera affichée l’image de l’œil traitée par la méthode. Tout d’abord, le rectangle encadrant l’œil appliqué à l’image du visage permet de créer une matrice contenant l’image de l’œil. Ce sera grâce à cette matrice que sera détecté le centre des pupilles. De plus, la méthode retourne les coordonnées, dans l’image de l’œil, du centre des pupilles. Il sera ensuite effectué un changement de repère dans la méthode \lstinline=findEyes= afin de d’obtenir les coordonnées des pupilles dans l’image du visage (voir figure \ref{fig:centrePupilles} et annexe \ref{A6}).
 
 \begin{figure}[H]
   \centering
@@ -90,7 +90,7 @@ Concernant la détection du centre des pupilles, la méthode \lstinline=findEyeC
 
 \paragraph{Localisation du centre des pupilles}
 
-Afin de localiser le centre des pupilles, nous avons utilisé un code de Tristan Hume \cite{eyelike} qui s’appuie sur un article de Fabian Timm \cite{timm2011accurate}. Cet article décrit une méthode s’appuyant sur les gradients. La direction de ces gradients est utilisée afin de déterminer le centre des pupilles. Cependant, dans l’image de l’œil, plusieurs centres des pupilles sont possibles si l’on considère seulement les gradients. En effet, certains facteurs tels que les sourcils, les paupières, des lunettes, ou tout simplement des reflets peuvent modifier la valeur théorique des gradients et ainsi, plusieurs centres sont possibles.
+Afin de localiser le centre des pupilles, nous avons utilisé un code de Tristan Hume \cite{eyelike}. Nous pouvons d'ailleurs noter que ce code sera la seule partie de notre projet que nous avons repris d'un système déjà existant. Il s’appuie sur un article de Fabian Timm \cite{timm2011accurate}. Cet article décrit une méthode s’appuyant sur les gradients. La direction de ces gradients est utilisée afin de déterminer le centre des pupilles. Cependant, dans l’image de l’œil, plusieurs centres des pupilles sont possibles si l’on considère seulement les gradients. En effet, certains facteurs tels que les sourcils, les paupières, des lunettes, ou tout simplement des reflets peuvent modifier la valeur théorique des gradients.
 
 Considérons un centre possible $\mathbf{c}$ et un vecteur gradient $\mathbf{g}_i$ à la position $\mathbf{x}_i$. Le vecteur $\mathbf{d}_i$ de la distance normalisée (entre $\mathbf{c}$ et $\mathbf{x}_i$) devrait avoir la même orientation que $\mathbf{g}_i$. Ainsi, le produit scalaire entre ces deux vecteurs devrait être égale à un. Pour trouver le centre optimal $\mathbf{c}*$ des pupilles, il faudrait donc que la somme sur i des produits scalaires entre $\mathbf{d}_i$ et $\mathbf{g}_i$ soit maximale. Ainsi, $c*$ sera égale à l'argument du maximum sur $\mathbf{c}$, noté $arg \max$, (l'ensemble des points en lesquels une expression atteint sa valeur maximale) de cette somme.
 
@@ -115,14 +115,14 @@ Nous pouvons voir une illustration de cette méthode figure \ref{fig:schemaAlgoC
 
 \paragraph{Algorithme du gradient}
 
-Concernant l’algorithme utilisé afin de calculer les gradients dans l’image de l’œil. L’algorithme utilisé par la méthode \lstinline=findEyeCenter= est celui utilisé par Matlab transformé en C++. En Matlab, cela donne \lstinline=[x(2)-x(1) (x(3:end)-x(1:end-2))/2 x(end)-x(end-1)=], avec \lstinline=x= l’entrée (voir annexe \ref{A7} pour la version en C++ utilisée par \lstinline=findEyeCenter=). Le gradient \lstinline=X= est ainsi obtenu comme suit \lstinline-cv::Mat gradientX = computeMatXGradient(eyeROI)- et le gradient \lstinline=Y= est obtenu en tranposant le résultat de la méthode appliquée à la transposée de \lstinline=X= : \lstinline-cv::Mat gradientY = computeMatXGradient(eyeROI.t()).t()-
+Afin de calculer les gradients dans l’image de l’œil, l’algorithme utilisé par la méthode \lstinline=findEyeCenter= est celui utilisé par Matlab transformé en C++. En Matlab, cela donne \lstinline=[x(2)-x(1) (x(3:end)-x(1:end-2))/2 x(end)-x(end-1)=], avec x l’entrée (voir annexe \ref{A7} pour la version en C++ utilisée par \lstinline=findEyeCenter=). Le gradient X est ainsi obtenu comme suit \lstinline-cv::Mat gradientX = computeMatXGradient(eyeROI)- et le gradient Y est obtenu en tranposant le résultat de la méthode appliquée à la transposée de X : \lstinline-cv::Mat gradientY = computeMatXGradient(eyeROI.t()).t()-
 Ensuite, un seuil est appliqué grâce à la méthode \lstinline=computeDynamicThreshold= afin de filtrer les gradients obtenus \lstinline-double gradientThresh = computeDynamicThreshold(mags, kGradientThreshold)- où "mags" est la matrice des magnitudes de tous les gradients calculés.
 
 \subsection{Déplacement du curseur en fonction de la position des centres}
 
 Cette fonctionnalité est assurée par la méthode \lstinline=calibrateAndMoove=  qui prend en argument la position du centre d’une pupille dans l’image de l’œil. Cette méthode ne retourne rien, mais permet de déplacer le curseur.
 
-\lstinline=CalibrateAndMoove= est composée de cinq parties différentes, quatre consacrées à la calibration et une dernière permettant le déplacement du curseur une fois la calibration effectuée. Les trois premières étapes consistent à enregistrer la position du centre de la pupille lorsque l’utilisateur regarde en haut à gauche de l’écran, puis en haut à droite et enfin en bas à gauche. Ces positions sont stockées dans la matrice \lstinline=pointsMesuresReference[3]=. Ensuite, la quatrième étape permet d’effectuer un changement de repère, la position du centre de la pupille est transformée en position du curseur sur l’écran. Pour cela, nous avons choisis de considérer qu’il s’agit d’un changement de repère affine. Nous pouvons voir figure \ref{fig:calib} un schéma de l’écran avec les coordonnés de trois coins de l’écran dans le repère de l’écran lui-même et dans le repère de l’image de la pupille.
+\lstinline=CalibrateAndMoove= est composée de cinq parties différentes, quatre consacrées à la calibration et une dernière permettant le déplacement du curseur une fois la calibration effectuée. Les trois premières étapes consistent à enregistrer la position du centre de la pupille lorsque l’utilisateur regarde en haut à gauche de l’écran, puis en haut à droite et enfin en bas à gauche. Ces positions sont stockées dans la matrice \lstinline=pointsMesuresReference[3]=. Ensuite, la quatrième étape permet d’effectuer un changement de repère, la position du centre de la pupille est transformée en position du curseur sur l’écran. Pour cela, nous avons choisi de considérer qu’il s’agit d’un changement de repère affine. Nous pouvons voir figure \ref{fig:calib} un schéma de l’écran avec les coordonnés de trois coins de l’écran dans le repère de l’écran lui-même et dans le repère de l’image de la pupille.
 
 \begin{figure}[H]
   \centering
@@ -139,22 +139,22 @@ Avec, entre autre :
 
 Ainsi, la longueur l1 est égale à \lstinline=HGD.x= et correspond à \lstinline=(PMR[1]-PMR[0]).x=
 
-Deux équations sont donc nécessaires à ce changement de repère (une suivant X et une suivant Y) et les coordonnée du point visé est calculé de la manière suivante :
+Deux équations sont donc nécessaires à ce changement de repère (une suivant X et une suivant Y) et les coordonnées du point visé sont calculées de la manière suivante :
 
 \begin{lstlisting}
 cv::Point pointVise;
 
-		double aH = -(double)hautDroitEcran.x / (double)(pointsMesuresReference[0].x - pointsMesuresReference[1].x);
-		double bH = (double)hautGaucheEcran.x - aH*pointsMesuresReference[0].x;
+double aH = -(double)hautDroitEcran.x / (double)(pointsMesuresReference[0].x - pointsMesuresReference[1].x);
+double bH = (double)hautGaucheEcran.x - aH*pointsMesuresReference[0].x;
 
-		double aV = -(double)basGaucheEcran.y / (double)(pointsMesuresReference[0].y - pointsMesuresReference[2].y);
-		double bV = (double)hautGaucheEcran.y - aV*pointsMesuresReference[0].y;
+double aV = -(double)basGaucheEcran.y / (double)(pointsMesuresReference[0].y - pointsMesuresReference[2].y);
+double bV = (double)hautGaucheEcran.y - aV*pointsMesuresReference[0].y;
 
-		pointVise.x = aH*leftPupil.x + bH;
-		pointVise.y = aV*leftPupil.y + bV;
+pointVise.x = aH*leftPupil.x + bH;
+pointVise.y = aV*leftPupil.y + bV;
 \end{lstlisting}
 
-Enfin, la cinquième partie permet de bouger le curseur grâce à \lstinline=SetCursorPos(pointVise.x, pointVise.y)=. De plus, la méthode  sera utilisée pour notre démonstrateur afin de découper l’écran en quatre zones (nous essaierons par la suite de découper en neuf zones). Ainsi, si le point visé se trouve dans la partie supérieure gauche de l’écran, le curseur sera placé au centre de cette zone (de même que pour les trois autres zones). 
+Enfin, la cinquième partie permet de bouger le curseur grâce à \lstinline=SetCursorPos(pointVise.x, pointVise.y)=. De plus, la méthode  sera utilisée pour notre démonstrateur afin de découper l’écran en quatre zones (puis neuf pour les utilisateurs les plus à l'aise avec le système). Ainsi, si le point visé se trouve dans la partie supérieure gauche de l’écran, le curseur sera placé au centre de cette zone (de même que pour les trois autres zones). 
 
 \subsection{Clic}
 
@@ -191,7 +191,7 @@ Deux modes de fonctionnement existent pour notre logiciel de gaze-tracking : un 
   \label{fig:IG4B}
 \end{figure}
 
-Dans un deuxième temps, l’interface devait être paramétrable afin de pouvoir lancer les logiciels favoris de l’utilisateur, ou encore un film ou un document PDF. Ainsi le clic sur l’un des boutons lance un logiciel, soit entré par défaut, soit personnalisable par l’utilisateur. La page permettant de paramétrer les boutons est présentée figure \ref{fig:IGconf9}.
+Dans un deuxième temps, l’interface devait être paramétrable afin de pouvoir lancer les logiciels favoris de l’utilisateur, ou encore un film ou un document PDF. Ainsi, le clic sur l’un des boutons lance un logiciel, soit entré par défaut, soit personnalisable par l’utilisateur. La page permettant de paramétrer les boutons est présentée figure \ref{fig:IGconf9}.
 
 \begin{figure}[H]
   \centering
@@ -206,7 +206,11 @@ Chaque chemin peut être modifié à l’aide du bouton "Browse", qui permet de 
 
 Comme langage de programmation, nous avons choisi le C++ couplé à Qt Creator, pour réaliser cette interface. En effet, notre programme de gaze-tracking étant codé en C++, il sera plus facile dans le futur de réunir les deux logiciels en un seul (chose qui n’est pas encore faite à ce jour). D’autre part la librairie Qt permet de faire rapidement et simplement des interfaces graphiques, et c’est donc présentée comme une évidence.
 
-\section{Limites du système}
+\section{Limites du système et problèmes rencontrés}
+
+\subsection{Problèmes matériels}
+L'installation d'OpenCV sur Windows n'est pas aisée et a fait perdre beaucoup de temps à deux membres de l'équipe, déjà fortement réduite.
+De plus, ayant besoin de fixer la tête pour que notre calibrage soit efficace, nous avons du trouver un moyen de la maintenir. Nous avons finalement opté pour une mentonnière, qui nous a gentiment été prêtée par un ophtalmologue.
 
 \subsection{Limites du détecteur}
 
@@ -219,15 +223,15 @@ Concernant les limites de la partie détecteur de notre système, nous pouvons d
 
 \subsubsection{Limites liées au mouvement de la tête}
 
-La principale limite de notre démonstrateur est l’absence de possibilité de mouvement de la tête. En effet, nous devons utiliser une mentonnière afin de maintenir la tête et de limiter les mouvements de celle-ci. Cette limite de notre démonstrateur peut s’expliquer par trois limites de notre système.
+La principale limite de notre démonstrateur est l’absence de possibilité de mouvement de la tête. En effet, nous devons utiliser une mentonnière afin de maintenir la tête et de réduire les mouvements de celle-ci. Cette restriction de notre démonstrateur peut s’expliquer par trois limites de notre système.
 
 \paragraph{Limites des haar\_cascades}
 
-La détection du centre des pupilles a d’abord été testée en utilisant l’image du visage où étaient récupérées les images des yeux grâce à des constantes liées à la morphologie du visage. Cependant, le rectangle encadrant le visage, renvoyé lors de l’utilisation de l’haar\_cascade permettant la détection du visage, n’est pas suffisamment précis. En effet, nous avons constaté un léger décalage de quelques pixels au cours du temps de ce rectangle (comme une vibration). Or, les coordonnées du centre des pupilles ayant une variation de seulement quelques pixels, ces décalages du rectangle modifiaient trop les coordonnées du centre pour avoir une estimation correcte du point visé sur l’écran. Nous avons donc essayé de récupérer l’image des yeux non plus grâce à des constantes, mais en utilisant un haar\_cascade permettant de récupérer le rectangle encadrant les yeux. Cependant, encore une fois, la position de ce rectangle variait trop au cours du temps. C’est pourquoi notre démonstrateur n’effectue pas cette détection du visage et film directement l’œil avec une tête sans mouvement.
+La détection du centre des pupilles a d’abord été testée en utilisant l’image du visage où étaient récupérées les images des yeux grâce à des constantes liées à la morphologie du visage. Cependant, le rectangle encadrant le visage, renvoyé lors de l’utilisation de l’haar\_cascade permettant la détection du visage, n’est pas suffisamment précis. En effet, nous avons constaté un léger décalage de quelques pixels au cours du temps de ce rectangle (comme une vibration). Or, les coordonnées du centre des pupilles ayant une variation de seulement quelques pixels, ces décalages du rectangle modifiaient trop les coordonnées du centre pour avoir une estimation correcte du point visé sur l’écran. Nous avons donc essayé de récupérer l’image des yeux non plus grâce à des constantes, mais en utilisant un haar\_cascade permettant de récupérer le rectangle encadrant les yeux. Cependant, encore une fois, la position de ce rectangle variait trop au cours du temps. C’est pourquoi notre démonstrateur n’effectue pas cette détection du visage mais seulement celle de l'oeil et filme directement celui-ci avec une tête immobile.
 
 \paragraph{Orientation de la tête}
 
-Ensuite, une deuxième limite à notre système est qu’il ne prend pas en compte l’orientation de la tête. En effet, si le déplacement du visage dans le plan devrait être pris en compte, un mouvement circulaire de la tête vers la gauche ou la droite provoquerait un dérèglement du calibrage. En effet, lorsqu’un utilisateur fixe un point de l’écran en tournant la tête ou non, cela change les coordonnées du centre des pupilles. Cependant, nous pouvons penser qu’un utilisateur tétraplégique ne bougera pas sa tête, mais il ne faudra donc pas que sa tête glisse.
+Ensuite, une deuxième limite à notre système est qu’il ne prend pas en compte l’orientation de la tête. Si le déplacement du visage dans le plan était pris en compte, un mouvement circulaire de la tête vers la gauche ou la droite provoquerait un dérèglement du calibrage. En effet, lorsqu’un utilisateur fixe un point de l’écran en tournant la tête ou non, cela change les coordonnées du centre des pupilles. Cependant, nous pouvons penser qu’un utilisateur tétraplégique ne bougera pas sa tête, mais il ne faudra pas non plus que sa tête glisse.
 
 \paragraph{Tête verticale seulement}
 La dernière limite quant  au mouvement de la tête est que l’haar\_cascade ne permet de détecter qu’un visage plus ou moins vertical. Empiriquement, nous avons vu qu’à partir d’un angle d’environ 10 degrés, l’haar\_cascade ne permettait plus la détection du visage. 
@@ -250,14 +254,14 @@ D’un point de vue du confort, l’immobilité de la tête due à la mentonniè
 
 Le champ de vision de l’utilisateur pose aussi un problème. Le fait de se concentrer sur une zone particulière de l’écran afin de cliquer dessus empêche la vision globale de l’écran.
 
-La morphologie de l’utilisateur semble aussi très déterminante sur les résultats obtenus. Ainsi les yeux plus clairs semblent permettre un meilleur contrôle de la souris en comparaison aux yeux foncés. Certaines morphologies du visage rendent aussi la détection des yeux difficiles, et notamment lorsque l’utilisateur observe les angles de l’écran.
+La morphologie de l’utilisateur parait enfin très déterminante sur les résultats obtenus. Les yeux plus clairs semblent permettre un meilleur contrôle de la souris en comparaison aux yeux foncés. Certaines morphologies du visage rendent aussi la détection des yeux difficiles, notamment lorsque l’utilisateur observe les angles de l’écran.
 
 \subsubsection{Limite d’utilisation de l’interface graphique}
 
-Concernant l’interface graphique, la principale limitation vient du fait qu’elle n’est encore totalement adaptée au contrôle avec notre logiciel. En effet le découpage de l’écran en différentes zones distinctes oblige à découper chaque onglet de façon différente. L’idéal serait donc de pouvoir faire abstraction de ce découpage et laisser un total contrôle à l’utilisateur. Cependant, la précision de notre logiciel ne le permet pas encore.
+Concernant l’interface graphique, la principale limitation vient du fait qu’elle n’est pas encore totalement adaptée au contrôle avec notre logiciel. En effet le découpage de l’écran en différentes zones distinctes oblige à sectionner chaque onglet de façon différente. L’idéal serait donc de pouvoir faire abstraction de ce découpage et laisser un total contrôle à l’utilisateur. Cependant, la précision de notre logiciel ne le permet pas encore.
 
-Une seconde limitation est liée à la personnalisation de notre interface. L’utilisateur ne peut pas configurer lui-même le nombre de bouton ou encore les placer où il veut à l’écran. De plus, dans le cadre ou l’utilisateur est tétraplégique, la personnalisation du logiciel lancé par un bouton donné devra forcément être faite par une tierce personne.
+Une seconde limitation est liée à la personnalisation de notre interface. L’utilisateur ne peut pas configurer lui-même le nombre de bouton ou encore les placer où il veut à l’écran. De plus, dans le cas où l’utilisateur est tétraplégique, la personnalisation du logiciel lancé par un bouton donné devra forcément être faite par une tierce personne.
 
-A l’heure actuel notre interface ne permet pas de lancer deux logiciels en même temps ce qui pose problème pour le multi-tasking. Cependant ce problème pourra facilement être corrigé dans les versions futures.
+A l’heure actuel, notre interface ne permet pas de lancer deux logiciels en même temps ce qui pose problème pour le multi-tasking. Cependant ce problème pourra facilement être corrigé dans les versions futures.
 
-La dernière limitation vient du fait que même si notre interface permet facilement de lancer un logiciel, celui-ci doit aussi être utilisable à l’aide du gaze-tracking. Or la majorité des logiciels les plus courants ne possèdent pas de telles options. Il faudrait donc créer un lot de logiciel adapté à cette utilisation et notamment dans le cas où l’utilisateur est tétraplégique.
+La dernière limitation vient du fait que même si notre interface permet facilement de lancer un logiciel, celui-ci doit aussi être utilisable à l’aide du gaze-tracking. Or la majorité des logiciels les plus courants ne possèdent pas de telles options. Il faudrait donc créer un lot de logiciels adaptés à cette utilisation et notamment dans le cas où l’utilisateur est tétraplégique.

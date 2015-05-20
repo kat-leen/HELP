@@ -21,7 +21,7 @@ L'interface logicielle s'appuie sur le programme contenant des algorithmes déve
 Enfin, le rôle de l'interface graphique est de proposer à l'utilisateur un choix de boutons qui lancent des applications. Cette dernière est développée en C++ à l'aide de Qt Creator et ne peut être utilisée que sur Windows car il faudrait changer toutes les commandes d'ouverture d'applications pour exécuter le programme sur un autre système d'exploitation.
 
 \section{WBS}
-La structure de découpage du projet découle de l'architecture physique. La figure \ref{fig:WBS} illustre le WBS ainsi établit. 
+La structure de découpage du projet découle de l'architecture physique. La figure \ref{fig:WBS} illustre le WBS ainsi établi. 
 
 \begin{figure}[H]
   \centering
@@ -48,10 +48,11 @@ Parmi celles-ci, nous avons sélectionné la LifeCam Studio HD 1080p (voir figur
   \label{fig:Cam}
 \end{figure}
 
+\subsection{Mentonnière}
+
 Afin que les coordonnées du centre des pupilles soient exploitables pour le suivi du regard, nous avions besoin que la tête reste fixe. En effet, lorsque la tête était libre de tout mouvement, les données collectées ne permettait pas de calibrer le programme. La solution de la mentonnière (figure \ref{fig:Menton}) a ainsi émergée. De plus, étant donné que le système vise à être utilisé par la suite par des personnes tétraplégiques, l'immobilisation de la tête ne soulève pas d'incohérence.
 Enfin, nous avons fabriqué une planche de bois pour fixer dans un premier temps la caméra près de l'oeil. 
 
-\subsection{Mentonnière}
 \begin{figure}[H]
   \centering
   \includegraphics[scale=0.6]{Mentonniere}
