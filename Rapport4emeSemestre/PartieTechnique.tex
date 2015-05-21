@@ -64,7 +64,7 @@ Le mot "cascade" dans le nom du classifieur signifie que le classifieur résulta
 
 \paragraph{Utilisation de ces haar\_cascades}
 
-La méthode \lstinline=detectFace= permet de réaliser la détection du visage grâce à un haar\_cascade. Elle prend en entrée l’image acquise par la webcam. Les haar\_cascades permettant de détecter le visage et les yeux sont d’abord chargés dans le main (voir annexe \ref{A3}) puis, dans la méthode \lstinline=detectFace=, un vecteur de rectangles est créé et rempli lors de l’utilisation de l’haar\_cascade. Dans ce vecteur se trouvent donc les rectangles encadrant le visage (voir annexe \ref{A4}). La méthode trace ensuite un rectangle (voir figure \ref{fig:DetectionVisage}) autour du visage en prenant le premier du vecteur. La méthode \lstinline=detectFace= retourne ce rectangle.
+La méthode \lstinline=detectFace= permet de réaliser la détection du visage grâce à un haar\_cascade. Elle prend en entrée l’image acquise par la webcam. Les haar\_cascades permettant de détecter le visage et les yeux sont d’abord chargés dans le main (voir annexe \ref{A3}) puis, dans la méthode \lstinline=detectFace=, un vecteur de \lstinline=cv::Rect= est créé et rempli lors de l’utilisation de l’haar\_cascade. Dans ce vecteur se trouvent donc les rectangles encadrant le visage (voir annexe \ref{A4}). La méthode trace ensuite un rectangle (voir figure \ref{fig:DetectionVisage}) autour du visage en prenant le premier du vecteur. La méthode \lstinline=detectFace= retourne ce rectangle.
 
 \begin{figure}[H]
   \centering
@@ -210,6 +210,7 @@ Comme langage de programmation, nous avons choisi le C++ couplé à Qt Creator, 
 
 \subsection{Problèmes matériels}
 L'installation d'OpenCV sur Windows n'est pas aisée et a fait perdre beaucoup de temps à deux membres de l'équipe, déjà fortement réduite.
+
 De plus, ayant besoin de fixer la tête pour que notre calibrage soit efficace, nous avons du trouver un moyen de la maintenir. Nous avons finalement opté pour une mentonnière, qui nous a gentiment été prêtée par un ophtalmologue.
 
 \subsection{Limites du détecteur}
@@ -247,22 +248,22 @@ Une des principales limites de l’utilisation de la méthode permettant la dét
 
 \subsection{Limites d'utilisation}
 
-\subsubsection{Limite d’utilisation pour l’utilisateur}
+\subsubsection{Limites d’utilisation pour l’utilisateur}
 
-Les tests de validation fonctionnelle (un exemple de fiche complétée est donné en annexe \ref{AFV}) nous ont permis de mettre au clair plusieurs limitations concernant l’utilisateur de notre système. Tout d’abord, notre système reste encore trop fatigant lorsqu’il est utilisé en mode libre. En effet, les utilisateurs se sont vite fatigués à essayer de naviguer sur l’écran lorsque celui-ci n’est pas prédécoupé en différentes zones. La navigation est de plus encore difficile car trop imprécise.
+Les tests de validation fonctionnelle (un exemple de fiche complétée est donné en annexe \ref{AFV}) nous ont permis de mettre au clair plusieurs limites concernant l’utilisateur de notre système. Tout d’abord, notre système reste encore trop fatigant lorsqu’il est utilisé en mode libre. En effet, les utilisateurs se sont vite fatigués à essayer de naviguer sur l’écran lorsque celui-ci n’est pas prédécoupé en différentes zones. La navigation est encore difficile car trop imprécise.
 
 D’un point de vue du confort, l’immobilité de la tête due à la mentonnière est aussi un point à améliorer. Cette immobilité forcée empêche l’utilisateur de parler ou de bouger la tête sous peine de devoir refaire une calibration. Le fait de fixer la mentonnière et l’ordinateur à la table pourrait aider à améliorer cette situation en offrant des repères parfaitement fixes.
 
 Le champ de vision de l’utilisateur pose aussi un problème. Le fait de se concentrer sur une zone particulière de l’écran afin de cliquer dessus empêche la vision globale de l’écran.
 
-La morphologie de l’utilisateur parait enfin très déterminante sur les résultats obtenus. Les yeux plus clairs semblent permettre un meilleur contrôle de la souris en comparaison aux yeux foncés. Certaines morphologies du visage rendent aussi la détection des yeux difficiles, notamment lorsque l’utilisateur observe les angles de l’écran.
+La morphologie de l’utilisateur parait enfin très déterminante sur les résultats obtenus. Les yeux plus clairs semblent permettre un meilleur contrôle de la souris en comparaison avec les yeux foncés. Certaines morphologies du visage rendent aussi la détection des yeux difficiles, notamment lorsque l’utilisateur observe les angles du bas de l’écran.
 
-\subsubsection{Limite d’utilisation de l’interface graphique}
+\subsubsection{Limites d’utilisation de l’interface graphique}
 
-Concernant l’interface graphique, la principale limitation vient du fait qu’elle n’est pas encore totalement adaptée au contrôle avec notre logiciel. En effet le découpage de l’écran en différentes zones distinctes oblige à sectionner chaque onglet de façon différente. L’idéal serait donc de pouvoir faire abstraction de ce découpage et laisser un total contrôle à l’utilisateur. Cependant, la précision de notre logiciel ne le permet pas encore.
+Concernant l’interface graphique, la principale limite vient du fait qu’elle n’est pas encore totalement adaptée à un contrôle par notre logiciel. En effet le découpage de l’écran en différentes zones distinctes oblige à sectionner chaque onglet de façon différente. L’idéal serait donc de pouvoir faire abstraction de ce découpage et laisser un total contrôle à l’utilisateur. Cependant, la précision de notre logiciel ne le permet pas encore.
 
-Une seconde limitation est liée à la personnalisation de notre interface. L’utilisateur ne peut pas configurer lui-même le nombre de bouton ou encore les placer où il veut à l’écran. De plus, dans le cas où l’utilisateur est tétraplégique, la personnalisation du logiciel lancé par un bouton donné devra forcément être faite par une tierce personne.
+Une seconde limite est liée à la personnalisation de notre interface. L’utilisateur ne peut pas configurer lui-même le nombre de boutons ou encore les placer où il veut sur l’écran. De plus, dans le cas où l’utilisateur est tétraplégique, la personnalisation du logiciel lancé par un bouton donné devra forcément être faite par une tierce personne.
 
-A l’heure actuel, notre interface ne permet pas de lancer deux logiciels en même temps ce qui pose problème pour le multi-tasking. Cependant ce problème pourra facilement être corrigé dans les versions futures.
+A l’heure actuelle, notre interface ne permet pas de lancer deux logiciels en même temps, ce qui pose problème pour le multi-tasking. Cependant, ce soucis pourra facilement être corrigé dans les versions futures.
 
-La dernière limitation vient du fait que même si notre interface permet facilement de lancer un logiciel, celui-ci doit aussi être utilisable à l’aide du gaze-tracking. Or la majorité des logiciels les plus courants ne possèdent pas de telles options. Il faudrait donc créer un lot de logiciels adaptés à cette utilisation et notamment dans le cas où l’utilisateur est tétraplégique.
+La dernière limite vient du fait que même si notre interface permet de lancer un logiciel facilement, celui-ci doit aussi être utilisable à l’aide du gaze-tracking. Or la majorité des logiciels les plus courants ne possèdent pas de telles options. Il faudrait donc créer un lot de logiciels adaptés à cette utilisation et notamment dans le cas où l’utilisateur est tétraplégique.

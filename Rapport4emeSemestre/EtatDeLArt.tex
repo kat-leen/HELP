@@ -91,7 +91,7 @@ Il faut noter que si l’axe de la source de lumière correspond à celui des pu
 
 Si la caméra infrarouge permet d’éviter la majorité des problèmes de réflexion rencontrés par une caméra traditionnelle, sa mise en place est néanmoins plus complexe (utilisation d’émetteurs infrarouges afin d'éclairer l'oeil, utilisation de caméras infrarouges, ...) et plus cher. En effet, l'utilisation de caméras infrarouges multiplierait le coût du système par deux ou trois.
 
-La détection de la pupille par illumination de l’œil avec des éclairages infrarouges se décline en deux grandes méthodes : la méthode dite de la pupille lumineuse (brigth pupil) et celle de la pupille noire (dark pupil). Suivant la position de l’éclairage infrarouge la pupille aura des propriétés optiques différentes. Si l’illumination infrarouge est coaxiale avec l’axe optique de la caméra alors la pupille apparaitra totalement blanche (bright pupil). Au contraire si la source lumineuse est décalée (toujours par rapport à l’axe optique), alors la pupille apparaitra noire (dark pupil) et l’on pourra voir distinctement les reflets de la source lumineuse infrarouge sur la cornée du sujet.
+La détection de la pupille par illumination de l’œil avec des éclairages infrarouges se décline en deux grandes méthodes : la méthode dite de la pupille lumineuse (brigth pupil) et celle de la pupille noire (dark pupil) (voir figure \ref{fig:BrightPupil}). Suivant la position de l’éclairage infrarouge la pupille aura des propriétés optiques différentes. Si l’illumination infrarouge est coaxiale avec l’axe optique de la caméra alors la pupille apparaitra totalement blanche (bright pupil). Au contraire si la source lumineuse est décalée (toujours par rapport à l’axe optique), alors la pupille apparaitra noire (dark pupil) et l’on pourra voir distinctement les reflets de la source lumineuse infrarouge sur la cornée du sujet.
 
 \begin{figure}[H]
   \centering
@@ -118,7 +118,7 @@ Les principales étapes d'un algorithme de classification sont :
 
 Fuzzy C-Means (FCM) est un algorithme de classification non supervisée floue. Il introduit la notion d’ensemble flou dans la définition des classes : chaque point (pixel) dans l’ensemble des données appartient à chaque cluster avec un certain degré d’appartenance, et tous les clusters sont caractérisés par leur centre de gravité. Ainsi, il permet d’obtenir une partition floue de l’image en donnant à chaque pixel un degré d’appartenance compris entre 0 et 1 à un cluster donné. Le cluster auquel est associé un pixel est celui dont le degré d’appartenance est le plus élevé.
 
-La classification floue des objets est décrite par une matrice floue à n lignes et c colonnes dans laquelle n est le nombre d’objets de données et c est le nombre de grappes. $\mu$ij est l’élément de la i-ème ligne et la colonne j. $\mu$, représente le degré de fonctiond’appartenance de l’i-ème objet avec le pôle j.
+La classification floue des objets est décrite par une matrice floue à n lignes et c colonnes dans laquelle n est le nombre d’objets de données et c est le nombre de grappes. $\mu$ij est l’élément de la i-ème ligne et la colonne j. $\mu$, représente le degré de fonction d’appartenance du i-ème objet avec le pôle j.
 Les étapes de l’algorithme FCM sont présentées figure \ref{fig:ALGOFCM}:
 
 \begin{figure}[H]
@@ -181,7 +181,7 @@ $$h = \frac{1}{9}
 \end{bmatrix}  $$
 
 \paragraph{}
-h s’appelle le masque de convolution. La somme des coefficients du masque valant 1, le lissage préservera toute zone de l’image où le niveau de gris est constant. Ce filtre peut engendrer des phénomènes de fausses couleurs, contrairement au filtre médian car son efficacité est moindre lorsque les objets présents dans l'image sont de faible dimension par rapport aux dégradations. Ce filtre est isotrope. 
+h s’appelle le masque de convolution. La somme des coefficients du masque valant 1, le lissage préservera toute zone de l’image où le niveau de gris est constant. Ce filtre peut engendrer des phénomènes de fausses couleurs, contrairement au filtre médian, car son efficacité est moindre lorsque les objets présents dans l'image sont de faible dimension par rapport aux dégradations. Ce filtre est isotrope. 
 
 Une amélioration du filtre moyenneur consiste à jouer sur les valeurs des coefficients du masque :
 $$h = \frac{1}{10}
@@ -226,7 +226,7 @@ Nous pouvons voir figure \ref{fig:Conversion} le rendu de cette conversion.
 
 \subsubsection*{Filtre de Canny}
 
-Il existe différentes méthodes de détection des contours. Des filtres peuvent être utilisés (voir paragraphe \ref{Filtre}). Le choix du filtre doit prendre en compte qu’une réduction trop importante du bruit masque certains contours, mais qu’une réduction trop faible peut laisser apparaitre trop de contours non significatifs. Nous nous intéresserons ici au meilleur filtre pour la détection de contours : le filtre de Canny. Il est considéré comme tel car il offre un très bon compromis entre la réduction du bruit et la localisation des contours. Les différentes étapes du filtre de Canny sont :
+Il existe différentes méthodes de détection des contours. Des filtres peuvent être utilisés (voir paragraphe \ref{Filtre}). Le choix du filtre doit prendre en compte le fait qu’une réduction trop importante du bruit masque certains contours, mais qu’une réduction trop faible peut laisser apparaitre trop de contours non significatifs. Nous nous intéresserons ici au meilleur filtre pour la détection de contours : le filtre de Canny. Il est considéré comme tel car il offre un très bon compromis entre la réduction du bruit et la localisation des contours. Les différentes étapes du filtre de Canny sont :
 \begin{itemize}[label=\textbullet,font=\color{black}]
 \item Réduction du bruit grâce à la convolution d’un filtre passe-bas Gaussien, ce qui permet de tamiser les contours.
 \item Eclaircissement des contours grâce à l’utilisation des valeurs des amplitudes des gradients ainsi que leurs directions. Pour cela, nous utilisons les formules \eqref{eq:g} et \eqref{eq:theta}.
@@ -416,9 +416,9 @@ Cette méthode présente tout de même deux défauts majeurs : l’impossibilit�
 
 \section{Présentation des technologies existantes}
 
-\subsection{Systèmes avec contact}
-
 Le suivi de l’œil (aussi appelé « eye tracking ») a de nombreuses applications, tels que le contrôle d’un système. Une pluralité de dispositifs a déjà été développée dans ce domaine et nous allons tâcher dans cette partie de vous présenter les procédés majeurs. Deux grandes catégories de systèmes existent : avec ou sans contact. Un système est dit sans contact lorsque celui-ci n’est pas attaché ou relié à l’utilisateur. Il a l’avantage d’être plus agréable est facile à utiliser. Le deuxième, avec contact, est monté sur l’usager (comme des lunettes par exemple). Il offre ainsi une plus grande mobilité. Dans notre cas, les deux méthodes sont à envisager.
+
+\subsection{Systèmes avec contact}
 
 \subsubsection{Les Tobii Glasses}
 
