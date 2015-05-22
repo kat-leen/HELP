@@ -104,7 +104,7 @@ La détection de la pupille par illumination de l’œil avec des éclairages in
 
 \subsubsection{Segmentation}
 
-La segmentation (aussi appelée Clustering) \cite{d2004etude} est une étape de base du traitement d’images qui a pour but de séparer différentes zones homogènes d’une image en groupes (clusters) dont les membres ont en commun diverses propriétés (intensité, couleur, texture...). En d’autres mots, cette opération rassemble des pixels entre eux suivant des critères prédéfinis. Les pixels sont ainsi regroupés en régions, qui constituent un pavage ou une partition de l'image. Il peut s'agir par exemple de séparer les objets du fond. On peut regrouper les différentes méthodes de segmentation en deux catégories : la segmentation non supervisée, qui vise à séparer automatiquement l’image en différents clusters naturels (sans aucune connaissance préalable des classes) ; et la segmentation supervisée, qui s’opère à partir de la connaissance de chacune des classes définie. Concernant les méthodes de segmentation non supervisée, nous nous intéresserons à deux méthodes : le Fuzzy C-means et le k-means. 
+La segmentation (aussi appelée Clustering) \cite{d2004etude} est une étape de base du traitement d’images qui a pour but de séparer différentes zones homogènes d’une image en groupes (clusters) dont les membres ont en commun diverses propriétés (intensité, couleur, texture...). En d’autres mots, cette opération rassemble des pixels entre eux suivant des critères prédéfinis. Les pixels sont ainsi regroupés en régions, qui constituent un pavage ou une partition de l'image. Il peut s'agir par exemple de séparer les objets du fond. On peut regrouper les différentes méthodes de segmentation en deux catégories : la segmentation non supervisée, qui vise à séparer automatiquement l’image en différents clusters naturels (sans aucune connaissance préalable des classes) ; et la segmentation supervisée, qui s’opère à partir de la connaissance de chacune des classes définie. Concernant les méthodes de segmentation non supervisée, nous nous intéresserons à deux méthodes généralement employées pour le traitement d'images : le Fuzzy C-means et le k-means. 
 
 \subsubsection*{Description des algorithmes}
 Les principales étapes d'un algorithme de classification sont :
@@ -298,7 +298,7 @@ Enfin, d’autres filtres tels que le filtre de Kirsch, le filtre MDIF, le filtr
 
 \subsubsection{Détection des centres}
 
-Le principe de la détection des centres se base sur les deux étapes précédentes. Pour chaque point des contours de l’image de Canny, on trace une droite en fonction de la direction calculée par le biais de l’application des filtres de Sobel. Ainsi, par l’application de la formule de la droite $y = m \cdot x + b$, on trace une droite dans l’accumulateur en fonction des points de contours de l’image de Canny tels qu’exposés dans la figure \ref{fig:Contour}.
+Le principe de la détection des centres se base sur les deux étapes précédentes. Pour chaque point des contours de l’image de Canny, on trace une droite en fonction de la direction calculée par le biais de l’application des filtres de Sobel. Ainsi, par l’application de la formule de la droite $y = m \cdot x + b$, on trace une droite dans l’accumulateur, matrice de même dimension que l'image traitée contenant des entiers, en fonction des points de contours de l’image de Canny tels qu’exposés dans la figure \ref{fig:Contour}.
 
 \begin{figure}[h]
   \centering
@@ -499,7 +499,7 @@ PUPIL peut être acheté pour la somme de 380 \euro{}.
 
 Autre produit créé par Tobii, le X2 \cite{tobiieyetracker} rentre dans les systèmes d’oculométrie sans contact. Ne mesurant que 184 mm, il se branche directement en USB. Il est très facile d’utilisation et s'adapte à de nombreux supports (ordinateurs portables, tablettes, télévisions...).
 Cet outil ne permet pas de contrôler le système sur lequel il est branché mais d’enregistrer ce que l’utilisateur regarde afin d’obtenir des statistiques.
-La détection de la direction du regard se fait aussi à l’aide de la réflexion causée par des LEDs infrarouges sur la cornée du sujet. Combiné avec la localisation de la pupille, le système peut en déduire la direction du regard de l’utilisateur. Encore une fois l’algorithme n’est malheureusement jamais décrit. Cependant la précision de l’appareil permet une précision d’environ 0.34° sur la direction du regard du sujet. 
+La détection de la direction du regard se fait aussi à l’aide de la réflexion causée par des LEDs infrarouges sur la cornée du sujet. Combiné avec la localisation de la pupille, le système peut en déduire la direction du regard de l’utilisateur. Encore une fois l’algorithme n’est malheureusement jamais décrit. Cependant, l’appareil à une précision d’environ 0.34° sur la direction du regard du sujet, la performance usuelle des technologies d'Eye Tracking variant entre 0.01 et 1°.
 
 \subsubsection{Eye Charm}
 
